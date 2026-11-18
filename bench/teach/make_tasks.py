@@ -144,5 +144,28 @@ tasks.append(typed("wikipedia", ["look up {q} on wikipedia", "search wikipedia f
                    [{"q": "canada"}, {"q": "solar system"}, {"q": "albert einstein"}, {"q": "photosynthesis"}, {"q": "toronto"},
                     {"q": "the moon"}], "https://en.wikipedia.org", "textbox", "Search Wikipedia", [["bact", "button", "Search", "click"]]))
 
+# Fifth pass (2026-11-18): web search through DuckDuckGo (Google showed its bot check, which is never worked around), Flights and
+# Hotels again with the first suggestion taken by Enter, the notification center (view only), and the System pages of Settings
+# (view only: Display is where brightness is; OmniWin never changes a system setting by itself).
+tasks.append(typed("web-search", ["search the web for {q}", "look up {q} online", "web search {q}", "search online for {q}",
+                                  "find {q} on the internet", "search duckduckgo for {q}", "do a web search for {q}", "internet search {q}"],
+                   Q, "https://duckduckgo.com", "combobox", "Search with DuckDuckGo", [["bact", "combobox", "Search with DuckDuckGo", "press", "Enter"]]))
+tasks.append(typed("google-flights", ["search flights to {q}", "find flights to {q}", "look for flights to {q}", "check flights to {q}",
+                                      "google flights to {q}", "show me flights to {q}"],
+                   CITIES, "https://www.google.com/travel/flights", "combobox", "Where to?",
+                   [["wait", 1500], ["bact", "combobox", "Where to?", "press", "Enter"], ["wait", 2500], ["bact", "button", "Search", "click"]]))
+tasks.append(typed("google-hotels", ["find hotels in {q}", "search hotels in {q}", "look for hotels in {q}", "check hotels in {q}",
+                                     "show me hotels in {q}", "google hotels in {q}"],
+                   CITIES, "https://www.google.com/travel/hotels", "combobox", "Search for places",
+                   [["wait", 1500], ["bact", "combobox", "Search for places", "press", "Enter"], ["wait", 2500]],
+                   pre=[["bact", "combobox", "Search for places", "clear"]]))
+tasks.append(literal("notification-center", "Windows", "my notifications",
+                     [["keys", "", "win+n"]], ["@windows", "Notification Center"], n=14))
+for page, phrase in [("Display", "display and brightness settings"), ("Sound", "sound settings"), ("Notifications", "notification settings"),
+                     ("Power", "power and battery settings"), ("Storage", "storage settings")]:
+    tasks.append(literal("settings-" + page.lower(), "Settings", phrase,
+                         [["launch", "Settings"], ["act", "Settings", "listitem", "System", "select"], ["act", "Settings", "", page, "click"]],
+                         ["Settings", page], n=14))
+
 json.dump({"tasks": tasks}, open("tasks.json", "w", encoding="utf-8"), indent=1)
 print(len(tasks), "tasks,", sum(len(t["wordings"]) for t in tasks), "wordings")

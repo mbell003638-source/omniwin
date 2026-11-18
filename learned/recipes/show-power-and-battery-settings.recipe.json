@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-power-and-battery-settings",
+  "goal": "show power and battery settings",
+  "template": "show power and battery settings",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 3377.5,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:25:25.203312+00:00"
+}

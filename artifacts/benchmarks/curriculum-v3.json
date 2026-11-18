@@ -9677,6 +9677,598 @@
     }
    ],
    "result": "learned"
+  },
+  {
+   "id": "settings-display",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 3486.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-display-and-brightness-settings steps=3 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-display-and-brightness-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2764.4,
+     "line": "workflow_run name=show-display-and-brightness-settings status=unverified input_sent=true steps=3/3 total=2616.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 2307.6,
+     "line": "workflow_run name=show-display-and-brightness-settings status=unverified input_sent=true steps=3/3 total=2181.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 2904.5,
+     "line": "workflow_run name=show-display-and-brightness-settings status=unverified input_sent=true steps=3/3 total=2805.1ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2137.0,
+    "check": true,
+    "line": "workflow_run name=show-display-and-brightness-settings status=unverified input_sent=true steps=3/3 total=2122.9ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-sound",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2594.6,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-sound-settings steps=3 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-sound-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2142.3,
+     "line": "workflow_run name=show-sound-settings status=unverified input_sent=true steps=3/3 total=2012.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 2685.0,
+     "line": "workflow_run name=show-sound-settings status=unverified input_sent=true steps=3/3 total=2577.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 2385.2,
+     "line": "workflow_run name=show-sound-settings status=unverified input_sent=true steps=3/3 total=2278.3ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2314.3,
+    "check": true,
+    "line": "workflow_run name=show-sound-settings status=unverified input_sent=true steps=3/3 total=2304.7ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-notifications",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2694.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-notification-settings steps=3 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-notification-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2867.4,
+     "line": "workflow_run name=show-notification-settings status=unverified input_sent=true steps=3/3 total=2727.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 2254.7,
+     "line": "workflow_run name=show-notification-settings status=unverified input_sent=true steps=3/3 total=2125.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 3286.2,
+     "line": "workflow_run name=show-notification-settings status=unverified input_sent=true steps=3/3 total=3156.9ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2331.9,
+    "check": true,
+    "line": "workflow_run name=show-notification-settings status=unverified input_sent=true steps=3/3 total=2321.4ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-power",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 3412.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-power-and-battery-settings steps=3 trust=candidate auto_run=no",
+   "recipe": "show-power-and-battery-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2732.6,
+     "line": "workflow_run name=show-power-and-battery-settings status=unverified input_sent=true steps=3/3 total=2600.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 2496.2,
+     "line": "workflow_run name=show-power-and-battery-settings status=unverified input_sent=true steps=3/3 total=2366.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 2479.0,
+     "line": "workflow_run name=show-power-and-battery-settings status=unverified input_sent=true steps=3/3 total=2352.3ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-storage",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1937.1,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-storage-settings steps=3 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-storage-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2253.3,
+     "line": "workflow_run name=show-storage-settings status=unverified input_sent=true steps=3/3 total=2251.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 2401.0,
+     "line": "workflow_run name=show-storage-settings status=unverified input_sent=true steps=3/3 total=2256.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 2299.6,
+     "line": "workflow_run name=show-storage-settings status=unverified input_sent=true steps=3/3 total=2160.2ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2277.8,
+    "check": true,
+    "line": "workflow_run name=show-storage-settings status=unverified input_sent=true steps=3/3 total=2266.3ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "web-search",
+   "group": "Web",
+   "wordings": 8,
+   "phases": {},
+   "first_run_ms": 6712.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-the-web-for-weather-toronto steps=2 trust=candidate auto_run=no",
+   "recipe": "search-the-web-for-weather-toronto",
+   "replays": [
+    {
+     "ok": false,
+     "ms": 22446.1,
+     "line": "workflow_run name=search-the-web-for-weather-toronto status=confirmed input_sent=true steps=2/2 total=2289.7ms"
+    },
+    {
+     "ok": false,
+     "ms": 22024.1,
+     "line": "workflow_run name=search-the-web-for-weather-toronto status=confirmed input_sent=true steps=2/2 total=1933.8ms"
+    },
+    {
+     "ok": false,
+     "ms": 22025.5,
+     "line": "workflow_run name=search-the-web-for-weather-toronto status=confirmed input_sent=true steps=2/2 total=1947.7ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": false
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "google-flights",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "step ['bact', 'button', 'Search', 'click'] -> status=blocked reason=not_found teacher: no button named 'Search'"
+  },
+  {
+   "id": "google-hotels",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
+  },
+  {
+   "id": "notification-center",
+   "group": "Windows",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 805.3,
+   "task_done": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false",
+   "result": "not_learned",
+   "detail": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false\ndetail: Only 1 recorded step(s) since the task started; a recipe needs at least 2. (Acts are recorded when they end confirmed, or unverified with a visible change.)"
   }
  ]
 }

@@ -52,6 +52,8 @@ class Teacher:
             ref, r, n = m.group(1), m.group(2), m.group(3)
             if role and r != role:
                 continue
+            if not role and "click" not in line and "select" not in line and "invoke" not in line:
+                continue   # no role given: only something that can be clicked or selected
             if (n == name) if exact else n.lower().startswith(name.lower()):
                 return ref
         return None
@@ -62,7 +64,7 @@ class Teacher:
         if kind == "launch":
             return self.call("app_launch", {"app": s[1]})
         if kind == "keys":
-            return self.call("desktop_keys", {"keys": s[2], "window": s[1]})
+            return self.call("desktop_keys", {"keys": s[2], **({"window": s[1]} if s[1] else {})})
         if kind == "clip":
             return self.call("clipboard_set", {"text": fill(s[1], values)})
         if kind == "wait":
@@ -115,7 +117,8 @@ class Teacher:
         window, needle = chk[0], fill(chk[1], values)
         for _ in range(40 if window == "@browser" else 16):   # web pages load slowly
             # web pages: the tab list (title and address) is enough, and a very large page can time out a full read
-            text = self.o.call("browser_tabs") if window == "@browser" else self.observe(window)[0]
+            text = (self.o.call("browser_tabs") if window == "@browser" else
+                    self.o.call("windows_list") if window == "@windows" else self.observe(window)[0])
             if window == "@browser" and ("/sorry/" in text or "unusual traffic" in text.lower()):
                 raise BotCheck()
             if needle.lower() in text.lower():

@@ -7,7 +7,7 @@ recipe and, after three clean replays, runs again from the user's words in one c
 
 - **Start here (people and AIs):** `handoff/START_HERE.md`: install from the Release zip (self-contained, no .NET needed), connect
   your AI, import the learned tasks.
-- **Learned tasks:** `learned/` (79 everyday tasks, 621 wordings, taught on a Windows 11 English PC; `learned/README.md`).
+- **Learned tasks:** `learned/` (84 everyday tasks, 666 wordings, taught on a Windows 11 English PC; `learned/README.md`).
 - **The app:** `app/` (dictation, command box, polish selected text; built from Handy, MIT).
 - **Every tool:** `docs/TOOLS.md`. **Install details:** `docs/INSTALL.md`. **Full history and contract:** `handoff/`.
 - Licence: MIT (`LICENSE`).

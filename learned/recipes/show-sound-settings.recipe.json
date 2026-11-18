@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-sound-settings",
+  "goal": "show sound settings",
+  "template": "show sound settings",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 2554.3,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:23:28.3271238+00:00"
+}

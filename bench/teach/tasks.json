@@ -4243,6 +4243,512 @@
     "@browser",
     "{q}"
    ]
+  },
+  {
+   "id": "web-search",
+   "group": "Web",
+   "wordings": [
+    "search the web for {q}",
+    "look up {q} online",
+    "web search {q}",
+    "search online for {q}",
+    "find {q} on the internet",
+    "search duckduckgo for {q}",
+    "do a web search for {q}",
+    "internet search {q}"
+   ],
+   "samples": [
+    {
+     "q": "weather toronto"
+    },
+    {
+     "q": "best pizza near me"
+    },
+    {
+     "q": "how tall is mount everest"
+    },
+    {
+     "q": "news today"
+    },
+    {
+     "q": "dollar to euro"
+    },
+    {
+     "q": "time in tokyo"
+    },
+    {
+     "q": "easy pasta recipe"
+    },
+    {
+     "q": "nba scores"
+    }
+   ],
+   "steps": [
+    [
+     "nav",
+     "https://duckduckgo.com",
+     "duckduckgo.com"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search with DuckDuckGo",
+     "type",
+     "{q}"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search with DuckDuckGo",
+     "press",
+     "Enter"
+    ]
+   ],
+   "check": [
+    "@browser",
+    "{q}"
+   ]
+  },
+  {
+   "id": "google-flights",
+   "group": "Web",
+   "wordings": [
+    "search flights to {q}",
+    "find flights to {q}",
+    "look for flights to {q}",
+    "check flights to {q}",
+    "google flights to {q}",
+    "show me flights to {q}"
+   ],
+   "samples": [
+    {
+     "q": "vancouver"
+    },
+    {
+     "q": "new york"
+    },
+    {
+     "q": "paris"
+    },
+    {
+     "q": "london"
+    },
+    {
+     "q": "miami"
+    },
+    {
+     "q": "montreal"
+    }
+   ],
+   "steps": [
+    [
+     "nav",
+     "https://www.google.com/travel/flights",
+     "www.google.com"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Where to?",
+     "type",
+     "{q}"
+    ],
+    [
+     "wait",
+     1500
+    ],
+    [
+     "bact",
+     "combobox",
+     "Where to?",
+     "press",
+     "Enter"
+    ],
+    [
+     "wait",
+     2500
+    ],
+    [
+     "bact",
+     "button",
+     "Search",
+     "click"
+    ]
+   ],
+   "check": [
+    "@browser",
+    "{q}"
+   ]
+  },
+  {
+   "id": "google-hotels",
+   "group": "Web",
+   "wordings": [
+    "find hotels in {q}",
+    "search hotels in {q}",
+    "look for hotels in {q}",
+    "check hotels in {q}",
+    "show me hotels in {q}",
+    "google hotels in {q}"
+   ],
+   "samples": [
+    {
+     "q": "vancouver"
+    },
+    {
+     "q": "new york"
+    },
+    {
+     "q": "paris"
+    },
+    {
+     "q": "london"
+    },
+    {
+     "q": "miami"
+    },
+    {
+     "q": "montreal"
+    }
+   ],
+   "steps": [
+    [
+     "nav",
+     "https://www.google.com/travel/hotels",
+     "www.google.com"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search for places",
+     "clear"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search for places",
+     "type",
+     "{q}"
+    ],
+    [
+     "wait",
+     1500
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search for places",
+     "press",
+     "Enter"
+    ],
+    [
+     "wait",
+     2500
+    ]
+   ],
+   "check": [
+    "@browser",
+    "{q}"
+   ]
+  },
+  {
+   "id": "notification-center",
+   "group": "Windows",
+   "wordings": [
+    "show my notifications",
+    "show me my notifications",
+    "take me to my notifications",
+    "bring up my notifications",
+    "pull up my notifications",
+    "i want to see my notifications",
+    "display my notifications",
+    "navigate to my notifications",
+    "get me my notifications",
+    "head to my notifications",
+    "jump to my notifications",
+    "go into my notifications",
+    "find my notifications for me",
+    "let me see my notifications"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "keys",
+     "",
+     "win+n"
+    ]
+   ],
+   "check": [
+    "@windows",
+    "Notification Center"
+   ]
+  },
+  {
+   "id": "settings-display",
+   "group": "Settings",
+   "wordings": [
+    "show display and brightness settings",
+    "show me display and brightness settings",
+    "take me to display and brightness settings",
+    "bring up display and brightness settings",
+    "pull up display and brightness settings",
+    "i want to see display and brightness settings",
+    "display display and brightness settings",
+    "navigate to display and brightness settings",
+    "get me display and brightness settings",
+    "head to display and brightness settings",
+    "jump to display and brightness settings",
+    "go into display and brightness settings",
+    "find display and brightness settings for me",
+    "let me see display and brightness settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "System",
+     "select"
+    ],
+    [
+     "act",
+     "Settings",
+     "",
+     "Display",
+     "click"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "Display"
+   ]
+  },
+  {
+   "id": "settings-sound",
+   "group": "Settings",
+   "wordings": [
+    "show sound settings",
+    "show me sound settings",
+    "take me to sound settings",
+    "bring up sound settings",
+    "pull up sound settings",
+    "i want to see sound settings",
+    "display sound settings",
+    "navigate to sound settings",
+    "get me sound settings",
+    "head to sound settings",
+    "jump to sound settings",
+    "go into sound settings",
+    "find sound settings for me",
+    "let me see sound settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "System",
+     "select"
+    ],
+    [
+     "act",
+     "Settings",
+     "",
+     "Sound",
+     "click"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "Sound"
+   ]
+  },
+  {
+   "id": "settings-notifications",
+   "group": "Settings",
+   "wordings": [
+    "show notification settings",
+    "show me notification settings",
+    "take me to notification settings",
+    "bring up notification settings",
+    "pull up notification settings",
+    "i want to see notification settings",
+    "display notification settings",
+    "navigate to notification settings",
+    "get me notification settings",
+    "head to notification settings",
+    "jump to notification settings",
+    "go into notification settings",
+    "find notification settings for me",
+    "let me see notification settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "System",
+     "select"
+    ],
+    [
+     "act",
+     "Settings",
+     "",
+     "Notifications",
+     "click"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "Notifications"
+   ]
+  },
+  {
+   "id": "settings-power",
+   "group": "Settings",
+   "wordings": [
+    "show power and battery settings",
+    "show me power and battery settings",
+    "take me to power and battery settings",
+    "bring up power and battery settings",
+    "pull up power and battery settings",
+    "i want to see power and battery settings",
+    "display power and battery settings",
+    "navigate to power and battery settings",
+    "get me power and battery settings",
+    "head to power and battery settings",
+    "jump to power and battery settings",
+    "go into power and battery settings",
+    "find power and battery settings for me",
+    "let me see power and battery settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "System",
+     "select"
+    ],
+    [
+     "act",
+     "Settings",
+     "",
+     "Power",
+     "click"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "Power"
+   ]
+  },
+  {
+   "id": "settings-storage",
+   "group": "Settings",
+   "wordings": [
+    "show storage settings",
+    "show me storage settings",
+    "take me to storage settings",
+    "bring up storage settings",
+    "pull up storage settings",
+    "i want to see storage settings",
+    "display storage settings",
+    "navigate to storage settings",
+    "get me storage settings",
+    "head to storage settings",
+    "jump to storage settings",
+    "go into storage settings",
+    "find storage settings for me",
+    "let me see storage settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "System",
+     "select"
+    ],
+    [
+     "act",
+     "Settings",
+     "",
+     "Storage",
+     "click"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "Storage"
+   ]
   }
  ]
 }

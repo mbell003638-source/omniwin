@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-display-and-brightness-settings",
+  "goal": "show display and brightness settings",
+  "template": "show display and brightness settings",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 3435.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:22:32.3505712+00:00"
+}

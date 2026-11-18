@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-notification-settings",
+  "goal": "show notification settings",
+  "template": "show notification settings",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 2660,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:24:25.1459343+00:00"
+}

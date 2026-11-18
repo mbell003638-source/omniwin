@@ -163,14 +163,23 @@ When the plan is approved, the memory note "OmniWin: no commits, local only" is 
 - **Open finding for OmniWin's browser engine:** after a search on a very large page (a Wikipedia article), `browser_observe` answered `error engine_timeout` ("The browser did not answer in time") repeatedly, although `browser_tabs` showed the page loaded. That is why the web replays fail. Next step for a builder: make a large page's scan stop at its element limit, or within its time limit, and answer with what it read instead of timing out.
 - **Fourth pass, 2026-11-18 (web tasks):** the web replays stopped at their first step because a replayed `browser_nav` carries no expectation and a navigation shows no visible change, so it could never pass. **Fixed by the reviewer** (`WorkflowService.cs`): a replayed `navigate` must now arrive on the saved address's host (`url_contains`, 10 s). The teacher also checks a web result by the tab's title and address, because reading a whole very large page can time out (the browser-engine finding above stays open), and Google Maps now submits with its Search button. YouTube, Wikipedia and Google Maps are learned with 3 of 3 clean replays. No learned file contains map coordinates or the PC's location.
 
+## Fifth pass, 2026-11-18 (the owner's left-out items, as far as they can be done safely)
+
+- **Display (brightness), Sound, Notifications, Power and Storage pages of Settings:** learned (view only). OmniWin opens the page; changing brightness or Bluetooth is a system setting, which the AI does not change for the owner.
+- **Camera:** this PC has no camera (the Camera app says "We can't find your camera"), so taking a picture cannot be taught here.
+- **Notification center:** a single shortcut (Win+N); a recipe needs at least 2 steps and the AI opens it in one call anyway.
+- **Web search:** done through DuckDuckGo, because Google showed its bot check. Saved, but the replays type the words without submitting: OmniWin does not record an Enter press that shows no visible change, so the submit step is missing. **Open item for a builder:** store each step's met expectation in the workflow file and re-apply it on replay (handoff 26 §12 already names this risk). The same gap stops Google Flights and Hotels.
+
 ## Plan completion checklist (2026-11-18)
 
 | Plan item | State |
 |---|---|
 | Phase 0: training without Remote Desktop (console, screen never off) | done by the owner; checked (session 2 `console` `Active`) |
 | Phase 1: task list (about 80 tasks, about 500 wordings) | done: 80 tasks, 1,532 wordings offered (`bench/teach/make_tasks.py`) |
-| Phase 2: pilot, then the rest | done: **79 of 80 tasks learned and verified, 621 wordings learned, 57 tasks run by themselves**. The 80th, the Downloads folder, is refused by OmniWin's own rule (its wording contains "download"), which the plan keeps |
-| Groups left out by section 4 and decision 2 (Bluetooth, brightness, camera, notifications, buying, booking, signing in, personal data) | left out as the approved plan says |
+| Phase 2: pilot, then the rest | done: **84 of 89 tasks learned and verified, 666 wordings learned, 61 tasks run by themselves** (`artifacts/benchmarks/curriculum-v3.json`). Not learned: Downloads (refused by OmniWin's own rule; its wording contains "download"), notification center (one shortcut, nothing to learn), web search, Flights and Hotels (submit step not recordable; open item above) |
+| Bluetooth, brightness, notifications | their Settings pages are learned (view only); changing those settings stays with the owner |
+| Camera | no camera on this PC |
+| Buying, booking, signing in, personal data | left out as the approved plan says |
 | Terminal commands | left out: a learned paste into a terminal would skip OmniWin's typed-delete check |
 | Word and Excel (decision 3) | not installed; WordPad is not on this PC either, so Notepad covers note writing |
 | Web searches | YouTube, Wikipedia and Google Maps learned. General Google search was stopped by Google's bot check, and Flights and Hotels need a changing suggestion picked, so neither can be a checked recipe. The AI can still do all three live |
