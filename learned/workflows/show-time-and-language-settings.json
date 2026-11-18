@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "name": "show-time-and-language-settings",
+  "description": "learned: show time and language settings",
+  "saved_at": "2026-11-18T04:53:56.6595271+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Settings"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "select",
+      "target": {
+        "ref": "e19171",
+        "engine": "desktop",
+        "process": "SystemSettings.exe",
+        "window_title": "Settings",
+        "url": null,
+        "role": "listitem",
+        "name": "Time & language",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "window",
+            "automation_id": null,
+            "name": "Settings",
+            "class_name": "Windows.UI.Core.CoreWindow",
+            "index": 1
+          },
+          {
+            "role": "custom",
+            "automation_id": "PermanentNavigationView",
+            "name": null,
+            "class_name": null,
+            "index": 2
+          },
+          {
+            "role": "window",
+            "automation_id": "PaneRoot",
+            "name": null,
+            "class_name": "SplitViewPane",
+            "index": 1
+          },
+          {
+            "role": "pane",
+            "automation_id": "MenuItemsScrollViewer",
+            "name": null,
+            "class_name": "ScrollViewer",
+            "index": 1
+          },
+          {
+            "role": "group",
+            "automation_id": "MenuItemsHost",
+            "name": null,
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "listitem",
+            "automation_id": null,
+            "name": "Time & language",
+            "class_name": "Microsoft.UI.Xaml.Controls.NavigationViewItem",
+            "index": 7
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

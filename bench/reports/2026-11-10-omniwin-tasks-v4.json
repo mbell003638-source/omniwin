@@ -1,0 +1,57 @@
+{
+  "started": "2026-11-10T20:32:54.4370055-05:00",
+  "status": "ran",
+  "runs_per_task": 3,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-da60b70b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-c8234402",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-05fd7040"
+  ],
+  "results": [
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 3,
+      "passed": 0,
+      "failed": 3,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 3,
+      "wall_p50_s": 12.466,
+      "wall_p95_s": 13.422,
+      "tool_calls_per_run": 38.666666666666664,
+      "chars_returned_per_run": 138352.33333333334,
+      "notes": [
+        "Settings text did not show 100%"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100%",
+          "leftover_browser_processes": 0,
+          "seconds": 13.42
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100%",
+          "leftover_browser_processes": 0,
+          "seconds": 12.47
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100%",
+          "leftover_browser_processes": 0,
+          "seconds": 11.99
+        }
+      ]
+    }
+  ]
+}

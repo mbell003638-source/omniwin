@@ -1,0 +1,210 @@
+{
+  "started": "2026-11-10T22:40:26.1750622-05:00",
+  "status": "ran",
+  "runs_per_task": 20,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-38270319",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-1fa91c5f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-355f572d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-2ee64794",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-9f57f7e9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-1aca6828",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-d65a3d7c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-71b299fe",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-b706117e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-ba556155",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-6c75d9be",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-25862d63",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-61995490",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-d6a5dfcd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a6b6abef",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-48ad4e8b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-e0f5378f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-696a6cf0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-404dfa09",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-dca84b82"
+  ],
+  "results": [
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 14.054,
+      "wall_p95_s": 14.758,
+      "tool_calls_per_run": 42.5,
+      "chars_returned_per_run": 162421.05,
+      "notes": [
+        "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.79
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.04
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.33
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.83
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.77
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.2
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.3
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.91
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.16
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.53
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.83
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.76
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.54
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.77
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.22
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.77
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.92
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.49
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.05
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.91
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Created by WS0 at M0. WS4 owns this project and everything in this folder. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OmniWin.Bench</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OmniWin.Core\OmniWin.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The same stdio client and fixture web server the end-to-end suite uses (no test-framework dependency). -->
+    <Compile Include="..\..\tests\OmniWin.Integration\Harness\McpServer.cs" Link="Harness\McpServer.cs" />
+    <Compile Include="..\..\tests\OmniWin.Integration\Harness\FixtureWebServer.cs" Link="Harness\FixtureWebServer.cs" />
+    <Compile Include="..\..\tests\OmniWin.Integration\Harness\DesktopAvailability.cs" Link="Harness\DesktopAvailability.cs" />
+    <Compile Include="..\..\tests\OmniWin.Integration\Harness\EdgeProcesses.cs" Link="Harness\EdgeProcesses.cs" />
+    <Compile Include="..\..\tests\OmniWin.Integration\Harness\ClipboardState.cs" Link="Harness\ClipboardState.cs" />
+  </ItemGroup>
+</Project>

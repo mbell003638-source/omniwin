@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "workflow": "search-settings-for-display",
+  "goal": "search settings for display",
+  "template": "search settings for {query}",
+  "aliases": [],
+  "params": [
+    "query"
+  ],
+  "steps": 2,
+  "learned_wall_ms": 1843,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:49:21.0278049+00:00"
+}

@@ -1,0 +1,178 @@
+{"text": "keep the music going", "intent": "media_play", "set": "hard"}
+{"text": "start the song again", "intent": "media_play", "set": "hard"}
+{"text": "turn the music back on", "intent": "media_play", "set": "hard"}
+{"text": "let it play", "intent": "media_play", "set": "hard"}
+{"text": "carry on with the track", "intent": "media_play", "set": "hard"}
+{"text": "hit play", "intent": "media_play", "set": "hard"}
+{"text": "start playing again", "intent": "media_play", "set": "hard"}
+{"text": "get the video going", "intent": "media_play", "set": "hard"}
+{"text": "continue the song", "intent": "media_play", "set": "hard"}
+{"text": "unpause it", "intent": "media_play", "set": "hard"}
+{"text": "hold the music", "intent": "media_pause", "set": "hard"}
+{"text": "freeze the video", "intent": "media_pause", "set": "hard"}
+{"text": "stop the song for a second", "intent": "media_pause", "set": "hard"}
+{"text": "put the music on hold", "intent": "media_pause", "set": "hard"}
+{"text": "can you pause that for me", "intent": "media_pause", "set": "hard"}
+{"text": "wait pause it", "intent": "media_pause", "set": "hard"}
+{"text": "halt the playback", "intent": "media_pause", "set": "hard"}
+{"text": "pause that", "intent": "media_pause", "set": "hard"}
+{"text": "pause it", "intent": "media_pause", "set": "hard"}
+{"text": "stop the video for a moment", "intent": "media_pause", "set": "hard"}
+{"text": "play the next one", "intent": "media_next", "set": "hard"}
+{"text": "go to the next song", "intent": "media_next", "set": "hard"}
+{"text": "move on to the next track", "intent": "media_next", "set": "hard"}
+{"text": "skip ahead to the next song", "intent": "media_next", "set": "hard"}
+{"text": "i dont like this song skip it", "intent": "media_next", "set": "hard"}
+{"text": "next one please", "intent": "media_next", "set": "hard"}
+{"text": "forward to the next video", "intent": "media_next", "set": "hard"}
+{"text": "play the following track", "intent": "media_next", "set": "hard"}
+{"text": "play the previous song", "intent": "media_previous", "set": "hard"}
+{"text": "go to the last track", "intent": "media_previous", "set": "hard"}
+{"text": "take me back one song", "intent": "media_previous", "set": "hard"}
+{"text": "the song before this one", "intent": "media_previous", "set": "hard"}
+{"text": "back to the previous track", "intent": "media_previous", "set": "hard"}
+{"text": "play the song from before", "intent": "media_previous", "set": "hard"}
+{"text": "press play pause", "intent": "media_toggle", "set": "hard"}
+{"text": "flip between play and pause", "intent": "media_toggle", "set": "hard"}
+{"text": "make the volume 40", "intent": "volume_set", "set": "hard"}
+{"text": "put the sound at 25 percent", "intent": "volume_set", "set": "hard"}
+{"text": "i want volume at 60", "intent": "volume_set", "set": "hard"}
+{"text": "set it to 35 percent volume", "intent": "volume_set", "set": "hard"}
+{"text": "volume should be 80 percent", "intent": "volume_set", "set": "hard"}
+{"text": "bring the sound to 20", "intent": "volume_set", "set": "hard"}
+{"text": "make the sound 55", "intent": "volume_set", "set": "hard"}
+{"text": "can you set the volume at 45", "intent": "volume_set", "set": "hard"}
+{"text": "i cant hear anything turn it up", "intent": "volume_up", "set": "hard"}
+{"text": "make it a bit louder", "intent": "volume_up", "set": "hard"}
+{"text": "can you raise the volume a little", "intent": "volume_up", "set": "hard"}
+{"text": "crank it up", "intent": "volume_up", "set": "hard"}
+{"text": "increase the volume", "intent": "volume_up", "set": "hard"}
+{"text": "more volume please", "intent": "volume_up", "set": "hard"}
+{"text": "up the volume", "intent": "volume_up", "set": "hard"}
+{"text": "a little louder", "intent": "volume_up", "set": "hard"}
+{"text": "make the sound bigger", "intent": "volume_up", "set": "hard"}
+{"text": "its too loud", "intent": "volume_down", "set": "hard"}
+{"text": "make it quieter please", "intent": "volume_down", "set": "hard"}
+{"text": "bring the volume down a bit", "intent": "volume_down", "set": "hard"}
+{"text": "decrease the volume", "intent": "volume_down", "set": "hard"}
+{"text": "lower the sound", "intent": "volume_down", "set": "hard"}
+{"text": "turn down the music", "intent": "volume_down", "set": "hard"}
+{"text": "less volume", "intent": "volume_down", "set": "hard"}
+{"text": "a little quieter", "intent": "volume_down", "set": "hard"}
+{"text": "that is way too loud", "intent": "volume_down", "set": "hard"}
+{"text": "silence the computer", "intent": "mute", "set": "hard"}
+{"text": "shut off the sound", "intent": "mute", "set": "hard"}
+{"text": "make it silent", "intent": "mute", "set": "hard"}
+{"text": "kill the audio", "intent": "mute", "set": "hard"}
+{"text": "turn the sound off", "intent": "mute", "set": "hard"}
+{"text": "no sound please", "intent": "mute", "set": "hard"}
+{"text": "bring the sound back", "intent": "unmute", "set": "hard"}
+{"text": "turn the audio back on", "intent": "unmute", "set": "hard"}
+{"text": "i want sound again", "intent": "unmute", "set": "hard"}
+{"text": "enable the sound", "intent": "unmute", "set": "hard"}
+{"text": "give me sound again", "intent": "unmute", "set": "hard"}
+{"text": "show me chrome", "intent": "window_focus", "set": "hard"}
+{"text": "i want to see notepad", "intent": "window_focus", "set": "hard"}
+{"text": "take me to spotify", "intent": "window_focus", "set": "hard"}
+{"text": "bring chrome to the front", "intent": "window_focus", "set": "hard"}
+{"text": "go over to the terminal window", "intent": "window_focus", "set": "hard"}
+{"text": "pull up calculator", "intent": "window_focus", "set": "hard"}
+{"text": "i need the spotify window", "intent": "window_focus", "set": "hard"}
+{"text": "let me see the notepad window", "intent": "window_focus", "set": "hard"}
+{"text": "hide this window", "intent": "window_minimize", "set": "hard"}
+{"text": "get this window out of the way", "intent": "window_minimize", "set": "hard"}
+{"text": "shrink notepad to the taskbar", "intent": "window_minimize", "set": "hard"}
+{"text": "minimize the chrome window please", "intent": "window_minimize", "set": "hard"}
+{"text": "put this window away", "intent": "window_minimize", "set": "hard"}
+{"text": "make this window fullscreen", "intent": "window_maximize", "set": "hard"}
+{"text": "make notepad bigger", "intent": "window_maximize", "set": "hard"}
+{"text": "expand this window to fill the screen", "intent": "window_maximize", "set": "hard"}
+{"text": "make chrome full screen", "intent": "window_maximize", "set": "hard"}
+{"text": "put the window back to normal size", "intent": "window_restore", "set": "hard"}
+{"text": "restore the notepad window", "intent": "window_restore", "set": "hard"}
+{"text": "bring the window back down to its old size", "intent": "window_restore", "set": "hard"}
+{"text": "shut the notepad window", "intent": "window_close", "set": "hard"}
+{"text": "close that calculator", "intent": "window_close", "set": "hard"}
+{"text": "shut this window", "intent": "window_close", "set": "hard"}
+{"text": "close the spotify window", "intent": "window_close", "set": "hard"}
+{"text": "can you open up notepad for me", "intent": "app_launch", "set": "hard"}
+{"text": "i need calculator", "intent": "app_launch", "set": "hard"}
+{"text": "fire up spotify", "intent": "app_launch", "set": "hard"}
+{"text": "bring up paint", "intent": "app_launch", "set": "hard"}
+{"text": "load excel", "intent": "app_launch", "set": "hard"}
+{"text": "launch the calculator app", "intent": "app_launch", "set": "hard"}
+{"text": "get me notepad", "intent": "app_launch", "set": "hard"}
+{"text": "i want to use word", "intent": "app_launch", "set": "hard"}
+{"text": "do my morning setup routine", "intent": "workflow_run", "set": "hard"}
+{"text": "execute the save draft workflow", "intent": "workflow_run", "set": "hard"}
+{"text": "kick off the daily notes workflow", "intent": "workflow_run", "set": "hard"}
+{"text": "run my morning setup workflow", "intent": "workflow_run", "set": "hard"}
+{"text": "do you know what time it is", "intent": "read_time", "set": "hard"}
+{"text": "tell me the time", "intent": "read_time", "set": "hard"}
+{"text": "what is the current time", "intent": "read_time", "set": "hard"}
+{"text": "how late is it", "intent": "read_time", "set": "hard"}
+{"text": "what time is it right now", "intent": "read_time", "set": "hard"}
+{"text": "how much power is left", "intent": "read_battery", "set": "hard"}
+{"text": "is my battery low", "intent": "read_battery", "set": "hard"}
+{"text": "whats my battery at", "intent": "read_battery", "set": "hard"}
+{"text": "check the battery", "intent": "read_battery", "set": "hard"}
+{"text": "how much charge do i have", "intent": "read_battery", "set": "hard"}
+{"text": "how loud is it right now", "intent": "read_volume", "set": "hard"}
+{"text": "what is the sound level at", "intent": "read_volume", "set": "hard"}
+{"text": "tell me the current volume", "intent": "read_volume", "set": "hard"}
+{"text": "what is the volume set to", "intent": "read_volume", "set": "hard"}
+{"text": "play the next episode of the show i was watching", "intent": "none", "set": "hard"}
+{"text": "turn up the heat", "intent": "none", "set": "hard"}
+{"text": "the volume of the sphere", "intent": "none", "set": "hard"}
+{"text": "pause for dramatic effect", "intent": "none", "set": "hard"}
+{"text": "close the deal", "intent": "none", "set": "hard"}
+{"text": "switch to a healthier diet", "intent": "none", "set": "hard"}
+{"text": "open a bank account", "intent": "none", "set": "hard"}
+{"text": "start a new project in the repo", "intent": "none", "set": "hard"}
+{"text": "go to sleep", "intent": "none", "set": "hard"}
+{"text": "mute the other participants in the call", "intent": "none", "set": "hard"}
+{"text": "skip the intro of this video", "intent": "none", "set": "hard"}
+{"text": "what time does the store close", "intent": "none", "set": "hard"}
+{"text": "battery recycling near me", "intent": "none", "set": "hard"}
+{"text": "how do i fix the volume knob", "intent": "none", "set": "hard"}
+{"text": "play the song that was on yesterday", "intent": "none", "set": "hard"}
+{"text": "minimize the risks of this plan", "intent": "none", "set": "hard"}
+{"text": "maximize my productivity", "intent": "none", "set": "hard"}
+{"text": "restore my deleted files", "intent": "none", "set": "hard"}
+{"text": "launch a rocket into space", "intent": "none", "set": "hard"}
+{"text": "run a marathon", "intent": "none", "set": "hard"}
+{"text": "focus on the task", "intent": "none", "set": "hard"}
+{"text": "switch the lights on", "intent": "none", "set": "hard"}
+{"text": "next weeks weather", "intent": "none", "set": "hard"}
+{"text": "previous owner of this house", "intent": "none", "set": "hard"}
+{"text": "open the pod bay doors", "intent": "none", "set": "hard"}
+{"text": "volume of a cylinder formula", "intent": "none", "set": "hard"}
+{"text": "what is a good volume for a library", "intent": "none", "set": "hard"}
+{"text": "how do i unmute someone on zoom", "intent": "none", "set": "hard"}
+{"text": "remind me when the battery is low", "intent": "none", "set": "hard"}
+{"text": "the time machine is broken", "intent": "none", "set": "hard"}
+{"text": "set the volume of the sphere to 40 litres", "intent": "none", "set": "hard"}
+{"text": "pause the download", "intent": "none", "set": "hard"}
+{"text": "play the guitar", "intent": "none", "set": "hard"}
+{"text": "stop the car", "intent": "none", "set": "hard"}
+{"text": "next to the window", "intent": "none", "set": "hard"}
+{"text": "back to the future", "intent": "none", "set": "hard"}
+{"text": "go to the store and buy some milk", "intent": "none", "set": "hard"}
+{"text": "open sesame", "intent": "none", "set": "hard"}
+{"text": "start from the beginning and explain everything", "intent": "none", "set": "hard"}
+{"text": "close the door", "intent": "none", "set": "hard"}
+{"text": "launch the product next month", "intent": "none", "set": "hard"}
+{"text": "restore the old design", "intent": "none", "set": "hard"}
+{"text": "turn the page", "intent": "none", "set": "hard"}
+{"text": "turn it around", "intent": "none", "set": "hard"}
+{"text": "skip lunch", "intent": "none", "set": "hard"}
+{"text": "mute my microphone in the meeting", "intent": "none", "set": "hard"}
+{"text": "raise a ticket for this", "intent": "none", "set": "hard"}
+{"text": "lower the price", "intent": "none", "set": "hard"}
+{"text": "quiet please i am working", "intent": "none", "set": "hard"}
+{"text": "i am cold", "intent": "none", "set": "hard"}
+{"text": "please", "intent": "none", "set": "hard"}
+{"text": "okay thanks", "intent": "none", "set": "hard"}
+{"text": "do the thing again", "intent": "none", "set": "hard"}
+{"text": "what was that", "intent": "none", "set": "hard"}
+{"text": "undo what you just did", "intent": "none", "set": "hard"}

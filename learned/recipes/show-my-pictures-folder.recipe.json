@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-pictures-folder",
+  "goal": "show my pictures folder",
+  "template": "show my pictures folder",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 2222.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:58:12.6023744+00:00"
+}

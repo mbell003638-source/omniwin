@@ -1,0 +1,105 @@
+{
+  "started": "2026-11-10T20:30:38.4024803-05:00",
+  "status": "ran",
+  "runs_per_task": 3,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-7afbdea7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-a690b819",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-2852597e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-0b8186ae",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-cdb64d6c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-cb7e2543"
+  ],
+  "results": [
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 3,
+      "passed": 1,
+      "failed": 0,
+      "not_run": 2,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 1,
+      "wall_p50_s": 2.311,
+      "wall_p95_s": 5.849,
+      "tool_calls_per_run": 10,
+      "chars_returned_per_run": 8208.666666666666,
+      "notes": [
+        "ok",
+        "not run: Notepad restored earlier text (12 chars); the harness does not change text it did not type"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.85
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad restored earlier text (12 chars); the harness does not change text it did not type",
+          "leftover_browser_processes": 0,
+          "seconds": 2.31
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad restored earlier text (12 chars); the harness does not change text it did not type",
+          "leftover_browser_processes": 0,
+          "seconds": 2.3
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 3,
+      "passed": 0,
+      "failed": 3,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 3,
+      "wall_p50_s": 10.289,
+      "wall_p95_s": 10.366,
+      "tool_calls_per_run": 36,
+      "chars_returned_per_run": 4878,
+      "notes": [
+        "no Display entry in Settings"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 10.37
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 10.29
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 10.12
+        }
+      ]
+    }
+  ]
+}

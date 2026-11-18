@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-weight-converter",
+  "goal": "show the weight converter",
+  "template": "show the weight converter",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1443.3,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:07:38.9959408+00:00"
+}

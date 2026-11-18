@@ -1,0 +1,48 @@
+{
+  "started": "2026-11-10T20:35:32.5711405-05:00",
+  "status": "ran",
+  "runs_per_task": 2,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-9b8b236e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-c0b6c50c"
+  ],
+  "results": [
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 2,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 2,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 12.129,
+      "wall_p95_s": 12.129,
+      "tool_calls_per_run": 37.5,
+      "chars_returned_per_run": 133231.5,
+      "notes": [
+        "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.13
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.91
+        }
+      ]
+    }
+  ]
+}

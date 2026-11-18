@@ -1,0 +1,59 @@
+{
+  "started": "2026-11-10T21:44:53.1918722-05:00",
+  "status": "ran",
+  "runs_per_task": 3,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-d71d7f36",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-eccf4a20",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-ef16d405"
+  ],
+  "results": [
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 3,
+      "passed": 0,
+      "failed": 3,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 3,
+      "wall_p50_s": 9.869,
+      "wall_p95_s": 10.081,
+      "tool_calls_per_run": 18,
+      "chars_returned_per_run": 50996.333333333336,
+      "notes": [
+        "selection after click was \u0022file-2000.dat\u0022 (before the click: \u0022file-2000.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=12.1ms (resolve 0.013, precheck 12.0))",
+        "selection after click was \u0022file-2000.dat\u0022 (before the click: \u0022file-2000.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=10.3ms (resolve 0.009, precheck 10.3))",
+        "selection after click was \u0022file-2000.dat\u0022 (before the click: \u0022file-2000.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=11.6ms (resolve 0.011, precheck 11.5))"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "selection after click was \u0022file-2000.dat\u0022 (before the click: \u0022file-2000.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=12.1ms (resolve 0.013, precheck 12.0))",
+          "leftover_browser_processes": 0,
+          "seconds": 10.08
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "selection after click was \u0022file-2000.dat\u0022 (before the click: \u0022file-2000.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=10.3ms (resolve 0.009, precheck 10.3))",
+          "leftover_browser_processes": 0,
+          "seconds": 9.87
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "selection after click was \u0022file-2000.dat\u0022 (before the click: \u0022file-2000.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=11.6ms (resolve 0.011, precheck 11.5))",
+          "leftover_browser_processes": 0,
+          "seconds": 9.85
+        }
+      ]
+    }
+  ]
+}

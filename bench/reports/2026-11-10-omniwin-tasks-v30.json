@@ -1,0 +1,76 @@
+{
+  "started": "2026-11-10T22:26:57.7861009-05:00",
+  "status": "ran",
+  "runs_per_task": 5,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-992a2399",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-5522f0c1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-781b9087",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-2b3bef0d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-9d0816e4"
+  ],
+  "results": [
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 5,
+      "passed": 0,
+      "failed": 1,
+      "not_run": 4,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 1,
+      "wall_p50_s": 14.021,
+      "wall_p95_s": 27.567,
+      "tool_calls_per_run": 47.2,
+      "chars_returned_per_run": 185751.6,
+      "notes": [
+        "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+        "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.78
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.99
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 27.57
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.39
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.02
+        }
+      ]
+    }
+  ]
+}

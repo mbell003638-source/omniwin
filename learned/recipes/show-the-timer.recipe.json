@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-timer",
+  "goal": "show the timer",
+  "template": "show the timer",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 775.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Time.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:01:25.8210467+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-system-settings",
+  "goal": "show system settings",
+  "template": "show system settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 2004.2,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:49:49.8032328+00:00"
+}

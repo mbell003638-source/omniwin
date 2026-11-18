@@ -1,0 +1,75 @@
+{
+  "started": "2026-11-10T22:09:12.5115073-05:00",
+  "status": "ran",
+  "runs_per_task": 5,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-7a49e98e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-cc4ccc90",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-be359ab8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-6437e37c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-c91fbc29"
+  ],
+  "results": [
+    {
+      "id": "B05",
+      "task": "File Explorer: create a folder and rename it",
+      "runs": 5,
+      "passed": 5,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 5,
+      "wall_p50_s": 5.67,
+      "wall_p95_s": 5.906,
+      "tool_calls_per_run": 18,
+      "chars_returned_per_run": 25785.4,
+      "notes": [
+        "ok (renamed folder found on disk)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.5
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.49
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.88
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.91
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.67
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "workflow": "write-a-note-saying-call-the-dentist",
+  "goal": "write a note saying call the dentist",
+  "template": "write a note saying {text}",
+  "aliases": [],
+  "params": [
+    "text"
+  ],
+  "steps": 2,
+  "learned_wall_ms": 1789.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Notepad.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:48:27.3458675+00:00"
+}

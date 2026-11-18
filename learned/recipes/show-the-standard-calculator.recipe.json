@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-standard-calculator",
+  "goal": "show the standard calculator",
+  "template": "show the standard calculator",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1743.3,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:03:09.7319392+00:00"
+}

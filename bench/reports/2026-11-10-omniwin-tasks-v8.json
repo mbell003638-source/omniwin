@@ -1,0 +1,152 @@
+{
+  "started": "2026-11-10T20:36:31.3855914-05:00",
+  "status": "ran",
+  "runs_per_task": 3,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-178d555c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-8bfb84a9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-627857df",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-a06ae2dd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-4acab71a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-6de001ca",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-f2b515d5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-5b5be40a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-6e07c292"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 3,
+      "passed": 3,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 3,
+      "wall_p50_s": 2.963,
+      "wall_p95_s": 3.022,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 8035,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.02
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 3,
+      "passed": 2,
+      "failed": 1,
+      "not_run": 0,
+      "false_success": 1,
+      "success_percent": 66.7,
+      "success_of": 3,
+      "wall_p50_s": 5.722,
+      "wall_p95_s": 5.783,
+      "tool_calls_per_run": 16,
+      "chars_returned_per_run": 19562,
+      "notes": [
+        "file missing or content differs",
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 5.78
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.65
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.72
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "task": "Notepad: select all, clear, confirm empty",
+      "runs": 3,
+      "passed": 3,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 3,
+      "wall_p50_s": 2.734,
+      "wall_p95_s": 2.737,
+      "tool_calls_per_run": 10,
+      "chars_returned_per_run": 6057.333333333333,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.74
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.7
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.73
+        }
+      ]
+    }
+  ]
+}

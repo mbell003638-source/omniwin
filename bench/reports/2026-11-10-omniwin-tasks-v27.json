@@ -1,0 +1,39 @@
+{
+  "started": "2026-11-10T22:08:30.9967155-05:00",
+  "status": "ran",
+  "runs_per_task": 1,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-ec6d5a16"
+  ],
+  "results": [
+    {
+      "id": "B05",
+      "task": "File Explorer: create a folder and rename it",
+      "runs": 1,
+      "passed": 0,
+      "failed": 1,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 1,
+      "wall_p50_s": 9.143,
+      "wall_p95_s": 9.143,
+      "tool_calls_per_run": 28,
+      "chars_returned_per_run": 84881,
+      "notes": [
+        "no rename box appeared after F2: explorer title \u0022b05 - File Explorer\u0022, 1 list items [New folder], observation 5442 chars; edits: edit Date modified; edit Type; edit New folder; edit Address Bar; edit  Search b05"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no rename box appeared after F2: explorer title \u0022b05 - File Explorer\u0022, 1 list items [New folder], observation 5442 chars; edits: edit Date modified; edit Type; edit New folder; edit Address Bar; edit  Search b05",
+          "leftover_browser_processes": 0,
+          "seconds": 9.14
+        }
+      ]
+    }
+  ]
+}

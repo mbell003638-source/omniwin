@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-privacy-settings",
+  "goal": "show privacy settings",
+  "template": "show privacy settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1940.7,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:55:56.6051245+00:00"
+}

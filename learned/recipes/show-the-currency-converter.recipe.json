@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-currency-converter",
+  "goal": "show the currency converter",
+  "template": "show the currency converter",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1569.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:06:02.7541187+00:00"
+}

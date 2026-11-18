@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-scientific-calculator",
+  "goal": "show the scientific calculator",
+  "template": "show the scientific calculator",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1156.9,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:03:42.7361711+00:00"
+}

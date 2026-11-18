@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-account-settings",
+  "goal": "show account settings",
+  "template": "show account settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1692.9,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:53:15.3043856+00:00"
+}

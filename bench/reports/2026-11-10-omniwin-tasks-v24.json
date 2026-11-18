@@ -1,0 +1,930 @@
+{
+  "started": "2026-11-10T22:02:51.6944593-05:00",
+  "status": "ran",
+  "runs_per_task": 100,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-21afcb7b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3ecd3874",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e7e9d3ba",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-814db484",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-8b023d49",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9159002f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e81a33e6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1c351cab",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-618a1cbf",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e9e3f51a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e3cec24a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9910e804",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-303cf2b1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-20277849",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a0eee91b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-d38b0eb7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-87c29eb5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-2f517529",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-18aaf7bd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4fb717a6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c4279637",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-0ab7f28d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1b61421e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9961201d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ff414e2b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1b1ef0cd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-8d94b006",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-839fcf71",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-36b3dfec",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-6b72917a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ebac8314",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-264f5225",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-144ac8ef",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-dd9eef6c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-865fd8b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-0079027f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4a62103b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-50d25127",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1fa4862c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7fb9e6ae",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1b91a878",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a3cad797",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a5003320",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1066228b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-cb1619c1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-70de3373",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-d90addba",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-71e32b60",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-0243a564",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-90e9b426",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-d99ffe0d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9457d7ea",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7769c038",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-bf730fbc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7e7b9d76",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-869f42b2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1394288a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a7431cc4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ced6d938",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-f7d6d805",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a513dd1d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-af5da04e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-d38719fd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-f69b60d0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-8adba5af",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7877a54d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ac3bd6e8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ffb505c4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5bba2125",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7af2f3e0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-bdf4f724",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-6db48ee9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b5a13a6e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3368d839",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c48d5478",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-833ca3c5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-acb56a19",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-281fc730",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-043103e3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7332f7dd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-eba0e76d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3f0ebf94",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-995d713c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4c8ad1e5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5a557cd6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-fc0b7d30",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-0b12c0d9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a43f9554",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-66a29129",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b1ececde",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1f77fd9a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-51b9b9b1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-746f45d6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9cf3cb56",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ea77aa17",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9492bd15",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-0e23a5ad",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-641c8696",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5e018e2d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-32da38ab"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 100,
+      "passed": 100,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 100,
+      "wall_p50_s": 2.935,
+      "wall_p95_s": 3.29,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 8008.81,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.04
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.29
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.25
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 21,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.07
+        },
+        {
+          "run": 22,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 23,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 24,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 25,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.02
+        },
+        {
+          "run": 26,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 27,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 28,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 29,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 30,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 31,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 32,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 33,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 34,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 35,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 36,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 37,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.99
+        },
+        {
+          "run": 38,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.87
+        },
+        {
+          "run": 39,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 40,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 41,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 42,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 43,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 44,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 45,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 46,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 47,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.29
+        },
+        {
+          "run": 48,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 49,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 50,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 51,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 52,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3
+        },
+        {
+          "run": 53,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.87
+        },
+        {
+          "run": 54,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 55,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.31
+        },
+        {
+          "run": 56,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 57,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 58,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 59,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 60,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.23
+        },
+        {
+          "run": 61,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 62,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 63,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 64,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 65,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 66,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3
+        },
+        {
+          "run": 67,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 68,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 69,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.31
+        },
+        {
+          "run": 70,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 71,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 72,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 73,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.32
+        },
+        {
+          "run": 74,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 75,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 76,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 77,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 78,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 79,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 80,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 81,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 82,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 83,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 84,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.99
+        },
+        {
+          "run": 85,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 86,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 87,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 88,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 89,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 90,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 91,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 92,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 93,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 94,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 95,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 96,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 97,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 98,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.35
+        },
+        {
+          "run": 99,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 100,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.99
+        }
+      ]
+    }
+  ]
+}

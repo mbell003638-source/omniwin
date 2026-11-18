@@ -1,0 +1,2170 @@
+{
+ "tasks": [
+  {
+   "id": "calc-sum",
+   "group": "Calculator",
+   "wordings": [
+    "calculate {expr} in calculator",
+    "work out {expr} on the calculator",
+    "use the calculator for {expr}",
+    "add up {expr} in calculator",
+    "calculator work out {expr}",
+    "find {expr} with the calculator",
+    "do {expr} on the calculator",
+    "compute {expr} in calculator"
+   ],
+   "samples": [
+    {
+     "expr": "12+7",
+     "result": "19"
+    },
+    {
+     "expr": "100-58",
+     "result": "42"
+    },
+    {
+     "expr": "250+125",
+     "result": "375"
+    },
+    {
+     "expr": "64+36",
+     "result": "100"
+    },
+    {
+     "expr": "1000-1",
+     "result": "999"
+    },
+    {
+     "expr": "9+9",
+     "result": "18"
+    },
+    {
+     "expr": "40+2",
+     "result": "42"
+    },
+    {
+     "expr": "75-25",
+     "result": "50"
+    }
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "clip",
+     "{expr}"
+    ],
+    [
+     "keys",
+     "Calculator",
+     "ctrl+v"
+    ],
+    [
+     "keys",
+     "Calculator",
+     "enter"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Display is {result}"
+   ]
+  },
+  {
+   "id": "notepad-note",
+   "group": "Notepad",
+   "wordings": [
+    "write a note saying {text}",
+    "make a note that says {text}",
+    "jot down {text} in notepad",
+    "start a new note with {text}",
+    "type {text} in a new note",
+    "new notepad note saying {text}",
+    "write {text} in notepad",
+    "put {text} in a new notepad note"
+   ],
+   "samples": [
+    {
+     "text": "call the dentist"
+    },
+    {
+     "text": "meeting at 3 pm"
+    },
+    {
+     "text": "water the plants"
+    },
+    {
+     "text": "check the mail"
+    },
+    {
+     "text": "walk the dog"
+    },
+    {
+     "text": "pick up groceries"
+    },
+    {
+     "text": "clean the kitchen"
+    },
+    {
+     "text": "read chapter five"
+    }
+   ],
+   "steps": [
+    [
+     "launch",
+     "Notepad"
+    ],
+    [
+     "act",
+     "Notepad",
+     "document",
+     "Text editor",
+     "type",
+     "{text}"
+    ]
+   ],
+   "check": [
+    "Notepad",
+    "{text}"
+   ]
+  },
+  {
+   "id": "settings-search",
+   "group": "Settings",
+   "wordings": [
+    "search settings for {query}",
+    "look up {query} in settings",
+    "find the {query} setting",
+    "search windows settings for {query}",
+    "settings search {query}",
+    "find {query} in settings"
+   ],
+   "samples": [
+    {
+     "query": "display"
+    },
+    {
+     "query": "sound"
+    },
+    {
+     "query": "mouse"
+    },
+    {
+     "query": "keyboard"
+    },
+    {
+     "query": "printers"
+    },
+    {
+     "query": "power"
+    }
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "edit",
+     "Search box",
+     "type",
+     "{query}"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "{query}"
+   ]
+  },
+  {
+   "id": "settings-system",
+   "group": "Settings",
+   "wordings": [
+    "show system settings",
+    "show me system settings",
+    "take me to system settings",
+    "bring up system settings",
+    "pull up system settings",
+    "i want to see system settings",
+    "display system settings",
+    "navigate to system settings",
+    "get me system settings",
+    "head to system settings",
+    "jump to system settings",
+    "go into system settings",
+    "find system settings for me",
+    "let me see system settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "System",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"System\""
+   ]
+  },
+  {
+   "id": "settings-bluetooth-devices",
+   "group": "Settings",
+   "wordings": [
+    "show bluetooth settings",
+    "show me bluetooth settings",
+    "take me to bluetooth settings",
+    "bring up bluetooth settings",
+    "pull up bluetooth settings",
+    "i want to see bluetooth settings",
+    "display bluetooth settings",
+    "navigate to bluetooth settings",
+    "get me bluetooth settings",
+    "head to bluetooth settings",
+    "jump to bluetooth settings",
+    "go into bluetooth settings",
+    "find bluetooth settings for me",
+    "let me see bluetooth settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Bluetooth & devices",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Bluetooth & devices\""
+   ]
+  },
+  {
+   "id": "settings-network-internet",
+   "group": "Settings",
+   "wordings": [
+    "show network settings",
+    "show me network settings",
+    "take me to network settings",
+    "bring up network settings",
+    "pull up network settings",
+    "i want to see network settings",
+    "display network settings",
+    "navigate to network settings",
+    "get me network settings",
+    "head to network settings",
+    "jump to network settings",
+    "go into network settings",
+    "find network settings for me",
+    "let me see network settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Network & internet",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Network & internet\""
+   ]
+  },
+  {
+   "id": "settings-personalization",
+   "group": "Settings",
+   "wordings": [
+    "show personalization settings",
+    "show me personalization settings",
+    "take me to personalization settings",
+    "bring up personalization settings",
+    "pull up personalization settings",
+    "i want to see personalization settings",
+    "display personalization settings",
+    "navigate to personalization settings",
+    "get me personalization settings",
+    "head to personalization settings",
+    "jump to personalization settings",
+    "go into personalization settings",
+    "find personalization settings for me",
+    "let me see personalization settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Personalization",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Personalization\""
+   ]
+  },
+  {
+   "id": "settings-apps",
+   "group": "Settings",
+   "wordings": [
+    "show app settings",
+    "show me app settings",
+    "take me to app settings",
+    "bring up app settings",
+    "pull up app settings",
+    "i want to see app settings",
+    "display app settings",
+    "navigate to app settings",
+    "get me app settings",
+    "head to app settings",
+    "jump to app settings",
+    "go into app settings",
+    "find app settings for me",
+    "let me see app settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Apps",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Apps\""
+   ]
+  },
+  {
+   "id": "settings-accounts",
+   "group": "Settings",
+   "wordings": [
+    "show account settings",
+    "show me account settings",
+    "take me to account settings",
+    "bring up account settings",
+    "pull up account settings",
+    "i want to see account settings",
+    "display account settings",
+    "navigate to account settings",
+    "get me account settings",
+    "head to account settings",
+    "jump to account settings",
+    "go into account settings",
+    "find account settings for me",
+    "let me see account settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Accounts",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Accounts\""
+   ]
+  },
+  {
+   "id": "settings-time-language",
+   "group": "Settings",
+   "wordings": [
+    "show time and language settings",
+    "show me time and language settings",
+    "take me to time and language settings",
+    "bring up time and language settings",
+    "pull up time and language settings",
+    "i want to see time and language settings",
+    "display time and language settings",
+    "navigate to time and language settings",
+    "get me time and language settings",
+    "head to time and language settings",
+    "jump to time and language settings",
+    "go into time and language settings",
+    "find time and language settings for me",
+    "let me see time and language settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Time & language",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Time & language\""
+   ]
+  },
+  {
+   "id": "settings-gaming",
+   "group": "Settings",
+   "wordings": [
+    "show gaming settings",
+    "show me gaming settings",
+    "take me to gaming settings",
+    "bring up gaming settings",
+    "pull up gaming settings",
+    "i want to see gaming settings",
+    "display gaming settings",
+    "navigate to gaming settings",
+    "get me gaming settings",
+    "head to gaming settings",
+    "jump to gaming settings",
+    "go into gaming settings",
+    "find gaming settings for me",
+    "let me see gaming settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Gaming",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Gaming\""
+   ]
+  },
+  {
+   "id": "settings-accessibility",
+   "group": "Settings",
+   "wordings": [
+    "show accessibility settings",
+    "show me accessibility settings",
+    "take me to accessibility settings",
+    "bring up accessibility settings",
+    "pull up accessibility settings",
+    "i want to see accessibility settings",
+    "display accessibility settings",
+    "navigate to accessibility settings",
+    "get me accessibility settings",
+    "head to accessibility settings",
+    "jump to accessibility settings",
+    "go into accessibility settings",
+    "find accessibility settings for me",
+    "let me see accessibility settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Accessibility",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Accessibility\""
+   ]
+  },
+  {
+   "id": "settings-privacy-security",
+   "group": "Settings",
+   "wordings": [
+    "show privacy settings",
+    "show me privacy settings",
+    "take me to privacy settings",
+    "bring up privacy settings",
+    "pull up privacy settings",
+    "i want to see privacy settings",
+    "display privacy settings",
+    "navigate to privacy settings",
+    "get me privacy settings",
+    "head to privacy settings",
+    "jump to privacy settings",
+    "go into privacy settings",
+    "find privacy settings for me",
+    "let me see privacy settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Privacy & security",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Privacy & security\""
+   ]
+  },
+  {
+   "id": "settings-windows-update",
+   "group": "Settings",
+   "wordings": [
+    "show windows update settings",
+    "show me windows update settings",
+    "take me to windows update settings",
+    "bring up windows update settings",
+    "pull up windows update settings",
+    "i want to see windows update settings",
+    "display windows update settings",
+    "navigate to windows update settings",
+    "get me windows update settings",
+    "head to windows update settings",
+    "jump to windows update settings",
+    "go into windows update settings",
+    "find windows update settings for me",
+    "let me see windows update settings"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Settings"
+    ],
+    [
+     "act",
+     "Settings",
+     "listitem",
+     "Windows Update",
+     "select"
+    ]
+   ],
+   "check": [
+    "Settings",
+    "button \"Windows Update\""
+   ]
+  },
+  {
+   "id": "explorer-documents",
+   "group": "File Explorer",
+   "wordings": [
+    "show my documents folder",
+    "show me my documents folder",
+    "take me to my documents folder",
+    "bring up my documents folder",
+    "pull up my documents folder",
+    "i want to see my documents folder",
+    "display my documents folder",
+    "navigate to my documents folder",
+    "get me my documents folder",
+    "head to my documents folder",
+    "jump to my documents folder",
+    "go into my documents folder",
+    "find my documents folder for me",
+    "let me see my documents folder"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "File Explorer"
+    ],
+    [
+     "act",
+     "File Explorer",
+     "treeitem",
+     "Documents",
+     "click"
+    ]
+   ],
+   "check": [
+    "Documents - File Explorer",
+    "window"
+   ]
+  },
+  {
+   "id": "explorer-downloads",
+   "group": "File Explorer",
+   "wordings": [
+    "show my downloads folder",
+    "show me my downloads folder",
+    "take me to my downloads folder",
+    "bring up my downloads folder",
+    "pull up my downloads folder",
+    "i want to see my downloads folder",
+    "display my downloads folder",
+    "navigate to my downloads folder",
+    "get me my downloads folder",
+    "head to my downloads folder",
+    "jump to my downloads folder",
+    "go into my downloads folder",
+    "find my downloads folder for me",
+    "let me see my downloads folder"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "File Explorer"
+    ],
+    [
+     "act",
+     "File Explorer",
+     "treeitem",
+     "Downloads",
+     "click"
+    ]
+   ],
+   "check": [
+    "Downloads - File Explorer",
+    "window"
+   ]
+  },
+  {
+   "id": "explorer-pictures",
+   "group": "File Explorer",
+   "wordings": [
+    "show my pictures folder",
+    "show me my pictures folder",
+    "take me to my pictures folder",
+    "bring up my pictures folder",
+    "pull up my pictures folder",
+    "i want to see my pictures folder",
+    "display my pictures folder",
+    "navigate to my pictures folder",
+    "get me my pictures folder",
+    "head to my pictures folder",
+    "jump to my pictures folder",
+    "go into my pictures folder",
+    "find my pictures folder for me",
+    "let me see my pictures folder"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "File Explorer"
+    ],
+    [
+     "act",
+     "File Explorer",
+     "treeitem",
+     "Pictures",
+     "click"
+    ]
+   ],
+   "check": [
+    "Pictures - File Explorer",
+    "window"
+   ]
+  },
+  {
+   "id": "explorer-music",
+   "group": "File Explorer",
+   "wordings": [
+    "show my music folder",
+    "show me my music folder",
+    "take me to my music folder",
+    "bring up my music folder",
+    "pull up my music folder",
+    "i want to see my music folder",
+    "display my music folder",
+    "navigate to my music folder",
+    "get me my music folder",
+    "head to my music folder",
+    "jump to my music folder",
+    "go into my music folder",
+    "find my music folder for me",
+    "let me see my music folder"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "File Explorer"
+    ],
+    [
+     "act",
+     "File Explorer",
+     "treeitem",
+     "Music",
+     "click"
+    ]
+   ],
+   "check": [
+    "Music - File Explorer",
+    "window"
+   ]
+  },
+  {
+   "id": "explorer-videos",
+   "group": "File Explorer",
+   "wordings": [
+    "show my videos folder",
+    "show me my videos folder",
+    "take me to my videos folder",
+    "bring up my videos folder",
+    "pull up my videos folder",
+    "i want to see my videos folder",
+    "display my videos folder",
+    "navigate to my videos folder",
+    "get me my videos folder",
+    "head to my videos folder",
+    "jump to my videos folder",
+    "go into my videos folder",
+    "find my videos folder for me",
+    "let me see my videos folder"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "File Explorer"
+    ],
+    [
+     "act",
+     "File Explorer",
+     "treeitem",
+     "Videos",
+     "click"
+    ]
+   ],
+   "check": [
+    "Videos - File Explorer",
+    "window"
+   ]
+  },
+  {
+   "id": "explorer-desktop",
+   "group": "File Explorer",
+   "wordings": [
+    "show my desktop folder",
+    "show me my desktop folder",
+    "take me to my desktop folder",
+    "bring up my desktop folder",
+    "pull up my desktop folder",
+    "i want to see my desktop folder",
+    "display my desktop folder",
+    "navigate to my desktop folder",
+    "get me my desktop folder",
+    "head to my desktop folder",
+    "jump to my desktop folder",
+    "go into my desktop folder",
+    "find my desktop folder for me",
+    "let me see my desktop folder"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "File Explorer"
+    ],
+    [
+     "act",
+     "File Explorer",
+     "treeitem",
+     "Start of Quick Access - Desktop",
+     "click"
+    ]
+   ],
+   "check": [
+    "Desktop - File Explorer",
+    "window"
+   ]
+  },
+  {
+   "id": "clock-stopwatch",
+   "group": "Clock",
+   "wordings": [
+    "show the stopwatch",
+    "show me the stopwatch",
+    "take me to the stopwatch",
+    "bring up the stopwatch",
+    "pull up the stopwatch",
+    "i want to see the stopwatch",
+    "display the stopwatch",
+    "navigate to the stopwatch",
+    "get me the stopwatch",
+    "head to the stopwatch",
+    "jump to the stopwatch",
+    "go into the stopwatch",
+    "find the stopwatch for me",
+    "let me see the stopwatch"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Clock"
+    ],
+    [
+     "act",
+     "Clock",
+     "listitem",
+     "Stopwatch",
+     "select"
+    ]
+   ],
+   "check": [
+    "Clock",
+    "Stopwatch"
+   ]
+  },
+  {
+   "id": "clock-timer",
+   "group": "Clock",
+   "wordings": [
+    "show the timer",
+    "show me the timer",
+    "take me to the timer",
+    "bring up the timer",
+    "pull up the timer",
+    "i want to see the timer",
+    "display the timer",
+    "navigate to the timer",
+    "get me the timer",
+    "head to the timer",
+    "jump to the timer",
+    "go into the timer",
+    "find the timer for me",
+    "let me see the timer"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Clock"
+    ],
+    [
+     "act",
+     "Clock",
+     "listitem",
+     "Timer",
+     "select"
+    ]
+   ],
+   "check": [
+    "Clock",
+    "Timer"
+   ]
+  },
+  {
+   "id": "clock-alarm",
+   "group": "Clock",
+   "wordings": [
+    "show my alarms",
+    "show me my alarms",
+    "take me to my alarms",
+    "bring up my alarms",
+    "pull up my alarms",
+    "i want to see my alarms",
+    "display my alarms",
+    "navigate to my alarms",
+    "get me my alarms",
+    "head to my alarms",
+    "jump to my alarms",
+    "go into my alarms",
+    "find my alarms for me",
+    "let me see my alarms"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Clock"
+    ],
+    [
+     "act",
+     "Clock",
+     "listitem",
+     "Alarm",
+     "select"
+    ]
+   ],
+   "check": [
+    "Clock",
+    "Alarm"
+   ]
+  },
+  {
+   "id": "clock-world-clock",
+   "group": "Clock",
+   "wordings": [
+    "show the world clock",
+    "show me the world clock",
+    "take me to the world clock",
+    "bring up the world clock",
+    "pull up the world clock",
+    "i want to see the world clock",
+    "display the world clock",
+    "navigate to the world clock",
+    "get me the world clock",
+    "head to the world clock",
+    "jump to the world clock",
+    "go into the world clock",
+    "find the world clock for me",
+    "let me see the world clock"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Clock"
+    ],
+    [
+     "act",
+     "Clock",
+     "listitem",
+     "World clock",
+     "select"
+    ]
+   ],
+   "check": [
+    "Clock",
+    "World clock"
+   ]
+  },
+  {
+   "id": "clock-focus-sessions",
+   "group": "Clock",
+   "wordings": [
+    "show focus sessions",
+    "show me focus sessions",
+    "take me to focus sessions",
+    "bring up focus sessions",
+    "pull up focus sessions",
+    "i want to see focus sessions",
+    "display focus sessions",
+    "navigate to focus sessions",
+    "get me focus sessions",
+    "head to focus sessions",
+    "jump to focus sessions",
+    "go into focus sessions",
+    "find focus sessions for me",
+    "let me see focus sessions"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Clock"
+    ],
+    [
+     "act",
+     "Clock",
+     "listitem",
+     "Focus sessions",
+     "select"
+    ]
+   ],
+   "check": [
+    "Clock",
+    "Focus sessions"
+   ]
+  },
+  {
+   "id": "calc-standard",
+   "group": "Calculator",
+   "wordings": [
+    "show the standard calculator",
+    "show me the standard calculator",
+    "take me to the standard calculator",
+    "bring up the standard calculator",
+    "pull up the standard calculator",
+    "i want to see the standard calculator",
+    "display the standard calculator",
+    "navigate to the standard calculator",
+    "get me the standard calculator",
+    "head to the standard calculator",
+    "jump to the standard calculator",
+    "go into the standard calculator",
+    "find the standard calculator for me",
+    "let me see the standard calculator"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Standard Calculator",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Standard"
+   ]
+  },
+  {
+   "id": "calc-scientific",
+   "group": "Calculator",
+   "wordings": [
+    "show the scientific calculator",
+    "show me the scientific calculator",
+    "take me to the scientific calculator",
+    "bring up the scientific calculator",
+    "pull up the scientific calculator",
+    "i want to see the scientific calculator",
+    "display the scientific calculator",
+    "navigate to the scientific calculator",
+    "get me the scientific calculator",
+    "head to the scientific calculator",
+    "jump to the scientific calculator",
+    "go into the scientific calculator",
+    "find the scientific calculator for me",
+    "let me see the scientific calculator"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Scientific Calculator",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Scientific"
+   ]
+  },
+  {
+   "id": "calc-graphing",
+   "group": "Calculator",
+   "wordings": [
+    "show the graphing calculator",
+    "show me the graphing calculator",
+    "take me to the graphing calculator",
+    "bring up the graphing calculator",
+    "pull up the graphing calculator",
+    "i want to see the graphing calculator",
+    "display the graphing calculator",
+    "navigate to the graphing calculator",
+    "get me the graphing calculator",
+    "head to the graphing calculator",
+    "jump to the graphing calculator",
+    "go into the graphing calculator",
+    "find the graphing calculator for me",
+    "let me see the graphing calculator"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Graphing Calculator",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Graphing"
+   ]
+  },
+  {
+   "id": "calc-programmer",
+   "group": "Calculator",
+   "wordings": [
+    "show the programmer calculator",
+    "show me the programmer calculator",
+    "take me to the programmer calculator",
+    "bring up the programmer calculator",
+    "pull up the programmer calculator",
+    "i want to see the programmer calculator",
+    "display the programmer calculator",
+    "navigate to the programmer calculator",
+    "get me the programmer calculator",
+    "head to the programmer calculator",
+    "jump to the programmer calculator",
+    "go into the programmer calculator",
+    "find the programmer calculator for me",
+    "let me see the programmer calculator"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Programmer Calculator",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Programmer"
+   ]
+  },
+  {
+   "id": "calc-date",
+   "group": "Calculator",
+   "wordings": [
+    "show the date calculator",
+    "show me the date calculator",
+    "take me to the date calculator",
+    "bring up the date calculator",
+    "pull up the date calculator",
+    "i want to see the date calculator",
+    "display the date calculator",
+    "navigate to the date calculator",
+    "get me the date calculator",
+    "head to the date calculator",
+    "jump to the date calculator",
+    "go into the date calculator",
+    "find the date calculator for me",
+    "let me see the date calculator"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Date calculation Calculator",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Date"
+   ]
+  },
+  {
+   "id": "calc-currency",
+   "group": "Calculator",
+   "wordings": [
+    "show the currency converter",
+    "show me the currency converter",
+    "take me to the currency converter",
+    "bring up the currency converter",
+    "pull up the currency converter",
+    "i want to see the currency converter",
+    "display the currency converter",
+    "navigate to the currency converter",
+    "get me the currency converter",
+    "head to the currency converter",
+    "jump to the currency converter",
+    "go into the currency converter",
+    "find the currency converter for me",
+    "let me see the currency converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Currency Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Currency"
+   ]
+  },
+  {
+   "id": "calc-volume",
+   "group": "Calculator",
+   "wordings": [
+    "show the volume converter",
+    "show me the volume converter",
+    "take me to the volume converter",
+    "bring up the volume converter",
+    "pull up the volume converter",
+    "i want to see the volume converter",
+    "display the volume converter",
+    "navigate to the volume converter",
+    "get me the volume converter",
+    "head to the volume converter",
+    "jump to the volume converter",
+    "go into the volume converter",
+    "find the volume converter for me",
+    "let me see the volume converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Volume Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Volume"
+   ]
+  },
+  {
+   "id": "calc-length",
+   "group": "Calculator",
+   "wordings": [
+    "show the length converter",
+    "show me the length converter",
+    "take me to the length converter",
+    "bring up the length converter",
+    "pull up the length converter",
+    "i want to see the length converter",
+    "display the length converter",
+    "navigate to the length converter",
+    "get me the length converter",
+    "head to the length converter",
+    "jump to the length converter",
+    "go into the length converter",
+    "find the length converter for me",
+    "let me see the length converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Length Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Length"
+   ]
+  },
+  {
+   "id": "calc-weight",
+   "group": "Calculator",
+   "wordings": [
+    "show the weight converter",
+    "show me the weight converter",
+    "take me to the weight converter",
+    "bring up the weight converter",
+    "pull up the weight converter",
+    "i want to see the weight converter",
+    "display the weight converter",
+    "navigate to the weight converter",
+    "get me the weight converter",
+    "head to the weight converter",
+    "jump to the weight converter",
+    "go into the weight converter",
+    "find the weight converter for me",
+    "let me see the weight converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Weight and mass Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Weight"
+   ]
+  },
+  {
+   "id": "calc-temperature",
+   "group": "Calculator",
+   "wordings": [
+    "show the temperature converter",
+    "show me the temperature converter",
+    "take me to the temperature converter",
+    "bring up the temperature converter",
+    "pull up the temperature converter",
+    "i want to see the temperature converter",
+    "display the temperature converter",
+    "navigate to the temperature converter",
+    "get me the temperature converter",
+    "head to the temperature converter",
+    "jump to the temperature converter",
+    "go into the temperature converter",
+    "find the temperature converter for me",
+    "let me see the temperature converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Temperature Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Temperature"
+   ]
+  },
+  {
+   "id": "calc-energy",
+   "group": "Calculator",
+   "wordings": [
+    "show the energy converter",
+    "show me the energy converter",
+    "take me to the energy converter",
+    "bring up the energy converter",
+    "pull up the energy converter",
+    "i want to see the energy converter",
+    "display the energy converter",
+    "navigate to the energy converter",
+    "get me the energy converter",
+    "head to the energy converter",
+    "jump to the energy converter",
+    "go into the energy converter",
+    "find the energy converter for me",
+    "let me see the energy converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Energy Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Energy"
+   ]
+  },
+  {
+   "id": "calc-area",
+   "group": "Calculator",
+   "wordings": [
+    "show the area converter",
+    "show me the area converter",
+    "take me to the area converter",
+    "bring up the area converter",
+    "pull up the area converter",
+    "i want to see the area converter",
+    "display the area converter",
+    "navigate to the area converter",
+    "get me the area converter",
+    "head to the area converter",
+    "jump to the area converter",
+    "go into the area converter",
+    "find the area converter for me",
+    "let me see the area converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Area Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Area"
+   ]
+  },
+  {
+   "id": "calc-speed",
+   "group": "Calculator",
+   "wordings": [
+    "show the speed converter",
+    "show me the speed converter",
+    "take me to the speed converter",
+    "bring up the speed converter",
+    "pull up the speed converter",
+    "i want to see the speed converter",
+    "display the speed converter",
+    "navigate to the speed converter",
+    "get me the speed converter",
+    "head to the speed converter",
+    "jump to the speed converter",
+    "go into the speed converter",
+    "find the speed converter for me",
+    "let me see the speed converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Speed Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Speed"
+   ]
+  },
+  {
+   "id": "calc-time",
+   "group": "Calculator",
+   "wordings": [
+    "show the time converter",
+    "show me the time converter",
+    "take me to the time converter",
+    "bring up the time converter",
+    "pull up the time converter",
+    "i want to see the time converter",
+    "display the time converter",
+    "navigate to the time converter",
+    "get me the time converter",
+    "head to the time converter",
+    "jump to the time converter",
+    "go into the time converter",
+    "find the time converter for me",
+    "let me see the time converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Time Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Time"
+   ]
+  },
+  {
+   "id": "calc-power",
+   "group": "Calculator",
+   "wordings": [
+    "show the power converter",
+    "show me the power converter",
+    "take me to the power converter",
+    "bring up the power converter",
+    "pull up the power converter",
+    "i want to see the power converter",
+    "display the power converter",
+    "navigate to the power converter",
+    "get me the power converter",
+    "head to the power converter",
+    "jump to the power converter",
+    "go into the power converter",
+    "find the power converter for me",
+    "let me see the power converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Power Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Power"
+   ]
+  },
+  {
+   "id": "calc-data",
+   "group": "Calculator",
+   "wordings": [
+    "show the data converter",
+    "show me the data converter",
+    "take me to the data converter",
+    "bring up the data converter",
+    "pull up the data converter",
+    "i want to see the data converter",
+    "display the data converter",
+    "navigate to the data converter",
+    "get me the data converter",
+    "head to the data converter",
+    "jump to the data converter",
+    "go into the data converter",
+    "find the data converter for me",
+    "let me see the data converter"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Calculator"
+    ],
+    [
+     "act",
+     "Calculator",
+     "button",
+     "Open Navigation",
+     "click"
+    ],
+    [
+     "act",
+     "Calculator",
+     "listitem",
+     "Data Converter",
+     "select"
+    ]
+   ],
+   "check": [
+    "Calculator",
+    "Data"
+   ]
+  },
+  {
+   "id": "google-maps",
+   "group": "Web",
+   "wordings": [
+    "find {q} on google maps",
+    "show {q} on the map",
+    "search google maps for {q}",
+    "where is {q} on the map",
+    "look up {q} on maps",
+    "google maps search {q}"
+   ],
+   "samples": [
+    {
+     "q": "cn tower"
+    },
+    {
+     "q": "eiffel tower"
+    },
+    {
+     "q": "niagara falls"
+    },
+    {
+     "q": "central park"
+    },
+    {
+     "q": "union station toronto"
+    },
+    {
+     "q": "stanley park"
+    }
+   ],
+   "steps": [
+    [
+     "nav",
+     "https://www.google.com/maps",
+     "www.google.com"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search Google Maps",
+     "type",
+     "{q}"
+    ],
+    [
+     "bkey",
+     "enter"
+    ]
+   ],
+   "check": [
+    "@browser",
+    "{q}"
+   ]
+  },
+  {
+   "id": "youtube-search",
+   "group": "Web",
+   "wordings": [
+    "search youtube for {q}",
+    "find {q} on youtube",
+    "look up {q} on youtube",
+    "youtube search {q}",
+    "show me {q} videos on youtube",
+    "search youtube videos for {q}"
+   ],
+   "samples": [
+    {
+     "q": "lofi music"
+    },
+    {
+     "q": "cooking pasta"
+    },
+    {
+     "q": "guitar lesson"
+    },
+    {
+     "q": "cat videos"
+    },
+    {
+     "q": "space documentary"
+    },
+    {
+     "q": "morning workout"
+    }
+   ],
+   "steps": [
+    [
+     "nav",
+     "https://www.youtube.com",
+     "www.youtube.com"
+    ],
+    [
+     "bact",
+     "combobox",
+     "Search",
+     "type",
+     "{q}"
+    ],
+    [
+     "bkey",
+     "enter"
+    ]
+   ],
+   "check": [
+    "@browser",
+    "{q}"
+   ]
+  },
+  {
+   "id": "wikipedia",
+   "group": "Web",
+   "wordings": [
+    "look up {q} on wikipedia",
+    "search wikipedia for {q}",
+    "wikipedia article on {q}",
+    "find {q} on wikipedia",
+    "read about {q} on wikipedia",
+    "wikipedia search {q}"
+   ],
+   "samples": [
+    {
+     "q": "canada"
+    },
+    {
+     "q": "solar system"
+    },
+    {
+     "q": "albert einstein"
+    },
+    {
+     "q": "photosynthesis"
+    },
+    {
+     "q": "toronto"
+    },
+    {
+     "q": "the moon"
+    }
+   ],
+   "steps": [
+    [
+     "nav",
+     "https://en.wikipedia.org",
+     "en.wikipedia.org"
+    ],
+    [
+     "bact",
+     "textbox",
+     "Search Wikipedia",
+     "type",
+     "{q}"
+    ],
+    [
+     "bact",
+     "button",
+     "Search",
+     "click"
+    ]
+   ],
+   "check": [
+    "@browser",
+    "{q}"
+   ]
+  }
+ ]
+}

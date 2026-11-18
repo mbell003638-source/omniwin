@@ -1,0 +1,139 @@
+{
+  "started": "2026-11-10T20:37:56.0370876-05:00",
+  "status": "ran",
+  "runs_per_task": 12,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-6ddd7c04",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-3bc10bb7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-44016dbe",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-9f081786",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-4c837966",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-7c44698c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-e95118d7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-30cd049e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-06ec0a5a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-0c9f2598",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-8e7a966f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-2feccc36"
+  ],
+  "results": [
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 12,
+      "passed": 11,
+      "failed": 1,
+      "not_run": 0,
+      "false_success": 1,
+      "success_percent": 91.7,
+      "success_of": 12,
+      "wall_p50_s": 5.949,
+      "wall_p95_s": 6.072,
+      "tool_calls_per_run": 17,
+      "chars_returned_per_run": 25577.916666666668,
+      "notes": [
+        "ok",
+        "file missing or content differs (File name box read back: \u0022\u0022, typed status confirmed, file exists True)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.71
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.87
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.91
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.95
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.87
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.8
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 6.04
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 6.07
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.82
+        },
+        {
+          "run": 10,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs (File name box read back: \u0022\u0022, typed status confirmed, file exists True)",
+          "leftover_browser_processes": 0,
+          "seconds": 6
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.98
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.97
+        }
+      ]
+    }
+  ]
+}

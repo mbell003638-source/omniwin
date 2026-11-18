@@ -1,0 +1,49 @@
+{
+  "started": "2026-11-10T20:28:02.8498416-05:00",
+  "status": "ran",
+  "runs_per_task": 2,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-d0be23b9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-013cae74"
+  ],
+  "results": [
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 2,
+      "passed": 0,
+      "failed": 1,
+      "not_run": 1,
+      "false_success": 1,
+      "success_percent": 0,
+      "success_of": 1,
+      "wall_p50_s": 9.748,
+      "wall_p95_s": 9.748,
+      "tool_calls_per_run": 8.5,
+      "chars_returned_per_run": 10258,
+      "notes": [
+        "not run: Notepad restored earlier text (1 chars); the harness does not change text it did not type",
+        "file missing or content differs"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad restored earlier text (1 chars); the harness does not change text it did not type",
+          "leftover_browser_processes": 0,
+          "seconds": 1.97
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 9.75
+        }
+      ]
+    }
+  ]
+}

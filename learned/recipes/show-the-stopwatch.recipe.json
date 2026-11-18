@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-stopwatch",
+  "goal": "show the stopwatch",
+  "template": "show the stopwatch",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1216,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Time.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:01:02.400236+00:00"
+}

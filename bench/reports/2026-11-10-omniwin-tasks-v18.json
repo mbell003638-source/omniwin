@@ -1,0 +1,39 @@
+{
+  "started": "2026-11-10T21:44:08.0972931-05:00",
+  "status": "ran",
+  "runs_per_task": 1,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-3acb53f3"
+  ],
+  "results": [
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 1,
+      "passed": 0,
+      "failed": 1,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 1,
+      "wall_p50_s": 9.714,
+      "wall_p95_s": 9.714,
+      "tool_calls_per_run": 17,
+      "chars_returned_per_run": 41395,
+      "notes": [
+        "selection after click was \u0022file-1999.dat\u0022 (before the click: \u0022file-1999.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=11.0ms (resolve 0.014, precheck 10.9))"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "selection after click was \u0022file-1999.dat\u0022 (before the click: \u0022file-1999.dat\u0022; click status blocked: status=blocked input_sent=false reason=occluded_same_window total=11.0ms (resolve 0.014, precheck 10.9))",
+          "leftover_browser_processes": 0,
+          "seconds": 9.71
+        }
+      ]
+    }
+  ]
+}

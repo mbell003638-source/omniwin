@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-focus-sessions",
+  "goal": "show focus sessions",
+  "template": "show focus sessions",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1286.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Time.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:02:46.1078219+00:00"
+}

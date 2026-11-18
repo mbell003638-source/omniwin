@@ -1,0 +1,1812 @@
+{
+  "started": "2026-11-10T09:04:43.2493618-05:00",
+  "status": "ran",
+  "runs_per_task": 20,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1b63c8e6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-f37f62c7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-50431cf5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1673c8c0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e2f6047d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e105ff2a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c0e8c14c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4b6ba924",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-2e97f103",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ee6adec9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5196ae66",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-bea007ce",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-be825fa8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-db0578d0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-63ea0a00",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-604f69a2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-e1dd9137",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-371d2a7c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ad35447e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7642ae21",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-22af56f7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-de1ae38f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-069e8dcc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-a2a38b3c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-8511e46f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-da5cacca",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-a131271a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-d6400abf",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-39741069",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-73729816",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-c0967773",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-111ab742",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-1b4bec8e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-98eeb0ee",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-d745a8a0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-9c138c07",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-b015366f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-59ff8891",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-4482aca1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-052516d5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-3a2ed67a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-d232c095",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-0856c865",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-22189af4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-d362e71c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-ee227b50",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-db905f4c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-502e0141",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-8aefc155",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-7e12ec08",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-b7ef4fcd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-c8141031",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-73f02d39",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-1f8e5789",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-b8cfac3d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-0b9c7958",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-0e6dd53f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-8678abc2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-9971188f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-2e7101d5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-1d896245",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-b353798d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-79697d06",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-90345c1d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-33b182cf",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-39a54219",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-ddbfe27d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-d1e36b0d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-17511615",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-4e715418",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-d5e5606d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-45182562",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-dce232a5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-7f91c620",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-b16d19f2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-aa60c9d7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-eaad5d04",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-3ce5087d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-dee7b127",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-7a62e9e0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-7af0bbaa",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-ccd64954",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-739aee38",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-9809ceaf",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-897a3d3d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-4e271e60",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-9bb55cc2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-92ce6ebe",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-e03d98f2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-818c405c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-fb4e4fc8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-62b511e9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-a4c813a7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-ac4ab3f2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-f4f88480",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-ce27779a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-72eb18d3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-dead9c0a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-c1ae41ac",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-dcdfa7ff",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-94662991",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-faae9b71",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-c581b167",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-d996c8dc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-4c5e3891",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-dec00e43",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-a300b1fc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-ea72ca44",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-9aac5f22",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-b23a4174",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-c2c9786b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-21240402",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-b99c6681",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-b20181f4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-f2db7ef6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-08af25a1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-66005928",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-145db306",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-781d6a14",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-4fca9fdc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-c9157c96",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-803b4c85",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-0b19c83a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-97a28681",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-2d8797cb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-0a9b3a0a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-e6d3947c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-fbf76dd7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-8ed9c0c9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-d30a5926",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-6b58e753",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-6e606dbb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-2541958e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-dd7509d3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-4bc16c00",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-c601a5bb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-b42dcfb4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-88139ac4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-ad980fa5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-b5bb8109",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-be2f9753",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-3c39e368",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-f05a87f6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-6af91557",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-e5a80088",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-0537ac67",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-ee25ec3c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-1eaf3aae",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-a967e51b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-d96e3ef7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-88b81561",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-0a8faa5b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-82348992",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-c0f1bc32",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-5629f40d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-23be3900",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-bb6df9c5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-aac8a588",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-603ac0a1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-21870509",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-0c34398f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-8f670a2b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-0769e12f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-1b20279d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-420cd570",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-3fcf06dd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-dbdd05c1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-467c648c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-b0130f68",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-2302412a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-61b89d94",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-55840f92",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-e7456215",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-8007b8a3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-e66f43f7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-d93c44b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-41c02d69",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-6a73d14b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-cc6a2209",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-a6b4ebc4"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 20,
+      "passed": 19,
+      "failed": 1,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 95,
+      "success_of": 20,
+      "wall_p50_s": 2.494,
+      "wall_p95_s": 2.715,
+      "tool_calls_per_run": 9,
+      "chars_returned_per_run": 10316.65,
+      "notes": [
+        "ok",
+        "harness read: line \r\nline two"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.37
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.72
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.39
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.45
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.49
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.43
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.39
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.46
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.49
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.49
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.45
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.49
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.5
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.59
+        },
+        {
+          "run": 15,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: line \r\nline two",
+          "leftover_browser_processes": 0,
+          "seconds": 2.69
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.49
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.61
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.6
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.56
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.61
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 20,
+      "passed": 0,
+      "failed": 13,
+      "not_run": 7,
+      "false_success": 13,
+      "success_percent": 0,
+      "success_of": 13,
+      "wall_p50_s": 10.751,
+      "wall_p95_s": 13.745,
+      "tool_calls_per_run": 23.15,
+      "chars_returned_per_run": 16567.15,
+      "notes": [
+        "file missing or content differs",
+        "not run: Notepad opened no new window (it may have reused a tab in an existing window)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.14
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.31
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.38
+        },
+        {
+          "run": 4,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.37
+        },
+        {
+          "run": 5,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.21
+        },
+        {
+          "run": 6,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.33
+        },
+        {
+          "run": 7,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.54
+        },
+        {
+          "run": 8,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.74
+        },
+        {
+          "run": 9,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.74
+        },
+        {
+          "run": 10,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.75
+        },
+        {
+          "run": 11,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 10.75
+        },
+        {
+          "run": 12,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 11
+        },
+        {
+          "run": 13,
+          "status": "failed",
+          "input_sent": true,
+          "note": "file missing or content differs",
+          "leftover_browser_processes": 0,
+          "seconds": 13.33
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.74
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.52
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.55
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.55
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.58
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.51
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "task": "Notepad: select all, clear, confirm empty",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 13.581,
+      "wall_p95_s": 13.67,
+      "tool_calls_per_run": 42,
+      "chars_returned_per_run": 3218,
+      "notes": [
+        "not run: Notepad opened no new window (it may have reused a tab in an existing window)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.51
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.51
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.52
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.49
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.6
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.63
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.47
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.58
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.64
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.64
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.52
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.6
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.6
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.49
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.58
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.67
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.6
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "task": "File Explorer: open a seeded folder, list file names",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 9.729,
+      "wall_p95_s": 9.85,
+      "tool_calls_per_run": 27.95,
+      "chars_returned_per_run": 2178.35,
+      "notes": [
+        "not run: no File Explorer window to use"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.85
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.81
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.79
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.79
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.73
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.77
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.72
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.73
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.69
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.54
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.68
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.82
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.69
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.76
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.71
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.73
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.66
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.73
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.7
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.7
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "task": "File Explorer: create a folder and rename it",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 9.711,
+      "wall_p95_s": 9.765,
+      "tool_calls_per_run": 27.95,
+      "chars_returned_per_run": 2178.3,
+      "notes": [
+        "not run: no File Explorer window to use"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.76
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.63
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.74
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.67
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.72
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.65
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.7
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.72
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.76
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.64
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.51
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.71
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.64
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.73
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.74
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.73
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.69
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.68
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.72
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.67
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 10.079,
+      "wall_p95_s": 10.146,
+      "tool_calls_per_run": 28,
+      "chars_returned_per_run": 2182,
+      "notes": [
+        "not run: no File Explorer window to use"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.1
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.15
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.13
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.12
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.12
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.12
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.11
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.13
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.03
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.07
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.09
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.08
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 10.01
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File Explorer window to use",
+          "leftover_browser_processes": 0,
+          "seconds": 9.99
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 20,
+      "passed": 0,
+      "failed": 20,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 20,
+      "wall_p50_s": 17.453,
+      "wall_p95_s": 18.184,
+      "tool_calls_per_run": 33.2,
+      "chars_returned_per_run": 4287.4,
+      "notes": [
+        "no Display entry in Settings"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 18.18
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.78
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.4
+        },
+        {
+          "run": 4,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.46
+        },
+        {
+          "run": 5,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.4
+        },
+        {
+          "run": 6,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.37
+        },
+        {
+          "run": 7,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.47
+        },
+        {
+          "run": 8,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.4
+        },
+        {
+          "run": 9,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.38
+        },
+        {
+          "run": 10,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.47
+        },
+        {
+          "run": 11,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.67
+        },
+        {
+          "run": 12,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.42
+        },
+        {
+          "run": 13,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.41
+        },
+        {
+          "run": 14,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.45
+        },
+        {
+          "run": 15,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.67
+        },
+        {
+          "run": 16,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.44
+        },
+        {
+          "run": 17,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.5
+        },
+        {
+          "run": 18,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.45
+        },
+        {
+          "run": 19,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.41
+        },
+        {
+          "run": 20,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.64
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "task": "Edge (W01): fill text, email, dropdown, checkbox, click Continue",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 1.808,
+      "wall_p95_s": 2.133,
+      "tool_calls_per_run": 11,
+      "chars_returned_per_run": 4913,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.13
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.78
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.8
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.87
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.77
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.76
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.81
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.79
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.8
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.87
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.79
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.78
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.8
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.89
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.78
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.82
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.81
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.84
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.86
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.82
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "task": "Notepad \u002B Edge: copy a line from Notepad into W01\u0027s textarea",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 13.574,
+      "wall_p95_s": 13.806,
+      "tool_calls_per_run": 42,
+      "chars_returned_per_run": 3218,
+      "notes": [
+        "not run: Notepad opened no new window (it may have reused a tab in an existing window)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.58
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.52
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.6
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.53
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.58
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.54
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.53
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.54
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.61
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.63
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.59
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.71
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.81
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.64
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: Notepad opened no new window (it may have reused a tab in an existing window)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.57
+        }
+      ]
+    }
+  ]
+}

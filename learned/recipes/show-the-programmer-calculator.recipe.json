@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-programmer-calculator",
+  "goal": "show the programmer calculator",
+  "template": "show the programmer calculator",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1680.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:04:55.8901725+00:00"
+}

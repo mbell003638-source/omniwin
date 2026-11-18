@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-alarms",
+  "goal": "show my alarms",
+  "template": "show my alarms",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 792.4,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Time.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:01:49.2167772+00:00"
+}

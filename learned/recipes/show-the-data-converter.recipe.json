@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-data-converter",
+  "goal": "show the data converter",
+  "template": "show the data converter",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1561.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:11:21.1665399+00:00"
+}

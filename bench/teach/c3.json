@@ -1,0 +1,1 @@
+[["desktop_observe",{"window":"Calculator","max_elements":20}],["desktop_act",{"ref":"e13","gen":1,"action":"type","value":"12+7"}],["desktop_keys",{"keys":"enter","window":"Calculator"}],["desktop_observe",{"window":"Calculator","max_elements":15}]]

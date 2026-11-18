@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-time-and-language-settings",
+  "goal": "show time and language settings",
+  "template": "show time and language settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1747.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:53:56.6656843+00:00"
+}

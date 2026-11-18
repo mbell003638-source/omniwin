@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-gaming-settings",
+  "goal": "show gaming settings",
+  "template": "show gaming settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1302,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:54:36.2930654+00:00"
+}

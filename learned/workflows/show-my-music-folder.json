@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "name": "show-my-music-folder",
+  "description": "learned: show my music folder",
+  "saved_at": "2026-11-18T04:58:59.6902359+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "File Explorer"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "click",
+      "target": {
+        "ref": "e40998",
+        "engine": "desktop",
+        "process": "explorer.exe",
+        "window_title": "* - File Explorer",
+        "url": null,
+        "role": "treeitem",
+        "name": "Music (pinned)",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": "Home",
+            "class_name": "ShellTabWindowClass",
+            "index": 1
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "DUIViewWndClassName",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": "ProperTreeHost",
+            "name": "Control Host",
+            "class_name": "ProperTreeHost",
+            "index": 1
+          },
+          {
+            "role": "tree",
+            "automation_id": "100",
+            "name": "Navigation Pane",
+            "class_name": "SysTreeView32",
+            "index": 0
+          },
+          {
+            "role": "treeitem",
+            "automation_id": null,
+            "name": "Desktop",
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "treeitem",
+            "automation_id": null,
+            "name": "Music (pinned)",
+            "class_name": null,
+            "index": 6
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-speed-converter",
+  "goal": "show the speed converter",
+  "template": "show the speed converter",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1494.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:09:46.1242634+00:00"
+}

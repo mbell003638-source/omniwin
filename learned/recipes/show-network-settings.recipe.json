@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-network-settings",
+  "goal": "show network settings",
+  "template": "show network settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 2064.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:51:14.7982187+00:00"
+}

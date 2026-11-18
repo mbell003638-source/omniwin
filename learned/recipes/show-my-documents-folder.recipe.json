@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-documents-folder",
+  "goal": "show my documents folder",
+  "template": "show my documents folder",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1634.5,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:57:24.6444677+00:00"
+}

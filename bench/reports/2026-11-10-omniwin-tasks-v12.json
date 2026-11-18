@@ -1,0 +1,57 @@
+{
+  "started": "2026-11-10T21:20:09.5762625-05:00",
+  "status": "ran",
+  "runs_per_task": 3,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-093bb5e3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-84b29663",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5324e54a"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 3,
+      "passed": 0,
+      "failed": 3,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 3,
+      "wall_p50_s": 6.562,
+      "wall_p95_s": 6.585,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 7099.333333333333,
+      "notes": [
+        "harness read: "
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.56
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.59
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.46
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1811 @@
+{
+  "started": "2026-11-10T22:25:12.5637209-05:00",
+  "status": "ran",
+  "runs_per_task": 20,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3bdb51bb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-6eae0814",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4adfb00b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4d2326c8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4458a2e4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5e21f95b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-d2eee543",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3b3908d7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-fb8f07f5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a7e6a27b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c9d7b324",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-91256273",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-2fc395c2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-67a305b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7e338ac3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7e8088b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3ecb2e9c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7cbcc999",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-31f9afac",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-47731863",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-479c16e7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-e067b464",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-653b45ee",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-009e1bab",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-e205b13b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-3dc16345",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-29f38971",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-5ee22715",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-4e20bbb3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-2f42956c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-b615ca42",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-b145410f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-4ce05fe2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-83add0f9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-f8e9fe9a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-e2c5f366",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-773a4362",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-ac71e09d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-8ab8fe61",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-93ced3ad",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-2cd01f06",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-da3ad0a7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-35648c7b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-9489a2f8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-7ebc79b8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-26151c7a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-96878c99",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-ebb348c9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-d46d6c0d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-350e0123",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-7402fb94",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-aab4028f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-3498f895",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-b0bb9b20",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-4a742744",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-3cdfb046",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-5cc726f4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-b1e6c096",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-6ee8aad2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-d6077e62",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-fcc0411c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-3b1e81b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-3cd9d1c9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-40d96a4c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-53af345d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-0a05ffb0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-fa5b87de",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-78b90e23",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-985cdfe5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-fc11a331",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-4d45901c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-ecd5b366",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-724ca055",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-2f9cc2bd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-ec33533b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-b28ad505",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-84eb28d5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-96bac6e9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-ff1b867d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-ce449065",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-d8d67d01",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-69b6a3e1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-211bdaa6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-cc8a1162",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-beba9bed",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-e548feaf",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-3d2dd1d6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-50616004",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-6c577ff2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-54dda400",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-2b204793",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-3caaca0d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-75dbc88f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-c874be3f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-0a95900b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-87d62f29",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-59419af0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-c0be9ab7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-9778457f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-de17277f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-21faecaa",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-3dcacd9d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-69376adc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-0925948c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-9e2a02c7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-8803f290",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-0b94652e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-ec2fcf01",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-2a041e52",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-71a674e0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-3be0802e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-a177fa04",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-4b8ecc20",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-8fa4f5a8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-0f324f81",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-262c001b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-ac4340df",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-d9172d23",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-5251ddc9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-4179d243",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-84cb19f8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a2bed23f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-61e98afb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-028367e8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-4c026e52",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-1473bce6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-da34c3b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a03aae48",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-353722c2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-e0c6f09d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a55e2a17",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-2de52b3d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-78f11847",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-5f482d00",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-d1d7c4fe",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-89edb015",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-ad379b2a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-18dd03f4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-b0b4b28c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-6b90a2fc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-7b860363",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-7d2cd669",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-f3e974f7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-96e003cd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-cfc5ed3a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-2741c488",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-7e3416ab",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-c45df7a9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-aa24e2de",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-3c69d43a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-18560165",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-07a1860f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-c4990003",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-3b719b6f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-9cdfa7c0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-370ebd1a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-fb738d57",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-9844fc1c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-136a574a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-dc2369fa",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-3256b20e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-63394aec",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-eb0b61dc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-76b1dc4b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-15d1cc9b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-fbf03d40",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-77188b46",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-5830d103",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-7e5ec871",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-c91a9ecc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-0f741e33",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-05a75cc5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-b84298ad",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-382ceeb5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-b8c559ac",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-ece7da76",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-ba9b8745",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-c7507f3a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-63f797ad",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-79cd2eb9"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 2.953,
+      "wall_p95_s": 3.163,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 8005.4,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.05
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.16
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.99
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.87
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 5.778,
+      "wall_p95_s": 6.066,
+      "tool_calls_per_run": 17,
+      "chars_returned_per_run": 26115.4,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.66
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.75
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.77
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.82
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.77
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.69
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.72
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.89
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.61
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.96
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 6.07
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.77
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.85
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.82
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.87
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.78
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.72
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.71
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.83
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.8
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "task": "Notepad: select all, clear, confirm empty",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 2.784,
+      "wall_p95_s": 3.136,
+      "tool_calls_per_run": 10,
+      "chars_returned_per_run": 6017.5,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.71
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.76
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.07
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.05
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.09
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.11
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.66
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.73
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.09
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.78
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.75
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.78
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.78
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.14
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.86
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.73
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.84
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.7
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.74
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.08
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "task": "File Explorer: open a seeded folder, list file names",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 5.412,
+      "wall_p95_s": 5.893,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 18999.45,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.29
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.89
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.19
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.67
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.22
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.46
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.14
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.42
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.08
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.62
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.13
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.67
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.1
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.71
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.1
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.55
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.3
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.56
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.11
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 5.41
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "task": "File Explorer: create a folder and rename it",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 5.649,
+      "wall_p95_s": 5.808,
+      "tool_calls_per_run": 18,
+      "chars_returned_per_run": 25794.3,
+      "notes": [
+        "ok (renamed folder found on disk)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.45
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.61
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.61
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.8
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.81
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.7
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.61
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.7
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.7
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.59
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.62
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.77
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.48
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.68
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.56
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.7
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.56
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.71
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.65
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (renamed folder found on disk)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.61
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 6.18,
+      "wall_p95_s": 7.001,
+      "tool_calls_per_run": 18,
+      "chars_returned_per_run": 51306.5,
+      "notes": [
+        "ok (selection read through the Shell, not OmniWin)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.18
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.75
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.98
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.06
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.95
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.18
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.03
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.01
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.01
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.08
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.14
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.46
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.32
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.25
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.44
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.97
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.46
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.95
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 7
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.86
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 20,
+      "passed": 0,
+      "failed": 1,
+      "not_run": 19,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 1,
+      "wall_p50_s": 13.926,
+      "wall_p95_s": 14.947,
+      "tool_calls_per_run": 40.9,
+      "chars_returned_per_run": 154933.95,
+      "notes": [
+        "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+        "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.62
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.95
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.68
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.21
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.65
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.69
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.66
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.24
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.64
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.95
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.65
+        },
+        {
+          "run": 12,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 12.55
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.8
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.93
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.82
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.87
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 14
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.62
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: the Display page was reached, but Windows shows no scale percentage in a remote session (the Scale box is disabled)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.6
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "task": "Edge (W01): fill text, email, dropdown, checkbox, click Continue",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 1.771,
+      "wall_p95_s": 1.852,
+      "tool_calls_per_run": 13,
+      "chars_returned_per_run": 5328.75,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.81
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.77
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.74
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.74
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.74
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.78
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.75
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.73
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.75
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.77
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.73
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.76
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.79
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.76
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.78
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.79
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.77
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.77
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.85
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.73
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "task": "Notepad \u002B Edge: copy a line from Notepad into W01\u0027s textarea",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 3.685,
+      "wall_p95_s": 4.133,
+      "tool_calls_per_run": 16,
+      "chars_returned_per_run": 7969.9,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.72
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.71
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.65
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.73
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.73
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.67
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.66
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.63
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.69
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.67
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.05
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.66
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.68
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.68
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.71
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.71
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.68
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.13
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.64
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.65
+        }
+      ]
+    }
+  ]
+}

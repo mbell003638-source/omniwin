@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-graphing-calculator",
+  "goal": "show the graphing calculator",
+  "template": "show the graphing calculator",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1798.5,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:04:23.819595+00:00"
+}

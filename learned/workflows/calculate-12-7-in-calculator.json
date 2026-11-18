@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "name": "calculate-12-7-in-calculator",
+  "description": "learned: calculate 12+7 in calculator",
+  "saved_at": "2026-11-18T04:48:09.5367877+00:00",
+  "params": {
+    "expr": "step 2 clipboard_set value"
+  },
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Calculator"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "clipboard_set",
+      "engine": "system",
+      "action": "set",
+      "target": null,
+      "args": {},
+      "value_param": "expr",
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_keys",
+      "engine": "desktop",
+      "action": "keys",
+      "target": null,
+      "args": {
+        "keys": "ctrl+v",
+        "window": "Calculator"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_keys",
+      "engine": "desktop",
+      "action": "keys",
+      "target": null,
+      "args": {
+        "keys": "enter",
+        "window": "Calculator"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

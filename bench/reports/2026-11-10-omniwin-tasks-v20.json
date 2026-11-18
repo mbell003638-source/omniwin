@@ -1,0 +1,57 @@
+{
+  "started": "2026-11-10T21:45:41.4659676-05:00",
+  "status": "ran",
+  "runs_per_task": 3,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-ab680c08",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-26ef12e5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-23b25a65"
+  ],
+  "results": [
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 3,
+      "passed": 3,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 3,
+      "wall_p50_s": 6.058,
+      "wall_p95_s": 6.082,
+      "tool_calls_per_run": 18,
+      "chars_returned_per_run": 51235,
+      "notes": [
+        "ok (selection read through the Shell, not OmniWin)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 5.91
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.08
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok (selection read through the Shell, not OmniWin)",
+          "leftover_browser_processes": 0,
+          "seconds": 6.06
+        }
+      ]
+    }
+  ]
+}

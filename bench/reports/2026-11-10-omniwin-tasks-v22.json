@@ -1,0 +1,574 @@
+{
+  "started": "2026-11-10T21:52:13.5024729-05:00",
+  "status": "ran",
+  "runs_per_task": 60,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5297737d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-bd003755",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-98259ece",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-403ca524",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ee888999",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-06a562e7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4e6be9ec",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-3e84b317",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-71bf655d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-15e06696",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-aa2971dd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-53953372",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-87002ada",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c8bf37f6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b83ac411",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ca5940f0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7abad55e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1388ff17",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-af513a33",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9d933666",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c4e64909",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-28519b1e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-d1a82379",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-57362a89",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-178a430b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b85854b6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1a32355a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7b2a5d04",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4f7fde45",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b9753a72",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a9e556de",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7df5eaa2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-28367e39",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-018295af",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ea293ca5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-988dcc59",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-70224d33",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-786170e1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-973ce33b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-f19c7a04",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-8e0a815b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-9602f103",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-1b8b207b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c0ed9491",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ef7e3fa1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-79a0cbca",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7d810c39",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4bbb05d7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-781a7a91",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a36e036d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-75aafeeb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-fc061d2d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ee461ce7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7196302b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-f7169274",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-fb2e5789",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-97a6cb03",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-5296281a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4de7c935",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-8b4a24f2"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 60,
+      "passed": 55,
+      "failed": 5,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 91.7,
+      "success_of": 60,
+      "wall_p50_s": 2.954,
+      "wall_p95_s": 4.114,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 7993.116666666667,
+      "notes": [
+        "ok",
+        "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=330.1ms (resolve 1.3, precheck 323.3, gate 0.066, input 5.5); enter: status=unverified input_sent=true channel=keys total=60.9ms (resolve 0.012, precheck 9.3, gate 0.546, input 0.429, verify 50.6) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=152.6ms (resolve 0.011, precheck 84.8, gate 0.013, input 6.8, verify 61.0) step=s3",
+        "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=338.2ms (resolve 1.3, precheck 332.6, gate 0.066, input 4.2); enter: status=unverified input_sent=true channel=keys total=63.7ms (resolve 0.011, precheck 8.9, gate 0.533, input 0.412, verify 53.8) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=125.9ms (resolve 0.01, precheck 65.5, gate 0.012, input 4.2, verify 56.1) step=s3",
+        "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=335.2ms (resolve 1.3, precheck 329.2, gate 0.068, input 4.6); enter: status=unverified input_sent=true channel=keys total=62.5ms (resolve 0.015, precheck 9.4, gate 0.551, input 0.404, verify 52.1) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=124.9ms (resolve 0.012, precheck 62.9, gate 0.012, input 3.3, verify 58.6) step=s3",
+        "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=343.6ms (resolve 1.4, precheck 336.4, gate 0.067, input 5.7); enter: status=unverified input_sent=true channel=keys total=62.3ms (resolve 0.013, precheck 9.5, gate 0.54, input 0.43, verify 51.7) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=151.4ms (resolve 0.01, precheck 75.5, gate 0.012, input 6.0, verify 69.9) step=s3"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.01
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.84
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 9,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=330.1ms (resolve 1.3, precheck 323.3, gate 0.066, input 5.5); enter: status=unverified input_sent=true channel=keys total=60.9ms (resolve 0.012, precheck 9.3, gate 0.546, input 0.429, verify 50.6) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=152.6ms (resolve 0.011, precheck 84.8, gate 0.013, input 6.8, verify 61.0) step=s3",
+          "leftover_browser_processes": 0,
+          "seconds": 4.11
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 14,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=338.2ms (resolve 1.3, precheck 332.6, gate 0.066, input 4.2); enter: status=unverified input_sent=true channel=keys total=63.7ms (resolve 0.011, precheck 8.9, gate 0.533, input 0.412, verify 53.8) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=125.9ms (resolve 0.01, precheck 65.5, gate 0.012, input 4.2, verify 56.1) step=s3",
+          "leftover_browser_processes": 0,
+          "seconds": 4.1
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.99
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.92
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 21,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3
+        },
+        {
+          "run": 22,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.91
+        },
+        {
+          "run": 23,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 24,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.87
+        },
+        {
+          "run": 25,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 26,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 27,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 28,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 29,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 30,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.87
+        },
+        {
+          "run": 31,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 32,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 33,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 34,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=335.2ms (resolve 1.3, precheck 329.2, gate 0.068, input 4.6); enter: status=unverified input_sent=true channel=keys total=62.5ms (resolve 0.015, precheck 9.4, gate 0.551, input 0.404, verify 52.1) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=124.9ms (resolve 0.012, precheck 62.9, gate 0.012, input 3.3, verify 58.6) step=s3",
+          "leftover_browser_processes": 0,
+          "seconds": 4.07
+        },
+        {
+          "run": 35,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 36,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.03
+        },
+        {
+          "run": 37,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.98
+        },
+        {
+          "run": 38,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=343.6ms (resolve 1.4, precheck 336.4, gate 0.067, input 5.7); enter: status=unverified input_sent=true channel=keys total=62.3ms (resolve 0.013, precheck 9.5, gate 0.54, input 0.43, verify 51.7) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=151.4ms (resolve 0.01, precheck 75.5, gate 0.012, input 6.0, verify 69.9) step=s3",
+          "leftover_browser_processes": 0,
+          "seconds": 4.18
+        },
+        {
+          "run": 39,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 40,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.94
+        },
+        {
+          "run": 41,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 42,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3
+        },
+        {
+          "run": 43,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 44,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.26
+        },
+        {
+          "run": 45,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.67
+        },
+        {
+          "run": 46,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.99
+        },
+        {
+          "run": 47,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 48,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.03
+        },
+        {
+          "run": 49,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.95
+        },
+        {
+          "run": 50,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.93
+        },
+        {
+          "run": 51,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        },
+        {
+          "run": 52,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.96
+        },
+        {
+          "run": 53,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: \u0022line \\r\\nline two\u0022; read 1s later: \u0022line \\r\\nline two\u0022; type1: status=error input_sent=true reason=input_interrupted channel=unicode_typing total=342.1ms (resolve 1.3, precheck 334.2, gate 0.069, input 6.4); enter: status=unverified input_sent=true channel=keys total=65.0ms (resolve 0.013, precheck 9.6, gate 0.534, input 0.466, verify 54.4) step=s2; type2: status=confirmed input_sent=true channel=unicode_typing total=136.6ms (resolve 0.013, precheck 74.9, gate 0.006, input 5.5, verify 56.1) step=s3",
+          "leftover_browser_processes": 0,
+          "seconds": 4.21
+        },
+        {
+          "run": 54,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 55,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.05
+        },
+        {
+          "run": 56,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.03
+        },
+        {
+          "run": 57,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.9
+        },
+        {
+          "run": 58,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.89
+        },
+        {
+          "run": 59,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.97
+        },
+        {
+          "run": 60,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.88
+        }
+      ]
+    }
+  ]
+}

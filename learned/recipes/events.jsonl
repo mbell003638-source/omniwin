@@ -1,0 +1,928 @@
+{"at":"2026-11-18T04:48:09.5557538+00:00","recipe":"calculate-12-7-in-calculator","kind":"learned"}
+{"at":"2026-11-18T04:48:10.8882462+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":724.1}
+{"at":"2026-11-18T04:48:12.2687856+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":717.2}
+{"at":"2026-11-18T04:48:13.6519908+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":730.4}
+{"at":"2026-11-18T04:48:15.0472769+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":731}
+{"at":"2026-11-18T04:48:16.4714808+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":723.3}
+{"at":"2026-11-18T04:48:16.545865+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"work out {expr} on the calculator"}
+{"at":"2026-11-18T04:48:17.8655915+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":730.5}
+{"at":"2026-11-18T04:48:17.9441555+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"use the calculator for {expr}"}
+{"at":"2026-11-18T04:48:19.2967049+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":747.2}
+{"at":"2026-11-18T04:48:19.3694995+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"add up {expr} in calculator"}
+{"at":"2026-11-18T04:48:20.691607+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":735.6}
+{"at":"2026-11-18T04:48:20.7662567+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"calculator work out {expr}"}
+{"at":"2026-11-18T04:48:22.0859429+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":730.9}
+{"at":"2026-11-18T04:48:22.159112+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"find {expr} with the calculator"}
+{"at":"2026-11-18T04:48:23.4881046+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":743}
+{"at":"2026-11-18T04:48:23.5609629+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"do {expr} on the calculator"}
+{"at":"2026-11-18T04:48:24.8848599+00:00","recipe":"calculate-12-7-in-calculator","kind":"replay_ok","wall_ms":723.7}
+{"at":"2026-11-18T04:48:24.9605545+00:00","recipe":"calculate-12-7-in-calculator","kind":"alias_added","alias":"compute {expr} in calculator"}
+{"at":"2026-11-18T04:48:27.3464623+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"learned"}
+{"at":"2026-11-18T04:48:28.7014199+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":781.1}
+{"at":"2026-11-18T04:48:30.0390264+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":762.7}
+{"at":"2026-11-18T04:48:42.5652033+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":1591.6}
+{"at":"2026-11-18T04:48:43.9409268+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":769.9}
+{"at":"2026-11-18T04:48:43.9970239+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"alias_added","alias":"make a note that says {text}"}
+{"at":"2026-11-18T04:48:45.3116746+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":748.2}
+{"at":"2026-11-18T04:48:55.4376426+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":767.7}
+{"at":"2026-11-18T04:48:55.4511993+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"alias_added","alias":"start a new note with {text}"}
+{"at":"2026-11-18T04:48:56.75666+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":733.7}
+{"at":"2026-11-18T04:48:56.7708936+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"alias_added","alias":"type {text} in a new note"}
+{"at":"2026-11-18T04:48:58.0458179+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":711}
+{"at":"2026-11-18T04:48:58.0619857+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"alias_added","alias":"new notepad note saying {text}"}
+{"at":"2026-11-18T04:48:59.3673174+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":749.8}
+{"at":"2026-11-18T04:49:09.8901497+00:00","recipe":"write-a-note-saying-call-the-dentist","kind":"replay_ok","wall_ms":1159.9}
+{"at":"2026-11-18T04:49:21.0283755+00:00","recipe":"search-settings-for-display","kind":"learned"}
+{"at":"2026-11-18T04:49:23.041763+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1390.9}
+{"at":"2026-11-18T04:49:25.3185262+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1550.3}
+{"at":"2026-11-18T04:49:27.6103126+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1569.3}
+{"at":"2026-11-18T04:49:31.5083781+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1702}
+{"at":"2026-11-18T04:49:36.276369+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1676.8}
+{"at":"2026-11-18T04:49:36.4504909+00:00","recipe":"search-settings-for-display","kind":"alias_added","alias":"look up {query} in settings"}
+{"at":"2026-11-18T04:49:38.7188889+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1615.3}
+{"at":"2026-11-18T04:49:38.8265388+00:00","recipe":"search-settings-for-display","kind":"alias_added","alias":"find the {query} setting"}
+{"at":"2026-11-18T04:49:41.1698112+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1725.3}
+{"at":"2026-11-18T04:49:41.1773609+00:00","recipe":"search-settings-for-display","kind":"alias_added","alias":"search windows settings for {query}"}
+{"at":"2026-11-18T04:49:44.6704882+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":2863.6}
+{"at":"2026-11-18T04:49:44.6815809+00:00","recipe":"search-settings-for-display","kind":"alias_added","alias":"settings search {query}"}
+{"at":"2026-11-18T04:49:47.0448458+00:00","recipe":"search-settings-for-display","kind":"replay_ok","wall_ms":1728.7}
+{"at":"2026-11-18T04:49:47.1647551+00:00","recipe":"search-settings-for-display","kind":"alias_added","alias":"find {query} in settings"}
+{"at":"2026-11-18T04:49:49.8039695+00:00","recipe":"show-system-settings","kind":"learned"}
+{"at":"2026-11-18T04:49:51.9376884+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1519}
+{"at":"2026-11-18T04:49:54.340008+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1629.5}
+{"at":"2026-11-18T04:49:56.6225599+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1491.7}
+{"at":"2026-11-18T04:49:58.792365+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1388.6}
+{"at":"2026-11-18T04:50:01.183636+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1608}
+{"at":"2026-11-18T04:50:01.3552327+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"show me system settings"}
+{"at":"2026-11-18T04:50:03.4124544+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1452.1}
+{"at":"2026-11-18T04:50:03.5900952+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"take me to system settings"}
+{"at":"2026-11-18T04:50:05.8420746+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1640.9}
+{"at":"2026-11-18T04:50:05.9924024+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"bring up system settings"}
+{"at":"2026-11-18T04:50:08.2263869+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1607.6}
+{"at":"2026-11-18T04:50:08.4063172+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"pull up system settings"}
+{"at":"2026-11-18T04:50:10.6307313+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1616.4}
+{"at":"2026-11-18T04:50:10.803854+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"see system settings"}
+{"at":"2026-11-18T04:50:13.0079726+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1591}
+{"at":"2026-11-18T04:50:13.1741699+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"display system settings"}
+{"at":"2026-11-18T04:50:15.3864012+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1598.6}
+{"at":"2026-11-18T04:50:15.5540593+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"navigate to system settings"}
+{"at":"2026-11-18T04:50:17.6396148+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1464.5}
+{"at":"2026-11-18T04:50:17.8115848+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"get me system settings"}
+{"at":"2026-11-18T04:50:19.9513051+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1517}
+{"at":"2026-11-18T04:50:20.1023003+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"head to system settings"}
+{"at":"2026-11-18T04:50:22.3384102+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1617}
+{"at":"2026-11-18T04:50:22.5152759+00:00","recipe":"show-system-settings","kind":"alias_added","alias":"jump to system settings"}
+{"at":"2026-11-18T04:50:24.6082965+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1471.9}
+{"at":"2026-11-18T04:50:27.0329586+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1637.2}
+{"at":"2026-11-18T04:50:29.2771515+00:00","recipe":"show-system-settings","kind":"replay_ok","wall_ms":1447.9}
+{"at":"2026-11-18T04:50:31.9515502+00:00","recipe":"show-bluetooth-settings","kind":"learned"}
+{"at":"2026-11-18T04:50:34.2385894+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1635}
+{"at":"2026-11-18T04:50:36.3413098+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1305.2}
+{"at":"2026-11-18T04:50:38.448192+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1346.6}
+{"at":"2026-11-18T04:50:40.8666925+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1646.9}
+{"at":"2026-11-18T04:50:43.2916393+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1664.1}
+{"at":"2026-11-18T04:50:43.427356+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"show me bluetooth settings"}
+{"at":"2026-11-18T04:50:45.6983938+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1619.1}
+{"at":"2026-11-18T04:50:45.8419504+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"take me to bluetooth settings"}
+{"at":"2026-11-18T04:50:48.0905089+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1603.9}
+{"at":"2026-11-18T04:50:48.2429981+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"bring up bluetooth settings"}
+{"at":"2026-11-18T04:50:50.2189453+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1342.4}
+{"at":"2026-11-18T04:50:50.3541553+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"pull up bluetooth settings"}
+{"at":"2026-11-18T04:50:52.6878974+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1687}
+{"at":"2026-11-18T04:50:52.823635+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"see bluetooth settings"}
+{"at":"2026-11-18T04:50:55.1116657+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1643.3}
+{"at":"2026-11-18T04:50:55.2455144+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"display bluetooth settings"}
+{"at":"2026-11-18T04:50:57.484526+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1609.1}
+{"at":"2026-11-18T04:50:57.6277911+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"navigate to bluetooth settings"}
+{"at":"2026-11-18T04:50:59.890024+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1630}
+{"at":"2026-11-18T04:51:00.0373335+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"get me bluetooth settings"}
+{"at":"2026-11-18T04:51:02.3011211+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1615.4}
+{"at":"2026-11-18T04:51:02.4461099+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"head to bluetooth settings"}
+{"at":"2026-11-18T04:51:04.7257283+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1641.9}
+{"at":"2026-11-18T04:51:04.8708844+00:00","recipe":"show-bluetooth-settings","kind":"alias_added","alias":"jump to bluetooth settings"}
+{"at":"2026-11-18T04:51:07.0943147+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1600.4}
+{"at":"2026-11-18T04:51:09.5431957+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1651.6}
+{"at":"2026-11-18T04:51:11.9389517+00:00","recipe":"show-bluetooth-settings","kind":"replay_ok","wall_ms":1627.1}
+{"at":"2026-11-18T04:51:14.7989097+00:00","recipe":"show-network-settings","kind":"learned"}
+{"at":"2026-11-18T04:51:17.0004546+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1490.3}
+{"at":"2026-11-18T04:51:18.899227+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1224}
+{"at":"2026-11-18T04:51:20.96755+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1376.6}
+{"at":"2026-11-18T04:51:22.8485662+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1207.1}
+{"at":"2026-11-18T04:51:24.6964629+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1164.9}
+{"at":"2026-11-18T04:51:24.7057563+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"show me network settings"}
+{"at":"2026-11-18T04:51:26.6240002+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1264.3}
+{"at":"2026-11-18T04:51:26.7702974+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"take me to network settings"}
+{"at":"2026-11-18T04:51:28.9088646+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1517.9}
+{"at":"2026-11-18T04:51:28.9180336+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"bring up network settings"}
+{"at":"2026-11-18T04:51:31.093651+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1514.5}
+{"at":"2026-11-18T04:51:31.1027199+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"pull up network settings"}
+{"at":"2026-11-18T04:51:32.9628844+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1174.5}
+{"at":"2026-11-18T04:51:32.9717779+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"see network settings"}
+{"at":"2026-11-18T04:51:34.9820227+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1361.7}
+{"at":"2026-11-18T04:51:34.9909399+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"display network settings"}
+{"at":"2026-11-18T04:51:37.2424001+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1559}
+{"at":"2026-11-18T04:51:37.2497682+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"navigate to network settings"}
+{"at":"2026-11-18T04:51:39.3619473+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1445.8}
+{"at":"2026-11-18T04:51:39.3694949+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"get me network settings"}
+{"at":"2026-11-18T04:51:41.3992551+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1358.3}
+{"at":"2026-11-18T04:51:41.4067107+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"head to network settings"}
+{"at":"2026-11-18T04:51:43.5852539+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1521.4}
+{"at":"2026-11-18T04:51:43.5925059+00:00","recipe":"show-network-settings","kind":"alias_added","alias":"jump to network settings"}
+{"at":"2026-11-18T04:51:45.8374017+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1581.8}
+{"at":"2026-11-18T04:51:48.1544512+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1526.4}
+{"at":"2026-11-18T04:51:50.3780933+00:00","recipe":"show-network-settings","kind":"replay_ok","wall_ms":1530.2}
+{"at":"2026-11-18T04:51:52.9641818+00:00","recipe":"show-personalization-settings","kind":"learned"}
+{"at":"2026-11-18T04:51:55.1373648+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1563.2}
+{"at":"2026-11-18T04:51:57.5273983+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1623.1}
+{"at":"2026-11-18T04:51:59.9163746+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1624.8}
+{"at":"2026-11-18T04:52:02.3067261+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1627.2}
+{"at":"2026-11-18T04:52:04.6908365+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1634.6}
+{"at":"2026-11-18T04:52:04.8287728+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"show me personalization settings"}
+{"at":"2026-11-18T04:52:07.0947251+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1655.6}
+{"at":"2026-11-18T04:52:07.2386709+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"take me to personalization settings"}
+{"at":"2026-11-18T04:52:09.4481309+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1604.5}
+{"at":"2026-11-18T04:52:09.5912512+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"bring up personalization settings"}
+{"at":"2026-11-18T04:52:11.873312+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1678.9}
+{"at":"2026-11-18T04:52:12.0141766+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"pull up personalization settings"}
+{"at":"2026-11-18T04:52:14.0728074+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1462.3}
+{"at":"2026-11-18T04:52:14.2160585+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"see personalization settings"}
+{"at":"2026-11-18T04:52:16.7605007+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1936.7}
+{"at":"2026-11-18T04:52:16.8989388+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"display personalization settings"}
+{"at":"2026-11-18T04:52:19.0918879+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1580.9}
+{"at":"2026-11-18T04:52:19.2495805+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"navigate to personalization settings"}
+{"at":"2026-11-18T04:52:21.290357+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1427.9}
+{"at":"2026-11-18T04:52:21.43472+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"get me personalization settings"}
+{"at":"2026-11-18T04:52:23.3249194+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1287.6}
+{"at":"2026-11-18T04:52:23.4736069+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"head to personalization settings"}
+{"at":"2026-11-18T04:52:25.3336718+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1264.9}
+{"at":"2026-11-18T04:52:25.4806014+00:00","recipe":"show-personalization-settings","kind":"alias_added","alias":"jump to personalization settings"}
+{"at":"2026-11-18T04:52:27.5488663+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1459.7}
+{"at":"2026-11-18T04:52:29.8568597+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1560.8}
+{"at":"2026-11-18T04:52:32.2235316+00:00","recipe":"show-personalization-settings","kind":"replay_ok","wall_ms":1603.5}
+{"at":"2026-11-18T04:52:34.9507125+00:00","recipe":"show-app-settings","kind":"learned"}
+{"at":"2026-11-18T04:52:37.1874513+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1568.3}
+{"at":"2026-11-18T04:52:39.3804536+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1433}
+{"at":"2026-11-18T04:52:41.3843174+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1240}
+{"at":"2026-11-18T04:52:43.6424773+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1565.2}
+{"at":"2026-11-18T04:52:45.9172238+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1548}
+{"at":"2026-11-18T04:52:45.995764+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"show me app settings"}
+{"at":"2026-11-18T04:52:48.1547039+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1535.3}
+{"at":"2026-11-18T04:52:48.2378087+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"take me to app settings"}
+{"at":"2026-11-18T04:52:50.3414862+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1429.8}
+{"at":"2026-11-18T04:52:50.4207849+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"bring up app settings"}
+{"at":"2026-11-18T04:52:52.5824197+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1552.5}
+{"at":"2026-11-18T04:52:52.6632023+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"pull up app settings"}
+{"at":"2026-11-18T04:52:54.522738+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1239.7}
+{"at":"2026-11-18T04:52:54.6037223+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"see app settings"}
+{"at":"2026-11-18T04:52:56.8565272+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1584.4}
+{"at":"2026-11-18T04:52:56.9379912+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"display app settings"}
+{"at":"2026-11-18T04:52:59.1304759+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1583.2}
+{"at":"2026-11-18T04:52:59.2557284+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"navigate to app settings"}
+{"at":"2026-11-18T04:53:01.4838907+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1611.4}
+{"at":"2026-11-18T04:53:01.5577088+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"get me app settings"}
+{"at":"2026-11-18T04:53:03.7775406+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1548.2}
+{"at":"2026-11-18T04:53:03.8599547+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"head to app settings"}
+{"at":"2026-11-18T04:53:06.0248115+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1554.5}
+{"at":"2026-11-18T04:53:06.0352878+00:00","recipe":"show-app-settings","kind":"alias_added","alias":"jump to app settings"}
+{"at":"2026-11-18T04:53:08.2071002+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1557.7}
+{"at":"2026-11-18T04:53:10.5402522+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1576.9}
+{"at":"2026-11-18T04:53:12.908533+00:00","recipe":"show-app-settings","kind":"replay_ok","wall_ms":1613.2}
+{"at":"2026-11-18T04:53:15.3051008+00:00","recipe":"show-account-settings","kind":"learned"}
+{"at":"2026-11-18T04:53:17.6315197+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1689.1}
+{"at":"2026-11-18T04:53:19.568332+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1230.2}
+{"at":"2026-11-18T04:53:21.588509+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1354.7}
+{"at":"2026-11-18T04:53:23.8459947+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1509.6}
+{"at":"2026-11-18T04:53:25.725318+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1209.8}
+{"at":"2026-11-18T04:53:25.7767265+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"show me account settings"}
+{"at":"2026-11-18T04:53:27.7503846+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1359.4}
+{"at":"2026-11-18T04:53:27.8000649+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"take me to account settings"}
+{"at":"2026-11-18T04:53:32.2589988+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1525}
+{"at":"2026-11-18T04:53:32.3225914+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"bring up account settings"}
+{"at":"2026-11-18T04:53:34.9028645+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1205.1}
+{"at":"2026-11-18T04:53:34.9528369+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"pull up account settings"}
+{"at":"2026-11-18T04:53:36.9105689+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1346.6}
+{"at":"2026-11-18T04:53:36.9785017+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"see account settings"}
+{"at":"2026-11-18T04:53:38.9215789+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1328.1}
+{"at":"2026-11-18T04:53:38.9835004+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"display account settings"}
+{"at":"2026-11-18T04:53:41.1162687+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1521.1}
+{"at":"2026-11-18T04:53:41.1659047+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"navigate to account settings"}
+{"at":"2026-11-18T04:53:43.3087192+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1523.4}
+{"at":"2026-11-18T04:53:43.36398+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"get me account settings"}
+{"at":"2026-11-18T04:53:45.4900068+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1515.4}
+{"at":"2026-11-18T04:53:45.5377163+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"head to account settings"}
+{"at":"2026-11-18T04:53:47.6759054+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1523.8}
+{"at":"2026-11-18T04:53:47.7212101+00:00","recipe":"show-account-settings","kind":"alias_added","alias":"jump to account settings"}
+{"at":"2026-11-18T04:53:49.8771837+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1533.5}
+{"at":"2026-11-18T04:53:52.0892652+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1499.6}
+{"at":"2026-11-18T04:53:54.258553+00:00","recipe":"show-account-settings","kind":"replay_ok","wall_ms":1481}
+{"at":"2026-11-18T04:53:56.6660888+00:00","recipe":"show-time-and-language-settings","kind":"learned"}
+{"at":"2026-11-18T04:53:58.8556661+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1538.1}
+{"at":"2026-11-18T04:54:01.1064412+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1571.2}
+{"at":"2026-11-18T04:54:03.3112784+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1518.9}
+{"at":"2026-11-18T04:54:05.536394+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1525.5}
+{"at":"2026-11-18T04:54:07.7308057+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1495}
+{"at":"2026-11-18T04:54:07.7993106+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"show me time and language settings"}
+{"at":"2026-11-18T04:54:09.8235296+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1402.2}
+{"at":"2026-11-18T04:54:09.9004019+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"take me to time and language settings"}
+{"at":"2026-11-18T04:54:12.0868278+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1573.7}
+{"at":"2026-11-18T04:54:12.1649056+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"bring up time and language settings"}
+{"at":"2026-11-18T04:54:14.3360322+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1534.2}
+{"at":"2026-11-18T04:54:14.4103151+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"pull up time and language settings"}
+{"at":"2026-11-18T04:54:16.5679901+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1537.3}
+{"at":"2026-11-18T04:54:16.6335822+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"see time and language settings"}
+{"at":"2026-11-18T04:54:19.1483188+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1865.6}
+{"at":"2026-11-18T04:54:19.2251029+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"display time and language settings"}
+{"at":"2026-11-18T04:54:21.4471941+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1585.9}
+{"at":"2026-11-18T04:54:21.5205801+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"navigate to time and language settings"}
+{"at":"2026-11-18T04:54:23.7320538+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1579.3}
+{"at":"2026-11-18T04:54:23.811906+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"get me time and language settings"}
+{"at":"2026-11-18T04:54:25.9970337+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1538.9}
+{"at":"2026-11-18T04:54:26.0724238+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"head to time and language settings"}
+{"at":"2026-11-18T04:54:28.2419407+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1551.7}
+{"at":"2026-11-18T04:54:28.3187342+00:00","recipe":"show-time-and-language-settings","kind":"alias_added","alias":"jump to time and language settings"}
+{"at":"2026-11-18T04:54:30.1406489+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1208.6}
+{"at":"2026-11-18T04:54:32.0539062+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1220.8}
+{"at":"2026-11-18T04:54:34.2685221+00:00","recipe":"show-time-and-language-settings","kind":"replay_ok","wall_ms":1518.3}
+{"at":"2026-11-18T04:54:36.2935618+00:00","recipe":"show-gaming-settings","kind":"learned"}
+{"at":"2026-11-18T04:54:38.4509348+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1542.2}
+{"at":"2026-11-18T04:54:40.6291283+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1496}
+{"at":"2026-11-18T04:54:42.5290034+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1221.2}
+{"at":"2026-11-18T04:54:44.4232199+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1192}
+{"at":"2026-11-18T04:54:46.6424901+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1540.4}
+{"at":"2026-11-18T04:54:46.7023362+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"show me gaming settings"}
+{"at":"2026-11-18T04:54:48.5118977+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1205.6}
+{"at":"2026-11-18T04:54:48.5798437+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"take me to gaming settings"}
+{"at":"2026-11-18T04:54:50.6864901+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1506.9}
+{"at":"2026-11-18T04:54:50.7435762+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"bring up gaming settings"}
+{"at":"2026-11-18T04:54:52.8695218+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1509.2}
+{"at":"2026-11-18T04:54:52.9266877+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"pull up gaming settings"}
+{"at":"2026-11-18T04:54:55.062381+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1517}
+{"at":"2026-11-18T04:54:55.1186203+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"see gaming settings"}
+{"at":"2026-11-18T04:54:57.2823598+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1551.5}
+{"at":"2026-11-18T04:54:57.3394245+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"display gaming settings"}
+{"at":"2026-11-18T04:54:59.489834+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1536.9}
+{"at":"2026-11-18T04:54:59.5468286+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"navigate to gaming settings"}
+{"at":"2026-11-18T04:55:01.6135551+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1448.9}
+{"at":"2026-11-18T04:55:01.6712917+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"get me gaming settings"}
+{"at":"2026-11-18T04:55:03.7851079+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1501.4}
+{"at":"2026-11-18T04:55:03.8430559+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"head to gaming settings"}
+{"at":"2026-11-18T04:55:06.008486+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1535.8}
+{"at":"2026-11-18T04:55:06.067684+00:00","recipe":"show-gaming-settings","kind":"alias_added","alias":"jump to gaming settings"}
+{"at":"2026-11-18T04:55:08.0857254+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1388.7}
+{"at":"2026-11-18T04:55:10.2101553+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1447.5}
+{"at":"2026-11-18T04:55:12.1487196+00:00","recipe":"show-gaming-settings","kind":"replay_ok","wall_ms":1255.9}
+{"at":"2026-11-18T04:55:14.7072038+00:00","recipe":"show-accessibility-settings","kind":"learned"}
+{"at":"2026-11-18T04:55:16.9593014+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1623.3}
+{"at":"2026-11-18T04:55:19.3134712+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1606.9}
+{"at":"2026-11-18T04:55:21.5117582+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1438.9}
+{"at":"2026-11-18T04:55:23.5559269+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1281.8}
+{"at":"2026-11-18T04:55:25.8892102+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1566.3}
+{"at":"2026-11-18T04:55:26.0502556+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"show me accessibility settings"}
+{"at":"2026-11-18T04:55:28.2803386+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1599.9}
+{"at":"2026-11-18T04:55:28.4223252+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"take me to accessibility settings"}
+{"at":"2026-11-18T04:55:30.6084212+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1574.9}
+{"at":"2026-11-18T04:55:30.7687681+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"bring up accessibility settings"}
+{"at":"2026-11-18T04:55:33.1446291+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1734.8}
+{"at":"2026-11-18T04:55:33.2809806+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"pull up accessibility settings"}
+{"at":"2026-11-18T04:55:35.1790996+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1278.8}
+{"at":"2026-11-18T04:55:35.3280961+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"see accessibility settings"}
+{"at":"2026-11-18T04:55:37.5385621+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1598.9}
+{"at":"2026-11-18T04:55:37.6914612+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"display accessibility settings"}
+{"at":"2026-11-18T04:55:39.9225088+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1606.7}
+{"at":"2026-11-18T04:55:40.0864343+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"navigate to accessibility settings"}
+{"at":"2026-11-18T04:55:42.3152173+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1605.2}
+{"at":"2026-11-18T04:55:42.4531639+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"get me accessibility settings"}
+{"at":"2026-11-18T04:55:44.6796459+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1598.8}
+{"at":"2026-11-18T04:55:44.8366479+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"head to accessibility settings"}
+{"at":"2026-11-18T04:55:47.0565398+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1602.4}
+{"at":"2026-11-18T04:55:47.210436+00:00","recipe":"show-accessibility-settings","kind":"alias_added","alias":"jump to accessibility settings"}
+{"at":"2026-11-18T04:55:49.3266737+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1492.6}
+{"at":"2026-11-18T04:55:51.7029049+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1591.1}
+{"at":"2026-11-18T04:55:53.8925771+00:00","recipe":"show-accessibility-settings","kind":"replay_ok","wall_ms":1420.4}
+{"at":"2026-11-18T04:55:56.6056679+00:00","recipe":"show-privacy-settings","kind":"learned"}
+{"at":"2026-11-18T04:55:58.5629012+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1342.1}
+{"at":"2026-11-18T04:56:01.0738095+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1738.3}
+{"at":"2026-11-18T04:56:03.3904505+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1554.1}
+{"at":"2026-11-18T04:56:05.8695881+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1711.7}
+{"at":"2026-11-18T04:56:08.5009531+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1862.8}
+{"at":"2026-11-18T04:56:08.6566897+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"show me privacy settings"}
+{"at":"2026-11-18T04:56:10.8497373+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1539}
+{"at":"2026-11-18T04:56:10.9995737+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"take me to privacy settings"}
+{"at":"2026-11-18T04:56:13.1303966+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1511.1}
+{"at":"2026-11-18T04:56:13.2775875+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"bring up privacy settings"}
+{"at":"2026-11-18T04:56:15.4521736+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1548.6}
+{"at":"2026-11-18T04:56:15.4594556+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"pull up privacy settings"}
+{"at":"2026-11-18T04:56:17.7494062+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1670.9}
+{"at":"2026-11-18T04:56:17.896813+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"see privacy settings"}
+{"at":"2026-11-18T04:56:20.4945377+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1968}
+{"at":"2026-11-18T04:56:20.6426213+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"display privacy settings"}
+{"at":"2026-11-18T04:56:22.6810919+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1410.3}
+{"at":"2026-11-18T04:56:22.6900968+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"navigate to privacy settings"}
+{"at":"2026-11-18T04:56:24.7952156+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1499.6}
+{"at":"2026-11-18T04:56:24.9392534+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"get me privacy settings"}
+{"at":"2026-11-18T04:56:26.9885692+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1421.9}
+{"at":"2026-11-18T04:56:26.9954062+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"head to privacy settings"}
+{"at":"2026-11-18T04:56:29.3197392+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1689.8}
+{"at":"2026-11-18T04:56:29.4694656+00:00","recipe":"show-privacy-settings","kind":"alias_added","alias":"jump to privacy settings"}
+{"at":"2026-11-18T04:56:31.6394404+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1540}
+{"at":"2026-11-18T04:56:34.1400023+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1728.6}
+{"at":"2026-11-18T04:56:36.6344309+00:00","recipe":"show-privacy-settings","kind":"replay_ok","wall_ms":1720.8}
+{"at":"2026-11-18T04:56:39.2020673+00:00","recipe":"show-windows-update-settings","kind":"learned"}
+{"at":"2026-11-18T04:56:41.6712526+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1560.3}
+{"at":"2026-11-18T04:56:45.8340393+00:00","recipe":"show-windows-update-settings","kind":"replay_stopped","step":2,"wall_ms":3203.3}
+{"at":"2026-11-18T04:56:49.8296288+00:00","recipe":"show-windows-update-settings","kind":"replay_stopped","step":2,"wall_ms":3224.9}
+{"at":"2026-11-18T04:56:52.0315597+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1604.5}
+{"at":"2026-11-18T04:56:52.1953277+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"show me windows update settings"}
+{"at":"2026-11-18T04:56:54.66665+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1674.2}
+{"at":"2026-11-18T04:56:54.7943942+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"take me to windows update settings"}
+{"at":"2026-11-18T04:56:57.231144+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1647.4}
+{"at":"2026-11-18T04:56:57.414133+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"bring up windows update settings"}
+{"at":"2026-11-18T04:56:59.6309353+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1416.5}
+{"at":"2026-11-18T04:56:59.8259545+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"pull up windows update settings"}
+{"at":"2026-11-18T04:57:02.2042041+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1584.1}
+{"at":"2026-11-18T04:57:02.3472061+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"see windows update settings"}
+{"at":"2026-11-18T04:57:04.6611846+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1526.7}
+{"at":"2026-11-18T04:57:04.8334757+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"display windows update settings"}
+{"at":"2026-11-18T04:57:07.0414896+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1416.4}
+{"at":"2026-11-18T04:57:07.2141531+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"navigate to windows update settings"}
+{"at":"2026-11-18T04:57:09.4437296+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1442.1}
+{"at":"2026-11-18T04:57:09.6072687+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"get me windows update settings"}
+{"at":"2026-11-18T04:57:12.0076711+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1606.2}
+{"at":"2026-11-18T04:57:12.1944065+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"head to windows update settings"}
+{"at":"2026-11-18T04:57:14.563091+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1581.7}
+{"at":"2026-11-18T04:57:14.7573217+00:00","recipe":"show-windows-update-settings","kind":"alias_added","alias":"jump to windows update settings"}
+{"at":"2026-11-18T04:57:17.0546753+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1502.7}
+{"at":"2026-11-18T04:57:19.3029743+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1268.9}
+{"at":"2026-11-18T04:57:22.0200909+00:00","recipe":"show-windows-update-settings","kind":"replay_ok","wall_ms":1727.9}
+{"at":"2026-11-18T04:57:24.6453674+00:00","recipe":"show-my-documents-folder","kind":"learned"}
+{"at":"2026-11-18T04:57:26.9108264+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1663.8}
+{"at":"2026-11-18T04:57:29.8454655+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":2206.5}
+{"at":"2026-11-18T04:57:31.8531351+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1279.5}
+{"at":"2026-11-18T04:57:37.241972+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":2304.2}
+{"at":"2026-11-18T04:57:38.9699636+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":997}
+{"at":"2026-11-18T04:57:39.1036361+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"show me my documents folder"}
+{"at":"2026-11-18T04:57:41.4129233+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1711.1}
+{"at":"2026-11-18T04:57:41.5599325+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"take me to my documents folder"}
+{"at":"2026-11-18T04:57:44.467201+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":2304.5}
+{"at":"2026-11-18T04:57:44.6058096+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"bring up my documents folder"}
+{"at":"2026-11-18T04:57:46.1797864+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":980.2}
+{"at":"2026-11-18T04:57:46.325585+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"pull up my documents folder"}
+{"at":"2026-11-18T04:57:48.497675+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1579.4}
+{"at":"2026-11-18T04:57:48.633024+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"see my documents folder"}
+{"at":"2026-11-18T04:57:51.3905042+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":2165.8}
+{"at":"2026-11-18T04:57:51.5390414+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"display my documents folder"}
+{"at":"2026-11-18T04:57:53.1425575+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":974.8}
+{"at":"2026-11-18T04:57:53.152396+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"navigate to my documents folder"}
+{"at":"2026-11-18T04:57:55.3077061+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1553}
+{"at":"2026-11-18T04:57:55.4496466+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"get me my documents folder"}
+{"at":"2026-11-18T04:57:58.3767438+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":2330.9}
+{"at":"2026-11-18T04:57:58.523075+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"head to my documents folder"}
+{"at":"2026-11-18T04:58:00.131465+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1004.4}
+{"at":"2026-11-18T04:58:00.2659096+00:00","recipe":"show-my-documents-folder","kind":"alias_added","alias":"jump to my documents folder"}
+{"at":"2026-11-18T04:58:02.5450116+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1686.2}
+{"at":"2026-11-18T04:58:05.364031+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":2086.3}
+{"at":"2026-11-18T04:58:07.1490518+00:00","recipe":"show-my-documents-folder","kind":"replay_ok","wall_ms":1048.8}
+{"at":"2026-11-18T04:58:12.602914+00:00","recipe":"show-my-pictures-folder","kind":"learned"}
+{"at":"2026-11-18T04:58:14.1633894+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":954.2}
+{"at":"2026-11-18T04:58:16.4250665+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1658.1}
+{"at":"2026-11-18T04:58:19.3895504+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":2382.4}
+{"at":"2026-11-18T04:58:23.0844988+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1412.4}
+{"at":"2026-11-18T04:58:27.9566985+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1925.9}
+{"at":"2026-11-18T04:58:28.0793481+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"show me my pictures folder"}
+{"at":"2026-11-18T04:58:29.6736234+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":976.8}
+{"at":"2026-11-18T04:58:29.7845553+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"take me to my pictures folder"}
+{"at":"2026-11-18T04:58:32.0578753+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1682.7}
+{"at":"2026-11-18T04:58:32.072558+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"bring up my pictures folder"}
+{"at":"2026-11-18T04:58:34.9819125+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":2323.3}
+{"at":"2026-11-18T04:58:35.0912726+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"pull up my pictures folder"}
+{"at":"2026-11-18T04:58:36.6439311+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":955}
+{"at":"2026-11-18T04:58:36.6621132+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"see my pictures folder"}
+{"at":"2026-11-18T04:58:38.8841902+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1632.9}
+{"at":"2026-11-18T04:58:38.9922472+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"display my pictures folder"}
+{"at":"2026-11-18T04:58:41.4341519+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1851.9}
+{"at":"2026-11-18T04:58:41.5462794+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"navigate to my pictures folder"}
+{"at":"2026-11-18T04:58:43.1250876+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":987}
+{"at":"2026-11-18T04:58:43.2396771+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"get me my pictures folder"}
+{"at":"2026-11-18T04:58:45.7835472+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1949.3}
+{"at":"2026-11-18T04:58:45.8928956+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"head to my pictures folder"}
+{"at":"2026-11-18T04:58:50.2696005+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":978.2}
+{"at":"2026-11-18T04:58:50.2767175+00:00","recipe":"show-my-pictures-folder","kind":"alias_added","alias":"jump to my pictures folder"}
+{"at":"2026-11-18T04:58:53.1213034+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":1457.1}
+{"at":"2026-11-18T04:58:55.9142865+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":2086.4}
+{"at":"2026-11-18T04:58:57.5790413+00:00","recipe":"show-my-pictures-folder","kind":"replay_ok","wall_ms":967.2}
+{"at":"2026-11-18T04:58:59.6969609+00:00","recipe":"show-my-music-folder","kind":"learned"}
+{"at":"2026-11-18T04:59:02.4169627+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":2122.6}
+{"at":"2026-11-18T04:59:04.0940158+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":968.7}
+{"at":"2026-11-18T04:59:06.4110247+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1720.1}
+{"at":"2026-11-18T04:59:09.3855835+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":2273.4}
+{"at":"2026-11-18T04:59:11.0673761+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":977.6}
+{"at":"2026-11-18T04:59:11.0750371+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"show me my music folder"}
+{"at":"2026-11-18T04:59:13.3208255+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1650.9}
+{"at":"2026-11-18T04:59:13.4411634+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"take me to my music folder"}
+{"at":"2026-11-18T04:59:15.9282634+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1901.3}
+{"at":"2026-11-18T04:59:16.0461263+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"bring up my music folder"}
+{"at":"2026-11-18T04:59:17.6261591+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":973.8}
+{"at":"2026-11-18T04:59:17.6357023+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"pull up my music folder"}
+{"at":"2026-11-18T04:59:19.8709364+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1645.5}
+{"at":"2026-11-18T04:59:19.9818768+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"see my music folder"}
+{"at":"2026-11-18T04:59:22.893086+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":2323.3}
+{"at":"2026-11-18T04:59:22.9917409+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"display my music folder"}
+{"at":"2026-11-18T04:59:24.8722271+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1286.6}
+{"at":"2026-11-18T04:59:24.8845202+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"navigate to my music folder"}
+{"at":"2026-11-18T04:59:26.9628413+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1475.8}
+{"at":"2026-11-18T04:59:26.9772483+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"get me my music folder"}
+{"at":"2026-11-18T04:59:29.6661582+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":2094.2}
+{"at":"2026-11-18T04:59:29.7836663+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"head to my music folder"}
+{"at":"2026-11-18T04:59:31.3957804+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1016.2}
+{"at":"2026-11-18T04:59:31.4129107+00:00","recipe":"show-my-music-folder","kind":"alias_added","alias":"jump to my music folder"}
+{"at":"2026-11-18T04:59:33.6625646+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":1651.2}
+{"at":"2026-11-18T04:59:36.6428024+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":2277.8}
+{"at":"2026-11-18T04:59:38.3131144+00:00","recipe":"show-my-music-folder","kind":"replay_ok","wall_ms":974}
+{"at":"2026-11-18T04:59:40.5816081+00:00","recipe":"show-my-videos-folder","kind":"learned"}
+{"at":"2026-11-18T04:59:43.5100089+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":2317.6}
+{"at":"2026-11-18T04:59:45.1809105+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":970.3}
+{"at":"2026-11-18T04:59:47.4508328+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1673.9}
+{"at":"2026-11-18T04:59:49.9727849+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1827.4}
+{"at":"2026-11-18T04:59:51.6950883+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1010.5}
+{"at":"2026-11-18T04:59:51.8043673+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"show me my videos folder"}
+{"at":"2026-11-18T04:59:54.0935299+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1680.2}
+{"at":"2026-11-18T04:59:54.1933775+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"take me to my videos folder"}
+{"at":"2026-11-18T04:59:57.0007666+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":2207.5}
+{"at":"2026-11-18T04:59:57.1039284+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"bring up my videos folder"}
+{"at":"2026-11-18T04:59:58.7646828+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1064.2}
+{"at":"2026-11-18T04:59:58.8780545+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"pull up my videos folder"}
+{"at":"2026-11-18T05:00:01.1266456+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1656.9}
+{"at":"2026-11-18T05:00:01.1343774+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"see my videos folder"}
+{"at":"2026-11-18T05:00:03.8109153+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":2082.3}
+{"at":"2026-11-18T05:00:03.9195727+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"display my videos folder"}
+{"at":"2026-11-18T05:00:05.4852834+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":968.1}
+{"at":"2026-11-18T05:00:05.5953366+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"navigate to my videos folder"}
+{"at":"2026-11-18T05:00:07.8416829+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1655.3}
+{"at":"2026-11-18T05:00:07.8518171+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"get me my videos folder"}
+{"at":"2026-11-18T05:00:10.724413+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":2274.3}
+{"at":"2026-11-18T05:00:10.8366752+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"head to my videos folder"}
+{"at":"2026-11-18T05:00:12.4290496+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":992.2}
+{"at":"2026-11-18T05:00:12.5376743+00:00","recipe":"show-my-videos-folder","kind":"alias_added","alias":"jump to my videos folder"}
+{"at":"2026-11-18T05:00:14.6174723+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":1487.6}
+{"at":"2026-11-18T05:00:17.3309711+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":2101.2}
+{"at":"2026-11-18T05:00:19.0247896+00:00","recipe":"show-my-videos-folder","kind":"replay_ok","wall_ms":970.5}
+{"at":"2026-11-18T05:00:21.4838573+00:00","recipe":"show-my-desktop-folder","kind":"learned"}
+{"at":"2026-11-18T05:00:24.4906973+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":2400.5}
+{"at":"2026-11-18T05:00:26.5939265+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1350.2}
+{"at":"2026-11-18T05:00:28.6841194+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1499.8}
+{"at":"2026-11-18T05:00:31.4223521+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":2150.3}
+{"at":"2026-11-18T05:00:33.1917027+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":998.3}
+{"at":"2026-11-18T05:00:33.2010509+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"show me my desktop folder"}
+{"at":"2026-11-18T05:00:35.3368894+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1538.8}
+{"at":"2026-11-18T05:00:35.3456443+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"take me to my desktop folder"}
+{"at":"2026-11-18T05:00:38.0383776+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":2098.6}
+{"at":"2026-11-18T05:00:38.2040147+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"bring up my desktop folder"}
+{"at":"2026-11-18T05:00:39.8007968+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":999}
+{"at":"2026-11-18T05:00:39.8088614+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"pull up my desktop folder"}
+{"at":"2026-11-18T05:00:42.0662866+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1665.1}
+{"at":"2026-11-18T05:00:42.0734826+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"see my desktop folder"}
+{"at":"2026-11-18T05:00:44.704188+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":2028.6}
+{"at":"2026-11-18T05:00:44.8696988+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"display my desktop folder"}
+{"at":"2026-11-18T05:00:46.4683942+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":991.5}
+{"at":"2026-11-18T05:00:46.4764497+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"navigate to my desktop folder"}
+{"at":"2026-11-18T05:00:48.9482221+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1873}
+{"at":"2026-11-18T05:00:48.9551036+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"get me my desktop folder"}
+{"at":"2026-11-18T05:00:51.7400458+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":2184.9}
+{"at":"2026-11-18T05:00:51.9024784+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"head to my desktop folder"}
+{"at":"2026-11-18T05:00:53.5129132+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1001.4}
+{"at":"2026-11-18T05:00:53.5199962+00:00","recipe":"show-my-desktop-folder","kind":"alias_added","alias":"jump to my desktop folder"}
+{"at":"2026-11-18T05:00:55.7911405+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1677.5}
+{"at":"2026-11-18T05:00:58.8114072+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":2414.4}
+{"at":"2026-11-18T05:01:00.5683406+00:00","recipe":"show-my-desktop-folder","kind":"replay_ok","wall_ms":1008.9}
+{"at":"2026-11-18T05:01:02.4008115+00:00","recipe":"show-the-stopwatch","kind":"learned"}
+{"at":"2026-11-18T05:01:03.6083556+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":616.5}
+{"at":"2026-11-18T05:01:05.5468949+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":1351.1}
+{"at":"2026-11-18T05:01:06.7189507+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":586.8}
+{"at":"2026-11-18T05:01:07.9258115+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":613.9}
+{"at":"2026-11-18T05:01:09.1231804+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":605.4}
+{"at":"2026-11-18T05:01:09.1322673+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"show me the stopwatch"}
+{"at":"2026-11-18T05:01:10.6824589+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":954.2}
+{"at":"2026-11-18T05:01:10.6921473+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"take me to the stopwatch"}
+{"at":"2026-11-18T05:01:12.2228644+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":939.7}
+{"at":"2026-11-18T05:01:12.2299928+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"bring up the stopwatch"}
+{"at":"2026-11-18T05:01:13.3971439+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":576.1}
+{"at":"2026-11-18T05:01:13.4039293+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"pull up the stopwatch"}
+{"at":"2026-11-18T05:01:14.6009615+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":612.3}
+{"at":"2026-11-18T05:01:14.6082083+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"see the stopwatch"}
+{"at":"2026-11-18T05:01:15.7765071+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":568.9}
+{"at":"2026-11-18T05:01:15.7837312+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"display the stopwatch"}
+{"at":"2026-11-18T05:01:17.3367156+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":954.6}
+{"at":"2026-11-18T05:01:17.3466701+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"navigate to the stopwatch"}
+{"at":"2026-11-18T05:01:18.500985+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":567.7}
+{"at":"2026-11-18T05:01:18.509852+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"get me the stopwatch"}
+{"at":"2026-11-18T05:01:19.7011619+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":595.6}
+{"at":"2026-11-18T05:01:19.7101517+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"head to the stopwatch"}
+{"at":"2026-11-18T05:01:20.9067633+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":609}
+{"at":"2026-11-18T05:01:20.9143885+00:00","recipe":"show-the-stopwatch","kind":"alias_added","alias":"jump to the stopwatch"}
+{"at":"2026-11-18T05:01:22.082312+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":567.8}
+{"at":"2026-11-18T05:01:23.2725739+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":598.1}
+{"at":"2026-11-18T05:01:24.4425451+00:00","recipe":"show-the-stopwatch","kind":"replay_ok","wall_ms":558.5}
+{"at":"2026-11-18T05:01:25.8215167+00:00","recipe":"show-the-timer","kind":"learned"}
+{"at":"2026-11-18T05:01:27.3926165+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":977.4}
+{"at":"2026-11-18T05:01:28.6515245+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":670.8}
+{"at":"2026-11-18T05:01:29.9305669+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":681.4}
+{"at":"2026-11-18T05:01:31.196219+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":661.1}
+{"at":"2026-11-18T05:01:32.4716115+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":671.8}
+{"at":"2026-11-18T05:01:32.479119+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"show me the timer"}
+{"at":"2026-11-18T05:01:33.7267438+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":660.2}
+{"at":"2026-11-18T05:01:33.7345996+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"take me to the timer"}
+{"at":"2026-11-18T05:01:35.0138408+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":679.9}
+{"at":"2026-11-18T05:01:35.0208778+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"bring up the timer"}
+{"at":"2026-11-18T05:01:36.2958504+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":674.9}
+{"at":"2026-11-18T05:01:36.3060351+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"pull up the timer"}
+{"at":"2026-11-18T05:01:37.5758561+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":664.2}
+{"at":"2026-11-18T05:01:37.5835729+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"see the timer"}
+{"at":"2026-11-18T05:01:38.8639629+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":676.8}
+{"at":"2026-11-18T05:01:38.8713539+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"display the timer"}
+{"at":"2026-11-18T05:01:40.1664507+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":694.6}
+{"at":"2026-11-18T05:01:40.1736174+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"navigate to the timer"}
+{"at":"2026-11-18T05:01:41.4539474+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":690.4}
+{"at":"2026-11-18T05:01:41.4608539+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"get me the timer"}
+{"at":"2026-11-18T05:01:42.7459968+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":680}
+{"at":"2026-11-18T05:01:42.7534573+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"head to the timer"}
+{"at":"2026-11-18T05:01:44.0167004+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":664}
+{"at":"2026-11-18T05:01:44.0247334+00:00","recipe":"show-the-timer","kind":"alias_added","alias":"jump to the timer"}
+{"at":"2026-11-18T05:01:45.293054+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":676}
+{"at":"2026-11-18T05:01:46.5399044+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":645.9}
+{"at":"2026-11-18T05:01:47.8140212+00:00","recipe":"show-the-timer","kind":"replay_ok","wall_ms":669.7}
+{"at":"2026-11-18T05:01:49.2173056+00:00","recipe":"show-my-alarms","kind":"learned"}
+{"at":"2026-11-18T05:01:50.4332276+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":622.7}
+{"at":"2026-11-18T05:01:51.6720754+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":636.1}
+{"at":"2026-11-18T05:01:52.8946691+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":623.8}
+{"at":"2026-11-18T05:01:54.0995075+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":605.3}
+{"at":"2026-11-18T05:01:55.3343156+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":634.3}
+{"at":"2026-11-18T05:01:55.3414538+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"show me my alarms"}
+{"at":"2026-11-18T05:01:56.5711867+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":638.3}
+{"at":"2026-11-18T05:01:56.5802207+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"take me to my alarms"}
+{"at":"2026-11-18T05:01:57.8637017+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":694.5}
+{"at":"2026-11-18T05:01:57.9132854+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"bring up my alarms"}
+{"at":"2026-11-18T05:01:59.1002685+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":599.7}
+{"at":"2026-11-18T05:01:59.1076253+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"pull up my alarms"}
+{"at":"2026-11-18T05:02:00.3417702+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":634.7}
+{"at":"2026-11-18T05:02:00.3497254+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"see my alarms"}
+{"at":"2026-11-18T05:02:01.5756724+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":634}
+{"at":"2026-11-18T05:02:01.5825137+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"display my alarms"}
+{"at":"2026-11-18T05:02:02.8018421+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":625.8}
+{"at":"2026-11-18T05:02:02.8113245+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"navigate to my alarms"}
+{"at":"2026-11-18T05:02:04.0625629+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":653.4}
+{"at":"2026-11-18T05:02:04.0700662+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"get me my alarms"}
+{"at":"2026-11-18T05:02:05.2900792+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":622.8}
+{"at":"2026-11-18T05:02:05.3386676+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"head to my alarms"}
+{"at":"2026-11-18T05:02:06.5813522+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":645.3}
+{"at":"2026-11-18T05:02:06.5919828+00:00","recipe":"show-my-alarms","kind":"alias_added","alias":"jump to my alarms"}
+{"at":"2026-11-18T05:02:07.8075939+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":625.5}
+{"at":"2026-11-18T05:02:09.0150355+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":591.2}
+{"at":"2026-11-18T05:02:10.2556333+00:00","recipe":"show-my-alarms","kind":"replay_ok","wall_ms":640.8}
+{"at":"2026-11-18T05:02:11.8525596+00:00","recipe":"show-the-world-clock","kind":"learned"}
+{"at":"2026-11-18T05:02:13.8520677+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1292.7}
+{"at":"2026-11-18T05:02:15.7696614+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1274.4}
+{"at":"2026-11-18T05:02:17.6876514+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1260}
+{"at":"2026-11-18T05:02:19.6252298+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1274.3}
+{"at":"2026-11-18T05:02:21.5703618+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1281.2}
+{"at":"2026-11-18T05:02:21.5803406+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"show me the world clock"}
+{"at":"2026-11-18T05:02:23.5151883+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1268.3}
+{"at":"2026-11-18T05:02:23.5323013+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"take me to the world clock"}
+{"at":"2026-11-18T05:02:25.4728443+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1272.3}
+{"at":"2026-11-18T05:02:25.479999+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"bring up the world clock"}
+{"at":"2026-11-18T05:02:27.399779+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1261.5}
+{"at":"2026-11-18T05:02:27.4070149+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"pull up the world clock"}
+{"at":"2026-11-18T05:02:29.2714063+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1205.7}
+{"at":"2026-11-18T05:02:29.2812234+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"see the world clock"}
+{"at":"2026-11-18T05:02:31.217495+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1268.1}
+{"at":"2026-11-18T05:02:31.226833+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"display the world clock"}
+{"at":"2026-11-18T05:02:33.2112129+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1295}
+{"at":"2026-11-18T05:02:33.2207125+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"navigate to the world clock"}
+{"at":"2026-11-18T05:02:35.1506039+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1271.6}
+{"at":"2026-11-18T05:02:35.1654876+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"get me the world clock"}
+{"at":"2026-11-18T05:02:37.13656+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1297}
+{"at":"2026-11-18T05:02:37.1441217+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"head to the world clock"}
+{"at":"2026-11-18T05:02:38.7445361+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":926.4}
+{"at":"2026-11-18T05:02:38.7550893+00:00","recipe":"show-the-world-clock","kind":"alias_added","alias":"jump to the world clock"}
+{"at":"2026-11-18T05:02:40.3860711+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":953.3}
+{"at":"2026-11-18T05:02:42.3956153+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1328.3}
+{"at":"2026-11-18T05:02:44.1260808+00:00","recipe":"show-the-world-clock","kind":"replay_ok","wall_ms":1055.1}
+{"at":"2026-11-18T05:02:46.1084749+00:00","recipe":"show-focus-sessions","kind":"learned"}
+{"at":"2026-11-18T05:02:47.4497662+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":633.4}
+{"at":"2026-11-18T05:02:48.6784174+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":640}
+{"at":"2026-11-18T05:02:49.9767406+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":690.9}
+{"at":"2026-11-18T05:02:51.2505989+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":622.8}
+{"at":"2026-11-18T05:02:52.4348181+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":586}
+{"at":"2026-11-18T05:02:52.4423804+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"show me focus sessions"}
+{"at":"2026-11-18T05:02:53.6837779+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":628.4}
+{"at":"2026-11-18T05:02:53.6927432+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"take me to focus sessions"}
+{"at":"2026-11-18T05:02:54.9123971+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":622.3}
+{"at":"2026-11-18T05:02:54.9233246+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"bring up focus sessions"}
+{"at":"2026-11-18T05:02:56.1549861+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":637.1}
+{"at":"2026-11-18T05:02:56.1628156+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"pull up focus sessions"}
+{"at":"2026-11-18T05:02:57.3886009+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":626.9}
+{"at":"2026-11-18T05:02:57.3968484+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"see focus sessions"}
+{"at":"2026-11-18T05:02:58.6314887+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":632.4}
+{"at":"2026-11-18T05:02:58.6392759+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"display focus sessions"}
+{"at":"2026-11-18T05:02:59.8843441+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":646.7}
+{"at":"2026-11-18T05:02:59.8941222+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"navigate to focus sessions"}
+{"at":"2026-11-18T05:03:01.127237+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":632.4}
+{"at":"2026-11-18T05:03:01.1365282+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"get me focus sessions"}
+{"at":"2026-11-18T05:03:02.3733523+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":625.8}
+{"at":"2026-11-18T05:03:02.3803529+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"head to focus sessions"}
+{"at":"2026-11-18T05:03:03.6147272+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":633.1}
+{"at":"2026-11-18T05:03:03.6221055+00:00","recipe":"show-focus-sessions","kind":"alias_added","alias":"jump to focus sessions"}
+{"at":"2026-11-18T05:03:04.8768242+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":640.6}
+{"at":"2026-11-18T05:03:06.1185588+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":634}
+{"at":"2026-11-18T05:03:07.3483153+00:00","recipe":"show-focus-sessions","kind":"replay_ok","wall_ms":621.7}
+{"at":"2026-11-18T05:03:09.7326+00:00","recipe":"show-the-standard-calculator","kind":"learned"}
+{"at":"2026-11-18T05:03:11.6068093+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1280.9}
+{"at":"2026-11-18T05:03:13.4737155+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1248.9}
+{"at":"2026-11-18T05:03:15.3361499+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1240.6}
+{"at":"2026-11-18T05:03:17.237989+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1317.5}
+{"at":"2026-11-18T05:03:19.2002668+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1321.2}
+{"at":"2026-11-18T05:03:21.0966578+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1287.8}
+{"at":"2026-11-18T05:03:23.0641899+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1321.8}
+{"at":"2026-11-18T05:03:25.0589565+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1335.6}
+{"at":"2026-11-18T05:03:26.9689686+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1300.7}
+{"at":"2026-11-18T05:03:28.9192691+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1305.3}
+{"at":"2026-11-18T05:03:31.2778976+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1701.3}
+{"at":"2026-11-18T05:03:33.2408404+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1333.3}
+{"at":"2026-11-18T05:03:35.1026571+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1266.5}
+{"at":"2026-11-18T05:03:37.1203412+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1370.1}
+{"at":"2026-11-18T05:03:39.0632301+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1297.6}
+{"at":"2026-11-18T05:03:40.9731972+00:00","recipe":"show-the-standard-calculator","kind":"replay_ok","wall_ms":1283.8}
+{"at":"2026-11-18T05:03:42.7366136+00:00","recipe":"show-the-scientific-calculator","kind":"learned"}
+{"at":"2026-11-18T05:03:44.8182941+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1498.6}
+{"at":"2026-11-18T05:03:47.0771698+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1582.2}
+{"at":"2026-11-18T05:03:51.4324374+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1418.7}
+{"at":"2026-11-18T05:03:54.3153313+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1456.2}
+{"at":"2026-11-18T05:03:56.3482778+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1431.9}
+{"at":"2026-11-18T05:03:56.3558075+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"show me the scientific calculator"}
+{"at":"2026-11-18T05:03:58.3624364+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1419}
+{"at":"2026-11-18T05:03:58.4272319+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"take me to the scientific calculator"}
+{"at":"2026-11-18T05:04:00.4631772+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1424.2}
+{"at":"2026-11-18T05:04:00.5298352+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"bring up the scientific calculator"}
+{"at":"2026-11-18T05:04:02.5814609+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1450.3}
+{"at":"2026-11-18T05:04:02.6471198+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"pull up the scientific calculator"}
+{"at":"2026-11-18T05:04:04.6651163+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1419.6}
+{"at":"2026-11-18T05:04:04.7260815+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"see the scientific calculator"}
+{"at":"2026-11-18T05:04:06.7753783+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1455.8}
+{"at":"2026-11-18T05:04:06.8430277+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"display the scientific calculator"}
+{"at":"2026-11-18T05:04:08.8755786+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1420.7}
+{"at":"2026-11-18T05:04:08.8835981+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"navigate to the scientific calculator"}
+{"at":"2026-11-18T05:04:10.9161268+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1438.4}
+{"at":"2026-11-18T05:04:11.0001125+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"get me the scientific calculator"}
+{"at":"2026-11-18T05:04:13.0150514+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1409}
+{"at":"2026-11-18T05:04:13.081457+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"head to the scientific calculator"}
+{"at":"2026-11-18T05:04:15.1186383+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1436.2}
+{"at":"2026-11-18T05:04:15.1859344+00:00","recipe":"show-the-scientific-calculator","kind":"alias_added","alias":"jump to the scientific calculator"}
+{"at":"2026-11-18T05:04:17.2220659+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1443.2}
+{"at":"2026-11-18T05:04:19.245397+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1428.6}
+{"at":"2026-11-18T05:04:21.3240331+00:00","recipe":"show-the-scientific-calculator","kind":"replay_ok","wall_ms":1425.3}
+{"at":"2026-11-18T05:04:23.8199767+00:00","recipe":"show-the-graphing-calculator","kind":"learned"}
+{"at":"2026-11-18T05:04:25.6388997+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1216.5}
+{"at":"2026-11-18T05:04:27.4329499+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1208.3}
+{"at":"2026-11-18T05:04:29.2364373+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1218}
+{"at":"2026-11-18T05:04:31.0409914+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1217.2}
+{"at":"2026-11-18T05:04:33.1598179+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1521.2}
+{"at":"2026-11-18T05:04:34.9512336+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1189.8}
+{"at":"2026-11-18T05:04:36.7535262+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1203.5}
+{"at":"2026-11-18T05:04:38.6129016+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1257.3}
+{"at":"2026-11-18T05:04:40.4948186+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1261.7}
+{"at":"2026-11-18T05:04:42.4505663+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1333.9}
+{"at":"2026-11-18T05:04:44.3254903+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1237}
+{"at":"2026-11-18T05:04:46.1880756+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1238.3}
+{"at":"2026-11-18T05:04:48.0180828+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1218.2}
+{"at":"2026-11-18T05:04:49.8752739+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1252.1}
+{"at":"2026-11-18T05:04:51.7776083+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1286.1}
+{"at":"2026-11-18T05:04:53.5971596+00:00","recipe":"show-the-graphing-calculator","kind":"replay_ok","wall_ms":1218.9}
+{"at":"2026-11-18T05:04:55.8906482+00:00","recipe":"show-the-programmer-calculator","kind":"learned"}
+{"at":"2026-11-18T05:04:57.9434535+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1436.7}
+{"at":"2026-11-18T05:05:00.0496643+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1425.6}
+{"at":"2026-11-18T05:05:02.1379457+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1446.3}
+{"at":"2026-11-18T05:05:04.1304206+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1400}
+{"at":"2026-11-18T05:05:06.2425518+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1439.7}
+{"at":"2026-11-18T05:05:08.3335767+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1418}
+{"at":"2026-11-18T05:05:10.3907896+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1438.9}
+{"at":"2026-11-18T05:05:12.4580587+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1410.9}
+{"at":"2026-11-18T05:05:14.5870484+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1458.4}
+{"at":"2026-11-18T05:05:16.7072453+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1441.8}
+{"at":"2026-11-18T05:05:18.8423504+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1445.1}
+{"at":"2026-11-18T05:05:20.9271782+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1408.2}
+{"at":"2026-11-18T05:05:23.0042655+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1416}
+{"at":"2026-11-18T05:05:25.0961978+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1426.7}
+{"at":"2026-11-18T05:05:27.1588124+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1404}
+{"at":"2026-11-18T05:05:29.2606082+00:00","recipe":"show-the-programmer-calculator","kind":"replay_ok","wall_ms":1438.8}
+{"at":"2026-11-18T05:05:31.6572331+00:00","recipe":"show-the-date-calculator","kind":"learned"}
+{"at":"2026-11-18T05:05:33.7410994+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1486.1}
+{"at":"2026-11-18T05:05:35.4990646+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1171.9}
+{"at":"2026-11-18T05:05:37.2215009+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1145.1}
+{"at":"2026-11-18T05:05:38.9628462+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1148.5}
+{"at":"2026-11-18T05:05:40.7708505+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1195.1}
+{"at":"2026-11-18T05:05:42.5635544+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1179.2}
+{"at":"2026-11-18T05:05:44.3387405+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1172.7}
+{"at":"2026-11-18T05:05:46.1282871+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1184.3}
+{"at":"2026-11-18T05:05:47.9293797+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1189.7}
+{"at":"2026-11-18T05:05:49.7241585+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1188.5}
+{"at":"2026-11-18T05:05:51.5211496+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1200.2}
+{"at":"2026-11-18T05:05:53.3296628+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1200.4}
+{"at":"2026-11-18T05:05:55.1293746+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1188.8}
+{"at":"2026-11-18T05:05:56.910473+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1173.9}
+{"at":"2026-11-18T05:05:58.7195163+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1207.4}
+{"at":"2026-11-18T05:06:00.5640096+00:00","recipe":"show-the-date-calculator","kind":"replay_ok","wall_ms":1235.1}
+{"at":"2026-11-18T05:06:02.7546618+00:00","recipe":"show-the-currency-converter","kind":"learned"}
+{"at":"2026-11-18T05:06:04.6092374+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1255.8}
+{"at":"2026-11-18T05:06:06.4668577+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1245.3}
+{"at":"2026-11-18T05:06:08.3582413+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1264.6}
+{"at":"2026-11-18T05:06:10.2849636+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1334.8}
+{"at":"2026-11-18T05:06:12.1708254+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1283.3}
+{"at":"2026-11-18T05:06:14.0471331+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1245.2}
+{"at":"2026-11-18T05:06:15.9848286+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1285.7}
+{"at":"2026-11-18T05:06:17.8944719+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1262.7}
+{"at":"2026-11-18T05:06:19.7642751+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1254.5}
+{"at":"2026-11-18T05:06:21.6680417+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1251.4}
+{"at":"2026-11-18T05:06:23.5791442+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1269.5}
+{"at":"2026-11-18T05:06:25.5038781+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1263.4}
+{"at":"2026-11-18T05:06:27.3885439+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1229.2}
+{"at":"2026-11-18T05:06:29.3353514+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1286.3}
+{"at":"2026-11-18T05:06:31.2859966+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1303.3}
+{"at":"2026-11-18T05:06:33.1448191+00:00","recipe":"show-the-currency-converter","kind":"replay_ok","wall_ms":1256.5}
+{"at":"2026-11-18T05:06:35.6137732+00:00","recipe":"show-the-volume-converter","kind":"learned"}
+{"at":"2026-11-18T05:06:37.4200243+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1221.7}
+{"at":"2026-11-18T05:06:39.2017713+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1202.7}
+{"at":"2026-11-18T05:06:40.9948836+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1216}
+{"at":"2026-11-18T05:06:42.7983654+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1213.3}
+{"at":"2026-11-18T05:06:44.6849635+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1273}
+{"at":"2026-11-18T05:06:46.4931165+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1212.3}
+{"at":"2026-11-18T05:06:48.3269862+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1218.8}
+{"at":"2026-11-18T05:06:50.1950362+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1252.5}
+{"at":"2026-11-18T05:06:52.0669+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1271.3}
+{"at":"2026-11-18T05:06:53.9089445+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1242.8}
+{"at":"2026-11-18T05:06:55.7150696+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1200.1}
+{"at":"2026-11-18T05:06:57.5704057+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1258.2}
+{"at":"2026-11-18T05:06:59.4230617+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1238.7}
+{"at":"2026-11-18T05:07:01.3194513+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1284.8}
+{"at":"2026-11-18T05:07:03.1245532+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1197.9}
+{"at":"2026-11-18T05:07:04.9659549+00:00","recipe":"show-the-volume-converter","kind":"replay_ok","wall_ms":1245.3}
+{"at":"2026-11-18T05:07:07.1028936+00:00","recipe":"show-the-length-converter","kind":"learned"}
+{"at":"2026-11-18T05:07:08.919223+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1215.7}
+{"at":"2026-11-18T05:07:10.7328748+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1235.8}
+{"at":"2026-11-18T05:07:12.5350419+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1227.4}
+{"at":"2026-11-18T05:07:14.3492505+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1227.3}
+{"at":"2026-11-18T05:07:16.2144461+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1255.5}
+{"at":"2026-11-18T05:07:18.0802624+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1246.1}
+{"at":"2026-11-18T05:07:19.9609943+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1273.1}
+{"at":"2026-11-18T05:07:21.8535004+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1297.9}
+{"at":"2026-11-18T05:07:23.7364256+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1262.9}
+{"at":"2026-11-18T05:07:25.5928722+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1244.9}
+{"at":"2026-11-18T05:07:27.4483844+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1249}
+{"at":"2026-11-18T05:07:29.2667635+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1211.2}
+{"at":"2026-11-18T05:07:31.1272831+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1252.6}
+{"at":"2026-11-18T05:07:32.9616251+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1231.9}
+{"at":"2026-11-18T05:07:34.8272891+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1251.3}
+{"at":"2026-11-18T05:07:36.9421216+00:00","recipe":"show-the-length-converter","kind":"replay_ok","wall_ms":1508.5}
+{"at":"2026-11-18T05:07:38.9963218+00:00","recipe":"show-the-weight-converter","kind":"learned"}
+{"at":"2026-11-18T05:07:40.803656+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1216.7}
+{"at":"2026-11-18T05:07:42.5824134+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1204}
+{"at":"2026-11-18T05:07:44.3662481+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1189.9}
+{"at":"2026-11-18T05:07:46.1815356+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1213.6}
+{"at":"2026-11-18T05:07:48.0349807+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1252.4}
+{"at":"2026-11-18T05:07:49.9002173+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1252.6}
+{"at":"2026-11-18T05:07:51.7411723+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1226.4}
+{"at":"2026-11-18T05:07:53.5920396+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1245.1}
+{"at":"2026-11-18T05:07:55.4966891+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1302.8}
+{"at":"2026-11-18T05:07:57.3232216+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1225.3}
+{"at":"2026-11-18T05:07:59.1688978+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1231.6}
+{"at":"2026-11-18T05:08:01.0250211+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1234.6}
+{"at":"2026-11-18T05:08:02.9095553+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1252}
+{"at":"2026-11-18T05:08:04.8047189+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1288.2}
+{"at":"2026-11-18T05:08:06.6610579+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1247.4}
+{"at":"2026-11-18T05:08:08.5253852+00:00","recipe":"show-the-weight-converter","kind":"replay_ok","wall_ms":1266.3}
+{"at":"2026-11-18T05:08:10.685676+00:00","recipe":"show-the-temperature-converter","kind":"learned"}
+{"at":"2026-11-18T05:08:12.5121655+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1235.4}
+{"at":"2026-11-18T05:08:14.3249216+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1227.3}
+{"at":"2026-11-18T05:08:16.151151+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1233.5}
+{"at":"2026-11-18T05:08:17.9780212+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1241.4}
+{"at":"2026-11-18T05:08:19.8688045+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1278.3}
+{"at":"2026-11-18T05:08:21.8180357+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1332.5}
+{"at":"2026-11-18T05:08:23.7293791+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1287.2}
+{"at":"2026-11-18T05:08:25.5997919+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1266.9}
+{"at":"2026-11-18T05:08:27.5081595+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1284.1}
+{"at":"2026-11-18T05:08:29.357613+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1255.8}
+{"at":"2026-11-18T05:08:31.2480489+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1288.6}
+{"at":"2026-11-18T05:08:33.1365412+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1271.8}
+{"at":"2026-11-18T05:08:35.0063472+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1268.6}
+{"at":"2026-11-18T05:08:36.8926987+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1279.5}
+{"at":"2026-11-18T05:08:39.036302+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1548.1}
+{"at":"2026-11-18T05:08:40.8632224+00:00","recipe":"show-the-temperature-converter","kind":"replay_ok","wall_ms":1238.9}
+{"at":"2026-11-18T05:08:42.9678212+00:00","recipe":"show-the-energy-converter","kind":"learned"}
+{"at":"2026-11-18T05:08:44.7948195+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1229.2}
+{"at":"2026-11-18T05:08:46.6156239+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1217.1}
+{"at":"2026-11-18T05:08:48.412325+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1207.1}
+{"at":"2026-11-18T05:08:50.2112327+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1213.9}
+{"at":"2026-11-18T05:08:52.0739457+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1268.4}
+{"at":"2026-11-18T05:08:53.9252466+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1244.5}
+{"at":"2026-11-18T05:08:55.7612589+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1239.6}
+{"at":"2026-11-18T05:08:57.5849466+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1224.5}
+{"at":"2026-11-18T05:08:59.430735+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1238.6}
+{"at":"2026-11-18T05:09:01.297858+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1256.1}
+{"at":"2026-11-18T05:09:03.1692957+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1254}
+{"at":"2026-11-18T05:09:05.018315+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1239.4}
+{"at":"2026-11-18T05:09:06.8760998+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1235.3}
+{"at":"2026-11-18T05:09:08.7203043+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1244}
+{"at":"2026-11-18T05:09:10.5662834+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1252.7}
+{"at":"2026-11-18T05:09:12.4127452+00:00","recipe":"show-the-energy-converter","kind":"replay_ok","wall_ms":1226.1}
+{"at":"2026-11-18T05:09:14.5330077+00:00","recipe":"show-the-area-converter","kind":"learned"}
+{"at":"2026-11-18T05:09:16.3543609+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1215.7}
+{"at":"2026-11-18T05:09:18.1644243+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1218.4}
+{"at":"2026-11-18T05:09:19.9787871+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1235.9}
+{"at":"2026-11-18T05:09:21.7332615+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1173.5}
+{"at":"2026-11-18T05:09:23.5642494+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1223.8}
+{"at":"2026-11-18T05:09:25.3959907+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1231.9}
+{"at":"2026-11-18T05:09:27.2593824+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1248.2}
+{"at":"2026-11-18T05:09:29.117195+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1244}
+{"at":"2026-11-18T05:09:30.9659582+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1251}
+{"at":"2026-11-18T05:09:32.8324673+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1246.7}
+{"at":"2026-11-18T05:09:34.6386665+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1206.8}
+{"at":"2026-11-18T05:09:36.4742558+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1234.2}
+{"at":"2026-11-18T05:09:38.3392445+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1262}
+{"at":"2026-11-18T05:09:40.43711+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1485.1}
+{"at":"2026-11-18T05:09:42.2558427+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1221.1}
+{"at":"2026-11-18T05:09:44.0168182+00:00","recipe":"show-the-area-converter","kind":"replay_ok","wall_ms":1177.3}
+{"at":"2026-11-18T05:09:46.1251838+00:00","recipe":"show-the-speed-converter","kind":"learned"}
+{"at":"2026-11-18T05:09:47.9336827+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1212.8}
+{"at":"2026-11-18T05:09:49.7610597+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1234.6}
+{"at":"2026-11-18T05:09:51.5610665+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1210.8}
+{"at":"2026-11-18T05:09:53.3741299+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1226.2}
+{"at":"2026-11-18T05:09:55.1979686+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1207.6}
+{"at":"2026-11-18T05:09:57.0535603+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1255.5}
+{"at":"2026-11-18T05:09:58.924318+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1259.2}
+{"at":"2026-11-18T05:10:00.7691142+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1234.7}
+{"at":"2026-11-18T05:10:02.6342269+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1251.9}
+{"at":"2026-11-18T05:10:04.4888074+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1249.4}
+{"at":"2026-11-18T05:10:06.3511084+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1247.9}
+{"at":"2026-11-18T05:10:08.2303312+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1255.7}
+{"at":"2026-11-18T05:10:10.0715475+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1234.8}
+{"at":"2026-11-18T05:10:11.9246627+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1233.9}
+{"at":"2026-11-18T05:10:13.762895+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1225.8}
+{"at":"2026-11-18T05:10:15.5979332+00:00","recipe":"show-the-speed-converter","kind":"replay_ok","wall_ms":1216.1}
+{"at":"2026-11-18T05:10:17.724188+00:00","recipe":"show-the-time-converter","kind":"learned"}
+{"at":"2026-11-18T05:10:19.5408333+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1211.8}
+{"at":"2026-11-18T05:10:21.3240357+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1194.4}
+{"at":"2026-11-18T05:10:23.0793487+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1181.8}
+{"at":"2026-11-18T05:10:24.8945884+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1233.6}
+{"at":"2026-11-18T05:10:26.767953+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1264}
+{"at":"2026-11-18T05:10:28.5958652+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1219.2}
+{"at":"2026-11-18T05:10:30.4025142+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1192.5}
+{"at":"2026-11-18T05:10:32.2383445+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1224.3}
+{"at":"2026-11-18T05:10:34.0765472+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1224.5}
+{"at":"2026-11-18T05:10:35.8902953+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1213.9}
+{"at":"2026-11-18T05:10:37.7393356+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1238.6}
+{"at":"2026-11-18T05:10:39.6100359+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1261.2}
+{"at":"2026-11-18T05:10:41.2596997+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1047}
+{"at":"2026-11-18T05:10:43.099812+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1194.1}
+{"at":"2026-11-18T05:10:44.9078098+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1209.3}
+{"at":"2026-11-18T05:10:46.7126226+00:00","recipe":"show-the-time-converter","kind":"replay_ok","wall_ms":1207.6}
+{"at":"2026-11-18T05:10:48.8236096+00:00","recipe":"show-the-power-converter","kind":"learned"}
+{"at":"2026-11-18T05:10:50.6547018+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1237.6}
+{"at":"2026-11-18T05:10:52.4920418+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1256}
+{"at":"2026-11-18T05:10:54.3318926+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1244.7}
+{"at":"2026-11-18T05:10:56.193322+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1273.9}
+{"at":"2026-11-18T05:10:58.0893712+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1286.4}
+{"at":"2026-11-18T05:10:59.9771807+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1281.2}
+{"at":"2026-11-18T05:11:01.9411328+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1345.6}
+{"at":"2026-11-18T05:11:03.7998167+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1257.3}
+{"at":"2026-11-18T05:11:05.7337233+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1307.6}
+{"at":"2026-11-18T05:11:07.6282016+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1293}
+{"at":"2026-11-18T05:11:09.5129362+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1268.3}
+{"at":"2026-11-18T05:11:11.4285577+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1297.3}
+{"at":"2026-11-18T05:11:13.2857421+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1238.7}
+{"at":"2026-11-18T05:11:15.2034112+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1304.3}
+{"at":"2026-11-18T05:11:17.0880454+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1286.5}
+{"at":"2026-11-18T05:11:18.9749811+00:00","recipe":"show-the-power-converter","kind":"replay_ok","wall_ms":1284.7}
+{"at":"2026-11-18T05:11:21.1669755+00:00","recipe":"show-the-data-converter","kind":"learned"}
+{"at":"2026-11-18T05:11:22.9917937+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1233.9}
+{"at":"2026-11-18T05:11:24.8126128+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1235.1}
+{"at":"2026-11-18T05:11:26.5995872+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1199.7}
+{"at":"2026-11-18T05:11:28.4492429+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1251.7}
+{"at":"2026-11-18T05:11:30.2668954+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1208.5}
+{"at":"2026-11-18T05:11:32.1184857+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1240.6}
+{"at":"2026-11-18T05:11:33.9793177+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1241.7}
+{"at":"2026-11-18T05:11:35.8366539+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1229.5}
+{"at":"2026-11-18T05:11:37.2339073+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":787.2}
+{"at":"2026-11-18T05:11:39.1091073+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1229}
+{"at":"2026-11-18T05:11:40.5190574+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":795.9}
+{"at":"2026-11-18T05:11:42.7062175+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1552.5}
+{"at":"2026-11-18T05:11:44.5439525+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1211.4}
+{"at":"2026-11-18T05:11:46.3920104+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1233.4}
+{"at":"2026-11-18T05:11:48.2484842+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1247.1}
+{"at":"2026-11-18T05:11:50.0443296+00:00","recipe":"show-the-data-converter","kind":"replay_ok","wall_ms":1199.4}
+{"at":"2026-11-18T05:12:07.1445524+00:00","recipe":"search-youtube-for-lofi-music","kind":"learned"}
+{"at":"2026-11-18T05:12:08.0707192+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":876.1}
+{"at":"2026-11-18T05:12:17.0296656+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":773.9}
+{"at":"2026-11-18T05:12:25.9732468+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":742.4}
+{"at":"2026-11-18T05:12:35.1045534+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":922.2}
+{"at":"2026-11-18T05:12:44.1899698+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":842}
+{"at":"2026-11-18T05:12:53.4092746+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":981.8}
+{"at":"2026-11-18T05:13:02.4372311+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":797.2}
+{"at":"2026-11-18T05:13:11.5827165+00:00","recipe":"search-youtube-for-lofi-music","kind":"replay_stopped","step":1,"wall_ms":921}

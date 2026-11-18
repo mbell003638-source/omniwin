@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-personalization-settings",
+  "goal": "show personalization settings",
+  "template": "show personalization settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1892.4,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:51:52.9637508+00:00"
+}

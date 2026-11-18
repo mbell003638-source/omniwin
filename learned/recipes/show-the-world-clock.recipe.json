@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-world-clock",
+  "goal": "show the world clock",
+  "template": "show the world clock",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 990.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Time.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:02:11.8511034+00:00"
+}

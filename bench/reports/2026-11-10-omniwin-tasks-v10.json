@@ -1,0 +1,1813 @@
+{
+  "started": "2026-11-10T21:08:18.6187984-05:00",
+  "status": "ran",
+  "runs_per_task": 20,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "test_folders_left_for_owner": [
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-911868dd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-738f70ac",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-aafe02c7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b706573b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-c9ea66d9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a4a3eef1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-2b34f35a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-a52d50e3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-ba71cbdb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-473c49ba",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-34f3a730",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-4f4cf8d4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-448d88af",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-0a2e85fb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-fc38c1c5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-82ac6872",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-7f53557b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-bb8c43e8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b95965b4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B01-b5b2076b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-12efa732",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-f0abc5a3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-bc1f0d9d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-819e7d29",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-d1e9291e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-22f3b4b0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-87f092f1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-5018a380",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-6d7356cb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-35433be3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-ffee0cf7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-8f183748",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-44ccb0df",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-89a474fb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-be73f06f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-061917d7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-ab529bfd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-a5869d8f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-8d0dceb2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B02-4f32f148",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-58be9163",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-4f3f163f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-70e3c1d3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-15d2f460",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-c37be4dd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-fe0137a4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-d07e9764",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-b17b129c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-6a22ac71",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-7b6d8807",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-d87c79ab",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-7ae556f3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-6ba66da4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-952a0080",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-371e495a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-2418256c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-1235bb19",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-740b56e0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-a6d50294",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B03-537103d8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-c00295f7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-a823e4d6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-c891c7f6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-e432b195",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-fa8bb96a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-75c08327",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-cd053b77",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-a16aab4d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-53a92081",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-1cb33ece",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-b82910e6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-490ba57d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-aa87c4d5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-f1233072",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-9e4fedd9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-c9d4bae1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-e1f480d3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-9c1db067",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-b20ae1d8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B04-f09cdfe5",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-24d038cb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-850e120a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-cbaa4ec6",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-5e6e177e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-92fd46c1",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-16fdcbd3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-3f0686a3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-5f392a46",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-13c4bd53",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-aad8f74e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-96b97cfe",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-3f260d2a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-ff9005bc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-ff060327",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-e16962a0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-f0d17e38",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-14c6265d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-f1c7c1ac",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-11fb615f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B05-b36c78bc",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-9a4eb28d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-81aede25",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-17ea0ba9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-90c4cc06",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-9904d33e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-b3856685",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-b450d328",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-bd590079",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-d1d8b2d3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-87c437d7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-91a38698",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-ee8c603c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-80ef6737",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-84912340",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-bbcea392",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-be40a197",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-7fdbf69e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-111cdfc4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-95e34d43",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B06-4fe5b6ad",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-847b7f92",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-be0571a2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-760f4f39",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-11c73e8f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-b1e0238a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-e2efb116",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-0f52cec8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-b767dedb",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-3c2af31c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-795877a9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-3199c3ee",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-486f6fa0",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-ae372fb7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a76b5396",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-9996ef44",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a78833d4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-a518e11e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-c10279b8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-8a2039ab",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B07-713c08d4",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-0b92bf39",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-74005cef",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-48320b37",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-02dcb231",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-06ad2da9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-199c02ec",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-83030330",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-f33dc01e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-9b92cdfd",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-714bf138",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-63e7855c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-f0ca39b3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-22ff6e6c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-2e3f1682",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-60949bd9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-2530960d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-d05f4f6f",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-749b5030",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-3e6883df",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B09-0f8d24c8",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-6cca3981",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-a05b69a9",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-481a4c33",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-51d118f2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-0c2088fa",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-6887875b",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-b412c158",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-14f76d05",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-08e6473d",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-7099a177",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-ec5e91b3",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-49209b44",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-6616960c",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-20c2915a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-feaa8fc2",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-36c5fff7",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-2fd2fc1e",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-2880ee23",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-dc05cd2a",
+    "C:\\Users\\<you>\\AppData\\Local\\Temp\\OmniWin-test-B10-553aaf7c"
+  ],
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 20,
+      "passed": 2,
+      "failed": 18,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 10,
+      "success_of": 20,
+      "wall_p50_s": 3.232,
+      "wall_p95_s": 6.513,
+      "tool_calls_per_run": 12,
+      "chars_returned_per_run": 7372.95,
+      "notes": [
+        "ok",
+        "harness read: "
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.23
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 3.04
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.41
+        },
+        {
+          "run": 4,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.38
+        },
+        {
+          "run": 5,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.41
+        },
+        {
+          "run": 6,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.4
+        },
+        {
+          "run": 7,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.42
+        },
+        {
+          "run": 8,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.4
+        },
+        {
+          "run": 9,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.41
+        },
+        {
+          "run": 10,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.45
+        },
+        {
+          "run": 11,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 2.36
+        },
+        {
+          "run": 12,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.5
+        },
+        {
+          "run": 13,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.43
+        },
+        {
+          "run": 14,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.51
+        },
+        {
+          "run": 15,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.45
+        },
+        {
+          "run": 16,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.45
+        },
+        {
+          "run": 17,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.44
+        },
+        {
+          "run": 18,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.41
+        },
+        {
+          "run": 19,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.45
+        },
+        {
+          "run": 20,
+          "status": "failed",
+          "input_sent": true,
+          "note": "harness read: ",
+          "leftover_browser_processes": 0,
+          "seconds": 6.47
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 20,
+      "passed": 1,
+      "failed": 0,
+      "not_run": 19,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 1,
+      "wall_p50_s": 12.621,
+      "wall_p95_s": 12.756,
+      "tool_calls_per_run": 41.6,
+      "chars_returned_per_run": 9050.6,
+      "notes": [
+        "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.65
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.59
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.65
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.39
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.61
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.43
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.59
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.6
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.56
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.76
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.71
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.6
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.72
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 8.01
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.64
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.66
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.66
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.58
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.62
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: no File name box in the Save As dialog (the dialog did not open or is not readable)",
+          "leftover_browser_processes": 0,
+          "seconds": 12.65
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "task": "Notepad: select all, clear, confirm empty",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 4.373,
+      "wall_p95_s": 4.446,
+      "tool_calls_per_run": 10,
+      "chars_returned_per_run": 5156.05,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.45
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.36
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.4
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.37
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.44
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.4
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.39
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.42
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.36
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.38
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.43
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.37
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.37
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.37
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.33
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.37
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.36
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.34
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.42
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 4.37
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "task": "File Explorer: open a seeded folder, list file names",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 10.663,
+      "wall_p95_s": 10.944,
+      "tool_calls_per_run": 27.9,
+      "chars_returned_per_run": 92933.95,
+      "notes": [
+        "not run: foreground_failed (the foreground could not be taken)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.9
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.87
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.59
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.89
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.59
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.6
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.82
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.63
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.63
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.86
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.69
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.59
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.66
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.63
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.89
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.94
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.86
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.52
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.61
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.62
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "task": "File Explorer: create a folder and rename it",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 13.772,
+      "wall_p95_s": 14.081,
+      "tool_calls_per_run": 26.8,
+      "chars_returned_per_run": 77589.9,
+      "notes": [
+        "not run: foreground_failed (the foreground could not be taken)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.72
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.08
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.81
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.81
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.83
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.69
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.88
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.73
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.77
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.76
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.68
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 14.06
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.7
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.69
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.71
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 14
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.68
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.95
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.72
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 13.8
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 20,
+      "passed": 0,
+      "failed": 0,
+      "not_run": 20,
+      "false_success": 0,
+      "success_percent": null,
+      "success_of": 0,
+      "wall_p50_s": 11.009,
+      "wall_p95_s": 11.315,
+      "tool_calls_per_run": 27.55,
+      "chars_returned_per_run": 91145.65,
+      "notes": [
+        "not run: foreground_failed (the foreground could not be taken)"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.1
+        },
+        {
+          "run": 2,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.29
+        },
+        {
+          "run": 3,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.99
+        },
+        {
+          "run": 4,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.99
+        },
+        {
+          "run": 5,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.08
+        },
+        {
+          "run": 6,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.06
+        },
+        {
+          "run": 7,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.95
+        },
+        {
+          "run": 8,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.97
+        },
+        {
+          "run": 9,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.04
+        },
+        {
+          "run": 10,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.94
+        },
+        {
+          "run": 11,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.31
+        },
+        {
+          "run": 12,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.97
+        },
+        {
+          "run": 13,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.01
+        },
+        {
+          "run": 14,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.19
+        },
+        {
+          "run": 15,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.95
+        },
+        {
+          "run": 16,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.12
+        },
+        {
+          "run": 17,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.96
+        },
+        {
+          "run": 18,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.95
+        },
+        {
+          "run": 19,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 11.2
+        },
+        {
+          "run": 20,
+          "status": "not_run",
+          "input_sent": true,
+          "note": "not run: foreground_failed (the foreground could not be taken)",
+          "leftover_browser_processes": 0,
+          "seconds": 10.9
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 20,
+      "passed": 0,
+      "failed": 20,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 0,
+      "success_of": 20,
+      "wall_p50_s": 17.356,
+      "wall_p95_s": 18.184,
+      "tool_calls_per_run": 39.5,
+      "chars_returned_per_run": 131448.45,
+      "notes": [
+        "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+        "no Display entry in Settings"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 12.7
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 12.41
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 12.53
+        },
+        {
+          "run": 4,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 18.18
+        },
+        {
+          "run": 5,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.42
+        },
+        {
+          "run": 6,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.31
+        },
+        {
+          "run": 7,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.39
+        },
+        {
+          "run": 8,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 18.16
+        },
+        {
+          "run": 9,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.42
+        },
+        {
+          "run": 10,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.36
+        },
+        {
+          "run": 11,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 18.16
+        },
+        {
+          "run": 12,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.35
+        },
+        {
+          "run": 13,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 12.4
+        },
+        {
+          "run": 14,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 11.55
+        },
+        {
+          "run": 15,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 11.55
+        },
+        {
+          "run": 16,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 11.54
+        },
+        {
+          "run": 17,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.38
+        },
+        {
+          "run": 18,
+          "status": "failed",
+          "input_sent": true,
+          "note": "Settings text did not show 100% (page has Scale\u0026layout=False, scale-disabled=False, percents=[])",
+          "leftover_browser_processes": 0,
+          "seconds": 11.54
+        },
+        {
+          "run": 19,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.41
+        },
+        {
+          "run": 20,
+          "status": "failed",
+          "input_sent": true,
+          "note": "no Display entry in Settings",
+          "leftover_browser_processes": 0,
+          "seconds": 17.39
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "task": "Edge (W01): fill text, email, dropdown, checkbox, click Continue",
+      "runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "not_run": 0,
+      "false_success": 0,
+      "success_percent": 100,
+      "success_of": 20,
+      "wall_p50_s": 1.73,
+      "wall_p95_s": 2.518,
+      "tool_calls_per_run": 13,
+      "chars_returned_per_run": 5326.05,
+      "notes": [
+        "ok"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.06
+        },
+        {
+          "run": 2,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.98
+        },
+        {
+          "run": 3,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 2.52
+        },
+        {
+          "run": 4,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.72
+        },
+        {
+          "run": 5,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.71
+        },
+        {
+          "run": 6,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.75
+        },
+        {
+          "run": 7,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.73
+        },
+        {
+          "run": 8,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.72
+        },
+        {
+          "run": 9,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.74
+        },
+        {
+          "run": 10,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.7
+        },
+        {
+          "run": 11,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.71
+        },
+        {
+          "run": 12,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.72
+        },
+        {
+          "run": 13,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.68
+        },
+        {
+          "run": 14,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.74
+        },
+        {
+          "run": 15,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.71
+        },
+        {
+          "run": 16,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.68
+        },
+        {
+          "run": 17,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.75
+        },
+        {
+          "run": 18,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.74
+        },
+        {
+          "run": 19,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.73
+        },
+        {
+          "run": 20,
+          "status": "passed",
+          "input_sent": true,
+          "note": "ok",
+          "leftover_browser_processes": 0,
+          "seconds": 1.7
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "task": "Notepad \u002B Edge: copy a line from Notepad into W01\u0027s textarea",
+      "runs": 20,
+      "passed": 0,
+      "failed": 20,
+      "not_run": 0,
+      "false_success": 20,
+      "success_percent": 0,
+      "success_of": 20,
+      "wall_p50_s": 5.411,
+      "wall_p95_s": 5.915,
+      "tool_calls_per_run": 16,
+      "chars_returned_per_run": 7364.15,
+      "notes": [
+        "the form record does not hold the copied line"
+      ],
+      "samples": [
+        {
+          "run": 1,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.42
+        },
+        {
+          "run": 2,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.39
+        },
+        {
+          "run": 3,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.42
+        },
+        {
+          "run": 4,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.46
+        },
+        {
+          "run": 5,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.4
+        },
+        {
+          "run": 6,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.34
+        },
+        {
+          "run": 7,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.35
+        },
+        {
+          "run": 8,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.4
+        },
+        {
+          "run": 9,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.4
+        },
+        {
+          "run": 10,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.41
+        },
+        {
+          "run": 11,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.43
+        },
+        {
+          "run": 12,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.39
+        },
+        {
+          "run": 13,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.47
+        },
+        {
+          "run": 14,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.43
+        },
+        {
+          "run": 15,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.38
+        },
+        {
+          "run": 16,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.92
+        },
+        {
+          "run": 17,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.5
+        },
+        {
+          "run": 18,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.42
+        },
+        {
+          "run": 19,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.37
+        },
+        {
+          "run": 20,
+          "status": "failed",
+          "input_sent": true,
+          "note": "the form record does not hold the copied line",
+          "leftover_browser_processes": 0,
+          "seconds": 5.37
+        }
+      ]
+    }
+  ]
+}

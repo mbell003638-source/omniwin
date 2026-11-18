@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-power-converter",
+  "goal": "show the power converter",
+  "template": "show the power converter",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1486.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:10:48.8231098+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-date-calculator",
+  "goal": "show the date calculator",
+  "template": "show the date calculator",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1741.9,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:05:31.656808+00:00"
+}

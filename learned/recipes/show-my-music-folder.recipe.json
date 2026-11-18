@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-music-folder",
+  "goal": "show my music folder",
+  "template": "show my music folder",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1517.9,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:58:59.696573+00:00"
+}

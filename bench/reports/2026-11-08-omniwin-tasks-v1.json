@@ -1,0 +1,150 @@
+{
+  "started": "2026-11-08T18:27:51.5169848-05:00",
+  "runs_per_task": 20,
+  "windows_mcp": "not measured: needs a download the owner has not approved",
+  "results": [
+    {
+      "id": "B01",
+      "task": "Notepad: launch, type two lines, read the text back",
+      "runs": 20,
+      "success": 0,
+      "success_percent": 0,
+      "false_success": 0,
+      "wall_p50_s": 1.381,
+      "wall_p95_s": 1.613,
+      "tool_calls_per_run": 5.8,
+      "chars_returned_per_run": 4665.45,
+      "notes": [
+        "no editor control found in Notepad",
+        "harness read: \r\nline two",
+        "harness read: \r\nline two\r\nline two",
+        "harness read: \r\nline two\r\nline two\r\nline two",
+        "harness read: \r\nline two\r\nline two\r\nline two\r\nline two"
+      ]
+    },
+    {
+      "id": "B02",
+      "task": "Notepad: Save As a new file through the dialog",
+      "runs": 20,
+      "success": 0,
+      "success_percent": 0,
+      "false_success": 18,
+      "wall_p50_s": 7.889,
+      "wall_p95_s": 12.613,
+      "tool_calls_per_run": 6.65,
+      "chars_returned_per_run": 10019.25,
+      "notes": [
+        "file missing or content differs",
+        "no File name box in the Save As dialog",
+        "exception: The input string \u0027\u0027 was not in a correct format."
+      ]
+    },
+    {
+      "id": "B03",
+      "task": "Notepad: select all, clear, confirm empty",
+      "runs": 20,
+      "success": 20,
+      "success_percent": 100,
+      "false_success": 0,
+      "wall_p50_s": 2.061,
+      "wall_p95_s": 2.786,
+      "tool_calls_per_run": 4,
+      "chars_returned_per_run": 3185.1,
+      "notes": [
+        "ok"
+      ]
+    },
+    {
+      "id": "B04",
+      "task": "File Explorer: open a seeded folder, list file names",
+      "runs": 20,
+      "success": 0,
+      "success_percent": 0,
+      "false_success": 0,
+      "wall_p50_s": 8.629,
+      "wall_p95_s": 19.598,
+      "tool_calls_per_run": 3.3,
+      "chars_returned_per_run": 2369.5,
+      "notes": [
+        "not all seeded names were listed",
+        "no address box"
+      ]
+    },
+    {
+      "id": "B05",
+      "task": "File Explorer: create a folder and rename it",
+      "runs": 20,
+      "success": 1,
+      "success_percent": 5,
+      "false_success": 0,
+      "wall_p50_s": 1.324,
+      "wall_p95_s": 24.691,
+      "tool_calls_per_run": 3.3,
+      "chars_returned_per_run": 1089.4,
+      "notes": [
+        "exception: The input string \u0027\u0027 was not in a correct format.",
+        "ok (folder exists on disk; rename step needs live tuning)"
+      ]
+    },
+    {
+      "id": "B06",
+      "task": "File Explorer: select a named file in a 2,000-file folder",
+      "runs": 20,
+      "success": 0,
+      "success_percent": 0,
+      "false_success": 0,
+      "wall_p50_s": 3.983,
+      "wall_p95_s": 10.458,
+      "tool_calls_per_run": 3,
+      "chars_returned_per_run": 438.35,
+      "notes": [
+        "exception: The input string \u0027\u0027 was not in a correct format."
+      ]
+    },
+    {
+      "id": "B07",
+      "task": "Settings: open System \u003E Display and read the scale",
+      "runs": 20,
+      "success": 0,
+      "success_percent": 0,
+      "false_success": 0,
+      "wall_p50_s": 8.604,
+      "wall_p95_s": 8.933,
+      "tool_calls_per_run": 2,
+      "chars_returned_per_run": 326.85,
+      "notes": [
+        "no Display entry in Settings"
+      ]
+    },
+    {
+      "id": "B09",
+      "task": "Edge (W01): fill text, email, dropdown, checkbox, click Continue",
+      "runs": 20,
+      "success": 20,
+      "success_percent": 100,
+      "false_success": 0,
+      "wall_p50_s": 1.271,
+      "wall_p95_s": 2.071,
+      "tool_calls_per_run": 11,
+      "chars_returned_per_run": 4867.05,
+      "notes": [
+        "ok"
+      ]
+    },
+    {
+      "id": "B10",
+      "task": "Notepad \u002B Edge: copy a line from Notepad into W01\u0027s textarea",
+      "runs": 20,
+      "success": 0,
+      "success_percent": 0,
+      "false_success": 0,
+      "wall_p50_s": 8.596,
+      "wall_p95_s": 8.628,
+      "tool_calls_per_run": 2,
+      "chars_returned_per_run": 326.65,
+      "notes": [
+        "exception: The input string \u0027\u0027 was not in a correct format."
+      ]
+    }
+  ]
+}

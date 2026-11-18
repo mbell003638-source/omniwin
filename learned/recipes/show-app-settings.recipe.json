@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-app-settings",
+  "goal": "show app settings",
+  "template": "show app settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1955.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:52:34.9502405+00:00"
+}

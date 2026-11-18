@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "name": "search-settings-for-display",
+  "description": "learned: search settings for display",
+  "saved_at": "2026-11-18T04:49:21.0148523+00:00",
+  "params": {
+    "query": "step 2 desktop_act value"
+  },
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Settings"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "type",
+      "target": {
+        "ref": "e1271",
+        "engine": "desktop",
+        "process": "SystemSettings.exe",
+        "window_title": "Settings",
+        "url": null,
+        "role": "edit",
+        "name": "Search box, Find a setting",
+        "automation_id": "CommandSearchTextBox",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "window",
+            "automation_id": null,
+            "name": "Settings",
+            "class_name": "Windows.UI.Core.CoreWindow",
+            "index": 1
+          },
+          {
+            "role": "edit",
+            "automation_id": "CommandSearchTextBox",
+            "name": "Search box, Find a setting",
+            "class_name": "TextBox",
+            "index": 1
+          }
+        ]
+      },
+      "args": {},
+      "value_param": "query",
+      "target_empty_before": true
+    }
+  ]
+}

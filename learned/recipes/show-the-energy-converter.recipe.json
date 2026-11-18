@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-energy-converter",
+  "goal": "show the energy converter",
+  "template": "show the energy converter",
+  "aliases": [],
+  "params": [],
+  "steps": 3,
+  "learned_wall_ms": 1498.7,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "CalculatorApp.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T05:08:42.9673942+00:00"
+}

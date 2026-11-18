@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "name": "write-a-note-saying-call-the-dentist",
+  "description": "learned: write a note saying call the dentist",
+  "saved_at": "2026-11-18T04:48:27.33695+00:00",
+  "params": {
+    "text": "step 2 desktop_act value"
+  },
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Notepad"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "type",
+      "target": {
+        "ref": "e891",
+        "engine": "desktop",
+        "process": "Notepad.exe",
+        "window_title": "* - Notepad",
+        "url": null,
+        "role": "document",
+        "name": "Text editor",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "NotepadTextBox",
+            "index": 0
+          },
+          {
+            "role": "document",
+            "automation_id": null,
+            "name": "Text editor",
+            "class_name": "RichEditD2DPT",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": "text",
+      "target_empty_before": false
+    }
+  ]
+}

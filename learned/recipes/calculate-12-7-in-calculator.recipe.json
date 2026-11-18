@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "workflow": "calculate-12-7-in-calculator",
+  "goal": "calculate 12+7 in calculator",
+  "template": "calculate {expr} in calculator",
+  "aliases": [],
+  "params": [
+    "expr"
+  ],
+  "steps": 4,
+  "learned_wall_ms": 1378.2,
+  "tools": [
+    "app_launch",
+    "clipboard_set",
+    "desktop_keys"
+  ],
+  "processes": [],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:48:09.5520296+00:00"
+}

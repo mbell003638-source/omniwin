@@ -1,0 +1,615 @@
+{"text": "play", "intent": "media_play"}
+{"text": "hey play please", "intent": "media_play"}
+{"text": "could you play now", "intent": "media_play"}
+{"text": "resume", "intent": "media_play"}
+{"text": "hey resume please", "intent": "media_play"}
+{"text": "could you resume now", "intent": "media_play"}
+{"text": "unpause", "intent": "media_play"}
+{"text": "hey unpause please", "intent": "media_play"}
+{"text": "could you unpause now", "intent": "media_play"}
+{"text": "play the music", "intent": "media_play"}
+{"text": "hey play the music please", "intent": "media_play"}
+{"text": "could you play the music now", "intent": "media_play"}
+{"text": "resume the song", "intent": "media_play"}
+{"text": "hey resume the song please", "intent": "media_play"}
+{"text": "could you resume the song now", "intent": "media_play"}
+{"text": "continue playing", "intent": "media_play"}
+{"text": "hey continue playing please", "intent": "media_play"}
+{"text": "could you continue playing now", "intent": "media_play"}
+{"text": "pause", "intent": "media_pause"}
+{"text": "hey pause please", "intent": "media_pause"}
+{"text": "could you pause now", "intent": "media_pause"}
+{"text": "pause the music", "intent": "media_pause"}
+{"text": "hey pause the music please", "intent": "media_pause"}
+{"text": "could you pause the music now", "intent": "media_pause"}
+{"text": "stop the music", "intent": "media_pause"}
+{"text": "hey stop the music please", "intent": "media_pause"}
+{"text": "could you stop the music now", "intent": "media_pause"}
+{"text": "pause the video", "intent": "media_pause"}
+{"text": "hey pause the video please", "intent": "media_pause"}
+{"text": "could you pause the video now", "intent": "media_pause"}
+{"text": "hold on pause that", "intent": "media_pause"}
+{"text": "hey hold on pause that please", "intent": "media_pause"}
+{"text": "could you hold on pause that now", "intent": "media_pause"}
+{"text": "stop playback", "intent": "media_pause"}
+{"text": "hey stop playback please", "intent": "media_pause"}
+{"text": "could you stop playback now", "intent": "media_pause"}
+{"text": "play pause", "intent": "media_toggle"}
+{"text": "hey play pause please", "intent": "media_toggle"}
+{"text": "could you play pause now", "intent": "media_toggle"}
+{"text": "toggle playback", "intent": "media_toggle"}
+{"text": "hey toggle playback please", "intent": "media_toggle"}
+{"text": "could you toggle playback now", "intent": "media_toggle"}
+{"text": "toggle media", "intent": "media_toggle"}
+{"text": "hey toggle media please", "intent": "media_toggle"}
+{"text": "could you toggle media now", "intent": "media_toggle"}
+{"text": "next", "intent": "media_next"}
+{"text": "hey next please", "intent": "media_next"}
+{"text": "could you next now", "intent": "media_next"}
+{"text": "next track", "intent": "media_next"}
+{"text": "hey next track please", "intent": "media_next"}
+{"text": "could you next track now", "intent": "media_next"}
+{"text": "skip", "intent": "media_next"}
+{"text": "hey skip please", "intent": "media_next"}
+{"text": "could you skip now", "intent": "media_next"}
+{"text": "skip this song", "intent": "media_next"}
+{"text": "hey skip this song please", "intent": "media_next"}
+{"text": "could you skip this song now", "intent": "media_next"}
+{"text": "next song", "intent": "media_next"}
+{"text": "hey next song please", "intent": "media_next"}
+{"text": "could you next song now", "intent": "media_next"}
+{"text": "skip the track", "intent": "media_next"}
+{"text": "hey skip the track please", "intent": "media_next"}
+{"text": "could you skip the track now", "intent": "media_next"}
+{"text": "previous", "intent": "media_previous"}
+{"text": "hey previous please", "intent": "media_previous"}
+{"text": "could you previous now", "intent": "media_previous"}
+{"text": "previous track", "intent": "media_previous"}
+{"text": "hey previous track please", "intent": "media_previous"}
+{"text": "could you previous track now", "intent": "media_previous"}
+{"text": "go back a song", "intent": "media_previous"}
+{"text": "hey go back a song please", "intent": "media_previous"}
+{"text": "could you go back a song now", "intent": "media_previous"}
+{"text": "last song", "intent": "media_previous"}
+{"text": "hey last song please", "intent": "media_previous"}
+{"text": "could you last song now", "intent": "media_previous"}
+{"text": "previous song", "intent": "media_previous"}
+{"text": "hey previous song please", "intent": "media_previous"}
+{"text": "could you previous song now", "intent": "media_previous"}
+{"text": "volume 0", "intent": "volume_set", "expect": {"percent": 0}}
+{"text": "set the volume to 0", "intent": "volume_set", "expect": {"percent": 0}}
+{"text": "volume to 0 percent", "intent": "volume_set", "expect": {"percent": 0}}
+{"text": "turn the volume to 0", "intent": "volume_set", "expect": {"percent": 0}}
+{"text": "set volume at 0%", "intent": "volume_set", "expect": {"percent": 0}}
+{"text": "volume 5", "intent": "volume_set", "expect": {"percent": 5}}
+{"text": "set the volume to 5", "intent": "volume_set", "expect": {"percent": 5}}
+{"text": "volume to 5 percent", "intent": "volume_set", "expect": {"percent": 5}}
+{"text": "turn the volume to 5", "intent": "volume_set", "expect": {"percent": 5}}
+{"text": "set volume at 5%", "intent": "volume_set", "expect": {"percent": 5}}
+{"text": "volume 10", "intent": "volume_set", "expect": {"percent": 10}}
+{"text": "set the volume to 10", "intent": "volume_set", "expect": {"percent": 10}}
+{"text": "volume to 10 percent", "intent": "volume_set", "expect": {"percent": 10}}
+{"text": "turn the volume to 10", "intent": "volume_set", "expect": {"percent": 10}}
+{"text": "set volume at 10%", "intent": "volume_set", "expect": {"percent": 10}}
+{"text": "volume 15", "intent": "volume_set", "expect": {"percent": 15}}
+{"text": "set the volume to 15", "intent": "volume_set", "expect": {"percent": 15}}
+{"text": "volume to 15 percent", "intent": "volume_set", "expect": {"percent": 15}}
+{"text": "turn the volume to 15", "intent": "volume_set", "expect": {"percent": 15}}
+{"text": "set volume at 15%", "intent": "volume_set", "expect": {"percent": 15}}
+{"text": "volume 20", "intent": "volume_set", "expect": {"percent": 20}}
+{"text": "set the volume to 20", "intent": "volume_set", "expect": {"percent": 20}}
+{"text": "volume to 20 percent", "intent": "volume_set", "expect": {"percent": 20}}
+{"text": "turn the volume to 20", "intent": "volume_set", "expect": {"percent": 20}}
+{"text": "set volume at 20%", "intent": "volume_set", "expect": {"percent": 20}}
+{"text": "volume 25", "intent": "volume_set", "expect": {"percent": 25}}
+{"text": "set the volume to 25", "intent": "volume_set", "expect": {"percent": 25}}
+{"text": "volume to 25 percent", "intent": "volume_set", "expect": {"percent": 25}}
+{"text": "turn the volume to 25", "intent": "volume_set", "expect": {"percent": 25}}
+{"text": "set volume at 25%", "intent": "volume_set", "expect": {"percent": 25}}
+{"text": "volume 30", "intent": "volume_set", "expect": {"percent": 30}}
+{"text": "set the volume to 30", "intent": "volume_set", "expect": {"percent": 30}}
+{"text": "volume to 30 percent", "intent": "volume_set", "expect": {"percent": 30}}
+{"text": "turn the volume to 30", "intent": "volume_set", "expect": {"percent": 30}}
+{"text": "set volume at 30%", "intent": "volume_set", "expect": {"percent": 30}}
+{"text": "volume 35", "intent": "volume_set", "expect": {"percent": 35}}
+{"text": "set the volume to 35", "intent": "volume_set", "expect": {"percent": 35}}
+{"text": "volume to 35 percent", "intent": "volume_set", "expect": {"percent": 35}}
+{"text": "turn the volume to 35", "intent": "volume_set", "expect": {"percent": 35}}
+{"text": "set volume at 35%", "intent": "volume_set", "expect": {"percent": 35}}
+{"text": "volume 40", "intent": "volume_set", "expect": {"percent": 40}}
+{"text": "set the volume to 40", "intent": "volume_set", "expect": {"percent": 40}}
+{"text": "volume to 40 percent", "intent": "volume_set", "expect": {"percent": 40}}
+{"text": "turn the volume to 40", "intent": "volume_set", "expect": {"percent": 40}}
+{"text": "set volume at 40%", "intent": "volume_set", "expect": {"percent": 40}}
+{"text": "volume 45", "intent": "volume_set", "expect": {"percent": 45}}
+{"text": "set the volume to 45", "intent": "volume_set", "expect": {"percent": 45}}
+{"text": "volume to 45 percent", "intent": "volume_set", "expect": {"percent": 45}}
+{"text": "turn the volume to 45", "intent": "volume_set", "expect": {"percent": 45}}
+{"text": "set volume at 45%", "intent": "volume_set", "expect": {"percent": 45}}
+{"text": "volume 50", "intent": "volume_set", "expect": {"percent": 50}}
+{"text": "set the volume to 50", "intent": "volume_set", "expect": {"percent": 50}}
+{"text": "volume to 50 percent", "intent": "volume_set", "expect": {"percent": 50}}
+{"text": "turn the volume to 50", "intent": "volume_set", "expect": {"percent": 50}}
+{"text": "set volume at 50%", "intent": "volume_set", "expect": {"percent": 50}}
+{"text": "volume 60", "intent": "volume_set", "expect": {"percent": 60}}
+{"text": "set the volume to 60", "intent": "volume_set", "expect": {"percent": 60}}
+{"text": "volume to 60 percent", "intent": "volume_set", "expect": {"percent": 60}}
+{"text": "turn the volume to 60", "intent": "volume_set", "expect": {"percent": 60}}
+{"text": "set volume at 60%", "intent": "volume_set", "expect": {"percent": 60}}
+{"text": "volume 70", "intent": "volume_set", "expect": {"percent": 70}}
+{"text": "set the volume to 70", "intent": "volume_set", "expect": {"percent": 70}}
+{"text": "volume to 70 percent", "intent": "volume_set", "expect": {"percent": 70}}
+{"text": "turn the volume to 70", "intent": "volume_set", "expect": {"percent": 70}}
+{"text": "set volume at 70%", "intent": "volume_set", "expect": {"percent": 70}}
+{"text": "volume 75", "intent": "volume_set", "expect": {"percent": 75}}
+{"text": "set the volume to 75", "intent": "volume_set", "expect": {"percent": 75}}
+{"text": "volume to 75 percent", "intent": "volume_set", "expect": {"percent": 75}}
+{"text": "turn the volume to 75", "intent": "volume_set", "expect": {"percent": 75}}
+{"text": "set volume at 75%", "intent": "volume_set", "expect": {"percent": 75}}
+{"text": "volume 80", "intent": "volume_set", "expect": {"percent": 80}}
+{"text": "set the volume to 80", "intent": "volume_set", "expect": {"percent": 80}}
+{"text": "volume to 80 percent", "intent": "volume_set", "expect": {"percent": 80}}
+{"text": "turn the volume to 80", "intent": "volume_set", "expect": {"percent": 80}}
+{"text": "set volume at 80%", "intent": "volume_set", "expect": {"percent": 80}}
+{"text": "volume 90", "intent": "volume_set", "expect": {"percent": 90}}
+{"text": "set the volume to 90", "intent": "volume_set", "expect": {"percent": 90}}
+{"text": "volume to 90 percent", "intent": "volume_set", "expect": {"percent": 90}}
+{"text": "turn the volume to 90", "intent": "volume_set", "expect": {"percent": 90}}
+{"text": "set volume at 90%", "intent": "volume_set", "expect": {"percent": 90}}
+{"text": "volume 100", "intent": "volume_set", "expect": {"percent": 100}}
+{"text": "set the volume to 100", "intent": "volume_set", "expect": {"percent": 100}}
+{"text": "volume to 100 percent", "intent": "volume_set", "expect": {"percent": 100}}
+{"text": "turn the volume to 100", "intent": "volume_set", "expect": {"percent": 100}}
+{"text": "set volume at 100%", "intent": "volume_set", "expect": {"percent": 100}}
+{"text": "volume up", "intent": "volume_up"}
+{"text": "hey volume up please", "intent": "volume_up"}
+{"text": "could you volume up now", "intent": "volume_up"}
+{"text": "turn the volume up", "intent": "volume_up"}
+{"text": "hey turn the volume up please", "intent": "volume_up"}
+{"text": "could you turn the volume up now", "intent": "volume_up"}
+{"text": "louder", "intent": "volume_up"}
+{"text": "hey louder please", "intent": "volume_up"}
+{"text": "could you louder now", "intent": "volume_up"}
+{"text": "turn it up", "intent": "volume_up"}
+{"text": "hey turn it up please", "intent": "volume_up"}
+{"text": "could you turn it up now", "intent": "volume_up"}
+{"text": "raise the volume", "intent": "volume_up"}
+{"text": "hey raise the volume please", "intent": "volume_up"}
+{"text": "could you raise the volume now", "intent": "volume_up"}
+{"text": "volume up by 20", "intent": "volume_up"}
+{"text": "hey volume up by 20 please", "intent": "volume_up"}
+{"text": "could you volume up by 20 now", "intent": "volume_up"}
+{"text": "turn the volume up by 15", "intent": "volume_up"}
+{"text": "hey turn the volume up by 15 please", "intent": "volume_up"}
+{"text": "could you turn the volume up by 15 now", "intent": "volume_up"}
+{"text": "volume down", "intent": "volume_down"}
+{"text": "hey volume down please", "intent": "volume_down"}
+{"text": "could you volume down now", "intent": "volume_down"}
+{"text": "turn the volume down", "intent": "volume_down"}
+{"text": "hey turn the volume down please", "intent": "volume_down"}
+{"text": "could you turn the volume down now", "intent": "volume_down"}
+{"text": "quieter", "intent": "volume_down"}
+{"text": "hey quieter please", "intent": "volume_down"}
+{"text": "could you quieter now", "intent": "volume_down"}
+{"text": "turn it down", "intent": "volume_down"}
+{"text": "hey turn it down please", "intent": "volume_down"}
+{"text": "could you turn it down now", "intent": "volume_down"}
+{"text": "lower the volume", "intent": "volume_down"}
+{"text": "hey lower the volume please", "intent": "volume_down"}
+{"text": "could you lower the volume now", "intent": "volume_down"}
+{"text": "volume down by 20", "intent": "volume_down"}
+{"text": "hey volume down by 20 please", "intent": "volume_down"}
+{"text": "could you volume down by 20 now", "intent": "volume_down"}
+{"text": "softer", "intent": "volume_down"}
+{"text": "hey softer please", "intent": "volume_down"}
+{"text": "could you softer now", "intent": "volume_down"}
+{"text": "mute", "intent": "mute"}
+{"text": "hey mute please", "intent": "mute"}
+{"text": "could you mute now", "intent": "mute"}
+{"text": "mute the sound", "intent": "mute"}
+{"text": "hey mute the sound please", "intent": "mute"}
+{"text": "could you mute the sound now", "intent": "mute"}
+{"text": "mute the volume", "intent": "mute"}
+{"text": "hey mute the volume please", "intent": "mute"}
+{"text": "could you mute the volume now", "intent": "mute"}
+{"text": "mute the computer", "intent": "mute"}
+{"text": "hey mute the computer please", "intent": "mute"}
+{"text": "could you mute the computer now", "intent": "mute"}
+{"text": "mute audio", "intent": "mute"}
+{"text": "hey mute audio please", "intent": "mute"}
+{"text": "could you mute audio now", "intent": "mute"}
+{"text": "unmute", "intent": "unmute"}
+{"text": "hey unmute please", "intent": "unmute"}
+{"text": "could you unmute now", "intent": "unmute"}
+{"text": "unmute the sound", "intent": "unmute"}
+{"text": "hey unmute the sound please", "intent": "unmute"}
+{"text": "could you unmute the sound now", "intent": "unmute"}
+{"text": "turn the sound on", "intent": "unmute"}
+{"text": "hey turn the sound on please", "intent": "unmute"}
+{"text": "could you turn the sound on now", "intent": "unmute"}
+{"text": "unmute the volume", "intent": "unmute"}
+{"text": "hey unmute the volume please", "intent": "unmute"}
+{"text": "could you unmute the volume now", "intent": "unmute"}
+{"text": "switch to chrome", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "ok switch to chrome now", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "go to chrome", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "ok go to chrome now", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "focus chrome", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "ok focus chrome now", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "bring up chrome", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "ok bring up chrome now", "intent": "window_focus", "expect": {"target": "chrome"}}
+{"text": "switch to edge", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "ok switch to edge now", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "go to edge", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "ok go to edge now", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "focus edge", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "ok focus edge now", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "bring up edge", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "ok bring up edge now", "intent": "window_focus", "expect": {"target": "edge"}}
+{"text": "switch to notepad", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "ok switch to notepad now", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "go to notepad", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "ok go to notepad now", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "focus notepad", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "ok focus notepad now", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "bring up notepad", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "ok bring up notepad now", "intent": "window_focus", "expect": {"target": "notepad"}}
+{"text": "switch to spotify", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "ok switch to spotify now", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "go to spotify", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "ok go to spotify now", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "focus spotify", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "ok focus spotify now", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "bring up spotify", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "ok bring up spotify now", "intent": "window_focus", "expect": {"target": "spotify"}}
+{"text": "switch to explorer", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "ok switch to explorer now", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "go to explorer", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "ok go to explorer now", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "focus explorer", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "ok focus explorer now", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "bring up explorer", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "ok bring up explorer now", "intent": "window_focus", "expect": {"target": "explorer"}}
+{"text": "switch to code", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "ok switch to code now", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "go to code", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "ok go to code now", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "focus code", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "ok focus code now", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "bring up code", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "ok bring up code now", "intent": "window_focus", "expect": {"target": "code"}}
+{"text": "switch to word", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "ok switch to word now", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "go to word", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "ok go to word now", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "focus word", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "ok focus word now", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "bring up word", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "ok bring up word now", "intent": "window_focus", "expect": {"target": "word"}}
+{"text": "switch to terminal", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "ok switch to terminal now", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "go to terminal", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "ok go to terminal now", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "focus terminal", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "ok focus terminal now", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "bring up terminal", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "ok bring up terminal now", "intent": "window_focus", "expect": {"target": "terminal"}}
+{"text": "switch to calculator", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "ok switch to calculator now", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "go to calculator", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "ok go to calculator now", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "focus calculator", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "ok focus calculator now", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "bring up calculator", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "ok bring up calculator now", "intent": "window_focus", "expect": {"target": "calculator"}}
+{"text": "minimize chrome", "intent": "window_minimize", "expect": {"target": "chrome"}}
+{"text": "minimise the chrome window", "intent": "window_minimize", "expect": {"target": "chrome"}}
+{"text": "maximize chrome", "intent": "window_maximize", "expect": {"target": "chrome"}}
+{"text": "restore chrome", "intent": "window_restore", "expect": {"target": "chrome"}}
+{"text": "close chrome", "intent": "window_close", "expect": {"target": "chrome"}}
+{"text": "minimize edge", "intent": "window_minimize", "expect": {"target": "edge"}}
+{"text": "minimise the edge window", "intent": "window_minimize", "expect": {"target": "edge"}}
+{"text": "maximize edge", "intent": "window_maximize", "expect": {"target": "edge"}}
+{"text": "restore edge", "intent": "window_restore", "expect": {"target": "edge"}}
+{"text": "close edge", "intent": "window_close", "expect": {"target": "edge"}}
+{"text": "minimize notepad", "intent": "window_minimize", "expect": {"target": "notepad"}}
+{"text": "minimise the notepad window", "intent": "window_minimize", "expect": {"target": "notepad"}}
+{"text": "maximize notepad", "intent": "window_maximize", "expect": {"target": "notepad"}}
+{"text": "restore notepad", "intent": "window_restore", "expect": {"target": "notepad"}}
+{"text": "close notepad", "intent": "window_close", "expect": {"target": "notepad"}}
+{"text": "minimize spotify", "intent": "window_minimize", "expect": {"target": "spotify"}}
+{"text": "minimise the spotify window", "intent": "window_minimize", "expect": {"target": "spotify"}}
+{"text": "maximize spotify", "intent": "window_maximize", "expect": {"target": "spotify"}}
+{"text": "restore spotify", "intent": "window_restore", "expect": {"target": "spotify"}}
+{"text": "close spotify", "intent": "window_close", "expect": {"target": "spotify"}}
+{"text": "minimize explorer", "intent": "window_minimize", "expect": {"target": "explorer"}}
+{"text": "minimise the explorer window", "intent": "window_minimize", "expect": {"target": "explorer"}}
+{"text": "maximize explorer", "intent": "window_maximize", "expect": {"target": "explorer"}}
+{"text": "restore explorer", "intent": "window_restore", "expect": {"target": "explorer"}}
+{"text": "close explorer", "intent": "window_close", "expect": {"target": "explorer"}}
+{"text": "minimize code", "intent": "window_minimize", "expect": {"target": "code"}}
+{"text": "minimise the code window", "intent": "window_minimize", "expect": {"target": "code"}}
+{"text": "maximize code", "intent": "window_maximize", "expect": {"target": "code"}}
+{"text": "restore code", "intent": "window_restore", "expect": {"target": "code"}}
+{"text": "close code", "intent": "window_close", "expect": {"target": "code"}}
+{"text": "minimize", "intent": "window_minimize"}
+{"text": "ok minimize now", "intent": "window_minimize"}
+{"text": "minimize this window", "intent": "window_minimize"}
+{"text": "ok minimize this window now", "intent": "window_minimize"}
+{"text": "minimize the current window", "intent": "window_minimize"}
+{"text": "ok minimize the current window now", "intent": "window_minimize"}
+{"text": "maximize", "intent": "window_maximize"}
+{"text": "ok maximize now", "intent": "window_maximize"}
+{"text": "maximize this window", "intent": "window_maximize"}
+{"text": "ok maximize this window now", "intent": "window_maximize"}
+{"text": "open notepad", "intent": "app_launch", "expect": {"app": "notepad"}}
+{"text": "ok open notepad now", "intent": "app_launch", "expect": {"app": "notepad"}}
+{"text": "launch notepad", "intent": "app_launch", "expect": {"app": "notepad"}}
+{"text": "ok launch notepad now", "intent": "app_launch", "expect": {"app": "notepad"}}
+{"text": "start notepad", "intent": "app_launch", "expect": {"app": "notepad"}}
+{"text": "ok start notepad now", "intent": "app_launch", "expect": {"app": "notepad"}}
+{"text": "open calculator", "intent": "app_launch", "expect": {"app": "calculator"}}
+{"text": "ok open calculator now", "intent": "app_launch", "expect": {"app": "calculator"}}
+{"text": "launch calculator", "intent": "app_launch", "expect": {"app": "calculator"}}
+{"text": "ok launch calculator now", "intent": "app_launch", "expect": {"app": "calculator"}}
+{"text": "start calculator", "intent": "app_launch", "expect": {"app": "calculator"}}
+{"text": "ok start calculator now", "intent": "app_launch", "expect": {"app": "calculator"}}
+{"text": "open paint", "intent": "app_launch", "expect": {"app": "paint"}}
+{"text": "ok open paint now", "intent": "app_launch", "expect": {"app": "paint"}}
+{"text": "launch paint", "intent": "app_launch", "expect": {"app": "paint"}}
+{"text": "ok launch paint now", "intent": "app_launch", "expect": {"app": "paint"}}
+{"text": "start paint", "intent": "app_launch", "expect": {"app": "paint"}}
+{"text": "ok start paint now", "intent": "app_launch", "expect": {"app": "paint"}}
+{"text": "open edge", "intent": "app_launch", "expect": {"app": "edge"}}
+{"text": "ok open edge now", "intent": "app_launch", "expect": {"app": "edge"}}
+{"text": "launch edge", "intent": "app_launch", "expect": {"app": "edge"}}
+{"text": "ok launch edge now", "intent": "app_launch", "expect": {"app": "edge"}}
+{"text": "start edge", "intent": "app_launch", "expect": {"app": "edge"}}
+{"text": "ok start edge now", "intent": "app_launch", "expect": {"app": "edge"}}
+{"text": "open chrome", "intent": "app_launch", "expect": {"app": "chrome"}}
+{"text": "ok open chrome now", "intent": "app_launch", "expect": {"app": "chrome"}}
+{"text": "launch chrome", "intent": "app_launch", "expect": {"app": "chrome"}}
+{"text": "ok launch chrome now", "intent": "app_launch", "expect": {"app": "chrome"}}
+{"text": "start chrome", "intent": "app_launch", "expect": {"app": "chrome"}}
+{"text": "ok start chrome now", "intent": "app_launch", "expect": {"app": "chrome"}}
+{"text": "open spotify", "intent": "app_launch", "expect": {"app": "spotify"}}
+{"text": "ok open spotify now", "intent": "app_launch", "expect": {"app": "spotify"}}
+{"text": "launch spotify", "intent": "app_launch", "expect": {"app": "spotify"}}
+{"text": "ok launch spotify now", "intent": "app_launch", "expect": {"app": "spotify"}}
+{"text": "start spotify", "intent": "app_launch", "expect": {"app": "spotify"}}
+{"text": "ok start spotify now", "intent": "app_launch", "expect": {"app": "spotify"}}
+{"text": "open word", "intent": "app_launch", "expect": {"app": "word"}}
+{"text": "ok open word now", "intent": "app_launch", "expect": {"app": "word"}}
+{"text": "launch word", "intent": "app_launch", "expect": {"app": "word"}}
+{"text": "ok launch word now", "intent": "app_launch", "expect": {"app": "word"}}
+{"text": "start word", "intent": "app_launch", "expect": {"app": "word"}}
+{"text": "ok start word now", "intent": "app_launch", "expect": {"app": "word"}}
+{"text": "open excel", "intent": "app_launch", "expect": {"app": "excel"}}
+{"text": "ok open excel now", "intent": "app_launch", "expect": {"app": "excel"}}
+{"text": "launch excel", "intent": "app_launch", "expect": {"app": "excel"}}
+{"text": "ok launch excel now", "intent": "app_launch", "expect": {"app": "excel"}}
+{"text": "start excel", "intent": "app_launch", "expect": {"app": "excel"}}
+{"text": "ok start excel now", "intent": "app_launch", "expect": {"app": "excel"}}
+{"text": "open settings", "intent": "app_launch", "expect": {"app": "settings"}}
+{"text": "ok open settings now", "intent": "app_launch", "expect": {"app": "settings"}}
+{"text": "launch settings", "intent": "app_launch", "expect": {"app": "settings"}}
+{"text": "ok launch settings now", "intent": "app_launch", "expect": {"app": "settings"}}
+{"text": "start settings", "intent": "app_launch", "expect": {"app": "settings"}}
+{"text": "ok start settings now", "intent": "app_launch", "expect": {"app": "settings"}}
+{"text": "open file explorer", "intent": "app_launch", "expect": {"app": "file explorer"}}
+{"text": "ok open file explorer now", "intent": "app_launch", "expect": {"app": "file explorer"}}
+{"text": "launch file explorer", "intent": "app_launch", "expect": {"app": "file explorer"}}
+{"text": "ok launch file explorer now", "intent": "app_launch", "expect": {"app": "file explorer"}}
+{"text": "start file explorer", "intent": "app_launch", "expect": {"app": "file explorer"}}
+{"text": "ok start file explorer now", "intent": "app_launch", "expect": {"app": "file explorer"}}
+{"text": "open terminal", "intent": "app_launch", "expect": {"app": "terminal"}}
+{"text": "ok open terminal now", "intent": "app_launch", "expect": {"app": "terminal"}}
+{"text": "launch terminal", "intent": "app_launch", "expect": {"app": "terminal"}}
+{"text": "ok launch terminal now", "intent": "app_launch", "expect": {"app": "terminal"}}
+{"text": "start terminal", "intent": "app_launch", "expect": {"app": "terminal"}}
+{"text": "ok start terminal now", "intent": "app_launch", "expect": {"app": "terminal"}}
+{"text": "open vlc", "intent": "app_launch", "expect": {"app": "vlc"}}
+{"text": "ok open vlc now", "intent": "app_launch", "expect": {"app": "vlc"}}
+{"text": "launch vlc", "intent": "app_launch", "expect": {"app": "vlc"}}
+{"text": "ok launch vlc now", "intent": "app_launch", "expect": {"app": "vlc"}}
+{"text": "start vlc", "intent": "app_launch", "expect": {"app": "vlc"}}
+{"text": "ok start vlc now", "intent": "app_launch", "expect": {"app": "vlc"}}
+{"text": "run workflow morning setup", "intent": "workflow_run", "expect": {"name": "morning setup"}}
+{"text": "ok run workflow morning setup now", "intent": "workflow_run", "expect": {"name": "morning setup"}}
+{"text": "run the workflow morning setup", "intent": "workflow_run", "expect": {"name": "morning setup"}}
+{"text": "ok run the workflow morning setup now", "intent": "workflow_run", "expect": {"name": "morning setup"}}
+{"text": "do workflow morning setup", "intent": "workflow_run", "expect": {"name": "morning setup"}}
+{"text": "ok do workflow morning setup now", "intent": "workflow_run", "expect": {"name": "morning setup"}}
+{"text": "run workflow save draft", "intent": "workflow_run", "expect": {"name": "save draft"}}
+{"text": "ok run workflow save draft now", "intent": "workflow_run", "expect": {"name": "save draft"}}
+{"text": "run the workflow save draft", "intent": "workflow_run", "expect": {"name": "save draft"}}
+{"text": "ok run the workflow save draft now", "intent": "workflow_run", "expect": {"name": "save draft"}}
+{"text": "do workflow save draft", "intent": "workflow_run", "expect": {"name": "save draft"}}
+{"text": "ok do workflow save draft now", "intent": "workflow_run", "expect": {"name": "save draft"}}
+{"text": "run workflow open report", "intent": "workflow_run", "expect": {"name": "open report"}}
+{"text": "ok run workflow open report now", "intent": "workflow_run", "expect": {"name": "open report"}}
+{"text": "run the workflow open report", "intent": "workflow_run", "expect": {"name": "open report"}}
+{"text": "ok run the workflow open report now", "intent": "workflow_run", "expect": {"name": "open report"}}
+{"text": "do workflow open report", "intent": "workflow_run", "expect": {"name": "open report"}}
+{"text": "ok do workflow open report now", "intent": "workflow_run", "expect": {"name": "open report"}}
+{"text": "run workflow daily notes", "intent": "workflow_run", "expect": {"name": "daily notes"}}
+{"text": "ok run workflow daily notes now", "intent": "workflow_run", "expect": {"name": "daily notes"}}
+{"text": "run the workflow daily notes", "intent": "workflow_run", "expect": {"name": "daily notes"}}
+{"text": "ok run the workflow daily notes now", "intent": "workflow_run", "expect": {"name": "daily notes"}}
+{"text": "do workflow daily notes", "intent": "workflow_run", "expect": {"name": "daily notes"}}
+{"text": "ok do workflow daily notes now", "intent": "workflow_run", "expect": {"name": "daily notes"}}
+{"text": "run workflow backup note", "intent": "workflow_run", "expect": {"name": "backup note"}}
+{"text": "ok run workflow backup note now", "intent": "workflow_run", "expect": {"name": "backup note"}}
+{"text": "run the workflow backup note", "intent": "workflow_run", "expect": {"name": "backup note"}}
+{"text": "ok run the workflow backup note now", "intent": "workflow_run", "expect": {"name": "backup note"}}
+{"text": "do workflow backup note", "intent": "workflow_run", "expect": {"name": "backup note"}}
+{"text": "ok do workflow backup note now", "intent": "workflow_run", "expect": {"name": "backup note"}}
+{"text": "what time is it", "intent": "read_time"}
+{"text": "hey what time is it please", "intent": "read_time"}
+{"text": "could you what time is it now", "intent": "read_time"}
+{"text": "whats the time", "intent": "read_time"}
+{"text": "hey whats the time please", "intent": "read_time"}
+{"text": "could you whats the time now", "intent": "read_time"}
+{"text": "time", "intent": "read_time"}
+{"text": "hey time please", "intent": "read_time"}
+{"text": "could you time now", "intent": "read_time"}
+{"text": "what is the time", "intent": "read_time"}
+{"text": "hey what is the time please", "intent": "read_time"}
+{"text": "could you what is the time now", "intent": "read_time"}
+{"text": "battery", "intent": "read_battery"}
+{"text": "hey battery please", "intent": "read_battery"}
+{"text": "could you battery now", "intent": "read_battery"}
+{"text": "battery level", "intent": "read_battery"}
+{"text": "hey battery level please", "intent": "read_battery"}
+{"text": "could you battery level now", "intent": "read_battery"}
+{"text": "how much battery do i have", "intent": "read_battery"}
+{"text": "hey how much battery do i have please", "intent": "read_battery"}
+{"text": "could you how much battery do i have now", "intent": "read_battery"}
+{"text": "battery status", "intent": "read_battery"}
+{"text": "hey battery status please", "intent": "read_battery"}
+{"text": "could you battery status now", "intent": "read_battery"}
+{"text": "what's the volume", "intent": "read_volume"}
+{"text": "hey what's the volume please", "intent": "read_volume"}
+{"text": "could you what's the volume now", "intent": "read_volume"}
+{"text": "volume level", "intent": "read_volume"}
+{"text": "hey volume level please", "intent": "read_volume"}
+{"text": "could you volume level now", "intent": "read_volume"}
+{"text": "how loud is it", "intent": "read_volume"}
+{"text": "hey how loud is it please", "intent": "read_volume"}
+{"text": "could you how loud is it now", "intent": "read_volume"}
+{"text": "volume", "intent": "read_volume"}
+{"text": "hey volume please", "intent": "read_volume"}
+{"text": "could you volume now", "intent": "read_volume"}
+{"text": "find me a good thriller on netflix and play it", "intent": "none"}
+{"text": "what's the weather in tokyo", "intent": "none"}
+{"text": "summarize this page", "intent": "none"}
+{"text": "book a flight to seattle next friday", "intent": "none"}
+{"text": "write an email to bob about the meeting", "intent": "none"}
+{"text": "delete my downloads folder", "intent": "none"}
+{"text": "delete everything on the desktop", "intent": "none"}
+{"text": "install chrome", "intent": "none"}
+{"text": "restart the pc", "intent": "none"}
+{"text": "shut down the computer", "intent": "none"}
+{"text": "send this to anna", "intent": "none"}
+{"text": "what is on my screen", "intent": "none"}
+{"text": "explain this code", "intent": "none"}
+{"text": "play despacito", "intent": "none"}
+{"text": "play some jazz", "intent": "none"}
+{"text": "open the second link", "intent": "none"}
+{"text": "click the blue button", "intent": "none"}
+{"text": "click save", "intent": "none"}
+{"text": "scroll down", "intent": "none"}
+{"text": "scroll to the bottom", "intent": "none"}
+{"text": "type hello world", "intent": "none"}
+{"text": "turn off the lights", "intent": "none"}
+{"text": "set a timer for five minutes", "intent": "none"}
+{"text": "remind me to call mom", "intent": "none"}
+{"text": "what's the capital of france", "intent": "none"}
+{"text": "tell me a joke", "intent": "none"}
+{"text": "search for cheap flights", "intent": "none"}
+{"text": "open youtube and search for cats", "intent": "none"}
+{"text": "take a screenshot and email it", "intent": "none"}
+{"text": "log me out", "intent": "none"}
+{"text": "lock the computer", "intent": "none"}
+{"text": "empty the recycle bin", "intent": "none"}
+{"text": "uninstall spotify", "intent": "none"}
+{"text": "remove the old files", "intent": "none"}
+{"text": "format the usb drive", "intent": "none"}
+{"text": "pay the electricity bill", "intent": "none"}
+{"text": "buy milk online", "intent": "none"}
+{"text": "download the report", "intent": "none"}
+{"text": "copy this to the clipboard", "intent": "none"}
+{"text": "paste it here", "intent": "none"}
+{"text": "open the file named budget dot xlsx", "intent": "none"}
+{"text": "go to the downloads folder and sort by date", "intent": "none"}
+{"text": "pause the music and then lower the volume and open notepad", "intent": "none"}
+{"text": "volume up and next track", "intent": "none"}
+{"text": "switch to chrome and open a new tab", "intent": "none"}
+{"text": "make it a bit louder than before but not too loud", "intent": "none"}
+{"text": "mute everything except the call", "intent": "none"}
+{"text": "close all windows", "intent": "none"}
+{"text": "close everything", "intent": "none"}
+{"text": "what's playing", "intent": "none"}
+{"text": "who sings this", "intent": "none"}
+{"text": "turn on dark mode", "intent": "none"}
+{"text": "change the wallpaper", "intent": "none"}
+{"text": "connect to wifi", "intent": "none"}
+{"text": "enable bluetooth", "intent": "none"}
+{"text": "increase the brightness", "intent": "none"}
+{"text": "what did i do yesterday", "intent": "none"}
+{"text": "read my notifications", "intent": "none"}
+{"text": "open settings and change the display scale", "intent": "none"}
+{"text": "run the script", "intent": "none"}
+{"text": "run powershell", "intent": "none"}
+{"text": "start a backup", "intent": "none"}
+{"text": "run workflow", "intent": "none"}
+{"text": "open", "intent": "none"}
+{"text": "switch to", "intent": "none"}
+{"text": "volume to loud", "intent": "none"}
+{"text": "set the volume to one hundred and fifty", "intent": "none"}
+{"text": "volume 250", "intent": "none"}
+{"text": "play it again", "intent": "none"}
+{"text": "go back", "intent": "none"}
+{"text": "forward", "intent": "none"}
+{"text": "refresh the page", "intent": "none"}
+{"text": "new tab", "intent": "none"}
+{"text": "save the file", "intent": "none"}
+{"text": "undo that", "intent": "none"}
+{"text": "undo", "intent": "none"}
+{"text": "redo", "intent": "none"}
+{"text": "hello", "intent": "none"}
+{"text": "thanks", "intent": "none"}
+{"text": "how are you", "intent": "none"}
+{"text": "nevermind", "intent": "none"}
+{"text": "stop it", "intent": "none"}
+{"text": "wait", "intent": "none"}
+{"text": "yes", "intent": "none"}
+{"text": "no", "intent": "none"}
+{"text": "do it", "intent": "none"}
+{"text": "open the thing", "intent": "none"}
+{"text": "close the thing i mean the other thing", "intent": "none"}
+{"text": "switch to the window with the red icon", "intent": "none"}
+{"text": "focus on the second monitor", "intent": "none"}
+{"text": "bring everything to the front", "intent": "none"}
+{"text": "minimize all", "intent": "none"}
+{"text": "show the desktop", "intent": "none"}
+{"text": "please find me a good thriller on netflix and play it", "intent": "none"}
+{"text": "please what's the weather in tokyo", "intent": "none"}
+{"text": "please summarize this page", "intent": "none"}
+{"text": "please book a flight to seattle next friday", "intent": "none"}
+{"text": "please write an email to bob about the meeting", "intent": "none"}
+{"text": "please delete my downloads folder", "intent": "none"}
+{"text": "please delete everything on the desktop", "intent": "none"}
+{"text": "please install chrome", "intent": "none"}
+{"text": "please restart the pc", "intent": "none"}
+{"text": "please shut down the computer", "intent": "none"}
+{"text": "please send this to anna", "intent": "none"}
+{"text": "please what is on my screen", "intent": "none"}
+{"text": "please explain this code", "intent": "none"}
+{"text": "please play despacito", "intent": "none"}
+{"text": "please play some jazz", "intent": "none"}
+{"text": "please open the second link", "intent": "none"}
+{"text": "please click the blue button", "intent": "none"}
+{"text": "please click save", "intent": "none"}
+{"text": "please scroll down", "intent": "none"}
+{"text": "please scroll to the bottom", "intent": "none"}
+{"text": "please type hello world", "intent": "none"}
+{"text": "please turn off the lights", "intent": "none"}
+{"text": "please set a timer for five minutes", "intent": "none"}
+{"text": "please remind me to call mom", "intent": "none"}
+{"text": "please what's the capital of france", "intent": "none"}
+{"text": "please tell me a joke", "intent": "none"}
+{"text": "please search for cheap flights", "intent": "none"}
+{"text": "please open youtube and search for cats", "intent": "none"}
+{"text": "please take a screenshot and email it", "intent": "none"}
+{"text": "please log me out", "intent": "none"}
+{"text": "please lock the computer", "intent": "none"}
+{"text": "please empty the recycle bin", "intent": "none"}
+{"text": "please uninstall spotify", "intent": "none"}
+{"text": "please remove the old files", "intent": "none"}
+{"text": "please format the usb drive", "intent": "none"}
+{"text": "please pay the electricity bill", "intent": "none"}
+{"text": "please buy milk online", "intent": "none"}
+{"text": "please download the report", "intent": "none"}
+{"text": "please copy this to the clipboard", "intent": "none"}
+{"text": "please paste it here", "intent": "none"}

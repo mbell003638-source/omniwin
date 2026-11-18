@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-windows-update-settings",
+  "goal": "show windows update settings",
+  "template": "show windows update settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1787.3,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:56:39.2010888+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-bluetooth-settings",
+  "goal": "show bluetooth settings",
+  "template": "show bluetooth settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1893.9,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "SystemSettings.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T04:50:31.9508008+00:00"
+}
