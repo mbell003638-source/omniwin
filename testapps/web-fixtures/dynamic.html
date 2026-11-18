@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dynamic Elements Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #event-log { border: 1px solid #ccc; padding: 10px; min-height: 80px; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Dynamic Elements Test Page</h1>
+  <p>Tests DOM mutations, generation advancement, and diff generation.</p>
+
+  <div style="margin-bottom: 15px;">
+    <button type="button" id="btn-add" onclick="addElement()">Add Element</button>
+    <button type="button" id="btn-remove" onclick="removeElement()">Remove Element</button>
+    <button type="button" id="btn-mutate" onclick="mutateElement()">Mutate Element</button>
+  </div>
+
+  <div id="dynamic-container" style="margin-bottom: 15px;">
+    <button type="button" id="to-be-removed" onclick="logEvent('click:to-be-removed')">Removable Button</button>
+    <span id="mutating-target">Original Text</span>
+  </div>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+
+    function addElement() {
+      const container = document.getElementById('dynamic-container');
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.id = 'newly-added-btn';
+      btn.textContent = 'Newly Added';
+      btn.onclick = () => logEvent('click:newly-added-btn');
+      container.appendChild(btn);
+      logEvent('dom:added');
+    }
+
+    function removeElement() {
+      const el = document.getElementById('to-be-removed');
+      if (el) {
+        el.remove();
+        logEvent('dom:removed');
+      }
+    }
+
+    function mutateElement() {
+      const el = document.getElementById('mutating-target');
+      if (el) {
+        el.textContent = 'Updated Text Value';
+        logEvent('dom:mutated');
+      }
+    }
+  </script>
+</body>
+</html>

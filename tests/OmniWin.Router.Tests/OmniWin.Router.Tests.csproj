@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Server-level tests for contract 2.5: the quick router, the guide, the engine bridge's filter and the (off by default) power tools.
+       No window is touched and no input is sent. -->
+  <PropertyGroup>
+    <RootNamespace>OmniWin.Router.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OmniWin.Server\OmniWin.Server.csproj" />
+  </ItemGroup>
+</Project>

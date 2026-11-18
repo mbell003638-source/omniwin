@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Delete Actions Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #event-log { border: 1px solid #ccc; padding: 10px; min-height: 80px; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Delete Actions Test Page</h1>
+  <p>Tests verify that delete actions are forbidden and blocked by the safety gate.</p>
+
+  <div>
+    <button type="button" id="btn-delete" onclick="logEvent('click:btn-delete')">Delete account</button>
+  </div>
+  <div style="margin-top: 10px;">
+    <a href="#deleted" id="link-delete" onclick="logEvent('click:link-delete'); return false;">Delete profile</a>
+  </div>
+  <div style="margin-top: 10px;">
+    <form id="form-delete" onsubmit="logEvent('submit:form-delete'); event.preventDefault();">
+      <button type="submit" id="btn-submit-delete">Remove item</button>
+    </form>
+  </div>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Moving Target (auto swap) Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #harmless-btn { position: absolute; top: 100px; left: 100px; width: 150px; height: 40px; }
+    #delete-btn { position: absolute; top: 9999px; left: 9999px; width: 150px; height: 40px; }
+    #event-log { position: absolute; top: 400px; left: 20px; border: 1px solid #ccc; padding: 10px; min-width: 300px; min-height: 80px; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Moving Target Test Page</h1>
+  <button type="button" id="harmless-btn" onclick="logEvent('click:harmless')">Click me</button>
+  <button type="button" id="delete-btn" onclick="logEvent('click:delete')">Delete account</button>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+
+    function swapElements() {
+      const harmless = document.getElementById('harmless-btn');
+      const del = document.getElementById('delete-btn');
+      harmless.style.top = '300px';
+      del.style.top = '100px';
+      del.style.left = '100px';
+      logEvent('swap:complete');
+    }
+      // The swap happens by itself 700 ms after load, so a stdio client can observe first and click afterwards.
+    setTimeout(swapElements, 700);
+  </script>
+</body>
+</html>

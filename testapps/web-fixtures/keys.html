@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Keys Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #event-log { border: 1px solid #ccc; padding: 10px; min-height: 80px; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Keys Test Page</h1>
+  <form id="key-form" onsubmit="logEvent('submit:key-form'); event.preventDefault();">
+    <input type="text" id="key-text" name="q" aria-label="Search box" value="" />
+    <button type="submit" id="key-go">Go</button>
+  </form>
+  <button type="button" id="key-double" ondblclick="logEvent('dblclick:key-double')">Double me</button>
+  <button type="button" id="key-delete" onclick="logEvent('click:delete')">Delete account</button>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+    document.getElementById('key-text').addEventListener('keydown', function (e) {
+      logEvent('keydown:key-text:' + e.key);
+    });
+  </script>
+</body>
+</html>

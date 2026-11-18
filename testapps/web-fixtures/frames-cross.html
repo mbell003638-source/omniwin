@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cross-origin Frame Test Page</title>
+</head>
+<body>
+  <h1>Cross-origin Frame Test Page</h1>
+  <button type="button" id="outer-btn">Outer button</button>
+  <!-- The frame is served from "localhost" while this page is on "127.0.0.1": a different origin. -->
+  <iframe id="other" width="400" height="200" title="Other origin frame"></iframe>
+  <script>
+    document.getElementById('other').src = 'http://localhost:' + location.port + '/frame-inner.html';
+  </script>
+</body>
+</html>

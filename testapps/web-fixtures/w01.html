@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Ordinary Form (W01)</title></head>
+<body>
+  <h1>Ordinary Form</h1>
+  <form id="w01" onsubmit="return false;">
+    <input type="text" id="w01-text" name="text" aria-label="Full text" value="" />
+    <input type="email" id="w01-email" name="email" aria-label="Email address" value="" />
+    <select id="w01-select" name="choice" aria-label="Choice">
+      <option value="alpha">Alpha</option><option value="beta">Beta</option><option value="gamma">Gamma</option>
+    </select>
+    <label><input type="checkbox" id="w01-check" name="agree" /> I agree</label>
+    <label><input type="radio" id="w01-r1" name="opt" value="1" checked /> One</label>
+    <label><input type="radio" id="w01-r2" name="opt" value="2" /> Two</label>
+    <textarea id="w01-area" name="notes" aria-label="Notes"></textarea>
+    <button type="button" id="w01-continue" onclick="submitForm()">Continue</button>
+  </form>
+  <script>
+    // The local fixture server keeps this record: the independent check for tasks B09 and B10.
+    function submitForm() {
+      var f = document.getElementById('w01');
+      var data = {
+        text: f.text.value, email: f.email.value, choice: f.choice.value,
+        agree: f.agree.checked, opt: f.opt.value, notes: f.notes.value
+      };
+      navigator.sendBeacon('/__form', JSON.stringify(data));
+    }
+  </script>
+</body>
+</html>

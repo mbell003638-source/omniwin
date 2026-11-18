@@ -1,0 +1,26 @@
+<Project>
+  <!--
+    Owned by WS0. Central package versions (checked on nuget.org 2026-11-06).
+    Projects reference packages without a Version attribute.
+    Need a package that isn't listed? Ask WS0 in docs/contract-proposals/WSx-packages.md.
+  -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Server -->
+    <PackageVersion Include="ModelContextProtocol" Version="2.3.1" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.14" />
+    <!-- Raw UI Automation COM interop (WS1 chose raw COM over FlaUI for CacheRequest control) -->
+    <PackageVersion Include="Interop.UIAutomationClient" Version="10.19041.0" />
+    <!-- Win32 interop (all engines) -->
+    <PackageVersion Include="Microsoft.Windows.CsWin32" Version="0.3.369" />
+    <!-- Desktop engine candidate (WS1 decides FlaUI vs raw COM) -->
+    <PackageVersion Include="FlaUI.UIA3" Version="5.0.0" />
+    <!-- Tests (Microsoft.Testing.Platform, see global.json) and benchmarks -->
+    <PackageVersion Include="xunit.v3" Version="4.0.2" />
+    <PackageVersion Include="Shouldly" Version="4.3.0" />
+    <PackageVersion Include="BenchmarkDotNet" Version="0.15.8" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shadow DOM Test Page</title>
+</head>
+<body style="margin:0">
+  <h1>Shadow DOM Test Page</h1>
+  <div id="open-host" style="display:block;width:320px;height:40px;background:#fee"></div>
+  <p>between</p>
+  <div id="closed-host" style="display:block;width:320px;height:40px;background:#fee"></div>
+  <script>
+    // An OPEN shadow root with a password field, and a CLOSED one with a plain text input (a closed root can't be searched
+    // from page script, so the whole host must be blacked out).
+    const open = document.getElementById('open-host').attachShadow({ mode: 'open' });
+    open.innerHTML = '<input type="password" value="shadow-secret" style="width:300px;height:30px" />';
+    const closed = document.getElementById('closed-host').attachShadow({ mode: 'closed' });
+    closed.innerHTML = '<input type="text" value="closed-root-input" style="width:300px;height:30px" />';
+  </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Route Test Page (W07)</title></head>
+<body>
+  <h1>Route Test Page</h1>
+  <button type="button" id="go-route">Go route</button>
+  <div id="slot"></div>
+  <script>
+    document.getElementById('go-route').addEventListener('click', function () {
+      setTimeout(function () {
+        history.pushState({}, '', '/route/next');
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.id = 'route-ready';
+        b.textContent = 'Route Ready';
+        document.getElementById('slot').appendChild(b);
+      }, 300);
+    });
+  </script>
+</body>
+</html>

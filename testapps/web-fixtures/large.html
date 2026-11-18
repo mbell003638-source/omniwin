@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Large DOM Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
+    button { padding: 4px; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <h1>Large DOM Test Page</h1>
+  <p>Contains over 150 interactive elements to test truncation and max_elements capping.</p>
+  <input type="text" id="large-input" aria-label="Large input" value="" />
+  <div class="grid" id="button-grid"></div>
+
+  <script>
+    const grid = document.getElementById('button-grid');
+    for (let i = 1; i <= 200; i++) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.id = 'btn-item-' + i;
+      btn.textContent = 'Item #' + i;
+      grid.appendChild(btn);
+    }
+  </script>
+</body>
+</html>

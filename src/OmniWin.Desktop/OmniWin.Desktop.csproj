@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- WS1. Desktop engine: raw UI Automation COM (Interop.UIAutomationClient) + CsWin32. -->
+  <PropertyGroup>
+    <RootNamespace>OmniWin.Desktop</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Interop.UIAutomationClient" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Windows.CsWin32" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OmniWin.Core\OmniWin.Core.csproj" />
+    <ProjectReference Include="..\OmniWin.Safety\OmniWin.Safety.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="OmniWin.Desktop.Tests" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+RegisterHotKey
+UnregisterHotKey
+GetMessage
+PostThreadMessage
+GetCurrentThreadId
+WM_HOTKEY
+WM_QUIT
+PeekMessage
+SetWindowsHookEx
+UnhookWindowsHookEx
+CallNextHookEx
+GetModuleHandle
+KBDLLHOOKSTRUCT
+MSLLHOOKSTRUCT

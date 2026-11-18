@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Frame Still Loading</title>
+</head>
+<body>
+  <h1>Frame Still Loading</h1>
+  <button type="button" id="outer-btn">Outer button</button>
+  <iframe id="slow" src="about:blank" width="400" height="120" title="Slow frame"></iframe>
+  <script>
+    // After the page has loaded, reopen the frame's document and never close it: the frame stays in readyState "loading",
+    // like a same-origin frame whose page is still arriving. OmniWin must say the frame was not fully read.
+    window.addEventListener('load', function () {
+      const d = document.getElementById('slow').contentDocument;
+      d.open();
+      d.write('<p>Still arriving</p>');
+    });
+  </script>
+</body>
+</html>

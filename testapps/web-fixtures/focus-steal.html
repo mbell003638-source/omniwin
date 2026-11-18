@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Focus Steal Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #event-log { border: 1px solid #ccc; padding: 10px; min-height: 80px; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Focus Steal Test Page</h1>
+  <!-- Focusing field A makes the page move focus to field B. -->
+  <input type="text" id="field-a" aria-label="Field A" value="" onfocus="document.getElementById('field-b').focus(); logEvent('focus-moved:a-to-b')" />
+  <input type="text" id="field-b" aria-label="Field B" value="" />
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+  </script>
+</body>
+</html>

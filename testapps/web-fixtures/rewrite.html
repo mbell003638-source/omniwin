@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Rewriting Input Test Page (F11)</title></head>
+<body>
+  <h1>Rewriting Input Test Page</h1>
+  <!-- Rewrites what is put into it: uppercases it and cuts it at 5 characters. -->
+  <input type="text" id="rw" aria-label="Rewriting box" value=""
+         oninput="this.value = this.value.toUpperCase().slice(0, 5)" />
+</body>
+</html>

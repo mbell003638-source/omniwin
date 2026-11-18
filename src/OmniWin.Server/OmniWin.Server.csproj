@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Owned by WS0. Tools/DesktopTools.cs (WS1), Tools/BrowserTools.cs (WS2) and
+       Tools/SystemTools.cs + Tools/OcrTools.cs (WS3) are owned by those streams. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OmniWin.Server</RootNamespace>
+    <AssemblyName>OmniWin.Server</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Microsoft.Windows.CsWin32" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OmniWin.Core\OmniWin.Core.csproj" />
+    <ProjectReference Include="..\OmniWin.Safety\OmniWin.Safety.csproj" />
+    <ProjectReference Include="..\OmniWin.Workflows\OmniWin.Workflows.csproj" />
+    <ProjectReference Include="..\OmniWin.Desktop\OmniWin.Desktop.csproj" />
+    <ProjectReference Include="..\OmniWin.Browser\OmniWin.Browser.csproj" />
+    <ProjectReference Include="..\OmniWin.SystemTools\OmniWin.SystemTools.csproj" />
+    <ProjectReference Include="..\OmniWin.Ocr\OmniWin.Ocr.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="OmniWin.Integration" />
+    <InternalsVisibleTo Include="OmniWin.Router.Tests" />
+  </ItemGroup>
+</Project>

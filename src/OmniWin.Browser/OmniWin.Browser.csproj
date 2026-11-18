@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>OmniWin.Browser</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OmniWin.Core\OmniWin.Core.csproj" />
+    <ProjectReference Include="..\OmniWin.Safety\OmniWin.Safety.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="OmniWin.Browser.Tests" />
+  </ItemGroup>
+</Project>

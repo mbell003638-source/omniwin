@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>OmniWin.SystemTools.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OmniWin.SystemTools\OmniWin.SystemTools.csproj" />
+    <ProjectReference Include="..\..\src\OmniWin.Safety\OmniWin.Safety.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The one shared UI-lock holder (also linked by Integration and Ocr.Tests). -->
+    <Compile Include="..\Shared\UiLockHolder.cs" Link="Shared\UiLockHolder.cs" />
+    <Using Include="OmniWin.Tests.Shared" />
+  </ItemGroup>
+</Project>

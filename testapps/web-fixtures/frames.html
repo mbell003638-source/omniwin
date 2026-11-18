@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Frames Test Page</title>
+</head>
+<body>
+  <h1>Frames Test Page</h1>
+  <button type="button" id="outer-btn" onclick="logEvent('click:outer')">Outer button</button>
+  <iframe id="inner" src="frame-inner.html" width="400" height="200" title="Inner frame"></iframe>
+  <div id="event-log"></div>
+  <script>
+    function logEvent(msg) {
+      const entry = document.createElement('div');
+      entry.textContent = msg;
+      document.getElementById('event-log').appendChild(entry);
+    }
+  </script>
+</body>
+</html>

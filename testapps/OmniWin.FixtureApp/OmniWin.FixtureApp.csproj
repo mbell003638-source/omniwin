@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Created by WS0 at M0. WS4 owns this project and everything in this folder. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OmniWin.FixtureApp</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+</Project>

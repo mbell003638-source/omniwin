@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>OmniWin.Desktop.Tests</RootNamespace>
+    <ApplicationManifest>..\..\src\OmniWin.Server\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OmniWin.Desktop\OmniWin.Desktop.csproj" />
+    <ProjectReference Include="..\..\testapps\OmniWin.FixtureApp\OmniWin.FixtureApp.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

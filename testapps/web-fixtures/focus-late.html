@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Focus Late Test Page</title>
+</head>
+<body>
+  <h1>Focus Late Test Page</h1>
+  <!-- Plain fields: focus() works. Tests move focus to field B from outside, after the first focus check. -->
+  <input type="text" id="field-a" aria-label="Field A" value="" />
+  <input type="text" id="field-b" aria-label="Field B" value="" />
+  <script>
+    window.__keys = [];
+    document.addEventListener('keydown', function (e) { window.__keys.push(e.key); }, true);
+  </script>
+</body>
+</html>

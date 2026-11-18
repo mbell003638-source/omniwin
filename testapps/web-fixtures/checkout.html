@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Checkout Test Page (W03)</title></head>
+<body>
+  <h1>Checkout Test Page</h1>
+  <form id="checkout" onsubmit="event.preventDefault();">
+    <input type="text" id="cc-name" autocomplete="cc-name" aria-label="Name on card" value="Test Person" />
+    <input type="text" id="cc-number" autocomplete="cc-number" aria-label="Card number" value="4111111111111111" />
+    <input type="text" id="cc-csc" autocomplete="cc-csc" aria-label="Security code" value="987" />
+    <button type="submit" id="pay-now">Pay now</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>OmniWin.Workflows</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OmniWin.Core\OmniWin.Core.csproj" />
+  </ItemGroup>
+</Project>

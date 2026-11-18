@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JS Dialog Test Page</title>
+</head>
+<body>
+  <h1>JS Dialog Test Page</h1>
+  <button type="button" id="show-alert" onclick="alert('Hello from alert'); logEvent('alert:closed')">Show alert</button>
+  <button type="button" id="show-confirm" onclick="var r = confirm('Delete everything?'); logEvent('confirm:' + r)">Ask confirm</button>
+  <button type="button" id="plain" onclick="logEvent('click:plain')">Plain button</button>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const entry = document.createElement('div');
+      entry.textContent = msg;
+      document.getElementById('event-log').appendChild(entry);
+    }
+  </script>
+</body>
+</html>

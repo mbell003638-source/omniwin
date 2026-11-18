@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Tests for the OmniWin app's logic (contract 2.6, Part D interim): plain-word results, hotkeys, settings, the config editor
+       against the real server's validation, the server link over MCP, and the polish pipeline with stand-ins. No window is shown
+       and no input is sent: only read-only server calls are made. -->
+  <PropertyGroup>
+    <RootNamespace>OmniWin.App.Tests</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OmniWin.App\OmniWin.App.csproj" />
+    <ProjectReference Include="..\..\src\OmniWin.Server\OmniWin.Server.csproj" />
+  </ItemGroup>
+</Project>

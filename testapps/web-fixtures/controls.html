@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Controls Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    .form-group { margin-bottom: 12px; }
+    #event-log { border: 1px solid #ccc; padding: 10px; min-height: 80px; max-height: 200px; overflow-y: auto; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Controls Test Page</h1>
+  <form id="test-form" onsubmit="logEvent('submit:test-form'); event.preventDefault();">
+    <div class="form-group">
+      <label for="input-text">Text Input:</label>
+      <input type="text" id="input-text" name="text-field" value="initial text" />
+    </div>
+    <div class="form-group">
+      <label for="input-password">Password Input:</label>
+      <input type="password" id="input-password" name="password-field" value="supersecret123" />
+    </div>
+    <div class="form-group">
+      <label for="input-cc">Credit Card:</label>
+      <input type="text" id="input-cc" name="card-field" autocomplete="cc-number" value="4111-2222-3333-4444" />
+    </div>
+    <div class="form-group">
+      <label for="input-textarea">Comments:</label>
+      <textarea id="input-textarea" name="comments">Initial comments</textarea>
+    </div>
+    <div class="form-group">
+      <label><input type="checkbox" id="check-agree" name="agree" /> I agree</label>
+    </div>
+    <div class="form-group">
+      <label><input type="radio" id="radio-opt1" name="opt" value="1" checked /> Option 1</label>
+      <label><input type="radio" id="radio-opt2" name="opt" value="2" /> Option 2</label>
+    </div>
+    <div class="form-group">
+      <label for="select-choice">Choice:</label>
+      <select id="select-choice" name="choice">
+        <option value="alpha">Alpha</option>
+        <option value="beta">Beta</option>
+        <option value="gamma">Gamma</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <button type="button" id="btn-click-me">Click Me</button>
+      <button type="submit" id="btn-submit">Submit Form</button>
+      <button type="button" id="btn-disabled" disabled>Disabled Button</button>
+    </div>
+    <div id="safe-links">
+      <a id="link-data" href="data:text/html,<b>hi</b>">Data link</a>
+      <a id="link-http" href="http://127.0.0.1:5000/controls.html">Normal HTTP link</a>
+    </div>
+  </form>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+  <button id="btn-clear-log" onclick="document.getElementById('event-log').textContent=''">Clear Log</button>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+
+    document.getElementById('btn-click-me').addEventListener('click', () => logEvent('click:btn-click-me'));
+    document.getElementById('input-text').addEventListener('input', (e) => logEvent('input:input-text=' + e.target.value));
+    document.getElementById('input-password').addEventListener('input', (e) => logEvent('input:input-password'));
+    document.getElementById('input-cc').addEventListener('input', (e) => logEvent('input:input-cc'));
+    document.getElementById('input-textarea').addEventListener('input', (e) => logEvent('input:input-textarea=' + e.target.value));
+    document.getElementById('check-agree').addEventListener('change', (e) => logEvent('change:check-agree=' + e.target.checked));
+    document.getElementById('radio-opt2').addEventListener('change', (e) => logEvent('change:radio-opt2=' + e.target.checked));
+    document.getElementById('select-choice').addEventListener('change', (e) => logEvent('change:select-choice=' + e.target.value));
+  </script>
+</body>
+</html>

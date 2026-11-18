@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Overlays and Modals Test Page</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    .container { position: relative; margin-bottom: 30px; }
+    #overlay-box { position: absolute; top: 0; left: 0; width: 200px; height: 50px; background: rgba(255, 0, 0, 0.7); z-index: 10; color: white; display: flex; align-items: center; justify-content: center; }
+    #modal-backdrop { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: 100; display: none; align-items: center; justify-content: center; }
+    #modal-content { background: white; padding: 20px; border-radius: 4px; }
+    #event-log { border: 1px solid #ccc; padding: 10px; min-height: 80px; background: #fafafa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Overlays and Modals Test Page</h1>
+
+  <h2>Overlay Test</h2>
+  <div class="container" style="height: 60px;">
+    <button type="button" id="covered-btn" onclick="logEvent('click:covered-btn')">Covered Target</button>
+    <div id="overlay-box" onclick="logEvent('click:overlay-box')">In-Page Overlay</div>
+  </div>
+
+  <h2>Modal Test</h2>
+  <button type="button" id="btn-show-modal" onclick="showModal()">Open Modal</button>
+  <button type="button" id="under-modal-btn" onclick="logEvent('click:under-modal-btn')">Behind Modal Target</button>
+
+  <div id="modal-backdrop" role="dialog" aria-modal="true">
+    <div id="modal-content">
+      <h3>Modal Dialog</h3>
+      <p>This modal blocks the underlying page.</p>
+      <button type="button" id="modal-action-btn" onclick="logEvent('click:modal-action')">Confirm Modal</button>
+      <button type="button" id="modal-close-btn" onclick="closeModal()">Close Modal</button>
+    </div>
+  </div>
+
+  <h2>Event Log</h2>
+  <div id="event-log"></div>
+
+  <script>
+    function logEvent(msg) {
+      const log = document.getElementById('event-log');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.textContent = msg;
+      log.appendChild(entry);
+    }
+
+    function showModal() {
+      document.getElementById('modal-backdrop').style.display = 'flex';
+      logEvent('modal:shown');
+    }
+
+    function closeModal() {
+      document.getElementById('modal-backdrop').style.display = 'none';
+      logEvent('modal:closed');
+    }
+  </script>
+</body>
+</html>

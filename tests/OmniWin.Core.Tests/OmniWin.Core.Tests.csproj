@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>OmniWin.Core.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OmniWin.Core\OmniWin.Core.csproj" />
+    <ProjectReference Include="..\..\src\OmniWin.Safety\OmniWin.Safety.csproj" />
+    <ProjectReference Include="..\..\src\OmniWin.Workflows\OmniWin.Workflows.csproj" />
+  </ItemGroup>
+</Project>

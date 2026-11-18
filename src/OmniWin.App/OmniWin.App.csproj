@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Contract 2.6, Part D (interim): the OmniWin app. A tray icon, a command box, a polish-selection hotkey and a settings
+       window. It holds no automation logic: it starts OmniWin.Server.exe and talks MCP to it, like any AI client. The process
+       name OmniWin.App.exe is on the server's protected list, so an AI client cannot drive this app through OmniWin. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>OmniWin.App</RootNamespace>
+    <AssemblyName>OmniWin.App</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OmniWin.Core\OmniWin.Core.csproj" />
+    <ProjectReference Include="..\OmniWin.Safety\OmniWin.Safety.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="OmniWin.App.Tests" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Reaction Test Page (F12)</title></head>
+<body>
+  <h1>Reaction Test Page</h1>
+  <button type="button" id="open-later">Open later</button>
+  <button type="button" id="do-nothing">Do nothing</button>
+  <div id="slot"></div>
+  <script>
+    document.getElementById('open-later').addEventListener('click', function () {
+      setTimeout(function () {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.id = 'appeared';
+        b.textContent = 'Appeared';
+        document.getElementById('slot').appendChild(b);
+      }, 1500);
+    });
+  </script>
+</body>
+</html>
