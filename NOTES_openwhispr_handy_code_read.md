@@ -1,0 +1,27 @@
+# Code read: OpenWhispr and Handy (2026-11-15)
+
+Read-only copies (shallow clones, nothing run or installed) in the session scratch folder. OpenWhispr commit `f178fa9` (2026-11-13), Handy commit `aca8985` (2026-11-14). This is a survey: I read the layout, the manifests, the model lists and the key modules named below, not every file.
+
+## OpenWhispr (MIT, "OpenWhispr Team"; Electron 43, React 19, TypeScript, Node 24)
+- **Size:** 3,878 files. About 180,000 lines of app source (`src`, `main.js`, `preload.js`), 302 helper modules, one IPC file of 15,318 lines, plus a mobile app folder (980 files) and about 600 test files run with `node --test`.
+- **Dictation is a small part of it.** Most of the code is meetings (detection, system-audio capture, speaker labels), notes with cloud sync, a chat agent with tools and connectors (email, Slack, Linear, GitHub, calendars), semantic search (Qdrant + an embedding model), enterprise sign-in and providers.
+- **Speech models (`src/models/modelRegistryData.json`):** Whisper tiny 75 MB, base 142 MB, small 466 MB, medium 1.5 GB, large 3 GB, large-q5 1.1 GB, turbo 1.6 GB, turbo-q5 574 MB (whisper.cpp, from Hugging Face); Parakeet TDT 0.6B v3 680 MB, Parakeet Unified EN 631 MB, Parakeet TDT 110M EN 136 MB, Nemotron streaming EN 632 MB, Nemotron 3.5 streaming 650 MB, Cohere Transcribe 2.7 GB, Orukeet 672 MB (sherpa-onnx). Two engines.
+- **Local language models (llama.cpp):** Qwen, Gemma, Llama, Mistral, LFM, gpt-oss; from 0.25 GB to 20 GB.
+- **Selected-text rewrite exists on Windows** (`selectionManager.js`, `selectionEditing.js`), but it runs through the Voice Assistant, which is a full chat window with tools, cards and connectors. It is not a small separate feature.
+- **Hotkeys on Windows:** a small C program with a low-level keyboard hook (`resources/windows-key-listener.c`) for hold-to-talk; paste through another C helper (`windows-fast-paste.c`). Built with MSVC or downloaded prebuilt from their GitHub releases.
+- **Local bridge:** `cliBridge.js` listens on 127.0.0.1 ports 8200 to 8219, token in `~/.openwhispr/cli-bridge.json`. Routes: notes, folders, dictionary, snippets, transcriptions list/get/delete, `POST /v1/transcribe` (a file, on-device), `GET /v1/transcribe/models`. There is **no** route or outside event for "a dictation just finished".
+- **Network:** many hosts are named in the code (their auth, API, MCP and notes servers, the AI providers, Google and Microsoft sign-in, Slack, Linear, GitHub). `productEvents.js` uploads content-free milestone events (sign-in, onboarding completed, an installation id) to `/api/product-events/batch`; its own comment says a signed-out user is not recorded. I read that module, not every caller. Auto-update uses `electron-updater`.
+- **Build needs:** Node 24, npm packages, and downloaded binaries: whisper.cpp, llama-server, sherpa-onnx, ffmpeg, yt-dlp, Qdrant, nircmd, an embedding model, diarization models, VAD model, fonts, plus the Windows C helpers.
+
+## Handy (MIT, CJ Pais; name and logo not open; Tauri 2, Rust + React)
+- **Size:** 488 files, about 63,000 lines (42,000 Rust). Roughly a third of OpenWhispr's app source, and focused on dictation only.
+- **One speech engine (`transcribe-cpp`, GGUF files) with a 76-entry catalog** (`src-tauri/src/catalog/catalog.json`): each entry has a pinned revision, SHA-256 hashes, licence, languages, capabilities and benchmark results. It contains every speech model OpenWhispr lists (all Whisper sizes, Parakeet v3, Parakeet Unified EN, Parakeet 110M, both Nemotron, Cohere Transcribe, Orukeet) and many more: Moonshine (tiny/base/streaming), SenseVoice, Canary, Voxtral, Qwen3-ASR, Granite Speech, GigaAM, Fun-ASR, MedASR, more Parakeet variants. Some entries are non-commercial licences (marked in the catalog).
+- **Shortcuts:** transcribe, transcribe with post-processing, cancel. Hold or toggle. **No selected-text rewrite.**
+- **Post-processing:** sends the transcript to a language model with a chosen prompt. Providers: OpenAI, Z.ai, OpenRouter, Anthropic, Groq, Cerebras, Bedrock, or a custom OpenAI-style endpoint (which can be a local server). It bundles no local language model.
+- **Seams other programs can use:** a command line (`--toggle-transcription`, `--toggle-post-process`, `--cancel`, `--transcribe-file <wav> --json`, `--list-models`), and a **transcription hook**: a program at `<app data>/hooks/transcription` gets the text on stdin and what it prints is pasted instead. The hook code has no platform switch, but the README names macOS and Linux only; whether a Windows program is picked up is unverified.
+- **No accounts, no cloud, no telemetry found** (a search for telemetry/analytics names found nothing). It has an updater and a portable mode.
+
+## What this means
+1. The two model lists use **different engines**. Handy's catalog already covers all of OpenWhispr's speech models, so "OpenWhispr's list plus Handy's" is, in practice, Handy's catalog. Bringing it into an OpenWhispr fork means adding a third engine to that fork.
+2. Stripping OpenWhispr down is not realistic (the parts are entangled, and 180,000 lines). A fork has to **hide** features (meetings, notes, sign-in, connectors) with switches and keep the code, so their updates can still be merged.
+3. Handy is far smaller and cleaner and has the better model index, but lacks the selected-text rewrite and looks different from the app the owner likes.
