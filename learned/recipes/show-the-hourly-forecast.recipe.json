@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-hourly-forecast",
+  "goal": "show the hourly forecast",
+  "template": "show the hourly forecast",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 865.2,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Msn.Weather.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:02:55.2119314+00:00"
+}

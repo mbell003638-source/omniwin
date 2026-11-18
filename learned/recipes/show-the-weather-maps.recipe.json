@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-weather-maps",
+  "goal": "show the weather maps",
+  "template": "show the weather maps",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 870.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Msn.Weather.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:03:44.0133343+00:00"
+}

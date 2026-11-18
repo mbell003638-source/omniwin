@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "name": "search-youtube-for-lofi-music-3",
+  "description": "learned: search youtube for lofi music",
+  "saved_at": "2026-11-18T06:09:34.0654679+00:00",
+  "params": {
+    "q": "step 2 browser_act value"
+  },
+  "steps": [
+    {
+      "tool": "browser_nav",
+      "engine": "browser",
+      "action": "navigate",
+      "target": null,
+      "args": {
+        "url": "https://www.youtube.com"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "type",
+      "target": {
+        "ref": "b1729",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "YouTube",
+        "url": "https://www.youtube.com/",
+        "role": "combobox",
+        "name": "search_query",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "ytd-app",
+            "automation_id": null,
+            "name": null,
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": "content",
+            "name": "content",
+            "class_name": "style-scope ytd-app",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": "masthead-container",
+            "name": "masthead-container",
+            "class_name": "style-scope ytd-app",
+            "index": 1
+          },
+          {
+            "role": "banner",
+            "automation_id": "masthead",
+            "name": "masthead",
+            "class_name": "dark",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": "container",
+            "name": "container",
+            "class_name": "style-scope ytd-masthead",
+            "index": 3
+          },
+          {
+            "role": "div",
+            "automation_id": "center",
+            "name": "center",
+            "class_name": "style-scope ytd-masthead",
+            "index": 1
+          },
+          {
+            "role": "search",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ytSearchboxComponentHost ytSearchboxComponentDesktop ytd-masthead ytSearchboxComponentHostDark ytSearchboxComponentHostNoSuggestions",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ytSearchboxComponentInputWrapper",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ytSearchboxComponentInputContainer",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ytSearchboxComponentInputBox ytSearchboxComponentInputBoxDark",
+            "index": 0
+          },
+          {
+            "role": "form",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ytSearchboxComponentSearchForm",
+            "index": 0
+          },
+          {
+            "role": "combobox",
+            "automation_id": null,
+            "name": "search_query",
+            "class_name": "ytSearchboxComponentInput yt-searchbox-input title",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": "q",
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_keys",
+      "engine": "desktop",
+      "action": "keys",
+      "target": null,
+      "args": {
+        "keys": "enter",
+        "window": "msedge.exe"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

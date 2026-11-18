@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "workflow": "search-youtube-for-lofi-music-3",
+  "goal": "search youtube for lofi music",
+  "template": "search youtube for {q}",
+  "aliases": [],
+  "params": [
+    "q"
+  ],
+  "steps": 3,
+  "learned_wall_ms": 1435.8,
+  "tools": [
+    "browser_act",
+    "browser_nav",
+    "desktop_keys"
+  ],
+  "processes": [
+    "msedge.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:09:34.0793376+00:00"
+}

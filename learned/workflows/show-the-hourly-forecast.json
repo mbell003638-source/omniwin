@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "name": "show-the-hourly-forecast",
+  "description": "learned: show the hourly forecast",
+  "saved_at": "2026-11-18T06:02:55.20306+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Weather"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "select",
+      "target": {
+        "ref": "e5407",
+        "engine": "desktop",
+        "process": "Microsoft.Msn.Weather.exe",
+        "window_title": "Weather",
+        "url": null,
+        "role": "listitem",
+        "name": "Hourly Forecast",
+        "automation_id": "L1NavigationButton_HourlyForecast",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "window",
+            "automation_id": null,
+            "name": "Weather",
+            "class_name": "Windows.UI.Core.CoreWindow",
+            "index": 1
+          },
+          {
+            "role": "window",
+            "automation_id": "PaneRoot",
+            "name": null,
+            "class_name": "SplitViewPane",
+            "index": 4
+          },
+          {
+            "role": "group",
+            "automation_id": "SideNavigationBar",
+            "name": null,
+            "class_name": "LandmarkTarget",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ScrollViewer",
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": "SideNavigationBar",
+            "name": "Navigation",
+            "class_name": "NamedContainerAutomationPeer",
+            "index": 0
+          },
+          {
+            "role": "listitem",
+            "automation_id": "L1NavigationButton_HourlyForecast",
+            "name": "Hourly Forecast",
+            "class_name": "NavMenuButton",
+            "index": 2
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

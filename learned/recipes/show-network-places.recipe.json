@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-network-places",
+  "goal": "show network places",
+  "template": "show network places",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1491.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:07:17.6331476+00:00"
+}

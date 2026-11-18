@@ -232,6 +232,25 @@ def teach(t, task):
     return res
 
 
+def more_wordings(t, task, name, start):
+    out = []
+    samples, wordings = task["samples"], task["wordings"]
+    for k in range(start, len(wordings)):
+        w, v = wordings[k], samples[k % len(samples)]
+        t.snapshot()
+        slots = re.findall(r"\{(\w+)\}", w)
+        r = t.call("omniwin_do", {"text": fill(w, v)})
+        if r.startswith("needs_brain"):
+            run = t.call("workflow_run", {"name": name, "params": {s: v[s] for s in slots}} if slots else {"name": name})
+            fine = status(run) in ("confirmed", "unverified") and t.check(task.get("check"), v)
+            d = t.call("task_done", {"success": fine})
+            out.append({"wording": k, "learned": "wording was added" in d, "ran": fine})
+        else:
+            out.append({"wording": k, "learned": False, "already": r.splitlines()[0][:100]})
+        t.cleanup(task)
+    return out
+
+
 def main():
     exe, data, tasks_file, tag = sys.argv[1:5]
     only = set(sys.argv[5:])
@@ -247,6 +266,15 @@ def main():
     try:
         for task in tasks:
             if task["id"] in done_ids:
+                prev = next(x for x in results["tasks"] if x["id"] == task["id"])
+                tried = 1 + len(prev.get("aliases", []))
+                if len(task["wordings"]) > tried and prev.get("recipe") and prev.get("auto_run", True):   # a noisy recipe never gets wordings
+                    # more wordings for a task already learned: each is run once through omniwin_do -> workflow_run -> task_done
+                    t.log = []
+                    extra = more_wordings(t, task, prev["recipe"], tried)
+                    prev["aliases"] = prev.get("aliases", []) + extra
+                    json.dump(results, open(out_path, "w", encoding="utf-8"), indent=1)
+                    print(task["id"], "wordings +", sum(1 for a in extra if a.get("learned")), "of", len(extra), flush=True)
                 continue
             t.log = []
             try:

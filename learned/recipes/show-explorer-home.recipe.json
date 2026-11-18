@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-explorer-home",
+  "goal": "show explorer home",
+  "template": "show explorer home",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1508.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:05:44.3187377+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-favorite-weather-places",
+  "goal": "show my favorite weather places",
+  "template": "show my favorite weather places",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 895.9,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Msn.Weather.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:05:19.3199803+00:00"
+}

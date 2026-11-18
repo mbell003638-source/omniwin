@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "name": "show-my-recent-files",
+  "description": "learned: show my recent files",
+  "saved_at": "2026-11-18T06:20:25.3602961+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "File Explorer"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "select",
+      "target": {
+        "ref": "e69",
+        "engine": "desktop",
+        "process": "explorer.exe",
+        "window_title": "* - File Explorer",
+        "url": null,
+        "role": "tabitem",
+        "name": "Recent",
+        "automation_id": "3",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": "Home",
+            "class_name": "ShellTabWindowClass",
+            "index": 1
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "DUIViewWndClassName",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": "listview",
+            "name": "Shell Folder View",
+            "class_name": "DUIListView",
+            "index": 2
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "FileExplorer_FolderViewIsland",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "InputSiteWindowClass",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": "HomeScrollViewer",
+            "name": null,
+            "class_name": "ScrollViewer",
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": null,
+            "name": "Tab",
+            "class_name": "FileExplorerExtensions.HomeItemPresenter",
+            "index": 2
+          },
+          {
+            "role": "custom",
+            "automation_id": null,
+            "name": null,
+            "class_name": null,
+            "index": 1
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ScrollViewer",
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": "TopNavMenuItemsHost",
+            "name": null,
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "tabitem",
+            "automation_id": "3",
+            "name": "Recent",
+            "class_name": "Microsoft.UI.Xaml.Controls.NavigationViewItem",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

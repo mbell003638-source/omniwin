@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-monthly-forecast",
+  "goal": "show the monthly forecast",
+  "template": "show the monthly forecast",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1040.7,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Msn.Weather.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:03:19.8096968+00:00"
+}

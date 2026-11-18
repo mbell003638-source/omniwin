@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-clock-settings",
+  "goal": "show the clock settings",
+  "template": "show the clock settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1990.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Time.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:18:57.2474556+00:00"
+}

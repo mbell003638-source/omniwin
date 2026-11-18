@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "name": "show-my-favorite-weather-places",
+  "description": "learned: show my favorite weather places",
+  "saved_at": "2026-11-18T06:05:19.3106243+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Weather"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "select",
+      "target": {
+        "ref": "e9604",
+        "engine": "desktop",
+        "process": "Microsoft.Msn.Weather.exe",
+        "window_title": "Weather",
+        "url": null,
+        "role": "listitem",
+        "name": "Favorites",
+        "automation_id": "L1NavigationButton_Places",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "window",
+            "automation_id": null,
+            "name": "Weather",
+            "class_name": "Windows.UI.Core.CoreWindow",
+            "index": 1
+          },
+          {
+            "role": "window",
+            "automation_id": "PaneRoot",
+            "name": null,
+            "class_name": "SplitViewPane",
+            "index": 4
+          },
+          {
+            "role": "group",
+            "automation_id": "SideNavigationBar",
+            "name": null,
+            "class_name": "LandmarkTarget",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "ScrollViewer",
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": "SideNavigationBar",
+            "name": "Navigation",
+            "class_name": "NamedContainerAutomationPeer",
+            "index": 0
+          },
+          {
+            "role": "listitem",
+            "automation_id": "L1NavigationButton_Places",
+            "name": "Favorites",
+            "class_name": "NavMenuButton",
+            "index": 7
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-media-player-home",
+  "goal": "show media player home",
+  "template": "show media player home",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1687,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Media.Player.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:00:02.0572195+00:00"
+}

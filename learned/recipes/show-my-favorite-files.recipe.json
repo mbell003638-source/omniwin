@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-favorite-files",
+  "goal": "show my favorite files",
+  "template": "show my favorite files",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 912.5,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:21:01.5568567+00:00"
+}

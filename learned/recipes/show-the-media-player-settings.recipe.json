@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-media-player-settings",
+  "goal": "show the media player settings",
+  "template": "show the media player settings",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1650.4,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Media.Player.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:19:24.8184497+00:00"
+}

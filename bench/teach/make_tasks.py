@@ -5,9 +5,11 @@ No settings are changed: Settings tasks only open pages. Bluetooth, brightness, 
 import json
 
 VERBS = ["show {x}", "show me {x}", "take me to {x}", "bring up {x}", "pull up {x}", "i want to see {x}", "display {x}",
-         "navigate to {x}", "get me {x}", "head to {x}", "jump to {x}", "go into {x}", "find {x} for me", "let me see {x}"]
+         "navigate to {x}", "get me {x}", "head to {x}", "jump to {x}", "go into {x}", "find {x} for me", "let me see {x}",
+         "can i see {x}", "show {x} now", "i need {x}", "bring me {x}", "load {x}", "view {x}", "put up {x}", "pop up {x}",
+         "get {x} up", "i would like to see {x}", "take a look at {x}", "check {x}"]
 
-def literal(id_, group, phrase, steps, check, n=14):
+def literal(id_, group, phrase, steps, check, n=26):
     return {"id": id_, "group": group, "wordings": [v.format(x=phrase) for v in VERBS[:n]], "samples": [{} for _ in range(6)], "steps": steps, "check": check}
 
 tasks = []
@@ -71,6 +73,33 @@ for item in ["Standard Calculator", "Scientific Calculator", "Graphing Calculato
     tasks.append(literal("calc-" + item.split()[0].lower(), "Calculator", phrase,
                          [["launch", "Calculator"], ["act", "Calculator", "button", "Open Navigation", "click"],
                           ["act", "Calculator", "listitem", item, "select"]], ["Calculator", item.split()[0]]))
+
+
+# More pages (added 2026-11-18): Media Player, Weather, File Explorer places, Settings home. Each holds 11 wordings at most
+# (OmniWin keeps 10 extra wordings per recipe), so reaching about 500 wordings needs more tasks, not more wordings per task.
+for page, phrase in [("Home", "media player home"), ("Music library", "my music library"), ("Video library", "my video library"),
+                     ("Play queue", "the play queue"), ("Playlists", "my playlists")]:
+    tasks.append(literal("media-" + page.lower().replace(" ", "-"), "Media Player", phrase,
+                         [["launch", "Media Player"], ["act", "Media Player", "listitem", page, "select"]], ["Media Player", page], n=14))
+for page, phrase in [("Forecast", "the weather forecast"), ("Hourly Forecast", "the hourly forecast"), ("Monthly Forecast", "the monthly forecast"),
+                     ("Maps", "the weather maps"), ("Historical Weather", "the historical weather"), ("Pollen", "the pollen forecast"),
+                     ("Life", "the weather life tips"), ("Favorites", "my favorite weather places")]:
+    tasks.append(literal("weather-" + page.lower().replace(" ", "-"), "Weather", phrase,
+                         [["launch", "Weather"], ["act", "Weather", "listitem", page, "select"]], ["Weather", page], n=14))
+for place, phrase, title in [("Home", "explorer home", "Home"), ("Gallery", "the photo gallery", "Gallery"), ("Network", "network places", "Network"),
+                             ("This PC", "this pc", "This PC")]:
+    tasks.append(literal("explorer-" + place.lower().replace(" ", "-"), "File Explorer", phrase,
+                         [["launch", "File Explorer"], ["act", "File Explorer", "treeitem", place, "click"]], [title + " - File Explorer", "window"], n=14))
+tasks.append(literal("settings-home", "Settings", "the settings home page",
+                     [["launch", "Settings"], ["act", "Settings", "listitem", "Home", "select"]], ["Settings", 'button "Home"'], n=14))
+
+tasks.append(literal("clock-settings", "Clock", "the clock settings",
+                     [["launch", "Clock"], ["act", "Clock", "listitem", "Settings", "select"]], ["Clock", "Settings"], n=14))
+tasks.append(literal("media-settings", "Media Player", "the media player settings",
+                     [["launch", "Media Player"], ["act", "Media Player", "listitem", "Settings", "select"]], ["Media Player", "Settings"], n=14))
+for place, phrase in [("Recent", "my recent files"), ("Favorites", "my favorite files"), ("Shared", "files shared with me")]:
+    tasks.append(literal("explorer-" + place.lower(), "File Explorer", phrase,
+                         [["launch", "File Explorer"], ["act", "File Explorer", "tabitem", place, "select"]], ["File Explorer", place], n=14))
 
 # Web (OmniWin's own browser): searches only. set_value replaces what a box already holds (Google pre-fills some).
 def web(id_, wordings, samples, url, box_role, box_name, submit, check="{q}"):

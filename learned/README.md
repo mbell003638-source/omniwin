@@ -4,9 +4,9 @@ Taught on the reference PC on 2026-11-17 (Windows 11, English (Canada), OmniWin 
 (`bench/teach/teach.py`, task list `bench/teach/make_tasks.py`). Each task was done once, saved with `task_done`, replayed three
 times with other values, then run from new words; every other wording was then run once so OmniWin learned it.
 
-- Tasks learned: **38** of 44 tried; wordings learned in addition to each task's first one: **222**.
-- First run (scripted, so no AI thinking time is included): median 1621 ms.
-- Instant run from words (`omniwin_do`, one call): median 1462 ms, 23 tasks.
+- Tasks learned: **63** of 67 tried; wordings learned in addition to each task's first one: **452**.
+- First run (scripted, so no AI thinking time is included): median 1527 ms.
+- Instant run from words (`omniwin_do`, one call): median 1282 ms, 46 tasks.
 - Web tasks (Google, Flights, Hotels, Maps, YouTube, Wikipedia) never run by themselves (owner rule: no browser step at speed 1);
   the AI runs them in one call with `workflow_run`. They search only: nothing is booked, bought, signed in to or sent.
 - Left out on purpose: Bluetooth on/off, brightness, camera, notifications (system settings, privacy, or different every time),
@@ -15,7 +15,6 @@ times with other values, then run from new words; every other wording was then r
 | Task | Group | Result | Wordings learned | Instant run | Recipe |
 |---|---|---|---|---|---|
 | calc-sum | Calculator | learned | 8 of 8 | 744 ms | `calculate-12-7-in-calculator` |
-| notepad-note | Notepad | saved_but_replays_failed | 0 of 8 |  | `write-a-note-saying-call-the-dentist` |
 | settings-search | Settings | learned | 6 of 6 | 1704 ms | `search-settings-for-display` |
 | settings-system | Settings | learned | 11 of 14 | 1390 ms | `show-system-settings` |
 | settings-bluetooth-devices | Settings | learned | 11 of 14 | 1649 ms | `show-bluetooth-settings` |
@@ -27,9 +26,7 @@ times with other values, then run from new words; every other wording was then r
 | settings-gaming | Settings | learned | 11 of 14 | 1194 ms | `show-gaming-settings` |
 | settings-accessibility | Settings | learned | 11 of 14 | 1284 ms | `show-accessibility-settings` |
 | settings-privacy-security | Settings | learned | 11 of 14 | 1716 ms | `show-privacy-settings` |
-| settings-windows-update | Settings | saved_but_replays_failed | 0 of 14 |  | `show-windows-update-settings` |
 | explorer-documents | File Explorer | learned | 11 of 14 | 2314 ms | `show-my-documents-folder` |
-| explorer-downloads | File Explorer | not_learned | 0 of 14 |  | `` |
 | explorer-pictures | File Explorer | learned | 11 of 14 | 1416 ms | `show-my-pictures-folder` |
 | explorer-music | File Explorer | learned | 11 of 14 | 2278 ms | `show-my-music-folder` |
 | explorer-videos | File Explorer | learned | 11 of 14 | 1833 ms | `show-my-videos-folder` |
@@ -55,8 +52,34 @@ times with other values, then run from new words; every other wording was then r
 | calc-time | Calculator | learned | 1 of 14 | AI only | `show-the-time-converter` |
 | calc-power | Calculator | learned | 1 of 14 | AI only | `show-the-power-converter` |
 | calc-data | Calculator | learned | 1 of 14 | AI only | `show-the-data-converter` |
+| notepad-note | Notepad | learned | 1 of 8 | yes | `` |
+| settings-windows-update | Settings | learned | 1 of 26 | yes | `` |
+| explorer-downloads | File Explorer | not_learned | 0 of 26 |  | `` |
+| media-home | Media Player | learned | 11 of 14 | 978 ms | `show-media-player-home` |
+| media-music-library | Media Player | learned | 11 of 14 | 944 ms | `show-my-music-library` |
+| media-video-library | Media Player | learned | 11 of 14 | 931 ms | `show-my-video-library` |
+| media-play-queue | Media Player | learned | 11 of 14 | 944 ms | `show-the-play-queue` |
+| media-playlists | Media Player | learned | 11 of 14 | 933 ms | `show-my-playlists` |
+| weather-forecast | Weather | learned | 11 of 14 | 583 ms | `show-the-weather-forecast` |
+| weather-hourly-forecast | Weather | learned | 11 of 14 | 575 ms | `show-the-hourly-forecast` |
+| weather-monthly-forecast | Weather | learned | 11 of 14 | 610 ms | `show-the-monthly-forecast` |
+| weather-maps | Weather | learned | 11 of 14 | 523 ms | `show-the-weather-maps` |
+| weather-historical-weather | Weather | learned | 11 of 14 | 772 ms | `show-the-historical-weather` |
+| weather-pollen | Weather | learned | 11 of 14 | 620 ms | `show-the-pollen-forecast` |
+| weather-life | Weather | learned | 11 of 14 | 716 ms | `show-the-weather-life-tips` |
+| weather-favorites | Weather | learned | 11 of 14 | 592 ms | `show-my-favorite-weather-places` |
+| explorer-home | File Explorer | learned | 11 of 14 | 1779 ms | `show-explorer-home` |
+| explorer-gallery | File Explorer | learned | 11 of 14 | 1762 ms | `show-the-photo-gallery` |
+| explorer-network | File Explorer | learned | 11 of 14 | 1836 ms | `show-network-places` |
+| explorer-this-pc | File Explorer | learned | 11 of 14 | 1821 ms | `show-this-pc` |
+| settings-home | Settings | learned | 11 of 14 | 1776 ms | `show-the-settings-home-page` |
 | google-maps | Web | teach_failed | 0 of 6 |  | `` |
-| youtube-search | Web | saved_but_replays_failed | 0 of 6 |  | `search-youtube-for-lofi-music` |
+| youtube-search | Web | saved_but_replays_failed | 0 of 6 |  | `search-youtube-for-lofi-music-3` |
 | wikipedia | Web | teach_failed | 0 of 6 |  | `` |
+| clock-settings | Clock | learned | 11 of 14 | 792 ms | `show-the-clock-settings` |
+| media-settings | Media Player | learned | 11 of 14 | 1031 ms | `show-the-media-player-settings` |
+| explorer-recent | File Explorer | learned | 11 of 14 | 1494 ms | `show-my-recent-files` |
+| explorer-favorites | File Explorer | learned | 11 of 14 | 1430 ms | `show-my-favorite-files` |
+| explorer-shared | File Explorer | learned | 11 of 14 | 1419 ms | `show-files-shared-with-me` |
 
 Failures are listed as they happened (`artifacts/benchmarks/curriculum-*.json` has each step's status).

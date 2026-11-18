@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-play-queue",
+  "goal": "show the play queue",
+  "template": "show the play queue",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1012.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Media.Player.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:01:32.3758846+00:00"
+}

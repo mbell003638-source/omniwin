@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-weather-life-tips",
+  "goal": "show the weather life tips",
+  "template": "show the weather life tips",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 897.5,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Msn.Weather.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:04:55.1548337+00:00"
+}

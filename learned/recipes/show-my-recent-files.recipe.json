@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-recent-files",
+  "goal": "show my recent files",
+  "template": "show my recent files",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1719,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:20:25.3785864+00:00"
+}

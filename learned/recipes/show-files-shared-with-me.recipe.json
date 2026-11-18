@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-files-shared-with-me",
+  "goal": "show files shared with me",
+  "template": "show files shared with me",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1099.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "explorer.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:21:36.8638084+00:00"
+}

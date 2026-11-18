@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-the-pollen-forecast",
+  "goal": "show the pollen forecast",
+  "template": "show the pollen forecast",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 934.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Microsoft.Msn.Weather.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:04:31.1328159+00:00"
+}
