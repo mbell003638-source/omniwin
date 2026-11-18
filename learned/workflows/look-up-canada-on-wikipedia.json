@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "name": "look-up-canada-on-wikipedia",
+  "description": "learned: look up canada on wikipedia",
+  "saved_at": "2026-11-18T07:09:01.24987+00:00",
+  "params": {
+    "q": "step 2 browser_act value"
+  },
+  "steps": [
+    {
+      "tool": "browser_nav",
+      "engine": "browser",
+      "action": "navigate",
+      "target": null,
+      "args": {
+        "url": "https://en.wikipedia.org"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "type",
+      "target": {
+        "ref": "b2353",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "Wikipedia, the free encyclopedia",
+        "url": "https://en.wikipedia.org/wiki/Main_Page",
+        "role": "textbox",
+        "name": "Search Wikipedia",
+        "automation_id": "searchInput",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Main menu\nSearch\nDonate\nCreate account\nLog in",
+            "class_name": "vector-header-container",
+            "index": 1
+          },
+          {
+            "role": "header",
+            "automation_id": null,
+            "name": "Main menu\nSearch\nDonate\nCreate account\nLog in",
+            "class_name": "vector-header mw-header no-font-mode-scale",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nDonate\nCreate account\nLog in",
+            "class_name": "vector-header-end",
+            "index": 1
+          },
+          {
+            "role": "search",
+            "automation_id": "p-search",
+            "name": "Search",
+            "class_name": "vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search",
+            "class_name": "vector-typeahead-search-container",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search",
+            "class_name": "cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width",
+            "index": 0
+          },
+          {
+            "role": "form",
+            "automation_id": "searchform",
+            "name": "Search",
+            "class_name": "cdx-search-input cdx-search-input--has-end-button",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": "simpleSearch",
+            "name": "simpleSearch",
+            "class_name": "cdx-search-input__input-wrapper",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "cdx-text-input cdx-text-input--has-start-icon",
+            "index": 0
+          },
+          {
+            "role": "textbox",
+            "automation_id": "searchInput",
+            "name": "Search Wikipedia",
+            "class_name": "cdx-text-input__input mw-searchInput",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": "q",
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "click",
+      "target": {
+        "ref": "b7153",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "Wikipedia, the free encyclopedia",
+        "url": "https://en.wikipedia.org/wiki/Main_Page",
+        "role": "button",
+        "name": "Search",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Main menu\nCanada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch\nDonate\nCreate account\nLog in",
+            "class_name": "vector-header-container",
+            "index": 1
+          },
+          {
+            "role": "header",
+            "automation_id": null,
+            "name": "Main menu\nCanada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch\nDonate\nCreate account\nLog in",
+            "class_name": "vector-header mw-header no-font-mode-scale",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch\nDonate\nCreate account\nLog in",
+            "class_name": "vector-header-end",
+            "index": 1
+          },
+          {
+            "role": "search",
+            "automation_id": "p-search",
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch",
+            "class_name": "vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch",
+            "class_name": "vector-typeahead-search-container",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch",
+            "class_name": "vector-typeahead-search-wrapper",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch",
+            "class_name": "cdx-typeahead-search cdx-typeahead-search--expanded cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width vector-typeahead-search vector-typeahead-search--active",
+            "index": 0
+          },
+          {
+            "role": "form",
+            "automation_id": "searchform",
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch",
+            "class_name": "cdx-typeahead-search__form",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Canada\nCountry in North America\nCanadian Armed Forces\nUnified military forces of Canada\nCanada–United States border\nInternational border in North America\nCanada goose\nSpecies of goose native to the Northern Hemisphere\nCanada men's national soccer team\nCanadian English\nVariety of English language\nCanada–United States relations\nBilateral relations\nCanadian dollar\nCurrency of Canada\nCanada in World War II\nCanadian Premier League\nProfessional soccer league in Canada\nSearch for pages containing canada\nSearch",
+            "class_name": "cdx-search-input cdx-search-input--has-end-button cdx-typeahead-search__input",
+            "index": 0
+          },
+          {
+            "role": "button",
+            "automation_id": null,
+            "name": "Search",
+            "class_name": "cdx-button cdx-button--action-default cdx-button--weight-normal cdx-button--size-medium cdx-button--framed cdx-search-input__end-button",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-paint-with-yellow",
+  "goal": "show paint with yellow",
+  "template": "show paint with yellow",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1709.4,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "mspaint.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:59:33.536765+00:00"
+}

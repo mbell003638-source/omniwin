@@ -113,8 +113,9 @@ class Teacher:
         if not chk:
             return True
         window, needle = chk[0], fill(chk[1], values)
-        for _ in range(16):
-            text, _ = self.observe(window, browser=window == "@browser")
+        for _ in range(40 if window == "@browser" else 16):   # web pages load slowly
+            # web pages: the tab list (title and address) is enough, and a very large page can time out a full read
+            text = self.o.call("browser_tabs") if window == "@browser" else self.observe(window)[0]
             if window == "@browser" and ("/sorry/" in text or "unusual traffic" in text.lower()):
                 raise BotCheck()
             if needle.lower() in text.lower():

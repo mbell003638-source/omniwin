@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "name": "show-paint-with-black",
+  "description": "learned: show paint with black",
+  "saved_at": "2026-11-18T06:58:59.2482793+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Paint"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "click",
+      "target": {
+        "ref": "e4866",
+        "engine": "desktop",
+        "process": "mspaint.exe",
+        "window_title": "* - Paint",
+        "url": null,
+        "role": "listitem",
+        "name": "Black",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge",
+            "index": 0
+          },
+          {
+            "role": "pane",
+            "automation_id": null,
+            "name": null,
+            "class_name": "InputSiteWindowClass",
+            "index": 0
+          },
+          {
+            "role": "custom",
+            "automation_id": null,
+            "name": null,
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": null,
+            "name": null,
+            "class_name": "LandmarkTarget",
+            "index": 8
+          },
+          {
+            "role": "pane",
+            "automation_id": "ScrollViewer",
+            "name": null,
+            "class_name": "ScrollViewer",
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": null,
+            "name": "Colors",
+            "class_name": "NamedContainerAutomationPeer",
+            "index": 5
+          },
+          {
+            "role": "list",
+            "automation_id": null,
+            "name": null,
+            "class_name": "GridView",
+            "index": 2
+          },
+          {
+            "role": "listitem",
+            "automation_id": null,
+            "name": "Black",
+            "class_name": "GridViewItem",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

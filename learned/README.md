@@ -4,9 +4,9 @@ Taught on the reference PC on 2026-11-17 (Windows 11, English (Canada), OmniWin 
 (`bench/teach/teach.py`, task list `bench/teach/make_tasks.py`). Each task was done once, saved with `task_done`, replayed three
 times with other values, then run from new words; every other wording was then run once so OmniWin learned it.
 
-- Tasks learned: **63** of 67 tried; wordings learned in addition to each task's first one: **452**.
-- First run (scripted, so no AI thinking time is included): median 1527 ms.
-- Instant run from words (`omniwin_do`, one call): median 1282 ms, 46 tasks.
+- Tasks learned: **76** of 80 tried; wordings learned in addition to each task's first one: **542**.
+- First run (scripted, so no AI thinking time is included): median 1597 ms.
+- Instant run from words (`omniwin_do`, one call): median 1430 ms, 55 tasks.
 - Web tasks (Google, Flights, Hotels, Maps, YouTube, Wikipedia) never run by themselves (owner rule: no browser step at speed 1);
   the AI runs them in one call with `workflow_run`. They search only: nothing is booked, bought, signed in to or sent.
 - Left out on purpose: Bluetooth on/off, brightness, camera, notifications (system settings, privacy, or different every time),
@@ -54,7 +54,6 @@ times with other values, then run from new words; every other wording was then r
 | calc-data | Calculator | learned | 1 of 14 | AI only | `show-the-data-converter` |
 | notepad-note | Notepad | learned | 1 of 8 | yes | `` |
 | settings-windows-update | Settings | learned | 1 of 26 | yes | `` |
-| explorer-downloads | File Explorer | not_learned | 0 of 26 |  | `` |
 | media-home | Media Player | learned | 11 of 14 | 978 ms | `show-media-player-home` |
 | media-music-library | Media Player | learned | 11 of 14 | 944 ms | `show-my-music-library` |
 | media-video-library | Media Player | learned | 11 of 14 | 931 ms | `show-my-video-library` |
@@ -73,13 +72,27 @@ times with other values, then run from new words; every other wording was then r
 | explorer-network | File Explorer | learned | 11 of 14 | 1836 ms | `show-network-places` |
 | explorer-this-pc | File Explorer | learned | 11 of 14 | 1821 ms | `show-this-pc` |
 | settings-home | Settings | learned | 11 of 14 | 1776 ms | `show-the-settings-home-page` |
-| google-maps | Web | teach_failed | 0 of 6 |  | `` |
-| youtube-search | Web | saved_but_replays_failed | 0 of 6 |  | `search-youtube-for-lofi-music-3` |
-| wikipedia | Web | teach_failed | 0 of 6 |  | `` |
 | clock-settings | Clock | learned | 11 of 14 | 792 ms | `show-the-clock-settings` |
 | media-settings | Media Player | learned | 11 of 14 | 1031 ms | `show-the-media-player-settings` |
 | explorer-recent | File Explorer | learned | 11 of 14 | 1494 ms | `show-my-recent-files` |
 | explorer-favorites | File Explorer | learned | 11 of 14 | 1430 ms | `show-my-favorite-files` |
 | explorer-shared | File Explorer | learned | 11 of 14 | 1419 ms | `show-files-shared-with-me` |
+| explorer-downloads | File Explorer | not_learned | 0 of 26 |  | `` |
+| store-home | Microsoft Store | learned | 11 of 14 | 3792 ms | `show-the-store-home-page` |
+| store-apps | Microsoft Store | learned | 11 of 14 | 3848 ms | `show-apps-in-the-store` |
+| store-gaming | Microsoft Store | learned | 11 of 14 | 2290 ms | `show-games-in-the-store` |
+| store-library | Microsoft Store | learned | 11 of 14 | 2314 ms | `show-my-store-library` |
+| store-themes | Microsoft Store | learned | 11 of 14 | 3045 ms | `show-themes-in-the-store` |
+| photos-gallery | Photos | learned | 11 of 14 | 1619 ms | `show-my-photo-gallery` |
+| photos-favorites | Photos | learned | 11 of 14 | 1650 ms | `show-my-favorite-photos` |
+| photos-this-pc | Photos | learned | 11 of 14 | 1658 ms | `show-photos-on-this-pc` |
+| store-whats-new | Microsoft Store | learned | 11 of 14 | 2496 ms | `show-what-is-new-in-the-store` |
+| paint-red | Paint | learned | 1 of 14 | AI only | `show-paint-with-red` |
+| paint-green | Paint | learned | 1 of 14 | AI only | `show-paint-with-green` |
+| paint-black | Paint | learned | 1 of 14 | AI only | `show-paint-with-black` |
+| paint-yellow | Paint | learned | 1 of 14 | AI only | `show-paint-with-yellow` |
+| google-maps | Web | teach_failed | 0 of 6 |  | `` |
+| youtube-search | Web | saved_but_replays_failed | 0 of 6 |  | `search-youtube-for-lofi-music-5` |
+| wikipedia | Web | saved_but_replays_failed | 0 of 6 |  | `look-up-canada-on-wikipedia` |
 
 Failures are listed as they happened (`artifacts/benchmarks/curriculum-*.json` has each step's status).

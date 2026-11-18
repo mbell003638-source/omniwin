@@ -2024,3 +2024,352 @@
 {"at":"2026-11-18T06:22:05.6141782+00:00","recipe":"show-files-shared-with-me","kind":"replay_ok","wall_ms":909.5}
 {"at":"2026-11-18T06:22:07.4763647+00:00","recipe":"show-files-shared-with-me","kind":"replay_ok","wall_ms":1231.3}
 {"at":"2026-11-18T06:22:09.3735236+00:00","recipe":"show-files-shared-with-me","kind":"replay_ok","wall_ms":1262.2}
+{"at":"2026-11-18T06:24:58.5177414+00:00","recipe":"show-the-store-home-page","kind":"learned"}
+{"at":"2026-11-18T06:25:02.932418+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3713}
+{"at":"2026-11-18T06:25:07.5755828+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3723.6}
+{"at":"2026-11-18T06:25:10.7651204+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":2247.9}
+{"at":"2026-11-18T06:25:15.4136816+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3772.4}
+{"at":"2026-11-18T06:25:19.9237843+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3602.3}
+{"at":"2026-11-18T06:25:20.1207855+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"show me the store home page"}
+{"at":"2026-11-18T06:25:23.0551888+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":2240.1}
+{"at":"2026-11-18T06:25:23.2224457+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"take me to the store home page"}
+{"at":"2026-11-18T06:25:26.1563541+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":2263.6}
+{"at":"2026-11-18T06:25:26.306753+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"bring up the store home page"}
+{"at":"2026-11-18T06:25:30.705139+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3747}
+{"at":"2026-11-18T06:25:30.9435948+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"pull up the store home page"}
+{"at":"2026-11-18T06:25:33.9205349+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":2281.2}
+{"at":"2026-11-18T06:25:34.1061731+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"see the store home page"}
+{"at":"2026-11-18T06:25:38.5352094+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3767.1}
+{"at":"2026-11-18T06:25:38.760268+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"display the store home page"}
+{"at":"2026-11-18T06:25:43.1195945+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3685.6}
+{"at":"2026-11-18T06:25:43.3778406+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"navigate to the store home page"}
+{"at":"2026-11-18T06:25:47.8319055+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3757.9}
+{"at":"2026-11-18T06:25:48.0546061+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"get me the store home page"}
+{"at":"2026-11-18T06:25:51.0208308+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":2282.2}
+{"at":"2026-11-18T06:25:51.1980954+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"head to the store home page"}
+{"at":"2026-11-18T06:25:55.6835505+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3753.8}
+{"at":"2026-11-18T06:25:55.9082231+00:00","recipe":"show-the-store-home-page","kind":"alias_added","alias":"jump to the store home page"}
+{"at":"2026-11-18T06:26:00.5656358+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3977.9}
+{"at":"2026-11-18T06:26:05.2254543+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":3726.8}
+{"at":"2026-11-18T06:26:08.3814785+00:00","recipe":"show-the-store-home-page","kind":"replay_ok","wall_ms":2267.2}
+{"at":"2026-11-18T06:26:11.5479925+00:00","recipe":"show-apps-in-the-store","kind":"learned"}
+{"at":"2026-11-18T06:26:14.4642798+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":2248.7}
+{"at":"2026-11-18T06:26:18.2607852+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3149.9}
+{"at":"2026-11-18T06:26:22.804413+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3484.1}
+{"at":"2026-11-18T06:26:27.5692583+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3837.8}
+{"at":"2026-11-18T06:26:32.2644393+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3742.6}
+{"at":"2026-11-18T06:26:32.6180647+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"show me apps in the store"}
+{"at":"2026-11-18T06:26:37.2749822+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3969.2}
+{"at":"2026-11-18T06:26:37.6235298+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"take me to apps in the store"}
+{"at":"2026-11-18T06:26:42.2736372+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3958.3}
+{"at":"2026-11-18T06:26:42.5757219+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"bring up apps in the store"}
+{"at":"2026-11-18T06:26:47.1681044+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3924.7}
+{"at":"2026-11-18T06:26:47.4561268+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"pull up apps in the store"}
+{"at":"2026-11-18T06:26:52.2665204+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":4141.4}
+{"at":"2026-11-18T06:26:52.5603366+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"see apps in the store"}
+{"at":"2026-11-18T06:26:57.3500253+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":4032.3}
+{"at":"2026-11-18T06:26:57.6132893+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"display apps in the store"}
+{"at":"2026-11-18T06:27:02.4929687+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":4192.9}
+{"at":"2026-11-18T06:27:02.7515216+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"navigate to apps in the store"}
+{"at":"2026-11-18T06:27:07.2707094+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3846.8}
+{"at":"2026-11-18T06:27:07.4755748+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"get me apps in the store"}
+{"at":"2026-11-18T06:27:11.9555263+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3797.1}
+{"at":"2026-11-18T06:27:12.261177+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"head to apps in the store"}
+{"at":"2026-11-18T06:27:16.6187678+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3683.3}
+{"at":"2026-11-18T06:27:16.8960422+00:00","recipe":"show-apps-in-the-store","kind":"alias_added","alias":"jump to apps in the store"}
+{"at":"2026-11-18T06:27:21.2132272+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3642.1}
+{"at":"2026-11-18T06:27:26.0162511+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3711.6}
+{"at":"2026-11-18T06:27:30.8658056+00:00","recipe":"show-apps-in-the-store","kind":"replay_ok","wall_ms":3980.3}
+{"at":"2026-11-18T06:27:34.131576+00:00","recipe":"show-games-in-the-store","kind":"learned"}
+{"at":"2026-11-18T06:27:37.16656+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2379.4}
+{"at":"2026-11-18T06:27:40.0436864+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2236.7}
+{"at":"2026-11-18T06:27:42.9429615+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2253.9}
+{"at":"2026-11-18T06:27:45.8869536+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2277.5}
+{"at":"2026-11-18T06:27:48.9788679+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2432.6}
+{"at":"2026-11-18T06:27:48.9890857+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"show me games in the store"}
+{"at":"2026-11-18T06:27:52.0261225+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2373.9}
+{"at":"2026-11-18T06:27:52.0356797+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"take me to games in the store"}
+{"at":"2026-11-18T06:27:54.9465429+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2260.3}
+{"at":"2026-11-18T06:27:54.9610034+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"bring up games in the store"}
+{"at":"2026-11-18T06:27:57.8830464+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2284.3}
+{"at":"2026-11-18T06:27:57.8924204+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"pull up games in the store"}
+{"at":"2026-11-18T06:28:00.8407755+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2302.5}
+{"at":"2026-11-18T06:28:00.8504471+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"see games in the store"}
+{"at":"2026-11-18T06:28:04.7733458+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3271}
+{"at":"2026-11-18T06:28:04.9031629+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"display games in the store"}
+{"at":"2026-11-18T06:28:08.5366928+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":2975.8}
+{"at":"2026-11-18T06:28:09.3907918+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"navigate to games in the store"}
+{"at":"2026-11-18T06:28:13.7752478+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3590.6}
+{"at":"2026-11-18T06:28:14.0117665+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"get me games in the store"}
+{"at":"2026-11-18T06:28:18.5786207+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3887.1}
+{"at":"2026-11-18T06:28:19.1007999+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"head to games in the store"}
+{"at":"2026-11-18T06:28:23.5101123+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3721.3}
+{"at":"2026-11-18T06:28:23.7398565+00:00","recipe":"show-games-in-the-store","kind":"alias_added","alias":"jump to games in the store"}
+{"at":"2026-11-18T06:28:28.002259+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3570.3}
+{"at":"2026-11-18T06:28:33.0127888+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3929.2}
+{"at":"2026-11-18T06:28:37.7058461+00:00","recipe":"show-games-in-the-store","kind":"replay_ok","wall_ms":3623}
+{"at":"2026-11-18T06:28:41.0048068+00:00","recipe":"show-my-store-library","kind":"learned"}
+{"at":"2026-11-18T06:28:43.9941789+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2337.9}
+{"at":"2026-11-18T06:28:47.154028+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2454.4}
+{"at":"2026-11-18T06:28:50.2716619+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2463.4}
+{"at":"2026-11-18T06:28:53.2608633+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2301.3}
+{"at":"2026-11-18T06:28:56.3377052+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2359.4}
+{"at":"2026-11-18T06:28:56.3904265+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"show me my store library"}
+{"at":"2026-11-18T06:28:59.6092992+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2480.6}
+{"at":"2026-11-18T06:28:59.7489664+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"take me to my store library"}
+{"at":"2026-11-18T06:29:02.9173067+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2501.1}
+{"at":"2026-11-18T06:29:02.9675858+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"bring up my store library"}
+{"at":"2026-11-18T06:29:06.0268076+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2397.2}
+{"at":"2026-11-18T06:29:06.0809515+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"pull up my store library"}
+{"at":"2026-11-18T06:29:09.0916876+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2330.2}
+{"at":"2026-11-18T06:29:09.1509713+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"see my store library"}
+{"at":"2026-11-18T06:29:12.2875153+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2493.9}
+{"at":"2026-11-18T06:29:12.3425841+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"display my store library"}
+{"at":"2026-11-18T06:29:15.3643653+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2356.8}
+{"at":"2026-11-18T06:29:15.4197207+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"navigate to my store library"}
+{"at":"2026-11-18T06:29:18.5301515+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2447.5}
+{"at":"2026-11-18T06:29:18.597165+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"get me my store library"}
+{"at":"2026-11-18T06:29:21.3120725+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2051.7}
+{"at":"2026-11-18T06:29:21.3628732+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"head to my store library"}
+{"at":"2026-11-18T06:29:24.4709517+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2436.1}
+{"at":"2026-11-18T06:29:24.5234097+00:00","recipe":"show-my-store-library","kind":"alias_added","alias":"jump to my store library"}
+{"at":"2026-11-18T06:29:27.6178958+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2439.7}
+{"at":"2026-11-18T06:29:30.755256+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2287.9}
+{"at":"2026-11-18T06:29:33.9622484+00:00","recipe":"show-my-store-library","kind":"replay_ok","wall_ms":2489.5}
+{"at":"2026-11-18T06:29:37.0440025+00:00","recipe":"show-themes-in-the-store","kind":"learned"}
+{"at":"2026-11-18T06:29:40.0782154+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":2379.5}
+{"at":"2026-11-18T06:29:43.0011631+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":2268}
+{"at":"2026-11-18T06:29:45.8053795+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":2159.4}
+{"at":"2026-11-18T06:29:49.5137842+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3037.2}
+{"at":"2026-11-18T06:29:53.8336994+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3461}
+{"at":"2026-11-18T06:29:54.1328254+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"show me themes in the store"}
+{"at":"2026-11-18T06:29:58.2781345+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3381.7}
+{"at":"2026-11-18T06:29:58.5261374+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"take me to themes in the store"}
+{"at":"2026-11-18T06:30:02.7170374+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3475.1}
+{"at":"2026-11-18T06:30:02.9485248+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"bring up themes in the store"}
+{"at":"2026-11-18T06:30:06.7587713+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3114.4}
+{"at":"2026-11-18T06:30:06.9676657+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"pull up themes in the store"}
+{"at":"2026-11-18T06:30:11.3351307+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3697.2}
+{"at":"2026-11-18T06:30:11.5486713+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"see themes in the store"}
+{"at":"2026-11-18T06:30:15.6208379+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3400}
+{"at":"2026-11-18T06:30:15.8420199+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"display themes in the store"}
+{"at":"2026-11-18T06:30:19.9095052+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3378.6}
+{"at":"2026-11-18T06:30:20.126075+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"navigate to themes in the store"}
+{"at":"2026-11-18T06:30:24.295324+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3485.5}
+{"at":"2026-11-18T06:30:24.5236278+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"get me themes in the store"}
+{"at":"2026-11-18T06:30:28.5922504+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3396.6}
+{"at":"2026-11-18T06:30:28.8040335+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"head to themes in the store"}
+{"at":"2026-11-18T06:30:32.8116255+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3332.9}
+{"at":"2026-11-18T06:30:33.0375498+00:00","recipe":"show-themes-in-the-store","kind":"alias_added","alias":"jump to themes in the store"}
+{"at":"2026-11-18T06:30:37.1813659+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3452.2}
+{"at":"2026-11-18T06:30:41.3414309+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3263.1}
+{"at":"2026-11-18T06:30:45.5170853+00:00","recipe":"show-themes-in-the-store","kind":"replay_ok","wall_ms":3273.2}
+{"at":"2026-11-18T06:30:51.4962607+00:00","recipe":"show-my-photo-gallery","kind":"learned"}
+{"at":"2026-11-18T06:30:53.7357156+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1627.9}
+{"at":"2026-11-18T06:30:55.9990309+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1607.3}
+{"at":"2026-11-18T06:30:58.2713207+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1615.8}
+{"at":"2026-11-18T06:31:00.5473068+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1603.1}
+{"at":"2026-11-18T06:31:02.932802+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1702.8}
+{"at":"2026-11-18T06:31:03.0050553+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"show me my photo gallery"}
+{"at":"2026-11-18T06:31:05.3142087+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1709.2}
+{"at":"2026-11-18T06:31:05.3911478+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"take me to my photo gallery"}
+{"at":"2026-11-18T06:31:07.595681+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1597.8}
+{"at":"2026-11-18T06:31:07.6714768+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"bring up my photo gallery"}
+{"at":"2026-11-18T06:31:10.1935065+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1913.9}
+{"at":"2026-11-18T06:31:10.2668589+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"pull up my photo gallery"}
+{"at":"2026-11-18T06:31:12.6019295+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1727.4}
+{"at":"2026-11-18T06:31:12.672523+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"see my photo gallery"}
+{"at":"2026-11-18T06:31:14.8758076+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1588}
+{"at":"2026-11-18T06:31:14.9480389+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"display my photo gallery"}
+{"at":"2026-11-18T06:31:17.1229183+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1567.9}
+{"at":"2026-11-18T06:31:17.1983567+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"navigate to my photo gallery"}
+{"at":"2026-11-18T06:31:19.3909333+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1588.4}
+{"at":"2026-11-18T06:31:19.4669498+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"get me my photo gallery"}
+{"at":"2026-11-18T06:31:21.6563632+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1587.8}
+{"at":"2026-11-18T06:31:21.734247+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"head to my photo gallery"}
+{"at":"2026-11-18T06:31:23.9598756+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1613.5}
+{"at":"2026-11-18T06:31:24.0318239+00:00","recipe":"show-my-photo-gallery","kind":"alias_added","alias":"jump to my photo gallery"}
+{"at":"2026-11-18T06:31:26.2569284+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1615.9}
+{"at":"2026-11-18T06:31:28.5596184+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1630.2}
+{"at":"2026-11-18T06:31:30.9365524+00:00","recipe":"show-my-photo-gallery","kind":"replay_ok","wall_ms":1687.7}
+{"at":"2026-11-18T06:31:33.3370678+00:00","recipe":"show-my-favorite-photos","kind":"learned"}
+{"at":"2026-11-18T06:31:35.5638544+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1622}
+{"at":"2026-11-18T06:31:37.8415115+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1633.5}
+{"at":"2026-11-18T06:31:40.124294+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1639.2}
+{"at":"2026-11-18T06:31:42.4050466+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1639.3}
+{"at":"2026-11-18T06:31:44.7216948+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1638.7}
+{"at":"2026-11-18T06:31:44.8026088+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"show me my favorite photos"}
+{"at":"2026-11-18T06:31:47.0240219+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1610.7}
+{"at":"2026-11-18T06:31:47.0805741+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"take me to my favorite photos"}
+{"at":"2026-11-18T06:31:49.2978561+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1591}
+{"at":"2026-11-18T06:31:49.3794079+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"bring up my favorite photos"}
+{"at":"2026-11-18T06:31:51.6156872+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1627.7}
+{"at":"2026-11-18T06:31:51.6784587+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"pull up my favorite photos"}
+{"at":"2026-11-18T06:31:53.9393031+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1659.7}
+{"at":"2026-11-18T06:31:54.0019226+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"see my favorite photos"}
+{"at":"2026-11-18T06:31:56.2411647+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1632.7}
+{"at":"2026-11-18T06:31:56.3015053+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"display my favorite photos"}
+{"at":"2026-11-18T06:31:58.5575405+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1646.5}
+{"at":"2026-11-18T06:31:58.6135008+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"navigate to my favorite photos"}
+{"at":"2026-11-18T06:32:00.8724676+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1650.3}
+{"at":"2026-11-18T06:32:00.9310729+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"get me my favorite photos"}
+{"at":"2026-11-18T06:32:03.169396+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1631.1}
+{"at":"2026-11-18T06:32:03.2418357+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"head to my favorite photos"}
+{"at":"2026-11-18T06:32:05.4821029+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1627.6}
+{"at":"2026-11-18T06:32:05.5379026+00:00","recipe":"show-my-favorite-photos","kind":"alias_added","alias":"jump to my favorite photos"}
+{"at":"2026-11-18T06:32:07.877524+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1737.2}
+{"at":"2026-11-18T06:32:10.1824198+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1631.4}
+{"at":"2026-11-18T06:32:12.8326836+00:00","recipe":"show-my-favorite-photos","kind":"replay_ok","wall_ms":1973.7}
+{"at":"2026-11-18T06:32:15.2973398+00:00","recipe":"show-photos-on-this-pc","kind":"learned"}
+{"at":"2026-11-18T06:32:17.5946123+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1690.8}
+{"at":"2026-11-18T06:32:20.0431167+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1791.9}
+{"at":"2026-11-18T06:32:22.3897951+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1681.9}
+{"at":"2026-11-18T06:32:24.7138969+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1650.2}
+{"at":"2026-11-18T06:32:27.0767905+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1677}
+{"at":"2026-11-18T06:32:27.1455737+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"show me photos on this pc"}
+{"at":"2026-11-18T06:32:29.4597617+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1693.3}
+{"at":"2026-11-18T06:32:29.5311426+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"take me to photos on this pc"}
+{"at":"2026-11-18T06:32:31.933451+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1794.1}
+{"at":"2026-11-18T06:32:32.0038831+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"bring up photos on this pc"}
+{"at":"2026-11-18T06:32:34.2526789+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1641.9}
+{"at":"2026-11-18T06:32:34.3270115+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"pull up photos on this pc"}
+{"at":"2026-11-18T06:32:36.6227914+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1675.6}
+{"at":"2026-11-18T06:32:36.690046+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"see photos on this pc"}
+{"at":"2026-11-18T06:32:38.9715989+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1676.7}
+{"at":"2026-11-18T06:32:39.0425459+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"display photos on this pc"}
+{"at":"2026-11-18T06:32:41.4223403+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1761.4}
+{"at":"2026-11-18T06:32:41.4957486+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"navigate to photos on this pc"}
+{"at":"2026-11-18T06:32:43.7834514+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1683}
+{"at":"2026-11-18T06:32:43.8575905+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"get me photos on this pc"}
+{"at":"2026-11-18T06:32:46.1764017+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1701.7}
+{"at":"2026-11-18T06:32:46.2512984+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"head to photos on this pc"}
+{"at":"2026-11-18T06:32:48.5440845+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1680.1}
+{"at":"2026-11-18T06:32:48.618396+00:00","recipe":"show-photos-on-this-pc","kind":"alias_added","alias":"jump to photos on this pc"}
+{"at":"2026-11-18T06:32:50.8949039+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1665.8}
+{"at":"2026-11-18T06:32:53.2343576+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1658.2}
+{"at":"2026-11-18T06:32:55.6886115+00:00","recipe":"show-photos-on-this-pc","kind":"replay_ok","wall_ms":1754.7}
+{"at":"2026-11-18T06:33:29.3656673+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"learned"}
+{"at":"2026-11-18T06:33:29.3832112+00:00","recipe":"search-youtube-for-lofi-music-3","kind":"superseded","by":"search-youtube-for-lofi-music-4"}
+{"at":"2026-11-18T06:33:31.1468401+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":1740.4}
+{"at":"2026-11-18T06:33:52.5017707+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":853}
+{"at":"2026-11-18T06:34:13.8660008+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":842.8}
+{"at":"2026-11-18T06:34:35.2385419+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":840.4}
+{"at":"2026-11-18T06:34:56.6283399+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":889.1}
+{"at":"2026-11-18T06:35:17.9029626+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":766.1}
+{"at":"2026-11-18T06:35:39.2271012+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":837.5}
+{"at":"2026-11-18T06:36:00.6922084+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"replay_stopped","step":1,"wall_ms":975.1}
+{"at":"2026-11-18T06:56:47.0114555+00:00","recipe":"show-what-is-new-in-the-store","kind":"learned"}
+{"at":"2026-11-18T06:56:50.1255221+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2402.7}
+{"at":"2026-11-18T06:56:53.2209178+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2305.7}
+{"at":"2026-11-18T06:56:56.4238345+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2373.1}
+{"at":"2026-11-18T06:56:59.7297089+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2465.7}
+{"at":"2026-11-18T06:57:03.4918271+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":3093.9}
+{"at":"2026-11-18T06:57:03.7146312+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"show me what is new in the store"}
+{"at":"2026-11-18T06:57:06.9499338+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2562.1}
+{"at":"2026-11-18T06:57:06.9621767+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"take me to what is new in the store"}
+{"at":"2026-11-18T06:57:10.2542842+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2550.9}
+{"at":"2026-11-18T06:57:10.2688184+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"bring up what is new in the store"}
+{"at":"2026-11-18T06:57:13.7890888+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2854.8}
+{"at":"2026-11-18T06:57:13.9944189+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"pull up what is new in the store"}
+{"at":"2026-11-18T06:57:17.5610296+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2881.7}
+{"at":"2026-11-18T06:57:17.7681846+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"see what is new in the store"}
+{"at":"2026-11-18T06:57:21.2441573+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2795.7}
+{"at":"2026-11-18T06:57:21.4554376+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"display what is new in the store"}
+{"at":"2026-11-18T06:57:25.1013951+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2957.2}
+{"at":"2026-11-18T06:57:25.3099204+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"navigate to what is new in the store"}
+{"at":"2026-11-18T06:57:28.9805233+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2994.9}
+{"at":"2026-11-18T06:57:29.1945123+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"get me what is new in the store"}
+{"at":"2026-11-18T06:57:32.8324477+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2962.4}
+{"at":"2026-11-18T06:57:33.0346236+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"head to what is new in the store"}
+{"at":"2026-11-18T06:57:36.1899375+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2466.7}
+{"at":"2026-11-18T06:57:36.7065411+00:00","recipe":"show-what-is-new-in-the-store","kind":"alias_added","alias":"jump to what is new in the store"}
+{"at":"2026-11-18T06:57:40.1991011+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2813.5}
+{"at":"2026-11-18T06:57:44.0705345+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2980.5}
+{"at":"2026-11-18T06:57:47.8955577+00:00","recipe":"show-what-is-new-in-the-store","kind":"replay_ok","wall_ms":2939.7}
+{"at":"2026-11-18T06:57:50.5190063+00:00","recipe":"show-paint-with-red","kind":"learned"}
+{"at":"2026-11-18T06:57:52.5170803+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1306.2}
+{"at":"2026-11-18T06:57:54.4884391+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1318.3}
+{"at":"2026-11-18T06:57:56.4646518+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1335.8}
+{"at":"2026-11-18T06:57:58.4785614+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1349.7}
+{"at":"2026-11-18T06:58:00.5001363+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1348.5}
+{"at":"2026-11-18T06:58:02.6272289+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1338.2}
+{"at":"2026-11-18T06:58:04.601973+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1310.3}
+{"at":"2026-11-18T06:58:06.5653062+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1301.5}
+{"at":"2026-11-18T06:58:08.5494729+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1336.6}
+{"at":"2026-11-18T06:58:10.5676384+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1335.3}
+{"at":"2026-11-18T06:58:12.5390422+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1321.7}
+{"at":"2026-11-18T06:58:14.5192812+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1333.5}
+{"at":"2026-11-18T06:58:16.5158312+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1335}
+{"at":"2026-11-18T06:58:18.5241628+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1328.5}
+{"at":"2026-11-18T06:58:20.5243492+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1335.9}
+{"at":"2026-11-18T06:58:22.5036191+00:00","recipe":"show-paint-with-red","kind":"replay_ok","wall_ms":1313.5}
+{"at":"2026-11-18T06:58:24.8597782+00:00","recipe":"show-paint-with-green","kind":"learned"}
+{"at":"2026-11-18T06:58:26.828744+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1319.4}
+{"at":"2026-11-18T06:58:28.813429+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1359.8}
+{"at":"2026-11-18T06:58:30.8011814+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1351.6}
+{"at":"2026-11-18T06:58:32.7779292+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1334.4}
+{"at":"2026-11-18T06:58:34.7821479+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1341.5}
+{"at":"2026-11-18T06:58:36.7938811+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1346.6}
+{"at":"2026-11-18T06:58:38.7594614+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1317.1}
+{"at":"2026-11-18T06:58:40.7536002+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1345.5}
+{"at":"2026-11-18T06:58:42.7317756+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1322.5}
+{"at":"2026-11-18T06:58:44.7106333+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1311.4}
+{"at":"2026-11-18T06:58:47.0523301+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1670.4}
+{"at":"2026-11-18T06:58:49.0449442+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1320.1}
+{"at":"2026-11-18T06:58:51.0183252+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1327.4}
+{"at":"2026-11-18T06:58:53.0208361+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1336.2}
+{"at":"2026-11-18T06:58:55.0127408+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1326.2}
+{"at":"2026-11-18T06:58:57.0078533+00:00","recipe":"show-paint-with-green","kind":"replay_ok","wall_ms":1341.3}
+{"at":"2026-11-18T06:58:59.2615874+00:00","recipe":"show-paint-with-black","kind":"learned"}
+{"at":"2026-11-18T06:59:01.2595441+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1349.2}
+{"at":"2026-11-18T06:59:03.2100172+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1321.8}
+{"at":"2026-11-18T06:59:05.1852644+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1334}
+{"at":"2026-11-18T06:59:07.1459493+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1315}
+{"at":"2026-11-18T06:59:09.131791+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1326.8}
+{"at":"2026-11-18T06:59:11.1290249+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1325.9}
+{"at":"2026-11-18T06:59:13.1200405+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1335.8}
+{"at":"2026-11-18T06:59:15.1165495+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1330.6}
+{"at":"2026-11-18T06:59:17.1110625+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1321.8}
+{"at":"2026-11-18T06:59:19.0837064+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1307}
+{"at":"2026-11-18T06:59:21.1024103+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1341.1}
+{"at":"2026-11-18T06:59:23.0851233+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1308.4}
+{"at":"2026-11-18T06:59:25.106342+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1345.2}
+{"at":"2026-11-18T06:59:27.110837+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1328.4}
+{"at":"2026-11-18T06:59:29.1246082+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1340}
+{"at":"2026-11-18T06:59:31.1347855+00:00","recipe":"show-paint-with-black","kind":"replay_ok","wall_ms":1338.6}
+{"at":"2026-11-18T06:59:33.5374663+00:00","recipe":"show-paint-with-yellow","kind":"learned"}
+{"at":"2026-11-18T06:59:35.5122405+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1329.8}
+{"at":"2026-11-18T06:59:37.4802382+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1327.5}
+{"at":"2026-11-18T06:59:39.4349037+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1312.2}
+{"at":"2026-11-18T06:59:41.3972365+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1317.7}
+{"at":"2026-11-18T06:59:43.3574308+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1294.6}
+{"at":"2026-11-18T06:59:45.3375425+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1325.8}
+{"at":"2026-11-18T06:59:47.6692288+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1655.5}
+{"at":"2026-11-18T06:59:49.6857448+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1346.5}
+{"at":"2026-11-18T06:59:51.6875581+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1330}
+{"at":"2026-11-18T06:59:53.6872591+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1325.9}
+{"at":"2026-11-18T06:59:55.7007096+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1352.2}
+{"at":"2026-11-18T06:59:57.6960369+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1347.3}
+{"at":"2026-11-18T06:59:59.6902905+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1325.4}
+{"at":"2026-11-18T07:00:01.6660351+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1322.3}
+{"at":"2026-11-18T07:00:03.6470448+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1321.4}
+{"at":"2026-11-18T07:00:05.6341457+00:00","recipe":"show-paint-with-yellow","kind":"replay_ok","wall_ms":1325.9}
+{"at":"2026-11-18T07:06:07.1456044+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"learned"}
+{"at":"2026-11-18T07:06:07.1742611+00:00","recipe":"search-youtube-for-lofi-music-4","kind":"superseded","by":"search-youtube-for-lofi-music-5"}
+{"at":"2026-11-18T07:06:08.3586097+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":1160.8}
+{"at":"2026-11-18T07:06:29.3327825+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":874.7}
+{"at":"2026-11-18T07:06:50.4070052+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":983.2}
+{"at":"2026-11-18T07:07:11.4592358+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":938.8}
+{"at":"2026-11-18T07:07:32.3962994+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":823.1}
+{"at":"2026-11-18T07:07:53.4818976+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":969.3}
+{"at":"2026-11-18T07:08:14.4182585+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":816.6}
+{"at":"2026-11-18T07:08:35.2468362+00:00","recipe":"search-youtube-for-lofi-music-5","kind":"replay_stopped","step":1,"wall_ms":716.8}
+{"at":"2026-11-18T07:09:01.2633865+00:00","recipe":"look-up-canada-on-wikipedia","kind":"learned"}
+{"at":"2026-11-18T07:09:03.061474+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1765.3}
+{"at":"2026-11-18T07:09:24.3996523+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1242.3}
+{"at":"2026-11-18T07:09:45.6771216+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1186.2}
+{"at":"2026-11-18T07:10:06.9645424+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1177.3}
+{"at":"2026-11-18T07:10:28.25534+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1160.5}
+{"at":"2026-11-18T07:10:49.5998693+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1230.9}
+{"at":"2026-11-18T07:11:10.9017103+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1163.8}
+{"at":"2026-11-18T07:11:32.2164552+00:00","recipe":"look-up-canada-on-wikipedia","kind":"replay_stopped","step":1,"wall_ms":1197.5}

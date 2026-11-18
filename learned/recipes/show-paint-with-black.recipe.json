@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-paint-with-black",
+  "goal": "show paint with black",
+  "template": "show paint with black",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1567.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "mspaint.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": true,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:58:59.261088+00:00"
+}

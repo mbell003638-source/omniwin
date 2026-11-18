@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-what-is-new-in-the-store",
+  "goal": "show what is new in the store",
+  "template": "show what is new in the store",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 4103.2,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "WinStore.App.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:56:47.0083687+00:00"
+}

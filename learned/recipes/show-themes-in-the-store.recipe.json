@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-themes-in-the-store",
+  "goal": "show themes in the store",
+  "template": "show themes in the store",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 2271.8,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "WinStore.App.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:29:37.0430307+00:00"
+}

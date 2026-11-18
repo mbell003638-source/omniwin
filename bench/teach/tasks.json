@@ -3494,6 +3494,591 @@
    ]
   },
   {
+   "id": "store-home",
+   "group": "Microsoft Store",
+   "wordings": [
+    "show the store home page",
+    "show me the store home page",
+    "take me to the store home page",
+    "bring up the store home page",
+    "pull up the store home page",
+    "i want to see the store home page",
+    "display the store home page",
+    "navigate to the store home page",
+    "get me the store home page",
+    "head to the store home page",
+    "jump to the store home page",
+    "go into the store home page",
+    "find the store home page for me",
+    "let me see the store home page"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Microsoft Store"
+    ],
+    [
+     "act",
+     "Microsoft Store",
+     "listitem",
+     "Home",
+     "click"
+    ]
+   ],
+   "check": [
+    "Microsoft Store",
+    "Home"
+   ]
+  },
+  {
+   "id": "store-apps",
+   "group": "Microsoft Store",
+   "wordings": [
+    "show apps in the store",
+    "show me apps in the store",
+    "take me to apps in the store",
+    "bring up apps in the store",
+    "pull up apps in the store",
+    "i want to see apps in the store",
+    "display apps in the store",
+    "navigate to apps in the store",
+    "get me apps in the store",
+    "head to apps in the store",
+    "jump to apps in the store",
+    "go into apps in the store",
+    "find apps in the store for me",
+    "let me see apps in the store"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Microsoft Store"
+    ],
+    [
+     "act",
+     "Microsoft Store",
+     "listitem",
+     "Apps",
+     "click"
+    ]
+   ],
+   "check": [
+    "Microsoft Store",
+    "Apps"
+   ]
+  },
+  {
+   "id": "store-gaming",
+   "group": "Microsoft Store",
+   "wordings": [
+    "show games in the store",
+    "show me games in the store",
+    "take me to games in the store",
+    "bring up games in the store",
+    "pull up games in the store",
+    "i want to see games in the store",
+    "display games in the store",
+    "navigate to games in the store",
+    "get me games in the store",
+    "head to games in the store",
+    "jump to games in the store",
+    "go into games in the store",
+    "find games in the store for me",
+    "let me see games in the store"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Microsoft Store"
+    ],
+    [
+     "act",
+     "Microsoft Store",
+     "listitem",
+     "Gaming",
+     "click"
+    ]
+   ],
+   "check": [
+    "Microsoft Store",
+    "Gaming"
+   ]
+  },
+  {
+   "id": "store-library",
+   "group": "Microsoft Store",
+   "wordings": [
+    "show my store library",
+    "show me my store library",
+    "take me to my store library",
+    "bring up my store library",
+    "pull up my store library",
+    "i want to see my store library",
+    "display my store library",
+    "navigate to my store library",
+    "get me my store library",
+    "head to my store library",
+    "jump to my store library",
+    "go into my store library",
+    "find my store library for me",
+    "let me see my store library"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Microsoft Store"
+    ],
+    [
+     "act",
+     "Microsoft Store",
+     "listitem",
+     "Library",
+     "click"
+    ]
+   ],
+   "check": [
+    "Microsoft Store",
+    "Library"
+   ]
+  },
+  {
+   "id": "store-themes",
+   "group": "Microsoft Store",
+   "wordings": [
+    "show themes in the store",
+    "show me themes in the store",
+    "take me to themes in the store",
+    "bring up themes in the store",
+    "pull up themes in the store",
+    "i want to see themes in the store",
+    "display themes in the store",
+    "navigate to themes in the store",
+    "get me themes in the store",
+    "head to themes in the store",
+    "jump to themes in the store",
+    "go into themes in the store",
+    "find themes in the store for me",
+    "let me see themes in the store"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Microsoft Store"
+    ],
+    [
+     "act",
+     "Microsoft Store",
+     "listitem",
+     "Themes",
+     "click"
+    ]
+   ],
+   "check": [
+    "Microsoft Store",
+    "Themes"
+   ]
+  },
+  {
+   "id": "store-whats-new",
+   "group": "Microsoft Store",
+   "wordings": [
+    "show what is new in the store",
+    "show me what is new in the store",
+    "take me to what is new in the store",
+    "bring up what is new in the store",
+    "pull up what is new in the store",
+    "i want to see what is new in the store",
+    "display what is new in the store",
+    "navigate to what is new in the store",
+    "get me what is new in the store",
+    "head to what is new in the store",
+    "jump to what is new in the store",
+    "go into what is new in the store",
+    "find what is new in the store for me",
+    "let me see what is new in the store"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Microsoft Store"
+    ],
+    [
+     "act",
+     "Microsoft Store",
+     "listitem",
+     "What's New",
+     "click"
+    ]
+   ],
+   "check": [
+    "Microsoft Store",
+    "What's New"
+   ]
+  },
+  {
+   "id": "photos-gallery",
+   "group": "Photos",
+   "wordings": [
+    "show my photo gallery",
+    "show me my photo gallery",
+    "take me to my photo gallery",
+    "bring up my photo gallery",
+    "pull up my photo gallery",
+    "i want to see my photo gallery",
+    "display my photo gallery",
+    "navigate to my photo gallery",
+    "get me my photo gallery",
+    "head to my photo gallery",
+    "jump to my photo gallery",
+    "go into my photo gallery",
+    "find my photo gallery for me",
+    "let me see my photo gallery"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Photos"
+    ],
+    [
+     "act",
+     "Photos",
+     "listitem",
+     "Gallery",
+     "select"
+    ]
+   ],
+   "check": [
+    "Photos",
+    "Gallery"
+   ]
+  },
+  {
+   "id": "photos-favorites",
+   "group": "Photos",
+   "wordings": [
+    "show my favorite photos",
+    "show me my favorite photos",
+    "take me to my favorite photos",
+    "bring up my favorite photos",
+    "pull up my favorite photos",
+    "i want to see my favorite photos",
+    "display my favorite photos",
+    "navigate to my favorite photos",
+    "get me my favorite photos",
+    "head to my favorite photos",
+    "jump to my favorite photos",
+    "go into my favorite photos",
+    "find my favorite photos for me",
+    "let me see my favorite photos"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Photos"
+    ],
+    [
+     "act",
+     "Photos",
+     "listitem",
+     "Favorites",
+     "select"
+    ]
+   ],
+   "check": [
+    "Photos",
+    "Favorites"
+   ]
+  },
+  {
+   "id": "photos-this-pc",
+   "group": "Photos",
+   "wordings": [
+    "show photos on this pc",
+    "show me photos on this pc",
+    "take me to photos on this pc",
+    "bring up photos on this pc",
+    "pull up photos on this pc",
+    "i want to see photos on this pc",
+    "display photos on this pc",
+    "navigate to photos on this pc",
+    "get me photos on this pc",
+    "head to photos on this pc",
+    "jump to photos on this pc",
+    "go into photos on this pc",
+    "find photos on this pc for me",
+    "let me see photos on this pc"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Photos"
+    ],
+    [
+     "act",
+     "Photos",
+     "listitem",
+     "This PC",
+     "select"
+    ]
+   ],
+   "check": [
+    "Photos",
+    "This PC"
+   ]
+  },
+  {
+   "id": "paint-red",
+   "group": "Paint",
+   "wordings": [
+    "show paint with red",
+    "show me paint with red",
+    "take me to paint with red",
+    "bring up paint with red",
+    "pull up paint with red",
+    "i want to see paint with red",
+    "display paint with red",
+    "navigate to paint with red",
+    "get me paint with red",
+    "head to paint with red",
+    "jump to paint with red",
+    "go into paint with red",
+    "find paint with red for me",
+    "let me see paint with red"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Paint"
+    ],
+    [
+     "act",
+     "Paint",
+     "listitem",
+     "Red",
+     "click"
+    ]
+   ],
+   "check": [
+    "Paint",
+    "Red"
+   ]
+  },
+  {
+   "id": "paint-green",
+   "group": "Paint",
+   "wordings": [
+    "show paint with green",
+    "show me paint with green",
+    "take me to paint with green",
+    "bring up paint with green",
+    "pull up paint with green",
+    "i want to see paint with green",
+    "display paint with green",
+    "navigate to paint with green",
+    "get me paint with green",
+    "head to paint with green",
+    "jump to paint with green",
+    "go into paint with green",
+    "find paint with green for me",
+    "let me see paint with green"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Paint"
+    ],
+    [
+     "act",
+     "Paint",
+     "listitem",
+     "Green",
+     "click"
+    ]
+   ],
+   "check": [
+    "Paint",
+    "Green"
+   ]
+  },
+  {
+   "id": "paint-black",
+   "group": "Paint",
+   "wordings": [
+    "show paint with black",
+    "show me paint with black",
+    "take me to paint with black",
+    "bring up paint with black",
+    "pull up paint with black",
+    "i want to see paint with black",
+    "display paint with black",
+    "navigate to paint with black",
+    "get me paint with black",
+    "head to paint with black",
+    "jump to paint with black",
+    "go into paint with black",
+    "find paint with black for me",
+    "let me see paint with black"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Paint"
+    ],
+    [
+     "act",
+     "Paint",
+     "listitem",
+     "Black",
+     "click"
+    ]
+   ],
+   "check": [
+    "Paint",
+    "Black"
+   ]
+  },
+  {
+   "id": "paint-yellow",
+   "group": "Paint",
+   "wordings": [
+    "show paint with yellow",
+    "show me paint with yellow",
+    "take me to paint with yellow",
+    "bring up paint with yellow",
+    "pull up paint with yellow",
+    "i want to see paint with yellow",
+    "display paint with yellow",
+    "navigate to paint with yellow",
+    "get me paint with yellow",
+    "head to paint with yellow",
+    "jump to paint with yellow",
+    "go into paint with yellow",
+    "find paint with yellow for me",
+    "let me see paint with yellow"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Paint"
+    ],
+    [
+     "act",
+     "Paint",
+     "listitem",
+     "Yellow",
+     "click"
+    ]
+   ],
+   "check": [
+    "Paint",
+    "Yellow"
+   ]
+  },
+  {
    "id": "google-maps",
    "group": "Web",
    "wordings": [

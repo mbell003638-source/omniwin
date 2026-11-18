@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "name": "show-my-store-library",
+  "description": "learned: show my store library",
+  "saved_at": "2026-11-18T06:28:40.9942574+00:00",
+  "params": {},
+  "steps": [
+    {
+      "tool": "app_launch",
+      "engine": "system",
+      "action": "launch",
+      "target": null,
+      "args": {
+        "app": "Microsoft Store"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "desktop_act",
+      "engine": "desktop",
+      "action": "select",
+      "target": {
+        "ref": "e8007",
+        "engine": "desktop",
+        "process": "WinStore.App.exe",
+        "window_title": "Microsoft Store",
+        "url": null,
+        "role": "listitem",
+        "name": "Library",
+        "automation_id": "nav_mylibrary",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "window",
+            "automation_id": null,
+            "name": "Microsoft Store",
+            "class_name": "Windows.UI.Core.CoreWindow",
+            "index": 1
+          },
+          {
+            "role": "custom",
+            "automation_id": "NavigationChrome",
+            "name": null,
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "custom",
+            "automation_id": "NavView",
+            "name": null,
+            "class_name": null,
+            "index": 4
+          },
+          {
+            "role": "group",
+            "automation_id": "SideNavigationRegion",
+            "name": null,
+            "class_name": "LandmarkTarget",
+            "index": 0
+          },
+          {
+            "role": "group",
+            "automation_id": "FooterMenuItemsHost",
+            "name": null,
+            "class_name": null,
+            "index": 1
+          },
+          {
+            "role": "listitem",
+            "automation_id": "nav_mylibrary",
+            "name": "Library",
+            "class_name": "Microsoft.UI.Xaml.Controls.NavigationViewItem",
+            "index": 2
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

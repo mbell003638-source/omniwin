@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-photo-gallery",
+  "goal": "show my photo gallery",
+  "template": "show my photo gallery",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1715.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Photos.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:30:51.4958208+00:00"
+}

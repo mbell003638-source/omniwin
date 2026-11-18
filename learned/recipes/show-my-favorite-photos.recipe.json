@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-favorite-photos",
+  "goal": "show my favorite photos",
+  "template": "show my favorite photos",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 1689.6,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "Photos.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:31:33.33659+00:00"
+}

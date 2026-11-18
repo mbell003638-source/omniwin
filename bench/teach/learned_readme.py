@@ -12,7 +12,7 @@ for f in os.listdir(rdir) if os.path.isdir(rdir) else []:
         cards[c.get("workflow")] = c
 
 learned = [t for t in res if t.get("result") == "learned"]
-inst = [t["instant"]["ms"] for t in learned if t.get("instant") and t["instant"].get("routed")]
+inst = [t["instant"]["ms"] for t in learned if t.get("instant") and t["instant"].get("routed") and t["instant"].get("ms")]
 first = [t["first_run_ms"] for t in learned if t.get("first_run_ms")]
 aliases = sum(sum(1 for a in t.get("aliases", []) if a.get("learned")) for t in learned)
 lines = ["# Learned tasks (starter recipes)", "",
@@ -30,7 +30,7 @@ lines = ["# Learned tasks (starter recipes)", "",
 for t in res:
     a = sum(1 for x in t.get("aliases", []) if x.get("learned"))
     i = t.get("instant")
-    inst_txt = f"{i['ms']:.0f} ms" if i and i.get("routed") else ("AI only" if t.get("result") == "learned" else "")
+    inst_txt = (f"{i['ms']:.0f} ms" if i.get("ms") else "yes") if i and i.get("routed") else ("AI only" if t.get("result") == "learned" else "")
     lines.append(f"| {t['id']} | {t['group']} | {t.get('result')} | {1 + a if t.get('result') == 'learned' else 0} of {t.get('wordings', '?')} | {inst_txt} | `{t.get('recipe', '')}` |")
 lines += ["", "Failures are listed as they happened (`artifacts/benchmarks/curriculum-*.json` has each step's status).", ""]
 open(out, "w", encoding="utf-8").write("\n".join(x for x in lines if x is not None))

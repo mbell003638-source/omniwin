@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "workflow": "look-up-canada-on-wikipedia",
+  "goal": "look up canada on wikipedia",
+  "template": "look up {q} on wikipedia",
+  "aliases": [],
+  "params": [
+    "q"
+  ],
+  "steps": 3,
+  "learned_wall_ms": 5871.7,
+  "tools": [
+    "browser_act",
+    "browser_nav"
+  ],
+  "processes": [
+    "msedge.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:09:01.2626528+00:00"
+}

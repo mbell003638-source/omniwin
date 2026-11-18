@@ -101,6 +101,18 @@ for place, phrase in [("Recent", "my recent files"), ("Favorites", "my favorite 
     tasks.append(literal("explorer-" + place.lower(), "File Explorer", phrase,
                          [["launch", "File Explorer"], ["act", "File Explorer", "tabitem", place, "select"]], ["File Explorer", place], n=14))
 
+# Still more pages (2026-11-18), view only: Microsoft Store (never installs anything; its Downloads page is skipped), Photos, Paint colours
+for page, phrase in [("Home", "the store home page"), ("Apps", "apps in the store"), ("Gaming", "games in the store"), ("Library", "my store library"),
+                     ("Themes", "themes in the store"), ("What's New", "what is new in the store")]:
+    tasks.append(literal("store-" + page.lower().replace("'", "").replace(" ", "-"), "Microsoft Store", phrase,
+                         [["launch", "Microsoft Store"], ["act", "Microsoft Store", "listitem", page, "click"]], ["Microsoft Store", page], n=14))
+for page, phrase in [("Gallery", "my photo gallery"), ("Favorites", "my favorite photos"), ("This PC", "photos on this pc")]:
+    tasks.append(literal("photos-" + page.lower().replace(" ", "-"), "Photos", phrase,
+                         [["launch", "Photos"], ["act", "Photos", "listitem", page, "select"]], ["Photos", page], n=14))
+for colour in ["Red", "Green", "Black", "Yellow"]:
+    tasks.append(literal("paint-" + colour.lower(), "Paint", f"paint with {colour.lower()}",
+                         [["launch", "Paint"], ["act", "Paint", "listitem", colour, "click"]], ["Paint", colour], n=14))
+
 # Web (OmniWin's own browser): searches only. set_value replaces what a box already holds (Google pre-fills some).
 def web(id_, wordings, samples, url, box_role, box_name, submit, check="{q}"):
     steps = [["nav", url], ["bact", box_role, box_name, "set_value", "{q}"]] + submit

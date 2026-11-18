@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "workflow": "show-my-store-library",
+  "goal": "show my store library",
+  "template": "show my store library",
+  "aliases": [],
+  "params": [],
+  "steps": 2,
+  "learned_wall_ms": 2340.1,
+  "tools": [
+    "app_launch",
+    "desktop_act"
+  ],
+  "processes": [
+    "WinStore.App.exe"
+  ],
+  "auto_run_eligible": true,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T06:28:41.0040627+00:00"
+}
