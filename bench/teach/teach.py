@@ -64,7 +64,13 @@ class Teacher:
         if kind == "launch":
             return self.call("app_launch", {"app": s[1]})
         if kind == "keys":
-            return self.call("desktop_keys", {"keys": s[2], **({"window": s[1]} if s[1] else {})})
+            window = s[1]
+            if window == "@terminal":   # the Terminal window this task opened (never the owner's own, which is elevated)
+                found = [w for w, v in self.windows().items() if w not in self.baseline and v[0] == "windowsterminal.exe" and "inaccessible" not in v[2]]
+                if not found:
+                    return "status=blocked reason=not_found teacher: no new Terminal window"
+                window = found[0]
+            return self.call("desktop_keys", {"keys": s[2], **({"window": window} if window else {})})
         if kind == "clip":
             return self.call("clipboard_set", {"text": fill(s[1], values)})
         if kind == "wait":
@@ -120,6 +126,14 @@ class Teacher:
         window, needle = chk[0], fill(chk[1], values)
         for _ in range(40 if window == "@browser" else 16):   # web pages load slowly
             # web pages: the tab list (title and address) is enough, and a very large page can time out a full read
+            if window == "@terminal":
+                found = [w for w, v in self.windows().items() if w not in self.baseline and v[0] == "windowsterminal.exe"]
+                text = self.o.call("screen_ocr", {"window": found[0]}) if found else ""
+                text = " ".join(re.findall(r'"([^"]+)"', text))
+                if needle.lower() in text.lower():
+                    return True
+                time.sleep(0.5)
+                continue
             text = (self.o.call("browser_tabs") if window == "@browser" else
                     self.o.call("windows_list") if window == "@windows" else self.observe(window)[0])
             if window == "@browser" and ("/sorry/" in text or "unusual traffic" in text.lower()):

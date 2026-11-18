@@ -167,5 +167,16 @@ for page, phrase in [("Display", "display and brightness settings"), ("Sound", "
                          [["launch", "Settings"], ["act", "Settings", "listitem", "System", "select"], ["act", "Settings", "", page, "click"]],
                          ["Settings", page], n=14))
 
+# Terminal (2026-11-18): fixed, read-only commands only, typed as key presses into the Terminal window the task opened. A fixed
+# command has no part an AI could swap for something harmful; commands with a changing part are still left out (a learned paste
+# into a terminal would skip OmniWin's typed-delete check). The result is checked by reading the window with OCR.
+for id_, phrase, keys, needle in [("ip", "my ip address in the terminal", "i p c o n f i g enter", "Configuration"),
+                                  ("hostname", "the computer name in the terminal", "h o s t n a m e enter", "hostname"),
+                                  ("whoami", "the current user in the terminal", "w h o a m i enter", "whoami"),
+                                  ("dir", "my home folder listing in the terminal", "d i r enter", "Directory"),
+                                  ("tasklist", "running programs in the terminal", "t a s k l i s t enter", "Image")]:
+    tasks.append(literal("terminal-" + id_, "Terminal", phrase,
+                         [["launch", "Terminal"], ["wait", 2000], ["keys", "@terminal", keys], ["wait", 2000]], ["@terminal", needle], n=14))
+
 json.dump({"tasks": tasks}, open("tasks.json", "w", encoding="utf-8"), indent=1)
 print(len(tasks), "tasks,", sum(len(t["wordings"]) for t in tasks), "wordings")

@@ -4,7 +4,7 @@ Taught on the reference PC on 2026-11-17 (Windows 11, English (Canada), OmniWin 
 (`bench/teach/teach.py`, task list `bench/teach/make_tasks.py`). Each task was done once, saved with `task_done`, replayed three
 times with other values, then run from new words; every other wording was then run once so OmniWin learned it.
 
-- Tasks learned: **85** of 89 tried; wordings learned in addition to each task's first one: **582**.
+- Tasks learned: **85** of 94 tried; wordings learned in addition to each task's first one: **582**.
 - First run (scripted, so no AI thinking time is included): median 1681 ms.
 - Instant run from words (`omniwin_do`, one call): median 1494 ms, 59 tasks.
 - Web tasks (Google, Flights, Hotels, Maps, YouTube, Wikipedia) never run by themselves (owner rule: no browser step at speed 1);
@@ -103,5 +103,10 @@ times with other values, then run from new words; every other wording was then r
 | web-search | Web | learned | 1 of 8 | AI only | `search-the-web-for-weather-toronto-4` |
 | google-flights | Web | teach_failed | 0 of 6 |  | `` |
 | google-hotels | Web | teach_failed | 0 of 6 |  | `` |
+| terminal-ip | Terminal | teach_failed | 0 of 14 |  | `` |
+| terminal-hostname | Terminal | not_learned | 0 of 14 |  | `` |
+| terminal-whoami | Terminal | not_learned | 0 of 14 |  | `` |
+| terminal-dir | Terminal | teach_failed | 0 of 14 |  | `` |
+| terminal-tasklist | Terminal | teach_failed | 0 of 14 |  | `` |
 
 Failures are listed as they happened (`artifacts/benchmarks/curriculum-*.json` has each step's status).

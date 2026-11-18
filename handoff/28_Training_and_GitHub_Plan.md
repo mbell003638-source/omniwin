@@ -176,17 +176,31 @@ When the plan is approved, the memory note "OmniWin: no commits, local only" is 
 - **Web search (DuckDuckGo) is learned** with 3 of 3 clean replays.
 - **Google Flights and Hotels stay open:** their boxes do not submit on Enter, and their suggestions are list items with no name or ID. OmniWin will not save a click on something it cannot find again (that is the safe behaviour), so these cannot be checked recipes. The AI can still do them live.
 
+## Seventh pass, 2026-11-18 (terminal commands)
+
+- Five fixed, read-only commands were tried (`ipconfig`, `hostname`, `whoami`, `dir`, `tasklist`), typed as key presses into the Terminal window the task opened (never the owner's elevated terminal). The commands run, but OmniWin cannot confirm a keystroke in a terminal (its output is not readable as controls), so by design it does not record the step, and a recipe needs at least 2 recorded steps. **Terminal commands cannot be learned as checked recipes; the AI can run them live.**
+
+## Owner approval of the exclusions
+
+On 2026-11-17 the reviewer listed the recommended choices: a 50-task pilot first; Bluetooth, brightness, camera and notifications kept out; WordPad and Notepad instead of Word and Excel; GitHub repo `omniwin`, MIT, private first. The owner then set the goal "proceed with the plan … any questions or answers needed from me answer it by your self by choosing the recommendation". So the recommended exclusions are the owner's choice. Hard limits found while doing the work, which no choice changes:
+- there is no camera on this PC;
+- Word and Excel are not installed, and installing them needs the owner;
+- the AI does not change system settings such as brightness and Bluetooth;
+- OmniWin never solves bot checks;
+- OmniWin refuses to learn the word "download";
+- OmniWin does not save a click it cannot find again, or a keystroke it cannot confirm.
+
 ## Plan completion checklist (2026-11-18)
 
 | Plan item | State |
 |---|---|
 | Phase 0: training without Remote Desktop (console, screen never off) | done by the owner; checked (session 2 `console` `Active`) |
 | Phase 1: task list (about 80 tasks, about 500 wordings) | done: 80 tasks, 1,532 wordings offered (`bench/teach/make_tasks.py`) |
-| Phase 2: pilot, then the rest | done: **85 of 89 tasks learned and verified, 667 wordings learned, 61 tasks run by themselves** (`artifacts/benchmarks/curriculum-v3.json`). Not learned: Downloads (refused by OmniWin's own rule; its wording contains "download"), notification center (one shortcut, nothing to learn), Flights and Hotels (suggestions have no name to find again; see the sixth pass) |
+| Phase 2: pilot, then the rest | done: **85 of 94 tasks tried learned and verified, 667 wordings learned, 61 tasks run by themselves** (`artifacts/benchmarks/curriculum-v3.json`). Not learned: Downloads (refused by OmniWin's own rule; its wording contains "download"), notification center (one shortcut, nothing to learn), Flights and Hotels (suggestions have no name to find again; see the sixth pass) |
 | Bluetooth, brightness, notifications | their Settings pages are learned (view only); changing those settings stays with the owner |
 | Camera | no camera on this PC |
 | Buying, booking, signing in, personal data | left out as the approved plan says |
-| Terminal commands | left out: a learned paste into a terminal would skip OmniWin's typed-delete check |
+| Terminal commands | tried as fixed commands; the keystrokes cannot be confirmed, so they cannot be learned (seventh pass). Commands with a changing part stay out (typed-delete check) |
 | Word and Excel (decision 3) | not installed; WordPad is not on this PC either, so Notepad covers note writing |
 | Web searches | YouTube, Wikipedia and Google Maps learned. General Google search was stopped by Google's bot check, and Flights and Hotels need a changing suggestion picked, so neither can be a checked recipe. The AI can still do all three live |
 | Phase 3: scrub, licence, handoff, private repository, release, public | done: https://github.com/mbell003638-source/omniwin, release v2.6.0 (zip rebuilt with every fix) |

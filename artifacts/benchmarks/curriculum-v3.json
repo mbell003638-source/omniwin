@@ -10269,6 +10269,50 @@
    "phases": {},
    "result": "teach_failed",
    "detail": "end-result check failed"
+  },
+  {
+   "id": "terminal-ip",
+   "group": "Terminal",
+   "wordings": 14,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
+  },
+  {
+   "id": "terminal-hostname",
+   "group": "Terminal",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 4850.2,
+   "task_done": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false",
+   "result": "not_learned",
+   "detail": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false\ndetail: Only 1 recorded step(s) since the task started; a recipe needs at least 2. (Acts are recorded when they end confirmed, or unverified with a visible change.)"
+  },
+  {
+   "id": "terminal-whoami",
+   "group": "Terminal",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 4805.0,
+   "task_done": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false",
+   "result": "not_learned",
+   "detail": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false\ndetail: Only 1 recorded step(s) since the task started; a recipe needs at least 2. (Acts are recorded when they end confirmed, or unverified with a visible change.)"
+  },
+  {
+   "id": "terminal-dir",
+   "group": "Terminal",
+   "wordings": 14,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
+  },
+  {
+   "id": "terminal-tasklist",
+   "group": "Terminal",
+   "wordings": 14,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
   }
  ]
 }

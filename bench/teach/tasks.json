@@ -4763,6 +4763,261 @@
     "Settings",
     "Storage"
    ]
+  },
+  {
+   "id": "terminal-ip",
+   "group": "Terminal",
+   "wordings": [
+    "show my ip address in the terminal",
+    "show me my ip address in the terminal",
+    "take me to my ip address in the terminal",
+    "bring up my ip address in the terminal",
+    "pull up my ip address in the terminal",
+    "i want to see my ip address in the terminal",
+    "display my ip address in the terminal",
+    "navigate to my ip address in the terminal",
+    "get me my ip address in the terminal",
+    "head to my ip address in the terminal",
+    "jump to my ip address in the terminal",
+    "go into my ip address in the terminal",
+    "find my ip address in the terminal for me",
+    "let me see my ip address in the terminal"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Terminal"
+    ],
+    [
+     "wait",
+     2000
+    ],
+    [
+     "keys",
+     "@terminal",
+     "i p c o n f i g enter"
+    ],
+    [
+     "wait",
+     2000
+    ]
+   ],
+   "check": [
+    "@terminal",
+    "Configuration"
+   ]
+  },
+  {
+   "id": "terminal-hostname",
+   "group": "Terminal",
+   "wordings": [
+    "show the computer name in the terminal",
+    "show me the computer name in the terminal",
+    "take me to the computer name in the terminal",
+    "bring up the computer name in the terminal",
+    "pull up the computer name in the terminal",
+    "i want to see the computer name in the terminal",
+    "display the computer name in the terminal",
+    "navigate to the computer name in the terminal",
+    "get me the computer name in the terminal",
+    "head to the computer name in the terminal",
+    "jump to the computer name in the terminal",
+    "go into the computer name in the terminal",
+    "find the computer name in the terminal for me",
+    "let me see the computer name in the terminal"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Terminal"
+    ],
+    [
+     "wait",
+     2000
+    ],
+    [
+     "keys",
+     "@terminal",
+     "h o s t n a m e enter"
+    ],
+    [
+     "wait",
+     2000
+    ]
+   ],
+   "check": [
+    "@terminal",
+    "hostname"
+   ]
+  },
+  {
+   "id": "terminal-whoami",
+   "group": "Terminal",
+   "wordings": [
+    "show the current user in the terminal",
+    "show me the current user in the terminal",
+    "take me to the current user in the terminal",
+    "bring up the current user in the terminal",
+    "pull up the current user in the terminal",
+    "i want to see the current user in the terminal",
+    "display the current user in the terminal",
+    "navigate to the current user in the terminal",
+    "get me the current user in the terminal",
+    "head to the current user in the terminal",
+    "jump to the current user in the terminal",
+    "go into the current user in the terminal",
+    "find the current user in the terminal for me",
+    "let me see the current user in the terminal"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Terminal"
+    ],
+    [
+     "wait",
+     2000
+    ],
+    [
+     "keys",
+     "@terminal",
+     "w h o a m i enter"
+    ],
+    [
+     "wait",
+     2000
+    ]
+   ],
+   "check": [
+    "@terminal",
+    "whoami"
+   ]
+  },
+  {
+   "id": "terminal-dir",
+   "group": "Terminal",
+   "wordings": [
+    "show my home folder listing in the terminal",
+    "show me my home folder listing in the terminal",
+    "take me to my home folder listing in the terminal",
+    "bring up my home folder listing in the terminal",
+    "pull up my home folder listing in the terminal",
+    "i want to see my home folder listing in the terminal",
+    "display my home folder listing in the terminal",
+    "navigate to my home folder listing in the terminal",
+    "get me my home folder listing in the terminal",
+    "head to my home folder listing in the terminal",
+    "jump to my home folder listing in the terminal",
+    "go into my home folder listing in the terminal",
+    "find my home folder listing in the terminal for me",
+    "let me see my home folder listing in the terminal"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Terminal"
+    ],
+    [
+     "wait",
+     2000
+    ],
+    [
+     "keys",
+     "@terminal",
+     "d i r enter"
+    ],
+    [
+     "wait",
+     2000
+    ]
+   ],
+   "check": [
+    "@terminal",
+    "Directory"
+   ]
+  },
+  {
+   "id": "terminal-tasklist",
+   "group": "Terminal",
+   "wordings": [
+    "show running programs in the terminal",
+    "show me running programs in the terminal",
+    "take me to running programs in the terminal",
+    "bring up running programs in the terminal",
+    "pull up running programs in the terminal",
+    "i want to see running programs in the terminal",
+    "display running programs in the terminal",
+    "navigate to running programs in the terminal",
+    "get me running programs in the terminal",
+    "head to running programs in the terminal",
+    "jump to running programs in the terminal",
+    "go into running programs in the terminal",
+    "find running programs in the terminal for me",
+    "let me see running programs in the terminal"
+   ],
+   "samples": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "steps": [
+    [
+     "launch",
+     "Terminal"
+    ],
+    [
+     "wait",
+     2000
+    ],
+    [
+     "keys",
+     "@terminal",
+     "t a s k l i s t enter"
+    ],
+    [
+     "wait",
+     2000
+    ]
+   ],
+   "check": [
+    "@terminal",
+    "Image"
+   ]
   }
  ]
 }
