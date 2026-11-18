@@ -1,0 +1,256 @@
+{
+  "what": "Laya typed-decisions, offline, intent only (no input sent)",
+  "device": "cpu",
+  "items": 793,
+  "intent_accuracy": 0.6091,
+  "thresholds": [
+    {
+      "threshold": 0.5,
+      "accepted": 462,
+      "coverage": 0.5826,
+      "wrong_action_rate": 0.1627,
+      "accepted_accuracy": 0.7208,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.6,
+      "accepted": 459,
+      "coverage": 0.5788,
+      "wrong_action_rate": 0.1589,
+      "accepted_accuracy": 0.7255,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 445,
+      "coverage": 0.5612,
+      "wrong_action_rate": 0.1425,
+      "accepted_accuracy": 0.7461,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 411,
+      "coverage": 0.5183,
+      "wrong_action_rate": 0.1198,
+      "accepted_accuracy": 0.7689,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.85,
+      "accepted": 385,
+      "coverage": 0.4855,
+      "wrong_action_rate": 0.1072,
+      "accepted_accuracy": 0.7792,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 360,
+      "coverage": 0.454,
+      "wrong_action_rate": 0.0933,
+      "accepted_accuracy": 0.7944,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.93,
+      "accepted": 339,
+      "coverage": 0.4275,
+      "wrong_action_rate": 0.0845,
+      "accepted_accuracy": 0.8024,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 327,
+      "coverage": 0.4124,
+      "wrong_action_rate": 0.0731,
+      "accepted_accuracy": 0.8226,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.97,
+      "accepted": 316,
+      "coverage": 0.3985,
+      "wrong_action_rate": 0.0681,
+      "accepted_accuracy": 0.8291,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.98,
+      "accepted": 307,
+      "coverage": 0.3871,
+      "wrong_action_rate": 0.0656,
+      "accepted_accuracy": 0.8306,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.99,
+      "accepted": 289,
+      "coverage": 0.3644,
+      "wrong_action_rate": 0.0567,
+      "accepted_accuracy": 0.8443,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.995,
+      "accepted": 265,
+      "coverage": 0.3342,
+      "wrong_action_rate": 0.0479,
+      "accepted_accuracy": 0.8566,
+      "meets_accuracy_gate": false
+    }
+  ],
+  "by_set": {
+    "easy": {
+      "items": 615,
+      "intent_accuracy": 0.626,
+      "at_threshold": 0.9,
+      "coverage": 0.4537,
+      "wrong_action_rate": 0.0683,
+      "accepted_accuracy": 0.8495
+    },
+    "hard": {
+      "items": 178,
+      "intent_accuracy": 0.5506,
+      "at_threshold": 0.9,
+      "coverage": 0.4551,
+      "wrong_action_rate": 0.1798,
+      "accepted_accuracy": 0.6049
+    }
+  },
+  "latency_warm": {
+    "p50_ms": 826.8,
+    "p95_ms": 927.7,
+    "max_ms": 1019.2
+  },
+  "gate": {
+    "calibrated_threshold": null,
+    "accuracy_gate_met": false,
+    "latency_gate_met": false,
+    "hard_set_wrong_action_rate_ok": false,
+    "integrate": false
+  },
+  "most_confident_mistakes": [
+    {
+      "text": "could you unpause now",
+      "label": "media_play",
+      "pred": "media_pause",
+      "conf": 1.0,
+      "ms": 419.994099996984,
+      "set": "easy"
+    },
+    {
+      "text": "could you last song now",
+      "label": "media_previous",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 485.275700018974,
+      "set": "easy"
+    },
+    {
+      "text": "hey softer please",
+      "label": "volume_down",
+      "pred": "none",
+      "conf": 1.0,
+      "ms": 760.7458000129554,
+      "set": "easy"
+    },
+    {
+      "text": "mute",
+      "label": "mute",
+      "pred": "none",
+      "conf": 1.0,
+      "ms": 838.9674999925774,
+      "set": "easy"
+    },
+    {
+      "text": "ok bring up code now",
+      "label": "window_focus",
+      "pred": "none",
+      "conf": 1.0,
+      "ms": 929.3319999997038,
+      "set": "easy"
+    },
+    {
+      "text": "hey volume please",
+      "label": "read_volume",
+      "pred": "volume_set",
+      "conf": 1.0,
+      "ms": 797.2263999981806,
+      "set": "easy"
+    },
+    {
+      "text": "find me a good thriller on netflix and play it",
+      "label": "none",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 903.7633999832906,
+      "set": "easy"
+    },
+    {
+      "text": "set the volume to one hundred and fifty",
+      "label": "none",
+      "pred": "volume_set",
+      "conf": 1.0,
+      "ms": 848.6361999821384,
+      "set": "easy"
+    },
+    {
+      "text": "bring everything to the front",
+      "label": "none",
+      "pred": "window_focus",
+      "conf": 1.0,
+      "ms": 998.3889000141062,
+      "set": "easy"
+    },
+    {
+      "text": "please find me a good thriller on netflix and play it",
+      "label": "none",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 796.2356999923941,
+      "set": "easy"
+    },
+    {
+      "text": "please install chrome",
+      "label": "none",
+      "pred": "app_launch",
+      "conf": 1.0,
+      "ms": 844.7432999964803,
+      "set": "easy"
+    },
+    {
+      "text": "please play some jazz",
+      "label": "none",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 783.8305000041146,
+      "set": "easy"
+    },
+    {
+      "text": "bring the sound back",
+      "label": "unmute",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 851.2449999980163,
+      "set": "hard"
+    },
+    {
+      "text": "i want sound again",
+      "label": "unmute",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 933.9232000056654,
+      "set": "hard"
+    },
+    {
+      "text": "give me sound again",
+      "label": "unmute",
+      "pred": "media_play",
+      "conf": 1.0,
+      "ms": 809.5665999862831,
+      "set": "hard"
+    }
+  ]
+}

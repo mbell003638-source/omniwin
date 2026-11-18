@@ -1,0 +1,54 @@
+{
+  "started": "2026-11-08T13:12:20.8856807-05:00",
+  "rows": [
+    {
+      "name": "quote_150_element_names",
+      "what": "ResultFormatter.Quote x150 \u002B line assembly (the formatting cost of a 150-element observation)",
+      "ops_per_batch": 20,
+      "batches": 200,
+      "p50_us": 41.185,
+      "p95_us": 191.47,
+      "p99_us": 257.78
+    },
+    {
+      "name": "quote_500_element_names",
+      "what": "ResultFormatter.Quote x500 \u002B line assembly",
+      "ops_per_batch": 5,
+      "batches": 200,
+      "p50_us": 55.82,
+      "p95_us": 117.78,
+      "p99_us": 183.9
+    },
+    {
+      "name": "format_act_result",
+      "what": "ResultFormatter.Format(ActResult) with a diff",
+      "ops_per_batch": 500,
+      "batches": 200,
+      "p50_us": 1.374,
+      "p95_us": 2.598,
+      "p99_us": 2.997
+    },
+    {
+      "name": "format_10_tabs",
+      "what": "ResultFormatter.FormatTabs x10 tabs",
+      "ops_per_batch": 500,
+      "batches": 200,
+      "p50_us": 2.114,
+      "p95_us": 4.049,
+      "p99_us": 4.678
+    },
+    {
+      "name": "parse_expectation_json",
+      "what": "JsonSerializer.Deserialize\u003CExpectation\u003E of a 3-condition all_of",
+      "ops_per_batch": 500,
+      "batches": 200,
+      "p50_us": 3.459,
+      "p95_us": 9.132,
+      "p99_us": 10.895
+    }
+  ],
+  "not_measured": [
+    "Diff rendering and the browser/desktop element formatters are internal to the engines; their cost is part of the observe rows in the e2e report.",
+    "Desktop observe on F01/F03, cached and cold: needs a visible fixture window: Phase 5."
+  ]
+}

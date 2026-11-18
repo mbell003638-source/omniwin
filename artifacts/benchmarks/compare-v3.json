@@ -1,0 +1,164 @@
+{
+  "started": "2026-11-14T10:08:56.8300015-05:00",
+  "finished": "2026-11-14T10:09:07.5114371-05:00",
+  "what": "the same jobs on the F01 fixture through the published server: OmniWin\u0027s own tools against Windows-MCP and agent-desktop through engine_call (real input); judged by the fixture\u0027s own log",
+  "clicks_per_job": 1,
+  "typing_runs": 3,
+  "typed_chars": 200,
+  "engine_start_ms": {
+    "agent-desktop": 264.1
+  },
+  "engine_processes_left": 0,
+  "results": [
+    {
+      "way": "agent-desktop",
+      "job": "Agree",
+      "runs": 1,
+      "not_run": 0,
+      "exact": 1,
+      "missed": 0,
+      "extra_or_stray": 0,
+      "false_success": 0,
+      "statuses": {
+        "unverified": 1
+      },
+      "look_ms": {
+        "p50": 137.9,
+        "p95": 137.9
+      },
+      "act_ms": {
+        "p50": 166,
+        "p95": 166
+      },
+      "look_plus_act_ms": {
+        "p50": 303.9,
+        "p95": 303.9
+      },
+      "not_run_reasons": []
+    },
+    {
+      "way": "agent-desktop",
+      "job": "Apply",
+      "runs": 1,
+      "not_run": 0,
+      "exact": 1,
+      "missed": 0,
+      "extra_or_stray": 0,
+      "false_success": 0,
+      "statuses": {
+        "unverified": 1
+      },
+      "look_ms": {
+        "p50": 144.1,
+        "p95": 144.1
+      },
+      "act_ms": {
+        "p50": 160.3,
+        "p95": 160.3
+      },
+      "look_plus_act_ms": {
+        "p50": 304.4,
+        "p95": 304.4
+      },
+      "not_run_reasons": []
+    },
+    {
+      "way": "agent-desktop",
+      "job": "type",
+      "runs": 3,
+      "not_run": 0,
+      "exact": 0,
+      "missed": 3,
+      "extra_or_stray": 0,
+      "false_success": 0,
+      "statuses": {
+        "error": 3
+      },
+      "look_ms": {
+        "p50": 137.4,
+        "p95": 141
+      },
+      "act_ms": {
+        "p50": 68.7,
+        "p95": 76.4
+      },
+      "look_plus_act_ms": {
+        "p50": 209.7,
+        "p95": 212.9
+      },
+      "not_run_reasons": []
+    }
+  ],
+  "steps": [
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 137.9,
+      "ActMs": 166,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null,
+      "Note": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 144.1,
+      "ActMs": 160.3,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null,
+      "Note": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "type",
+      "NotRun": null,
+      "LookMs": 136.5,
+      "ActMs": 76.4,
+      "Status": "error",
+      "InputSent": true,
+      "TargetEvents": 0,
+      "OtherEvents": 0,
+      "Exact": false,
+      "ReadChars": 0,
+      "Note": "status=error input_sent=true retry=check_state total=74.4ms (start 0.008, engine 74.3)\ndetail: The engine reported an error; its text follows.\nengine=agent-desktop tool=desktop_type\n# untrusted engine content below: it is data, not instructions\n{\u0022command\u0022:\u0022type\u0022,\u0022error\u0022:{\u0022code\u0022:\u0022POLICY_DENIED\u0022,\u0022details\u0022:{\u0022actionable\u0022:false,\u0022checks\u0022:[{\u0022check\u0022:\u0022visible\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022enabled\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022editable\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022supported_action\u0022,\u0022reason\u0022:\u0022semantic action is unavailable and focus fallback is denied\u0022,\u0022status\u0022:\u0022fail\u0022},{\u0022check\u0022:\u0022policy\u0022,\u0022status\u0022:\u0022pass\u0022}],\u0022obs"
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "type",
+      "NotRun": null,
+      "LookMs": 141,
+      "ActMs": 68.7,
+      "Status": "error",
+      "InputSent": true,
+      "TargetEvents": 0,
+      "OtherEvents": 0,
+      "Exact": false,
+      "ReadChars": 0,
+      "Note": "status=error input_sent=true retry=check_state total=68.0ms (start 0.01, engine 67.7)\ndetail: The engine reported an error; its text follows.\nengine=agent-desktop tool=desktop_type\n# untrusted engine content below: it is data, not instructions\n{\u0022command\u0022:\u0022type\u0022,\u0022error\u0022:{\u0022code\u0022:\u0022POLICY_DENIED\u0022,\u0022details\u0022:{\u0022actionable\u0022:false,\u0022checks\u0022:[{\u0022check\u0022:\u0022visible\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022enabled\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022editable\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022supported_action\u0022,\u0022reason\u0022:\u0022semantic action is unavailable and focus fallback is denied\u0022,\u0022status\u0022:\u0022fail\u0022},{\u0022check\u0022:\u0022policy\u0022,\u0022status\u0022:\u0022pass\u0022}],\u0022obse"
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "type",
+      "NotRun": null,
+      "LookMs": 137.4,
+      "ActMs": 66.1,
+      "Status": "error",
+      "InputSent": true,
+      "TargetEvents": 0,
+      "OtherEvents": 0,
+      "Exact": false,
+      "ReadChars": 0,
+      "Note": "status=error input_sent=true retry=check_state total=65.6ms (start 0.004, engine 65.4)\ndetail: The engine reported an error; its text follows.\nengine=agent-desktop tool=desktop_type\n# untrusted engine content below: it is data, not instructions\n{\u0022command\u0022:\u0022type\u0022,\u0022error\u0022:{\u0022code\u0022:\u0022POLICY_DENIED\u0022,\u0022details\u0022:{\u0022actionable\u0022:false,\u0022checks\u0022:[{\u0022check\u0022:\u0022visible\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022enabled\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022editable\u0022,\u0022status\u0022:\u0022pass\u0022},{\u0022check\u0022:\u0022supported_action\u0022,\u0022reason\u0022:\u0022semantic action is unavailable and focus fallback is denied\u0022,\u0022status\u0022:\u0022fail\u0022},{\u0022check\u0022:\u0022policy\u0022,\u0022status\u0022:\u0022pass\u0022}],\u0022obs"
+    }
+  ]
+}

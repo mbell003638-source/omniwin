@@ -1,0 +1,12 @@
+{
+  "measured_utc": "2026-11-09T02:54:00.3795915+00:00",
+  "page_a": "elements150.html (150 elements)",
+  "page_b": "large.html (201 elements)",
+  "acts_per_tab": 100,
+  "serial_total_ms": 3383.7,
+  "serial_ok": 200,
+  "parallel_total_ms": 1702.5,
+  "parallel_ok": 200,
+  "speedup": 1.99,
+  "note": "click acts, each followed by the 150-element verify scan; headless Edge; same machine, same run"
+}

@@ -1,0 +1,126 @@
+{
+  "what": "strict phrase table (stage A of omniwin_do) against tools/laya/eval_set.jsonl",
+  "labelled_commands": 482,
+  "matched_by_table": 473,
+  "coverage": 0.981,
+  "per_intent": {
+    "app_launch": {
+      "commands": 72,
+      "matched": 72
+    },
+    "media_next": {
+      "commands": 18,
+      "matched": 18
+    },
+    "media_pause": {
+      "commands": 18,
+      "matched": 15
+    },
+    "media_play": {
+      "commands": 18,
+      "matched": 15
+    },
+    "media_previous": {
+      "commands": 15,
+      "matched": 15
+    },
+    "media_toggle": {
+      "commands": 9,
+      "matched": 9
+    },
+    "mute": {
+      "commands": 15,
+      "matched": 15
+    },
+    "read_battery": {
+      "commands": 12,
+      "matched": 12
+    },
+    "read_time": {
+      "commands": 12,
+      "matched": 9
+    },
+    "read_volume": {
+      "commands": 12,
+      "matched": 12
+    },
+    "unmute": {
+      "commands": 12,
+      "matched": 12
+    },
+    "volume_down": {
+      "commands": 21,
+      "matched": 21
+    },
+    "volume_set": {
+      "commands": 85,
+      "matched": 85
+    },
+    "volume_up": {
+      "commands": 21,
+      "matched": 21
+    },
+    "window_close": {
+      "commands": 6,
+      "matched": 6
+    },
+    "window_focus": {
+      "commands": 72,
+      "matched": 72
+    },
+    "window_maximize": {
+      "commands": 10,
+      "matched": 10
+    },
+    "window_minimize": {
+      "commands": 18,
+      "matched": 18
+    },
+    "window_restore": {
+      "commands": 6,
+      "matched": 6
+    },
+    "workflow_run": {
+      "commands": 30,
+      "matched": 30
+    }
+  },
+  "first_unmatched": [
+    {
+      "Intent": "media_play",
+      "Text": "continue playing"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "hey continue playing please"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "could you continue playing now"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "hold on pause that"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "hey hold on pause that please"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "could you hold on pause that now"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "what is the time"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "hey what is the time please"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "could you what is the time now"
+    }
+  ]
+}

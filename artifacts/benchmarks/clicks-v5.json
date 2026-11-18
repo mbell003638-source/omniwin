@@ -1,0 +1,120 @@
+{
+  "started": "2026-11-16T09:01:03.0005326-05:00",
+  "finished": "2026-11-16T09:01:19.4020821-05:00",
+  "what": "desktop_act click on the F01 fixture through the published server (real input)",
+  "clicks_per_case": 40,
+  "cases": [
+    {
+      "name": "expect_met",
+      "what": "click on the Agree checkbox with a toggle_is expectation (no fixed wait)",
+      "clicks": 40,
+      "warmup_clicks_not_measured": 0,
+      "fixture_log_events": 40,
+      "statuses": {
+        "confirmed": 40
+      },
+      "no_visible_change": 0,
+      "input_sent": 40,
+      "ms": {
+        "client_round_trip": {
+          "n": 40,
+          "p50": 47.7,
+          "p95": 71.7,
+          "max": 138.5
+        },
+        "server_total": {
+          "n": 40,
+          "p50": 45.1,
+          "p95": 68.1,
+          "max": 113
+        },
+        "resolve": {
+          "n": 40,
+          "p50": 0.2,
+          "p95": 0.3,
+          "max": 1.8
+        },
+        "precheck": {
+          "n": 40,
+          "p50": 12.6,
+          "p95": 16,
+          "max": 28.6
+        },
+        "gate": {
+          "n": 40,
+          "p50": 0,
+          "p95": 0,
+          "max": 5.3
+        },
+        "dispatch": {
+          "n": 40,
+          "p50": 0.5,
+          "p95": 14.4,
+          "max": 26.7
+        },
+        "verify": {
+          "n": 40,
+          "p50": 31.9,
+          "p95": 46.1,
+          "max": 50.2
+        }
+      }
+    },
+    {
+      "name": "no_change",
+      "what": "repeated clicks on the Apply button with no expectation, after one unmeasured warm-up click (nothing changes, so each waits the 300 ms settle ceiling)",
+      "clicks": 40,
+      "warmup_clicks_not_measured": 1,
+      "fixture_log_events": 41,
+      "statuses": {
+        "unverified": 40
+      },
+      "no_visible_change": 40,
+      "input_sent": 40,
+      "ms": {
+        "client_round_trip": {
+          "n": 40,
+          "p50": 326.6,
+          "p95": 328.6,
+          "max": 356.7
+        },
+        "server_total": {
+          "n": 40,
+          "p50": 323.4,
+          "p95": 326.1,
+          "max": 354.4
+        },
+        "resolve": {
+          "n": 40,
+          "p50": 0.2,
+          "p95": 0.3,
+          "max": 0.5
+        },
+        "precheck": {
+          "n": 40,
+          "p50": 12.3,
+          "p95": 14.5,
+          "max": 14.6
+        },
+        "gate": {
+          "n": 40,
+          "p50": 0,
+          "p95": 0,
+          "max": 0
+        },
+        "dispatch": {
+          "n": 40,
+          "p50": 0.5,
+          "p95": 2.1,
+          "max": 24.2
+        },
+        "verify": {
+          "n": 40,
+          "p50": 310.2,
+          "p95": 312.6,
+          "max": 317.5
+        }
+      }
+    }
+  ]
+}

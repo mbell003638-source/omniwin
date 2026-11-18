@@ -1,0 +1,27 @@
+  Discovering: OmniWin.Desktop.Tests
+  Discovered:  OmniWin.Desktop.Tests
+  Starting:    OmniWin.Desktop.Tests
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] Fixture window w1 hwnd=45942956 modal=False owner= title=OmniWin WS1 aee5992278dc4212962b43ebdbb402d6
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] Fixture foreground=False enabled=True input_desktop=True
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.gate p50=0.019ms p95=1.469ms n=28
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input p50=1.015ms p95=28.643ms n=25
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.api p50=0.044ms p95=0.208ms n=4
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.invoke p50=0.902ms p95=10.706ms n=6
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.keys p50=1.275ms p95=1.687ms n=3
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.physical_click p50=28.643ms p95=33.268ms n=2
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.select p50=2.799ms p95=2.799ms n=1
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.set_value p50=1.015ms p95=1.685ms n=3
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.toggle p50=1.540ms p95=1.540ms n=1
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.input.unicode_typing p50=1.086ms p95=5.528ms n=5
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.precheck p50=5.037ms p95=33.526ms n=32
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.resolve p50=0.008ms p95=0.027ms n=34
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop.verify p50=79.577ms p95=307.126ms n=25
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop_act p50=68.649ms p95=217.626ms n=29
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop_keys p50=325.754ms p95=329.977ms n=4
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop_observe p50=0.208ms p95=46.245ms n=68
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop_observe.warm p50=0.177ms p95=0.378ms n=30
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] desktop_scroll p50=72.286ms p95=72.286ms n=1
+    OmniWin.Desktop.Tests.DesktopLiveTests.Engine_validates_real_input_against_the_isolated_fixture [OUTPUT] windows_list p50=1.108ms p95=106.608ms n=2
+  Finished:    OmniWin.Desktop.Tests (ID = 'ed14c9c28827f75c40895064ac20c800969a8245f7fb1bb1649949a439200223')
+=== TEST EXECUTION SUMMARY ===
+   OmniWin.Desktop.Tests  Total: 1, Errors: 0, Failed: 0, Skipped: 0, Not Run: 0, Time: 4.523s

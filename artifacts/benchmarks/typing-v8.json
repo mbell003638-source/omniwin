@@ -1,0 +1,19 @@
+{
+  "started": "2026-11-14T00:15:09.0964918-05:00",
+  "finished": "2026-11-14T00:15:23.0314069-05:00",
+  "what": "one desktop_act type through the published server (real input)",
+  "target": "notepad",
+  "chars": 1000,
+  "status": "confirmed",
+  "input_sent": true,
+  "first_line": "status=confirmed input_sent=true channel=unicode_typing retry=done total=11006.7ms (resolve 1.0, precheck 8.9, gate 0.067, input 10319.7, verify 677.0) step=s2",
+  "wall_ms": 11023.1,
+  "ms_per_char": 11.02,
+  "readback_exact": true,
+  "readback_chars": 1000,
+  "wrong_target_evidence": [],
+  "input_sent_mismatch_calls": [],
+  "leftover_windows": [],
+  "other_new_windows_not_touched": [],
+  "cleanup_errors": []
+}

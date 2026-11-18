@@ -1,0 +1,115 @@
+{
+  "started": "2026-11-11T08:00:00.7879741-05:00",
+  "what": "desktop_act click on the F01 fixture through the published server (real input)",
+  "clicks_per_case": 40,
+  "cases": [
+    {
+      "name": "expect_met",
+      "what": "click on the Agree checkbox with a toggle_is expectation (no fixed wait)",
+      "clicks": 40,
+      "fixture_log_events": 40,
+      "statuses": {
+        "confirmed": 40
+      },
+      "input_sent": 40,
+      "ms": {
+        "client_round_trip": {
+          "n": 40,
+          "p50": 65.8,
+          "p95": 86.8,
+          "max": 126.7
+        },
+        "server_total": {
+          "n": 40,
+          "p50": 63.3,
+          "p95": 83.9,
+          "max": 102.4
+        },
+        "resolve": {
+          "n": 40,
+          "p50": 0,
+          "p95": 0,
+          "max": 1.4
+        },
+        "precheck": {
+          "n": 40,
+          "p50": 12.2,
+          "p95": 13.4,
+          "max": 28.7
+        },
+        "gate": {
+          "n": 40,
+          "p50": 0,
+          "p95": 0,
+          "max": 5.1
+        },
+        "dispatch": {
+          "n": 40,
+          "p50": 10.7,
+          "p95": 19.2,
+          "max": 26
+        },
+        "verify": {
+          "n": 40,
+          "p50": 40.3,
+          "p95": 45.4,
+          "max": 47.6
+        }
+      }
+    },
+    {
+      "name": "no_change",
+      "what": "click on the Apply button with no expectation (the fixed 300 ms settle wait)",
+      "clicks": 40,
+      "fixture_log_events": 40,
+      "statuses": {
+        "unverified": 40
+      },
+      "input_sent": 40,
+      "ms": {
+        "client_round_trip": {
+          "n": 40,
+          "p50": 64.9,
+          "p95": 88.7,
+          "max": 90
+        },
+        "server_total": {
+          "n": 40,
+          "p50": 62.4,
+          "p95": 84.5,
+          "max": 85.4
+        },
+        "resolve": {
+          "n": 40,
+          "p50": 0,
+          "p95": 0,
+          "max": 0
+        },
+        "precheck": {
+          "n": 40,
+          "p50": 12.2,
+          "p95": 14.7,
+          "max": 15.2
+        },
+        "gate": {
+          "n": 40,
+          "p50": 0,
+          "p95": 0,
+          "max": 0
+        },
+        "dispatch": {
+          "n": 40,
+          "p50": 10.6,
+          "p95": 28.3,
+          "max": 32.2
+        },
+        "verify": {
+          "n": 40,
+          "p50": 39.7,
+          "p95": 48.4,
+          "max": 53.4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "started_utc": "2026-11-08T14:30:18.9890956+00:00",
+  "note": "Gate time is excluded from the service's own metric but included here (a fake gate that returns at once). Windows animation and app reaction are not measured.",
+  "warmup": 20,
+  "samples": 300,
+  "rows": [
+    {
+      "op": "apps_list",
+      "conditions": "real Start menu, first call (cold shell read)",
+      "samples": 1,
+      "p50_ms": 411.174,
+      "p95_ms": 411.174,
+      "p99_ms": 411.174,
+      "max_ms": 411.174
+    },
+    {
+      "op": "apps_list",
+      "conditions": "real, warm (cached for 60 s)",
+      "samples": 300,
+      "p50_ms": 0.001,
+      "p95_ms": 0.005,
+      "p99_ms": 0.008,
+      "max_ms": 0.013
+    },
+    {
+      "op": "system_info",
+      "conditions": "real, kind=time",
+      "samples": 300,
+      "p50_ms": 0.012,
+      "p95_ms": 0.045,
+      "p99_ms": 0.074,
+      "max_ms": 0.278
+    },
+    {
+      "op": "system_info",
+      "conditions": "real, kind=battery",
+      "samples": 300,
+      "p50_ms": 0.004,
+      "p95_ms": 0.009,
+      "p99_ms": 0.024,
+      "max_ms": 0.058
+    },
+    {
+      "op": "system_info",
+      "conditions": "real, kind=displays",
+      "samples": 300,
+      "p50_ms": 0.027,
+      "p95_ms": 0.038,
+      "p99_ms": 0.09,
+      "max_ms": 3.296
+    },
+    {
+      "op": "system_info",
+      "conditions": "real, kind=network",
+      "samples": 300,
+      "p50_ms": 25.03,
+      "p95_ms": 33.337,
+      "p99_ms": 37.876,
+      "max_ms": 41.874
+    },
+    {
+      "op": "audio read",
+      "conditions": "real: this PC has no audio output device, so this is the no-device path",
+      "samples": 300,
+      "p50_ms": 0.074,
+      "p95_ms": 0.157,
+      "p99_ms": 0.367,
+      "max_ms": 0.439
+    },
+    {
+      "op": "window_manage",
+      "conditions": "fake window backend: service pipeline only (move)",
+      "samples": 300,
+      "p50_ms": 0.002,
+      "p95_ms": 0.003,
+      "p99_ms": 0.005,
+      "max_ms": 0.015
+    },
+    {
+      "op": "audio set",
+      "conditions": "fake audio backend: service pipeline only",
+      "samples": 300,
+      "p50_ms": 0.007,
+      "p95_ms": 0.026,
+      "p99_ms": 0.056,
+      "max_ms": 0.084
+    },
+    {
+      "op": "media",
+      "conditions": "fake media backend, skip (no state wait): service pipeline only",
+      "samples": 300,
+      "p50_ms": 0.001,
+      "p95_ms": 0.002,
+      "p99_ms": 0.003,
+      "max_ms": 0.013
+    },
+    {
+      "op": "clipboard_set",
+      "conditions": "fake clipboard: service pipeline only",
+      "samples": 300,
+      "p50_ms": 0.001,
+      "p95_ms": 0.002,
+      "p99_ms": 0.002,
+      "max_ms": 0.008
+    },
+    {
+      "op": "clipboard_get",
+      "conditions": "fake clipboard: service pipeline only",
+      "samples": 300,
+      "p50_ms": 0.001,
+      "p95_ms": 0.002,
+      "p99_ms": 0.002,
+      "max_ms": 0.002
+    }
+  ]
+}

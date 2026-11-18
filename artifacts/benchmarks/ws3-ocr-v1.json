@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-11-08T14:30:52.5276732+00:00",
+  "note": "Windows OCR only (capture not measured: no interactive desktop in this session).",
+  "image": "1920x1080 24-bit, 30 lines of text drawn with GDI",
+  "words_found": 360,
+  "first_call_ms": 135.2,
+  "samples": 50,
+  "p50_ms": 76.74,
+  "p95_ms": 117.47,
+  "p99_ms": 122.91,
+  "max_ms": 122.91
+}

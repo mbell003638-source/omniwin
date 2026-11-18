@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-11-08T17:47:24.0504518+00:00",
+  "note": "Mask + downscale + encode only. Screen capture is not measured: no interactive desktop in this session.",
+  "image": "1920x1080 24-bit, 30 lines of text drawn with GDI, one 400x40 password rectangle masked",
+  "default_max_side": 1280,
+  "output_width": 1280,
+  "output_height": 720,
+  "output_type": "image/jpeg",
+  "output_kb": 139.7,
+  "samples": 50,
+  "p50_ms": 31.98,
+  "p95_ms": 37.04,
+  "p99_ms": 39.79,
+  "max_ms": 39.79
+}

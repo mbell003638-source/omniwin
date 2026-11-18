@@ -1,0 +1,271 @@
+{
+ "tag": "v2",
+ "tasks": [
+  {
+   "id": "notepad-note",
+   "group": "Notepad",
+   "wordings": 8,
+   "phases": {},
+   "first_run_ms": 2477.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=write-a-note-saying-call-the-dentist steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "write-a-note-saying-call-the-dentist",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1749.5,
+     "line": "workflow_run name=write-a-note-saying-call-the-dentist status=confirmed input_sent=true steps=2/2 total=1691.1ms"
+    },
+    {
+     "ok": false,
+     "ms": 9438.9,
+     "line": "workflow_run name=write-a-note-saying-call-the-dentist status=confirmed input_sent=true steps=2/2 total=725.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 723.0,
+     "line": "workflow_run name=write-a-note-saying-call-the-dentist status=confirmed input_sent=true steps=2/2 total=707.3ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": false
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "settings-system",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1971.2,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-system-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-system-settings",
+   "replays": [
+    {
+     "ok": false,
+     "ms": 3508.2,
+     "line": "workflow_run name=show-system-settings status=stale input_sent=true reason=not_found steps=1/2 stopped_at=2 total=3506.1"
+    },
+    {
+     "ok": false,
+     "ms": 3821.2,
+     "line": "workflow_run name=show-system-settings status=stale input_sent=true reason=not_found steps=1/2 stopped_at=2 total=3819.5"
+    },
+    {
+     "ok": false,
+     "ms": 3385.1,
+     "line": "workflow_run name=show-system-settings status=stale input_sent=true reason=not_found steps=1/2 stopped_at=2 total=3383.3"
+    }
+   ],
+   "auto_run": true,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": false
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "calc-scientific",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2091.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-scientific-calculator steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-scientific-calculator",
+   "replays": [
+    {
+     "ok": false,
+     "ms": 3500.5,
+     "line": "workflow_run name=show-the-scientific-calculator status=stale input_sent=true reason=not_found steps=1/3 stopped_at=2 to"
+    },
+    {
+     "ok": false,
+     "ms": 3548.1,
+     "line": "workflow_run name=show-the-scientific-calculator status=stale input_sent=true reason=not_found steps=1/3 stopped_at=2 to"
+    },
+    {
+     "ok": false,
+     "ms": 3534.1,
+     "line": "workflow_run name=show-the-scientific-calculator status=stale input_sent=true reason=not_found steps=1/3 stopped_at=2 to"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": false
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "wikipedia",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
+  }
+ ]
+}

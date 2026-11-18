@@ -1,0 +1,200 @@
+{
+  "what": "Laya typed-decisions, offline, intent only (no input sent)",
+  "device": "cpu",
+  "items": 30,
+  "intent_accuracy": 0.7,
+  "thresholds": [
+    {
+      "threshold": 0.5,
+      "accepted": 24,
+      "coverage": 0.8,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.875,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.6,
+      "accepted": 24,
+      "coverage": 0.8,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.875,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 24,
+      "coverage": 0.8,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.875,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 24,
+      "coverage": 0.8,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.875,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.85,
+      "accepted": 24,
+      "coverage": 0.8,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.875,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 23,
+      "coverage": 0.7667,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.8696,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.93,
+      "accepted": 23,
+      "coverage": 0.7667,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.8696,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 22,
+      "coverage": 0.7333,
+      "wrong_action_rate": 0.0667,
+      "accepted_accuracy": 0.9091,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.97,
+      "accepted": 21,
+      "coverage": 0.7,
+      "wrong_action_rate": 0.0667,
+      "accepted_accuracy": 0.9048,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.98,
+      "accepted": 21,
+      "coverage": 0.7,
+      "wrong_action_rate": 0.0667,
+      "accepted_accuracy": 0.9048,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.99,
+      "accepted": 20,
+      "coverage": 0.6667,
+      "wrong_action_rate": 0.0667,
+      "accepted_accuracy": 0.9,
+      "meets_accuracy_gate": false
+    },
+    {
+      "threshold": 0.995,
+      "accepted": 18,
+      "coverage": 0.6,
+      "wrong_action_rate": 0.0667,
+      "accepted_accuracy": 0.8889,
+      "meets_accuracy_gate": false
+    }
+  ],
+  "by_set": {
+    "easy": {
+      "items": 30,
+      "intent_accuracy": 0.7,
+      "at_threshold": 0.9,
+      "coverage": 0.7667,
+      "wrong_action_rate": 0.1,
+      "accepted_accuracy": 0.8696
+    }
+  },
+  "latency_warm": {
+    "p50_ms": 422.0,
+    "p95_ms": 432.4,
+    "max_ms": 444.3
+  },
+  "gate": {
+    "calibrated_threshold": null,
+    "accuracy_gate_met": false,
+    "latency_gate_met": false,
+    "hard_set_wrong_action_rate_ok": false,
+    "integrate": false
+  },
+  "most_confident_mistakes": [
+    {
+      "text": "could you unpause now",
+      "label": "media_play",
+      "pred": "media_pause",
+      "conf": 1.0,
+      "ms": 439.4719999982044,
+      "set": "easy"
+    },
+    {
+      "text": "hey resume please",
+      "label": "media_play",
+      "pred": "none",
+      "conf": 0.9996,
+      "ms": 403.85140001308173,
+      "set": "easy"
+    },
+    {
+      "text": "pause",
+      "label": "media_pause",
+      "pred": "none",
+      "conf": 0.9992,
+      "ms": 414.15349999442697,
+      "set": "easy"
+    },
+    {
+      "text": "hey unpause please",
+      "label": "media_play",
+      "pred": "media_pause",
+      "conf": 0.9991,
+      "ms": 418.580400000792,
+      "set": "easy"
+    },
+    {
+      "text": "unpause",
+      "label": "media_play",
+      "pred": "none",
+      "conf": 0.9944,
+      "ms": 411.33390000322834,
+      "set": "easy"
+    },
+    {
+      "text": "resume",
+      "label": "media_play",
+      "pred": "none",
+      "conf": 0.9893,
+      "ms": 413.68309999234043,
+      "set": "easy"
+    },
+    {
+      "text": "stop the music",
+      "label": "media_pause",
+      "pred": "media_toggle",
+      "conf": 0.9358,
+      "ms": 423.920300003374,
+      "set": "easy"
+    },
+    {
+      "text": "play",
+      "label": "media_play",
+      "pred": "none",
+      "conf": 0.9127,
+      "ms": 408.4300000104122,
+      "set": "easy"
+    },
+    {
+      "text": "could you resume now",
+      "label": "media_play",
+      "pred": "none",
+      "conf": 0.7539,
+      "ms": 419.62749999947846,
+      "set": "easy"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "what": "contract 2.6 learning on the F01 fixture (3 steps: type, toggle, click), through the MCP server, real input",
+  "first_run_by_hand_ms": 660.2,
+  "first_run_note": "7 tool calls driven by a test with no AI thinking between them; with an AI each call adds its thinking time",
+  "replay_from_words_ms": {
+    "runs": 20,
+    "p50": 280.5,
+    "max": 306.6
+  },
+  "tool_calls": {
+    "first_run": 7,
+    "replay": 1
+  },
+  "trusted_replays_from_words": 20,
+  "drift": "renamed button: replay stopped at step 3, no click arrived, repaired as -v2"
+}

@@ -1,0 +1,15 @@
+{
+  "started": "2026-11-14T00:14:28.3360001-05:00",
+  "finished": "2026-11-14T00:14:39.814571-05:00",
+  "what": "one desktop_act type through the published server (real input)",
+  "target": "f01",
+  "chars": 1000,
+  "status": "confirmed",
+  "input_sent": true,
+  "first_line": "status=confirmed input_sent=true channel=unicode_typing retry=done total=7725.5ms (resolve 1.2, precheck 12.8, gate 0.843, input 7664.2, verify 46.0) step=s1",
+  "wall_ms": 7753.7,
+  "ms_per_char": 7.75,
+  "readback_exact": true,
+  "readback_chars": 1000,
+  "cleanup_errors": []
+}

@@ -1,0 +1,1823 @@
+{
+  "started_at": "2026-11-08T01:02:17.8025106+00:00",
+  "completed_at": "2026-11-08T01:02:22.5668749+00:00",
+  "runtime": ".NET 10.0.14",
+  "os": "Microsoft Windows NT 10.0.26300.0",
+  "session_id": 2,
+  "events_registered": true,
+  "target": {
+    "process": "explorer.exe",
+    "title": "OmniWin_Review_500_Files - File Explorer",
+    "pid": 2936,
+    "hwnd": 84150960,
+    "window_id": "w3"
+  },
+  "max_elements": 1000,
+  "include_text": true,
+  "forced_cold_count": 20,
+  "normal_warm_count": 200,
+  "desktop_sha256": "5EE3B03E8DAC832D9838D9F55A5C3F75674D836C44EA5C087C37381376F44BC6",
+  "harness_sha256": "D0E1C8522CBF4305241346523DD219A98EB84DED7D2D38A5859D12211DD250C4",
+  "summaries": {
+    "forced_cold": {
+      "count": 20,
+      "full_call_ms": {
+        "p50": 227.0846,
+        "p95": 247.2703,
+        "p99": 253.7598,
+        "max": 253.7598
+      },
+      "read_and_render_ms": {
+        "p50": 226.4653,
+        "p95": 245.331,
+        "p99": 253.3077,
+        "max": 253.3077
+      },
+      "min_elements": 212,
+      "max_elements": 212,
+      "min_omitted": 63,
+      "max_omitted": 63
+    },
+    "normal_warm": {
+      "count": 200,
+      "full_call_ms": {
+        "p50": 0.2475,
+        "p95": 0.5708,
+        "p99": 1.1593,
+        "max": 6.564
+      },
+      "read_and_render_ms": {
+        "p50": 0.0023,
+        "p95": 0.0041,
+        "p99": 0.0084,
+        "max": 0.2724
+      },
+      "min_elements": 212,
+      "max_elements": 212,
+      "min_omitted": 63,
+      "max_omitted": 63
+    }
+  },
+  "samples": [
+    {
+      "operation": "forced_cold",
+      "iteration": 0,
+      "full_call_ms": 244.5467,
+      "read_and_render_ms": 236.0969,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 1,
+      "full_call_ms": 234.5523,
+      "read_and_render_ms": 233.5788,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 2,
+      "full_call_ms": 214.5448,
+      "read_and_render_ms": 213.7364,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 3,
+      "full_call_ms": 221.1248,
+      "read_and_render_ms": 217.9366,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 4,
+      "full_call_ms": 234.8453,
+      "read_and_render_ms": 231.7933,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 5,
+      "full_call_ms": 227.3022,
+      "read_and_render_ms": 226.4653,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 6,
+      "full_call_ms": 220.9911,
+      "read_and_render_ms": 219.5131,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 7,
+      "full_call_ms": 217.5267,
+      "read_and_render_ms": 217.0587,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 8,
+      "full_call_ms": 218.754,
+      "read_and_render_ms": 218.3413,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 9,
+      "full_call_ms": 220.1638,
+      "read_and_render_ms": 209.0945,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 10,
+      "full_call_ms": 253.7598,
+      "read_and_render_ms": 253.3077,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 11,
+      "full_call_ms": 237.739,
+      "read_and_render_ms": 237.2047,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 12,
+      "full_call_ms": 245.7707,
+      "read_and_render_ms": 244.516,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 13,
+      "full_call_ms": 236.4832,
+      "read_and_render_ms": 236.0417,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 14,
+      "full_call_ms": 225.2402,
+      "read_and_render_ms": 224.7642,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 15,
+      "full_call_ms": 247.2703,
+      "read_and_render_ms": 245.331,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 16,
+      "full_call_ms": 227.0846,
+      "read_and_render_ms": 226.7162,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 17,
+      "full_call_ms": 222.5399,
+      "read_and_render_ms": 222.128,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 18,
+      "full_call_ms": 216.1852,
+      "read_and_render_ms": 214.9712,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "forced_cold",
+      "iteration": 19,
+      "full_call_ms": 230.1976,
+      "read_and_render_ms": 229.667,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 0,
+      "full_call_ms": 0.986,
+      "read_and_render_ms": 0.2724,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 1,
+      "full_call_ms": 6.564,
+      "read_and_render_ms": 0.0048,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 2,
+      "full_call_ms": 0.5785,
+      "read_and_render_ms": 0.0084,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 3,
+      "full_call_ms": 0.8921,
+      "read_and_render_ms": 0.006,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 4,
+      "full_call_ms": 0.5484,
+      "read_and_render_ms": 0.0034,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 5,
+      "full_call_ms": 0.2482,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 6,
+      "full_call_ms": 0.2177,
+      "read_and_render_ms": 0.0028,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 7,
+      "full_call_ms": 0.216,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 8,
+      "full_call_ms": 0.1927,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 9,
+      "full_call_ms": 0.5081,
+      "read_and_render_ms": 0.0031,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 10,
+      "full_call_ms": 0.4931,
+      "read_and_render_ms": 0.0067,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 11,
+      "full_call_ms": 0.3608,
+      "read_and_render_ms": 0.0035,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 12,
+      "full_call_ms": 0.3641,
+      "read_and_render_ms": 0.0077,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 13,
+      "full_call_ms": 0.6251,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 14,
+      "full_call_ms": 1.1593,
+      "read_and_render_ms": 0.0218,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 15,
+      "full_call_ms": 0.4995,
+      "read_and_render_ms": 0.0053,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 16,
+      "full_call_ms": 0.2173,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 17,
+      "full_call_ms": 0.3317,
+      "read_and_render_ms": 0.0036,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 18,
+      "full_call_ms": 0.2143,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 19,
+      "full_call_ms": 0.4645,
+      "read_and_render_ms": 0.0036,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 20,
+      "full_call_ms": 0.435,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 21,
+      "full_call_ms": 0.4373,
+      "read_and_render_ms": 0.0038,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 22,
+      "full_call_ms": 0.1876,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 23,
+      "full_call_ms": 0.2791,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 24,
+      "full_call_ms": 0.3755,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 25,
+      "full_call_ms": 0.4427,
+      "read_and_render_ms": 0.0047,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 26,
+      "full_call_ms": 0.419,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 27,
+      "full_call_ms": 0.453,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 28,
+      "full_call_ms": 0.483,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 29,
+      "full_call_ms": 0.3719,
+      "read_and_render_ms": 0.0041,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 30,
+      "full_call_ms": 0.3489,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 31,
+      "full_call_ms": 0.3059,
+      "read_and_render_ms": 0.0029,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 32,
+      "full_call_ms": 0.2224,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 33,
+      "full_call_ms": 0.5089,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 34,
+      "full_call_ms": 0.3611,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 35,
+      "full_call_ms": 0.3915,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 36,
+      "full_call_ms": 0.8898,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 37,
+      "full_call_ms": 0.2571,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 38,
+      "full_call_ms": 0.2615,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 39,
+      "full_call_ms": 0.4023,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 40,
+      "full_call_ms": 0.2261,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 41,
+      "full_call_ms": 0.215,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 42,
+      "full_call_ms": 0.2044,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 43,
+      "full_call_ms": 0.1979,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 44,
+      "full_call_ms": 0.3249,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 45,
+      "full_call_ms": 0.427,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 46,
+      "full_call_ms": 0.3519,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 47,
+      "full_call_ms": 0.4171,
+      "read_and_render_ms": 0.0029,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 48,
+      "full_call_ms": 0.3202,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 49,
+      "full_call_ms": 0.3741,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 50,
+      "full_call_ms": 0.3647,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 51,
+      "full_call_ms": 0.3754,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 52,
+      "full_call_ms": 0.3644,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 53,
+      "full_call_ms": 0.3363,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 54,
+      "full_call_ms": 0.2688,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 55,
+      "full_call_ms": 0.3291,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 56,
+      "full_call_ms": 0.2006,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 57,
+      "full_call_ms": 0.1998,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 58,
+      "full_call_ms": 0.2056,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 59,
+      "full_call_ms": 0.3773,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 60,
+      "full_call_ms": 0.3434,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 61,
+      "full_call_ms": 0.3449,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 62,
+      "full_call_ms": 0.2571,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 63,
+      "full_call_ms": 0.2956,
+      "read_and_render_ms": 0.0028,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 64,
+      "full_call_ms": 0.1981,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 65,
+      "full_call_ms": 0.1978,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 66,
+      "full_call_ms": 0.2654,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 67,
+      "full_call_ms": 0.2381,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 68,
+      "full_call_ms": 0.3783,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 69,
+      "full_call_ms": 0.3173,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 70,
+      "full_call_ms": 0.3313,
+      "read_and_render_ms": 0.0031,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 71,
+      "full_call_ms": 0.5955,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 72,
+      "full_call_ms": 0.311,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 73,
+      "full_call_ms": 0.2489,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 74,
+      "full_call_ms": 0.2618,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 75,
+      "full_call_ms": 0.3071,
+      "read_and_render_ms": 0.0028,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 76,
+      "full_call_ms": 0.3701,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 77,
+      "full_call_ms": 0.2517,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 78,
+      "full_call_ms": 0.1967,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 79,
+      "full_call_ms": 0.1805,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 80,
+      "full_call_ms": 0.1859,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 81,
+      "full_call_ms": 0.1809,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 82,
+      "full_call_ms": 0.1943,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 83,
+      "full_call_ms": 0.3251,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 84,
+      "full_call_ms": 0.2754,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 85,
+      "full_call_ms": 0.2697,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 86,
+      "full_call_ms": 0.3209,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 87,
+      "full_call_ms": 0.3113,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 88,
+      "full_call_ms": 0.2483,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 89,
+      "full_call_ms": 0.1973,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 90,
+      "full_call_ms": 0.1806,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 91,
+      "full_call_ms": 0.1962,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 92,
+      "full_call_ms": 0.275,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 93,
+      "full_call_ms": 0.2244,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 94,
+      "full_call_ms": 0.2852,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 95,
+      "full_call_ms": 0.5708,
+      "read_and_render_ms": 0.0048,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 96,
+      "full_call_ms": 0.2705,
+      "read_and_render_ms": 0.0031,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 97,
+      "full_call_ms": 0.2826,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 98,
+      "full_call_ms": 0.2665,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 99,
+      "full_call_ms": 0.3864,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 100,
+      "full_call_ms": 0.3355,
+      "read_and_render_ms": 0.0028,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 101,
+      "full_call_ms": 0.4446,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 102,
+      "full_call_ms": 0.2434,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 103,
+      "full_call_ms": 0.1909,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 104,
+      "full_call_ms": 0.2246,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 105,
+      "full_call_ms": 0.4466,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 106,
+      "full_call_ms": 0.2568,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 107,
+      "full_call_ms": 0.3178,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 108,
+      "full_call_ms": 0.2773,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 109,
+      "full_call_ms": 0.2899,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 110,
+      "full_call_ms": 0.1792,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 111,
+      "full_call_ms": 0.1727,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 112,
+      "full_call_ms": 0.2418,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 113,
+      "full_call_ms": 0.3149,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 114,
+      "full_call_ms": 0.3233,
+      "read_and_render_ms": 0.003,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 115,
+      "full_call_ms": 0.341,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 116,
+      "full_call_ms": 0.5134,
+      "read_and_render_ms": 0.0032,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 117,
+      "full_call_ms": 0.4394,
+      "read_and_render_ms": 0.0027,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 118,
+      "full_call_ms": 0.3288,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 119,
+      "full_call_ms": 0.2525,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 120,
+      "full_call_ms": 0.2759,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 121,
+      "full_call_ms": 0.2475,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 122,
+      "full_call_ms": 0.2762,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 123,
+      "full_call_ms": 0.3745,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 124,
+      "full_call_ms": 0.291,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 125,
+      "full_call_ms": 0.1846,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 126,
+      "full_call_ms": 0.1818,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 127,
+      "full_call_ms": 0.1801,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 128,
+      "full_call_ms": 0.2806,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 129,
+      "full_call_ms": 0.2764,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 130,
+      "full_call_ms": 0.2026,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 131,
+      "full_call_ms": 0.3442,
+      "read_and_render_ms": 0.0033,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 132,
+      "full_call_ms": 0.3393,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 133,
+      "full_call_ms": 0.2607,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 134,
+      "full_call_ms": 0.2084,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 135,
+      "full_call_ms": 0.2133,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 136,
+      "full_call_ms": 0.1901,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 137,
+      "full_call_ms": 0.1916,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 138,
+      "full_call_ms": 0.181,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 139,
+      "full_call_ms": 0.1797,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 140,
+      "full_call_ms": 0.5333,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 141,
+      "full_call_ms": 0.1917,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 142,
+      "full_call_ms": 0.2018,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 143,
+      "full_call_ms": 0.1771,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 144,
+      "full_call_ms": 0.2065,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 145,
+      "full_call_ms": 0.1743,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 146,
+      "full_call_ms": 0.1743,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 147,
+      "full_call_ms": 0.1693,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 148,
+      "full_call_ms": 0.1693,
+      "read_and_render_ms": 0.0015,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 149,
+      "full_call_ms": 0.1912,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 150,
+      "full_call_ms": 1.0374,
+      "read_and_render_ms": 0.0026,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 151,
+      "full_call_ms": 0.1909,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 152,
+      "full_call_ms": 0.1777,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 153,
+      "full_call_ms": 0.1838,
+      "read_and_render_ms": 0.0023,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 154,
+      "full_call_ms": 0.2014,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 155,
+      "full_call_ms": 0.1717,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 156,
+      "full_call_ms": 0.188,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 157,
+      "full_call_ms": 0.1686,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 158,
+      "full_call_ms": 0.1691,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 159,
+      "full_call_ms": 0.1884,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 160,
+      "full_call_ms": 0.1784,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 161,
+      "full_call_ms": 0.1722,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 162,
+      "full_call_ms": 0.1683,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 163,
+      "full_call_ms": 0.1643,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 164,
+      "full_call_ms": 0.1928,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 165,
+      "full_call_ms": 0.1709,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 166,
+      "full_call_ms": 0.1676,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 167,
+      "full_call_ms": 0.1862,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 168,
+      "full_call_ms": 0.1636,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 169,
+      "full_call_ms": 0.1812,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 170,
+      "full_call_ms": 0.1872,
+      "read_and_render_ms": 0.0021,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 171,
+      "full_call_ms": 0.1789,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 172,
+      "full_call_ms": 0.1801,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 173,
+      "full_call_ms": 0.1811,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 174,
+      "full_call_ms": 0.1827,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 175,
+      "full_call_ms": 1.7123,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 176,
+      "full_call_ms": 0.1858,
+      "read_and_render_ms": 0.0022,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 177,
+      "full_call_ms": 0.1985,
+      "read_and_render_ms": 0.0024,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 178,
+      "full_call_ms": 0.206,
+      "read_and_render_ms": 0.0025,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 179,
+      "full_call_ms": 0.1812,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 180,
+      "full_call_ms": 0.1765,
+      "read_and_render_ms": 0.002,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 181,
+      "full_call_ms": 0.1729,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 182,
+      "full_call_ms": 0.1714,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 183,
+      "full_call_ms": 0.1711,
+      "read_and_render_ms": 0.0018,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 184,
+      "full_call_ms": 0.1678,
+      "read_and_render_ms": 0.0019,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 185,
+      "full_call_ms": 0.1626,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 186,
+      "full_call_ms": 0.1616,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 187,
+      "full_call_ms": 0.1603,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 188,
+      "full_call_ms": 0.1579,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 189,
+      "full_call_ms": 0.1587,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 190,
+      "full_call_ms": 0.1566,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 191,
+      "full_call_ms": 0.1566,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 192,
+      "full_call_ms": 0.1553,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 193,
+      "full_call_ms": 0.1542,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 194,
+      "full_call_ms": 0.1558,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 195,
+      "full_call_ms": 0.1525,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 196,
+      "full_call_ms": 0.1557,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 197,
+      "full_call_ms": 0.1551,
+      "read_and_render_ms": 0.0016,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 198,
+      "full_call_ms": 0.1555,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    },
+    {
+      "operation": "normal_warm",
+      "iteration": 199,
+      "full_call_ms": 0.153,
+      "read_and_render_ms": 0.0017,
+      "element_count": 212,
+      "omitted_count": 63
+    }
+  ]
+}

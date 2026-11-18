@@ -1,0 +1,3942 @@
+{
+ "tag": "v3",
+ "tasks": [
+  {
+   "id": "calc-sum",
+   "group": "Calculator",
+   "wordings": 8,
+   "phases": {},
+   "first_run_ms": 1532.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=calculate-12-7-in-calculator steps=4 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "calculate-12-7-in-calculator",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 796.9,
+     "line": "workflow_run name=calculate-12-7-in-calculator status=unverified input_sent=true steps=4/4 total=722.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 787.1,
+     "line": "workflow_run name=calculate-12-7-in-calculator status=unverified input_sent=true steps=4/4 total=717.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 805.1,
+     "line": "workflow_run name=calculate-12-7-in-calculator status=unverified input_sent=true steps=4/4 total=730.4ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 743.7,
+    "check": true,
+    "line": "workflow_run name=calculate-12-7-in-calculator status=unverified input_sent=true steps=4/4 total=731.0ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "notepad-note",
+   "group": "Notepad",
+   "wordings": 8,
+   "phases": {},
+   "first_run_ms": 1796.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=write-a-note-saying-call-the-dentist steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "write-a-note-saying-call-the-dentist",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 795.8,
+     "line": "workflow_run name=write-a-note-saying-call-the-dentist status=confirmed input_sent=true steps=2/2 total=781.1ms"
+    },
+    {
+     "ok": false,
+     "ms": 9583.7,
+     "line": "workflow_run name=write-a-note-saying-call-the-dentist status=confirmed input_sent=true steps=2/2 total=762.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1648.2,
+     "line": "workflow_run name=write-a-note-saying-call-the-dentist status=confirmed input_sent=true steps=2/2 total=1591.6ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": false
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "settings-search",
+   "group": "Settings",
+   "wordings": 6,
+   "phases": {},
+   "first_run_ms": 1852.7,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-settings-for-display steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "search-settings-for-display",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1505.6,
+     "line": "workflow_run name=search-settings-for-display status=confirmed input_sent=true steps=2/2 total=1390.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 1663.9,
+     "line": "workflow_run name=search-settings-for-display status=confirmed input_sent=true steps=2/2 total=1550.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1575.9,
+     "line": "workflow_run name=search-settings-for-display status=confirmed input_sent=true steps=2/2 total=1569.3ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1703.7,
+    "check": true,
+    "line": "workflow_run name=search-settings-for-display status=confirmed input_sent=true steps=2/2 total=1702.0ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-system",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2012.3,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-system-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-system-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1670.1,
+     "line": "workflow_run name=show-system-settings status=confirmed input_sent=true steps=2/2 total=1519.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1803.1,
+     "line": "workflow_run name=show-system-settings status=confirmed input_sent=true steps=2/2 total=1629.5ms"
+    },
+    {
+     "ok": true,
+     "ms": 1655.4,
+     "line": "workflow_run name=show-system-settings status=confirmed input_sent=true steps=2/2 total=1491.7ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1390.4,
+    "check": true,
+    "line": "workflow_run name=show-system-settings status=confirmed input_sent=true steps=2/2 total=1388.6ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-bluetooth-devices",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1905.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-bluetooth-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-bluetooth-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1771.0,
+     "line": "workflow_run name=show-bluetooth-settings status=confirmed input_sent=true steps=2/2 total=1635.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1442.5,
+     "line": "workflow_run name=show-bluetooth-settings status=confirmed input_sent=true steps=2/2 total=1305.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1482.3,
+     "line": "workflow_run name=show-bluetooth-settings status=confirmed input_sent=true steps=2/2 total=1346.6ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1648.8,
+    "check": true,
+    "line": "workflow_run name=show-bluetooth-settings status=confirmed input_sent=true steps=2/2 total=1646.9ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-network-internet",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2076.5,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-network-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-network-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1492.1,
+     "line": "workflow_run name=show-network-settings status=confirmed input_sent=true steps=2/2 total=1490.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1225.6,
+     "line": "workflow_run name=show-network-settings status=confirmed input_sent=true steps=2/2 total=1224.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1378.4,
+     "line": "workflow_run name=show-network-settings status=confirmed input_sent=true steps=2/2 total=1376.6ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1209.1,
+    "check": true,
+    "line": "workflow_run name=show-network-settings status=confirmed input_sent=true steps=2/2 total=1207.1ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-personalization",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1902.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-personalization-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-personalization-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1716.6,
+     "line": "workflow_run name=show-personalization-settings status=confirmed input_sent=true steps=2/2 total=1563.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1772.4,
+     "line": "workflow_run name=show-personalization-settings status=confirmed input_sent=true steps=2/2 total=1623.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1778.4,
+     "line": "workflow_run name=show-personalization-settings status=confirmed input_sent=true steps=2/2 total=1624.8ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1629.5,
+    "check": true,
+    "line": "workflow_run name=show-personalization-settings status=confirmed input_sent=true steps=2/2 total=1627.2ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-apps",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1967.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-app-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-app-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1653.4,
+     "line": "workflow_run name=show-app-settings status=confirmed input_sent=true steps=2/2 total=1568.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1566.3,
+     "line": "workflow_run name=show-app-settings status=confirmed input_sent=true steps=2/2 total=1433.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1325.1,
+     "line": "workflow_run name=show-app-settings status=confirmed input_sent=true steps=2/2 total=1240.0ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1567.3,
+    "check": true,
+    "line": "workflow_run name=show-app-settings status=confirmed input_sent=true steps=2/2 total=1565.2ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-accounts",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1705.4,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-account-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-account-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1740.4,
+     "line": "workflow_run name=show-account-settings status=confirmed input_sent=true steps=2/2 total=1689.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1281.9,
+     "line": "workflow_run name=show-account-settings status=confirmed input_sent=true steps=2/2 total=1230.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1420.5,
+     "line": "workflow_run name=show-account-settings status=confirmed input_sent=true steps=2/2 total=1354.7ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1512.3,
+    "check": true,
+    "line": "workflow_run name=show-account-settings status=confirmed input_sent=true steps=2/2 total=1509.6ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-time-language",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1757.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-time-and-language-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-time-and-language-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1612.1,
+     "line": "workflow_run name=show-time-and-language-settings status=confirmed input_sent=true steps=2/2 total=1538.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1648.1,
+     "line": "workflow_run name=show-time-and-language-settings status=confirmed input_sent=true steps=2/2 total=1571.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1595.2,
+     "line": "workflow_run name=show-time-and-language-settings status=confirmed input_sent=true steps=2/2 total=1518.9ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1528.7,
+    "check": true,
+    "line": "workflow_run name=show-time-and-language-settings status=confirmed input_sent=true steps=2/2 total=1525.5ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-gaming",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1314.1,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-gaming-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-gaming-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1610.1,
+     "line": "workflow_run name=show-gaming-settings status=confirmed input_sent=true steps=2/2 total=1542.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1553.0,
+     "line": "workflow_run name=show-gaming-settings status=confirmed input_sent=true steps=2/2 total=1496.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1279.7,
+     "line": "workflow_run name=show-gaming-settings status=confirmed input_sent=true steps=2/2 total=1221.2ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1194.4,
+    "check": true,
+    "line": "workflow_run name=show-gaming-settings status=confirmed input_sent=true steps=2/2 total=1192.0ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-accessibility",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1884.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-accessibility-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-accessibility-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1761.6,
+     "line": "workflow_run name=show-accessibility-settings status=confirmed input_sent=true steps=2/2 total=1623.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1754.7,
+     "line": "workflow_run name=show-accessibility-settings status=confirmed input_sent=true steps=2/2 total=1606.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 1580.9,
+     "line": "workflow_run name=show-accessibility-settings status=confirmed input_sent=true steps=2/2 total=1438.9ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1284.5,
+    "check": true,
+    "line": "workflow_run name=show-accessibility-settings status=confirmed input_sent=true steps=2/2 total=1281.8ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-privacy-security",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1951.1,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-privacy-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-privacy-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1481.7,
+     "line": "workflow_run name=show-privacy-settings status=confirmed input_sent=true steps=2/2 total=1342.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1884.9,
+     "line": "workflow_run name=show-privacy-settings status=confirmed input_sent=true steps=2/2 total=1738.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1700.9,
+     "line": "workflow_run name=show-privacy-settings status=confirmed input_sent=true steps=2/2 total=1554.1ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1716.1,
+    "check": true,
+    "line": "workflow_run name=show-privacy-settings status=confirmed input_sent=true steps=2/2 total=1711.7ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "settings-windows-update",
+   "group": "Settings",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1799.3,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-windows-update-settings steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-windows-update-settings",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1618.6,
+     "line": "workflow_run name=show-windows-update-settings status=confirmed input_sent=true steps=2/2 total=1560.3ms"
+    },
+    {
+     "ok": false,
+     "ms": 3204.6,
+     "line": "workflow_run name=show-windows-update-settings status=stale input_sent=true reason=not_found steps=1/2 stopped_at=2 tota"
+    },
+    {
+     "ok": false,
+     "ms": 3225.9,
+     "line": "workflow_run name=show-windows-update-settings status=stale input_sent=true reason=not_found steps=1/2 stopped_at=2 tota"
+    }
+   ],
+   "auto_run": true,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "explorer-documents",
+   "group": "File Explorer",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1649.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-my-documents-folder steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-my-documents-folder",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1808.2,
+     "line": "workflow_run name=show-my-documents-folder status=unverified input_sent=true steps=2/2 total=1663.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 2343.8,
+     "line": "workflow_run name=show-my-documents-folder status=unverified input_sent=true steps=2/2 total=2206.5ms"
+    },
+    {
+     "ok": true,
+     "ms": 1420.1,
+     "line": "workflow_run name=show-my-documents-folder status=unverified input_sent=true steps=2/2 total=1279.5ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2314.4,
+    "check": true,
+    "line": "workflow_run name=show-my-documents-folder status=unverified input_sent=true steps=2/2 total=2304.2ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "explorer-downloads",
+   "group": "File Explorer",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2025.8,
+   "task_done": "task_done status=blocked reason=risky_words input_sent=false retry=no learned=false",
+   "result": "not_learned",
+   "detail": "task_done status=blocked reason=risky_words input_sent=false retry=no learned=false\ndetail: The request has a word (delete, install, send, pay and similar) that is never learned for replay."
+  },
+  {
+   "id": "explorer-pictures",
+   "group": "File Explorer",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 2241.4,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-my-pictures-folder steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-my-pictures-folder",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 969.5,
+     "line": "workflow_run name=show-my-pictures-folder status=unverified input_sent=true steps=2/2 total=954.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1670.8,
+     "line": "workflow_run name=show-my-pictures-folder status=unverified input_sent=true steps=2/2 total=1658.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 2494.1,
+     "line": "workflow_run name=show-my-pictures-folder status=unverified input_sent=true steps=2/2 total=2382.4ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1416.3,
+    "check": true,
+    "line": "workflow_run name=show-my-pictures-folder status=unverified input_sent=true steps=2/2 total=1412.4ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "explorer-music",
+   "group": "File Explorer",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1530.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-my-music-folder steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-my-music-folder",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2235.0,
+     "line": "workflow_run name=show-my-music-folder status=unverified input_sent=true steps=2/2 total=2122.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 970.4,
+     "line": "workflow_run name=show-my-music-folder status=unverified input_sent=true steps=2/2 total=968.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1834.1,
+     "line": "workflow_run name=show-my-music-folder status=unverified input_sent=true steps=2/2 total=1720.1ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2278.2,
+    "check": true,
+    "line": "workflow_run name=show-my-music-folder status=unverified input_sent=true steps=2/2 total=2273.4ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "explorer-videos",
+   "group": "File Explorer",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1667.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-my-videos-folder steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-my-videos-folder",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2425.7,
+     "line": "workflow_run name=show-my-videos-folder status=unverified input_sent=true steps=2/2 total=2317.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 972.6,
+     "line": "workflow_run name=show-my-videos-folder status=unverified input_sent=true steps=2/2 total=970.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1773.0,
+     "line": "workflow_run name=show-my-videos-folder status=unverified input_sent=true steps=2/2 total=1673.9ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1832.7,
+    "check": true,
+    "line": "workflow_run name=show-my-videos-folder status=unverified input_sent=true steps=2/2 total=1827.4ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "explorer-desktop",
+   "group": "File Explorer",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1769.1,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-my-desktop-folder steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-my-desktop-folder",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 2553.9,
+     "line": "workflow_run name=show-my-desktop-folder status=unverified input_sent=true steps=2/2 total=2400.5ms"
+    },
+    {
+     "ok": true,
+     "ms": 1352.0,
+     "line": "workflow_run name=show-my-desktop-folder status=unverified input_sent=true steps=2/2 total=1350.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1502.6,
+     "line": "workflow_run name=show-my-desktop-folder status=unverified input_sent=true steps=2/2 total=1499.8ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 2153.3,
+    "check": true,
+    "line": "workflow_run name=show-my-desktop-folder status=unverified input_sent=true steps=2/2 total=2150.3ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "clock-stopwatch",
+   "group": "Clock",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1230.6,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-stopwatch steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-the-stopwatch",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 617.9,
+     "line": "workflow_run name=show-the-stopwatch status=confirmed input_sent=true steps=2/2 total=616.5ms"
+    },
+    {
+     "ok": true,
+     "ms": 1352.5,
+     "line": "workflow_run name=show-the-stopwatch status=confirmed input_sent=true steps=2/2 total=1351.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 588.5,
+     "line": "workflow_run name=show-the-stopwatch status=confirmed input_sent=true steps=2/2 total=586.8ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 616.7,
+    "check": true,
+    "line": "workflow_run name=show-the-stopwatch status=confirmed input_sent=true steps=2/2 total=613.9ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "clock-timer",
+   "group": "Clock",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 788.4,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-timer steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-the-timer",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 978.9,
+     "line": "workflow_run name=show-the-timer status=confirmed input_sent=true steps=2/2 total=977.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 672.5,
+     "line": "workflow_run name=show-the-timer status=confirmed input_sent=true steps=2/2 total=670.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 683.2,
+     "line": "workflow_run name=show-the-timer status=confirmed input_sent=true steps=2/2 total=681.4ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 665.9,
+    "check": true,
+    "line": "workflow_run name=show-the-timer status=confirmed input_sent=true steps=2/2 total=661.1ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "clock-alarm",
+   "group": "Clock",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 805.5,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-my-alarms steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-my-alarms",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 624.0,
+     "line": "workflow_run name=show-my-alarms status=confirmed input_sent=true steps=2/2 total=622.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 637.4,
+     "line": "workflow_run name=show-my-alarms status=confirmed input_sent=true steps=2/2 total=636.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 625.3,
+     "line": "workflow_run name=show-my-alarms status=confirmed input_sent=true steps=2/2 total=623.8ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 608.7,
+    "check": true,
+    "line": "workflow_run name=show-my-alarms status=confirmed input_sent=true steps=2/2 total=605.3ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "clock-world-clock",
+   "group": "Clock",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1006.3,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-world-clock steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-the-world-clock",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1293.9,
+     "line": "workflow_run name=show-the-world-clock status=confirmed input_sent=true steps=2/2 total=1292.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1276.2,
+     "line": "workflow_run name=show-the-world-clock status=confirmed input_sent=true steps=2/2 total=1274.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 1261.6,
+     "line": "workflow_run name=show-the-world-clock status=confirmed input_sent=true steps=2/2 total=1260.0ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1279.5,
+    "check": true,
+    "line": "workflow_run name=show-the-world-clock status=confirmed input_sent=true steps=2/2 total=1274.3ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "clock-focus-sessions",
+   "group": "Clock",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1304.1,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-focus-sessions steps=2 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-focus-sessions",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 634.7,
+     "line": "workflow_run name=show-focus-sessions status=confirmed input_sent=true steps=2/2 total=633.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 641.4,
+     "line": "workflow_run name=show-focus-sessions status=confirmed input_sent=true steps=2/2 total=640.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 718.0,
+     "line": "workflow_run name=show-focus-sessions status=confirmed input_sent=true steps=2/2 total=690.9ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 626.2,
+    "check": true,
+    "line": "workflow_run name=show-focus-sessions status=confirmed input_sent=true steps=2/2 total=622.7ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-standard",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1759.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-standard-calculator steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-standard-calculator",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1327.1,
+     "line": "workflow_run name=show-the-standard-calculator status=unverified input_sent=true steps=3/3 total=1280.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 1296.1,
+     "line": "workflow_run name=show-the-standard-calculator status=unverified input_sent=true steps=3/3 total=1248.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 1242.5,
+     "line": "workflow_run name=show-the-standard-calculator status=unverified input_sent=true steps=3/3 total=1240.6ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-scientific",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1172.7,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-scientific-calculator steps=3 trust=candidate auto_run=after_3_clean_replays",
+   "recipe": "show-the-scientific-calculator",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1578.9,
+     "line": "workflow_run name=show-the-scientific-calculator status=unverified input_sent=true steps=3/3 total=1498.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 1583.6,
+     "line": "workflow_run name=show-the-scientific-calculator status=unverified input_sent=true steps=3/3 total=1582.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1487.3,
+     "line": "workflow_run name=show-the-scientific-calculator status=unverified input_sent=true steps=3/3 total=1418.7ms"
+    }
+   ],
+   "auto_run": true,
+   "instant": {
+    "routed": true,
+    "ms": 1462.0,
+    "check": true,
+    "line": "workflow_run name=show-the-scientific-calculator status=unverified input_sent=true steps=3/3 total=1456.2ms"
+   },
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": true,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-graphing",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1817.6,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-graphing-calculator steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-graphing-calculator",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1218.0,
+     "line": "workflow_run name=show-the-graphing-calculator status=unverified input_sent=true steps=3/3 total=1216.5ms"
+    },
+    {
+     "ok": true,
+     "ms": 1209.9,
+     "line": "workflow_run name=show-the-graphing-calculator status=unverified input_sent=true steps=3/3 total=1208.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1219.4,
+     "line": "workflow_run name=show-the-graphing-calculator status=unverified input_sent=true steps=3/3 total=1218.0ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-programmer",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1698.4,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-programmer-calculator steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-programmer-calculator",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1505.4,
+     "line": "workflow_run name=show-the-programmer-calculator status=unverified input_sent=true steps=3/3 total=1436.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1489.4,
+     "line": "workflow_run name=show-the-programmer-calculator status=unverified input_sent=true steps=3/3 total=1425.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 1447.9,
+     "line": "workflow_run name=show-the-programmer-calculator status=unverified input_sent=true steps=3/3 total=1446.3ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-date",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1756.6,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-date-calculator steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-date-calculator",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1487.6,
+     "line": "workflow_run name=show-the-date-calculator status=unverified input_sent=true steps=3/3 total=1486.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1173.3,
+     "line": "workflow_run name=show-the-date-calculator status=unverified input_sent=true steps=3/3 total=1171.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 1146.5,
+     "line": "workflow_run name=show-the-date-calculator status=unverified input_sent=true steps=3/3 total=1145.1ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-currency",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1591.6,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-currency-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-currency-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1298.6,
+     "line": "workflow_run name=show-the-currency-converter status=unverified input_sent=true steps=3/3 total=1255.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 1301.7,
+     "line": "workflow_run name=show-the-currency-converter status=unverified input_sent=true steps=3/3 total=1245.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1266.2,
+     "line": "workflow_run name=show-the-currency-converter status=unverified input_sent=true steps=3/3 total=1264.6ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-volume",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1816.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-volume-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-volume-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1223.5,
+     "line": "workflow_run name=show-the-volume-converter status=unverified input_sent=true steps=3/3 total=1221.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1204.3,
+     "line": "workflow_run name=show-the-volume-converter status=unverified input_sent=true steps=3/3 total=1202.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1217.6,
+     "line": "workflow_run name=show-the-volume-converter status=unverified input_sent=true steps=3/3 total=1216.0ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-length",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1526.6,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-length-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-length-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1217.5,
+     "line": "workflow_run name=show-the-length-converter status=unverified input_sent=true steps=3/3 total=1215.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1237.4,
+     "line": "workflow_run name=show-the-length-converter status=unverified input_sent=true steps=3/3 total=1235.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 1228.8,
+     "line": "workflow_run name=show-the-length-converter status=unverified input_sent=true steps=3/3 total=1227.4ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-weight",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1460.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-weight-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-weight-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1218.4,
+     "line": "workflow_run name=show-the-weight-converter status=unverified input_sent=true steps=3/3 total=1216.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1205.6,
+     "line": "workflow_run name=show-the-weight-converter status=unverified input_sent=true steps=3/3 total=1204.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1191.5,
+     "line": "workflow_run name=show-the-weight-converter status=unverified input_sent=true steps=3/3 total=1189.9ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-temperature",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1568.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-temperature-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-temperature-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1236.8,
+     "line": "workflow_run name=show-the-temperature-converter status=unverified input_sent=true steps=3/3 total=1235.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 1228.8,
+     "line": "workflow_run name=show-the-temperature-converter status=unverified input_sent=true steps=3/3 total=1227.3ms"
+    },
+    {
+     "ok": true,
+     "ms": 1235.2,
+     "line": "workflow_run name=show-the-temperature-converter status=unverified input_sent=true steps=3/3 total=1233.5ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-energy",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1514.3,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-energy-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-energy-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1231.0,
+     "line": "workflow_run name=show-the-energy-converter status=unverified input_sent=true steps=3/3 total=1229.2ms"
+    },
+    {
+     "ok": true,
+     "ms": 1218.8,
+     "line": "workflow_run name=show-the-energy-converter status=unverified input_sent=true steps=3/3 total=1217.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1208.6,
+     "line": "workflow_run name=show-the-energy-converter status=unverified input_sent=true steps=3/3 total=1207.0ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-area",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1507.3,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-area-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-area-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1217.1,
+     "line": "workflow_run name=show-the-area-converter status=unverified input_sent=true steps=3/3 total=1215.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 1220.1,
+     "line": "workflow_run name=show-the-area-converter status=unverified input_sent=true steps=3/3 total=1218.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 1237.6,
+     "line": "workflow_run name=show-the-area-converter status=unverified input_sent=true steps=3/3 total=1235.9ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-speed",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1512.2,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-speed-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-speed-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1214.3,
+     "line": "workflow_run name=show-the-speed-converter status=unverified input_sent=true steps=3/3 total=1212.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 1236.1,
+     "line": "workflow_run name=show-the-speed-converter status=unverified input_sent=true steps=3/3 total=1234.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 1212.3,
+     "line": "workflow_run name=show-the-speed-converter status=unverified input_sent=true steps=3/3 total=1210.8ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-time",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1513.7,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-time-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-time-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1213.3,
+     "line": "workflow_run name=show-the-time-converter status=unverified input_sent=true steps=3/3 total=1211.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 1196.0,
+     "line": "workflow_run name=show-the-time-converter status=unverified input_sent=true steps=3/3 total=1194.4ms"
+    },
+    {
+     "ok": true,
+     "ms": 1183.3,
+     "line": "workflow_run name=show-the-time-converter status=unverified input_sent=true steps=3/3 total=1181.8ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-power",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1509.7,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-power-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-power-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1239.0,
+     "line": "workflow_run name=show-the-power-converter status=unverified input_sent=true steps=3/3 total=1237.6ms"
+    },
+    {
+     "ok": true,
+     "ms": 1257.5,
+     "line": "workflow_run name=show-the-power-converter status=unverified input_sent=true steps=3/3 total=1256.0ms"
+    },
+    {
+     "ok": true,
+     "ms": 1246.3,
+     "line": "workflow_run name=show-the-power-converter status=unverified input_sent=true steps=3/3 total=1244.7ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "calc-data",
+   "group": "Calculator",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 1578.1,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=show-the-data-converter steps=3 trust=candidate auto_run=no",
+   "recipe": "show-the-data-converter",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 1235.6,
+     "line": "workflow_run name=show-the-data-converter status=unverified input_sent=true steps=3/3 total=1233.9ms"
+    },
+    {
+     "ok": true,
+     "ms": 1236.8,
+     "line": "workflow_run name=show-the-data-converter status=unverified input_sent=true steps=3/3 total=1235.1ms"
+    },
+    {
+     "ok": true,
+     "ms": 1201.2,
+     "line": "workflow_run name=show-the-data-converter status=unverified input_sent=true steps=3/3 total=1199.7ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 6,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 7,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 8,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 9,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 10,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 11,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 12,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 13,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
+  },
+  {
+   "id": "google-maps",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
+  },
+  {
+   "id": "youtube-search",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "first_run_ms": 3818.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-youtube-for-lofi-music steps=3 trust=candidate auto_run=no",
+   "recipe": "search-youtube-for-lofi-music",
+   "replays": [
+    {
+     "ok": false,
+     "ms": 9045.6,
+     "line": "workflow_run name=search-youtube-for-lofi-music status=unverified input_sent=true steps=0/3 stopped_at=1 total=876.1ms"
+    },
+    {
+     "ok": false,
+     "ms": 8957.2,
+     "line": "workflow_run name=search-youtube-for-lofi-music status=unverified input_sent=true steps=0/3 stopped_at=1 total=773.9ms"
+    },
+    {
+     "ok": false,
+     "ms": 8927.3,
+     "line": "workflow_run name=search-youtube-for-lofi-music status=unverified input_sent=true steps=0/3 stopped_at=1 total=742.4ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": false
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": false
+    }
+   ],
+   "result": "saved_but_replays_failed"
+  },
+  {
+   "id": "wikipedia",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "result": "teach_failed",
+   "detail": "end-result check failed"
+  }
+ ]
+}

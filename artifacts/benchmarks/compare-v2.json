@@ -1,0 +1,393 @@
+{
+  "started": "2026-11-14T10:08:03.4541144-05:00",
+  "finished": "2026-11-14T10:08:27.2255417-05:00",
+  "what": "the same jobs on the F01 fixture through the published server: OmniWin\u0027s own tools against Windows-MCP and agent-desktop through engine_call (real input); judged by the fixture\u0027s own log",
+  "clicks_per_job": 10,
+  "typing_runs": 3,
+  "typed_chars": 200,
+  "engine_start_ms": {
+    "agent-desktop": 269.5
+  },
+  "engine_processes_left": 0,
+  "results": [
+    {
+      "way": "agent-desktop",
+      "job": "Agree",
+      "runs": 10,
+      "not_run": 0,
+      "exact": 10,
+      "missed": 0,
+      "extra_or_stray": 0,
+      "false_success": 0,
+      "statuses": {
+        "unverified": 10
+      },
+      "look_ms": {
+        "p50": 145.1,
+        "p95": 148.7
+      },
+      "act_ms": {
+        "p50": 164,
+        "p95": 172.7
+      },
+      "look_plus_act_ms": {
+        "p50": 309.1,
+        "p95": 315.5
+      },
+      "not_run_reasons": []
+    },
+    {
+      "way": "agent-desktop",
+      "job": "Apply",
+      "runs": 10,
+      "not_run": 0,
+      "exact": 10,
+      "missed": 0,
+      "extra_or_stray": 0,
+      "false_success": 0,
+      "statuses": {
+        "unverified": 10
+      },
+      "look_ms": {
+        "p50": 143.2,
+        "p95": 147.2
+      },
+      "act_ms": {
+        "p50": 162.1,
+        "p95": 166.3
+      },
+      "look_plus_act_ms": {
+        "p50": 304.4,
+        "p95": 310.6
+      },
+      "not_run_reasons": []
+    },
+    {
+      "way": "agent-desktop",
+      "job": "type",
+      "runs": 3,
+      "not_run": 0,
+      "exact": 0,
+      "missed": 3,
+      "extra_or_stray": 0,
+      "false_success": 0,
+      "statuses": {
+        "error": 3
+      },
+      "look_ms": {
+        "p50": 137.3,
+        "p95": 143.7
+      },
+      "act_ms": {
+        "p50": 66.6,
+        "p95": 76.4
+      },
+      "look_plus_act_ms": {
+        "p50": 209.2,
+        "p95": 211.9
+      },
+      "not_run_reasons": []
+    }
+  ],
+  "steps": [
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 145.1,
+      "ActMs": 164,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 146.3,
+      "ActMs": 162.9,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 140.9,
+      "ActMs": 172.7,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 144.4,
+      "ActMs": 162.2,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 143.4,
+      "ActMs": 164.9,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 145.8,
+      "ActMs": 161,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 146.7,
+      "ActMs": 168.8,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 141.4,
+      "ActMs": 164.7,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 148.7,
+      "ActMs": 163.5,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Agree",
+      "NotRun": null,
+      "LookMs": 142.1,
+      "ActMs": 161,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 143.2,
+      "ActMs": 162.6,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 145.6,
+      "ActMs": 161.1,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 147.2,
+      "ActMs": 157,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 141.2,
+      "ActMs": 162.5,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 142.3,
+      "ActMs": 166.3,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 141.2,
+      "ActMs": 162.1,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 145.3,
+      "ActMs": 165.3,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 147.1,
+      "ActMs": 157.3,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 138,
+      "ActMs": 159.6,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "Apply",
+      "NotRun": null,
+      "LookMs": 142.5,
+      "ActMs": 157.1,
+      "Status": "unverified",
+      "InputSent": true,
+      "TargetEvents": 1,
+      "OtherEvents": 0,
+      "Exact": true,
+      "ReadChars": null
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "type",
+      "NotRun": null,
+      "LookMs": 135.5,
+      "ActMs": 76.4,
+      "Status": "error",
+      "InputSent": true,
+      "TargetEvents": 0,
+      "OtherEvents": 0,
+      "Exact": false,
+      "ReadChars": 0
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "type",
+      "NotRun": null,
+      "LookMs": 143.7,
+      "ActMs": 65.5,
+      "Status": "error",
+      "InputSent": true,
+      "TargetEvents": 0,
+      "OtherEvents": 0,
+      "Exact": false,
+      "ReadChars": 0
+    },
+    {
+      "Way": "agent-desktop",
+      "Job": "type",
+      "NotRun": null,
+      "LookMs": 137.3,
+      "ActMs": 66.6,
+      "Status": "error",
+      "InputSent": true,
+      "TargetEvents": 0,
+      "OtherEvents": 0,
+      "Exact": false,
+      "ReadChars": 0
+    }
+  ]
+}

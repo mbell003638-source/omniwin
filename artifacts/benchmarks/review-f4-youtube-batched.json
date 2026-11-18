@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-11-08T01:09:39.0677894+00:00",
+  "completed_at": "2026-11-08T01:09:39.0882282+00:00",
+  "runtime": ".NET 10.0.14",
+  "os": "Microsoft Windows NT 10.0.26300.0",
+  "session_id": 2,
+  "events_registered": false,
+  "target": {
+    "process": "chrome.exe",
+    "title": "Windows accessibility tutorial - YouTube - Google Chrome"
+  },
+  "max_elements": 1000,
+  "include_text": true,
+  "forced_cold_count": 20,
+  "normal_warm_count": 200,
+  "desktop_sha256": "B9EF5D8F3E9F909095457086F64588A8B214534F0D5C8D898211F2FEC21B0FF2",
+  "harness_sha256": "47816C40EDA17A89614C2B1503B5970E277D58252B58C3209859B2A502FA6DEE",
+  "failure": "COMException (0x80004005)",
+  "summaries": {},
+  "samples": []
+}

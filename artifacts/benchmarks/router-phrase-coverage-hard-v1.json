@@ -1,0 +1,438 @@
+{
+  "what": "strict phrase table against hand-written paraphrases and near-miss sentences (tools/laya/eval_hard.jsonl)",
+  "labelled_commands": 123,
+  "matched_by_table": 16,
+  "coverage": 0.13,
+  "near_miss_sentences": 55,
+  "near_misses_that_would_run": [],
+  "left_to_the_brain_or_laya": [
+    {
+      "Intent": "media_play",
+      "Text": "keep the music going"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "turn the music back on"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "let it play"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "carry on with the track"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "hit play"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "get the video going"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "continue the song"
+    },
+    {
+      "Intent": "media_play",
+      "Text": "unpause it"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "hold the music"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "freeze the video"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "stop the song for a second"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "put the music on hold"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "can you pause that for me"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "wait pause it"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "pause that"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "pause it"
+    },
+    {
+      "Intent": "media_pause",
+      "Text": "stop the video for a moment"
+    },
+    {
+      "Intent": "media_next",
+      "Text": "play the next one"
+    },
+    {
+      "Intent": "media_next",
+      "Text": "move on to the next track"
+    },
+    {
+      "Intent": "media_next",
+      "Text": "skip ahead to the next song"
+    },
+    {
+      "Intent": "media_next",
+      "Text": "i dont like this song skip it"
+    },
+    {
+      "Intent": "media_next",
+      "Text": "forward to the next video"
+    },
+    {
+      "Intent": "media_next",
+      "Text": "play the following track"
+    },
+    {
+      "Intent": "media_previous",
+      "Text": "play the previous song"
+    },
+    {
+      "Intent": "media_previous",
+      "Text": "take me back one song"
+    },
+    {
+      "Intent": "media_previous",
+      "Text": "the song before this one"
+    },
+    {
+      "Intent": "media_previous",
+      "Text": "back to the previous track"
+    },
+    {
+      "Intent": "media_previous",
+      "Text": "play the song from before"
+    },
+    {
+      "Intent": "media_toggle",
+      "Text": "press play pause"
+    },
+    {
+      "Intent": "media_toggle",
+      "Text": "flip between play and pause"
+    },
+    {
+      "Intent": "volume_set",
+      "Text": "make the volume 40"
+    },
+    {
+      "Intent": "volume_set",
+      "Text": "i want volume at 60"
+    },
+    {
+      "Intent": "volume_set",
+      "Text": "set it to 35 percent volume"
+    },
+    {
+      "Intent": "volume_set",
+      "Text": "volume should be 80 percent"
+    },
+    {
+      "Intent": "volume_set",
+      "Text": "bring the sound to 20"
+    },
+    {
+      "Intent": "volume_set",
+      "Text": "make the sound 55"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "i cant hear anything turn it up"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "make it a bit louder"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "can you raise the volume a little"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "crank it up"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "increase the volume"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "more volume please"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "up the volume"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "a little louder"
+    },
+    {
+      "Intent": "volume_up",
+      "Text": "make the sound bigger"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "its too loud"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "make it quieter please"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "bring the volume down a bit"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "decrease the volume"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "lower the sound"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "turn down the music"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "less volume"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "a little quieter"
+    },
+    {
+      "Intent": "volume_down",
+      "Text": "that is way too loud"
+    },
+    {
+      "Intent": "mute",
+      "Text": "silence the computer"
+    },
+    {
+      "Intent": "mute",
+      "Text": "shut off the sound"
+    },
+    {
+      "Intent": "mute",
+      "Text": "make it silent"
+    },
+    {
+      "Intent": "mute",
+      "Text": "kill the audio"
+    },
+    {
+      "Intent": "mute",
+      "Text": "turn the sound off"
+    },
+    {
+      "Intent": "mute",
+      "Text": "no sound please"
+    },
+    {
+      "Intent": "unmute",
+      "Text": "bring the sound back"
+    },
+    {
+      "Intent": "unmute",
+      "Text": "turn the audio back on"
+    },
+    {
+      "Intent": "unmute",
+      "Text": "i want sound again"
+    },
+    {
+      "Intent": "unmute",
+      "Text": "enable the sound"
+    },
+    {
+      "Intent": "unmute",
+      "Text": "give me sound again"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "show me chrome"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "i want to see notepad"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "take me to spotify"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "go over to the terminal window"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "pull up calculator"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "i need the spotify window"
+    },
+    {
+      "Intent": "window_focus",
+      "Text": "let me see the notepad window"
+    },
+    {
+      "Intent": "window_minimize",
+      "Text": "hide this window"
+    },
+    {
+      "Intent": "window_minimize",
+      "Text": "get this window out of the way"
+    },
+    {
+      "Intent": "window_minimize",
+      "Text": "shrink notepad to the taskbar"
+    },
+    {
+      "Intent": "window_minimize",
+      "Text": "put this window away"
+    },
+    {
+      "Intent": "window_maximize",
+      "Text": "make this window fullscreen"
+    },
+    {
+      "Intent": "window_maximize",
+      "Text": "make notepad bigger"
+    },
+    {
+      "Intent": "window_maximize",
+      "Text": "expand this window to fill the screen"
+    },
+    {
+      "Intent": "window_maximize",
+      "Text": "make chrome full screen"
+    },
+    {
+      "Intent": "window_restore",
+      "Text": "put the window back to normal size"
+    },
+    {
+      "Intent": "window_restore",
+      "Text": "bring the window back down to its old size"
+    },
+    {
+      "Intent": "window_close",
+      "Text": "shut the notepad window"
+    },
+    {
+      "Intent": "window_close",
+      "Text": "shut this window"
+    },
+    {
+      "Intent": "app_launch",
+      "Text": "i need calculator"
+    },
+    {
+      "Intent": "app_launch",
+      "Text": "fire up spotify"
+    },
+    {
+      "Intent": "app_launch",
+      "Text": "load excel"
+    },
+    {
+      "Intent": "app_launch",
+      "Text": "get me notepad"
+    },
+    {
+      "Intent": "app_launch",
+      "Text": "i want to use word"
+    },
+    {
+      "Intent": "workflow_run",
+      "Text": "do my morning setup routine"
+    },
+    {
+      "Intent": "workflow_run",
+      "Text": "execute the save draft workflow"
+    },
+    {
+      "Intent": "workflow_run",
+      "Text": "kick off the daily notes workflow"
+    },
+    {
+      "Intent": "workflow_run",
+      "Text": "run my morning setup workflow"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "do you know what time it is"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "tell me the time"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "what is the current time"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "how late is it"
+    },
+    {
+      "Intent": "read_time",
+      "Text": "what time is it right now"
+    },
+    {
+      "Intent": "read_battery",
+      "Text": "how much power is left"
+    },
+    {
+      "Intent": "read_battery",
+      "Text": "is my battery low"
+    },
+    {
+      "Intent": "read_battery",
+      "Text": "whats my battery at"
+    },
+    {
+      "Intent": "read_battery",
+      "Text": "check the battery"
+    },
+    {
+      "Intent": "read_battery",
+      "Text": "how much charge do i have"
+    },
+    {
+      "Intent": "read_volume",
+      "Text": "how loud is it right now"
+    },
+    {
+      "Intent": "read_volume",
+      "Text": "what is the sound level at"
+    },
+    {
+      "Intent": "read_volume",
+      "Text": "tell me the current volume"
+    },
+    {
+      "Intent": "read_volume",
+      "Text": "what is the volume set to"
+    }
+  ]
+}
