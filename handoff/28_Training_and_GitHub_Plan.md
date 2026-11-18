@@ -170,13 +170,19 @@ When the plan is approved, the memory note "OmniWin: no commits, local only" is 
 - **Notification center:** a single shortcut (Win+N); a recipe needs at least 2 steps and the AI opens it in one call anyway.
 - **Web search:** done through DuckDuckGo, because Google showed its bot check. Saved, but the replays type the words without submitting: OmniWin does not record an Enter press that shows no visible change, so the submit step is missing. **Open item for a builder:** store each step's met expectation in the workflow file and re-apply it on replay (handoff 26 §12 already names this risk). The same gap stops Google Flights and Hotels.
 
+## Sixth pass, 2026-11-18 (web search)
+
+- **Fixed by the reviewer, so a web search can be learned:** (a) a saved step keeps a met `url_contains` or `window_opened` expectation in its arguments and a replay checks it again (`StepCall.cs`; no file-format change; text-bearing expectations and session window ids are never saved); (b) a pressed key name is saved as a literal, not as a parameter; (c) the browser checks a `url_contains` expectation on the new page when an act navigated away mid-check (`BrowserEngine.cs`). Tests: `SavedExpectationTests` 5 of 5, Core.Tests 162/162, Router.Tests 171/171, Browser.Tests 150 (0 failed). Republished.
+- **Web search (DuckDuckGo) is learned** with 3 of 3 clean replays.
+- **Google Flights and Hotels stay open:** their boxes do not submit on Enter, and their suggestions are list items with no name or ID. OmniWin will not save a click on something it cannot find again (that is the safe behaviour), so these cannot be checked recipes. The AI can still do them live.
+
 ## Plan completion checklist (2026-11-18)
 
 | Plan item | State |
 |---|---|
 | Phase 0: training without Remote Desktop (console, screen never off) | done by the owner; checked (session 2 `console` `Active`) |
 | Phase 1: task list (about 80 tasks, about 500 wordings) | done: 80 tasks, 1,532 wordings offered (`bench/teach/make_tasks.py`) |
-| Phase 2: pilot, then the rest | done: **84 of 89 tasks learned and verified, 666 wordings learned, 61 tasks run by themselves** (`artifacts/benchmarks/curriculum-v3.json`). Not learned: Downloads (refused by OmniWin's own rule; its wording contains "download"), notification center (one shortcut, nothing to learn), web search, Flights and Hotels (submit step not recordable; open item above) |
+| Phase 2: pilot, then the rest | done: **85 of 89 tasks learned and verified, 667 wordings learned, 61 tasks run by themselves** (`artifacts/benchmarks/curriculum-v3.json`). Not learned: Downloads (refused by OmniWin's own rule; its wording contains "download"), notification center (one shortcut, nothing to learn), Flights and Hotels (suggestions have no name to find again; see the sixth pass) |
 | Bluetooth, brightness, notifications | their Settings pages are learned (view only); changing those settings stays with the owner |
 | Camera | no camera on this PC |
 | Buying, booking, signing in, personal data | left out as the approved plan says |

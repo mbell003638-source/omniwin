@@ -1,20 +1,20 @@
 {
-  "measured_utc": "2026-11-16T14:04:05.4569302+00:00",
+  "measured_utc": "2026-11-18T07:45:24.5234912+00:00",
   "note": "browser_observe max_elements=1000, headless Edge, per-scan cap 3000 candidates",
   "rows": {
     "biglist_2000": {
       "page": "biglist.html",
       "samples": 10,
-      "p50_ms": 328.4,
-      "max_ms": 481.8,
+      "p50_ms": 479.8,
+      "max_ms": 765.6,
       "capped_line_present": false,
       "response_chars": 33461
     },
     "biglist_10000": {
       "page": "biglist10k.html",
       "samples": 10,
-      "p50_ms": 888.7,
-      "max_ms": 2253.2,
+      "p50_ms": 1539.2,
+      "max_ms": 2215.2,
       "capped_line_present": true,
       "response_chars": 34275
     }

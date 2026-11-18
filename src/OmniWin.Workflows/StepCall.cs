@@ -89,8 +89,20 @@ public static partial class StepTools
             if (!string.IsNullOrEmpty(value)) args[key] = value;
         }
 
+        // The expectation the first run met, so a replay can prove the step the same way (an Enter that starts a search shows no
+        // visible change by itself). Only kinds that never hold typed text are kept: where the browser lands, a window opening (a closed-window id belongs to one session, so it is not kept).
+        if (call.Expect is { Condition: UrlContains or WindowOpened } kept)
+        {
+            args["expect"] = System.Text.Json.JsonSerializer.Serialize(kept, CoreJson.Options);
+        }
+
         switch (call.Tool)
         {
+            case "browser_act" when call.Action == "press":
+                // A key name ("Enter") is not typed text: keep it as a literal, so the step needs no parameter on replay.
+                Put("key", call.Value);
+                return ("press", args, false);
+
             case "desktop_act":
             case "browser_act":
                 return (call.Action ?? string.Empty, args, !string.IsNullOrEmpty(call.Value));
@@ -145,15 +157,30 @@ public static partial class StepTools
         var inv = System.Globalization.CultureInfo.InvariantCulture;
 
         string? S(string key) => args.TryGetValue(key, out var v) ? v : null;
+        ExpectSpec? E()
+        {
+            if (!args.TryGetValue("expect", out var json)) return null;
+            try
+            {
+                return System.Text.Json.JsonSerializer.Deserialize<ExpectSpec>(json, CoreJson.Options) is { Condition: UrlContains or WindowOpened } e ? e : null;
+            }
+            catch (System.Text.Json.JsonException)
+            {
+                return null;   // a hand-edited or unknown expectation is ignored, never trusted
+            }
+        }
+
         int? I(string key) => args.TryGetValue(key, out var v) && int.TryParse(v, System.Globalization.NumberStyles.Integer, inv, out var n) ? n : null;
 
+        var expect = E();
         return tool switch
         {
-            "desktop_act" or "browser_act" => new StepCall(tool, Action: action, Value: value),
-            "desktop_keys" => new StepCall(tool, Keys: S("keys"), Window: S("window")),
+            "browser_act" when action == "press" => new StepCall(tool, Action: action, Value: S("key") ?? value, Expect: expect),
+            "desktop_act" or "browser_act" => new StepCall(tool, Action: action, Value: value, Expect: expect),
+            "desktop_keys" => new StepCall(tool, Keys: S("keys"), Window: S("window"), Expect: expect),
             "desktop_scroll" => new StepCall(tool, Direction: S("direction"), Amount: I("amount"), Window: S("window")),
-            "browser_nav" => new StepCall(tool, Action: action, Url: S("url")),
-            "app_launch" => new StepCall(tool, App: S("app"), Args: value),
+            "browser_nav" => new StepCall(tool, Action: action, Url: S("url"), Expect: expect),
+            "app_launch" => new StepCall(tool, App: S("app"), Args: value, Expect: expect),
             "window_manage" => new StepCall(tool, Action: action, Window: S("window"), X: I("x"), Y: I("y"), Width: I("width"), Height: I("height")),
             "audio" => new StepCall(tool, Volume: I("volume"), Mute: S("mute") is { } m ? m == "true" : null),
             "media" => new StepCall(tool, Action: action),

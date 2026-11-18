@@ -10179,28 +10179,38 @@
    "result": "learned"
   },
   {
+   "id": "notification-center",
+   "group": "Windows",
+   "wordings": 14,
+   "phases": {},
+   "first_run_ms": 805.3,
+   "task_done": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false",
+   "result": "not_learned",
+   "detail": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false\ndetail: Only 1 recorded step(s) since the task started; a recipe needs at least 2. (Acts are recorded when they end confirmed, or unverified with a visible change.)"
+  },
+  {
    "id": "web-search",
    "group": "Web",
    "wordings": 8,
    "phases": {},
-   "first_run_ms": 6712.9,
-   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-the-web-for-weather-toronto steps=2 trust=candidate auto_run=no",
-   "recipe": "search-the-web-for-weather-toronto",
+   "first_run_ms": 2833.8,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-the-web-for-weather-toronto-4 steps=3 trust=candidate auto_run=no",
+   "recipe": "search-the-web-for-weather-toronto-4",
    "replays": [
     {
-     "ok": false,
-     "ms": 22446.1,
-     "line": "workflow_run name=search-the-web-for-weather-toronto status=confirmed input_sent=true steps=2/2 total=2289.7ms"
+     "ok": true,
+     "ms": 1776.4,
+     "line": "workflow_run name=search-the-web-for-weather-toronto-4 status=confirmed input_sent=true steps=3/3 total=1754.0ms"
     },
     {
-     "ok": false,
-     "ms": 22024.1,
-     "line": "workflow_run name=search-the-web-for-weather-toronto status=confirmed input_sent=true steps=2/2 total=1933.8ms"
+     "ok": true,
+     "ms": 2000.9,
+     "line": "workflow_run name=search-the-web-for-weather-toronto-4 status=confirmed input_sent=true steps=3/3 total=1997.7ms"
     },
     {
-     "ok": false,
-     "ms": 22025.5,
-     "line": "workflow_run name=search-the-web-for-weather-toronto status=confirmed input_sent=true steps=2/2 total=1947.7ms"
+     "ok": true,
+     "ms": 1671.8,
+     "line": "workflow_run name=search-the-web-for-weather-toronto-4 status=confirmed input_sent=true steps=3/3 total=1668.4ms"
     }
    ],
    "auto_run": false,
@@ -10209,40 +10219,40 @@
     {
      "wording": 1,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 2,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 3,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 4,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 5,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 6,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 7,
      "learned": false,
-     "ran": false
+     "ran": true
     }
    ],
-   "result": "saved_but_replays_failed"
+   "result": "learned"
   },
   {
    "id": "google-flights",
@@ -10259,16 +10269,6 @@
    "phases": {},
    "result": "teach_failed",
    "detail": "end-result check failed"
-  },
-  {
-   "id": "notification-center",
-   "group": "Windows",
-   "wordings": 14,
-   "phases": {},
-   "first_run_ms": 805.3,
-   "task_done": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false",
-   "result": "not_learned",
-   "detail": "task_done status=blocked reason=too_few_steps input_sent=false retry=no learned=false\ndetail: Only 1 recorded step(s) since the task started; a recipe needs at least 2. (Acts are recorded when they end confirmed, or unverified with a visible change.)"
   }
  ]
 }

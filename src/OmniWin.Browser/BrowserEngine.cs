@@ -1259,6 +1259,25 @@ public sealed class BrowserEngine : IBrowserEngine, IBrowserViewer, IComponentSt
                 return new ActResult(ActStatus.Error, inputSent, ReasonCodes.InputInterrupted, "Cancelled after input was sent; the outcome is unknown", null, channel, verifyTiming);
             }
 
+            // The input navigated the page (an Enter that starts a search), so the old page could not be scanned. When the caller said
+            // where the browser should land, check that on the new page instead of giving up (reviewer, 2026-11-18).
+            if (inputSent && req.Expect is { Condition: UrlContains } landing)
+            {
+                try
+                {
+                    var landed = await WaitForAsync(session.TabId, landing.Condition, landing.EffectiveTimeoutMs, ct).ConfigureAwait(false);
+                    phases["verify"] = swVerify.Elapsed.TotalMilliseconds;
+                    var landedTiming = new Timing(swTotal.Elapsed.TotalMilliseconds, phases);
+                    return landed.Met
+                        ? new ActResult(ActStatus.Confirmed, true, null, "The page navigated and arrived where expected.", null, channel, landedTiming)
+                        : new ActResult(ActStatus.Timeout, true, landed.Reason, "The page navigated but did not arrive where expected.", null, channel, landedTiming);
+                }
+                catch (Exception again) when (again is not OperationCanceledException)
+                {
+                    // fall through to the plain answer below
+                }
+            }
+
             return new ActResult(ActStatus.Unverified, inputSent, null, $"Input was sent but the page changed or could not be read during verify: {ex.Message}", null, channel, verifyTiming);
         }
     }

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "workflow": "search-the-web-for-weather-toronto-3",
+  "goal": "search the web for weather toronto",
+  "template": "search the web for {q}",
+  "aliases": [],
+  "params": [
+    "p2",
+    "q"
+  ],
+  "steps": 3,
+  "learned_wall_ms": 2843.1,
+  "tools": [
+    "browser_act",
+    "browser_nav"
+  ],
+  "processes": [
+    "msedge.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:48:48.1730917+00:00"
+}

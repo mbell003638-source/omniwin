@@ -4301,7 +4301,8 @@
      "combobox",
      "Search with DuckDuckGo",
      "press",
-     "Enter"
+     "Enter",
+     "q="
     ]
    ],
    "check": [
@@ -4355,7 +4356,14 @@
     ],
     [
      "wait",
-     1500
+     2000
+    ],
+    [
+     "bact",
+     "combobox",
+     "Where to?",
+     "press",
+     "ArrowDown"
     ],
     [
      "bact",
@@ -4366,13 +4374,15 @@
     ],
     [
      "wait",
-     2500
+     4000
     ],
     [
      "bact",
      "button",
      "Search",
-     "click"
+     "click",
+     null,
+     "flights/search"
     ]
    ],
    "check": [
@@ -4432,18 +4442,22 @@
     ],
     [
      "wait",
-     1500
+     2000
     ],
     [
      "bact",
      "combobox",
      "Search for places",
      "press",
-     "Enter"
+     "ArrowDown"
     ],
     [
-     "wait",
-     2500
+     "bact",
+     "combobox",
+     "Search for places",
+     "press",
+     "Enter",
+     "/travel/search"
     ]
    ],
    "check": [

@@ -4,8 +4,8 @@ Taught on the reference PC on 2026-11-17 (Windows 11, English (Canada), OmniWin 
 (`bench/teach/teach.py`, task list `bench/teach/make_tasks.py`). Each task was done once, saved with `task_done`, replayed three
 times with other values, then run from new words; every other wording was then run once so OmniWin learned it.
 
-- Tasks learned: **84** of 89 tried; wordings learned in addition to each task's first one: **582**.
-- First run (scripted, so no AI thinking time is included): median 1674 ms.
+- Tasks learned: **85** of 89 tried; wordings learned in addition to each task's first one: **582**.
+- First run (scripted, so no AI thinking time is included): median 1681 ms.
 - Instant run from words (`omniwin_do`, one call): median 1494 ms, 59 tasks.
 - Web tasks (Google, Flights, Hotels, Maps, YouTube, Wikipedia) never run by themselves (owner rule: no browser step at speed 1);
   the AI runs them in one call with `workflow_run`. They search only: nothing is booked, bought, signed in to or sent.
@@ -99,9 +99,9 @@ times with other values, then run from new words; every other wording was then r
 | settings-notifications | Settings | learned | 11 of 14 | 2332 ms | `show-notification-settings` |
 | settings-power | Settings | learned | 1 of 14 | AI only | `show-power-and-battery-settings` |
 | settings-storage | Settings | learned | 11 of 14 | 2278 ms | `show-storage-settings` |
-| web-search | Web | saved_but_replays_failed | 0 of 8 |  | `search-the-web-for-weather-toronto` |
+| notification-center | Windows | not_learned | 0 of 14 |  | `` |
+| web-search | Web | learned | 1 of 8 | AI only | `search-the-web-for-weather-toronto-4` |
 | google-flights | Web | teach_failed | 0 of 6 |  | `` |
 | google-hotels | Web | teach_failed | 0 of 6 |  | `` |
-| notification-center | Windows | not_learned | 0 of 14 |  | `` |
 
 Failures are listed as they happened (`artifacts/benchmarks/curriculum-*.json` has each step's status).

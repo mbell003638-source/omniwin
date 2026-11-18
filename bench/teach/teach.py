@@ -94,6 +94,9 @@ class Teacher:
                     args = {"ref": ref, "gen": gen, "action": action}
                     if value is not None:
                         args["value"] = fill(value, values)
+                    if browser and len(s) > 5 and s[5]:
+                        # the page this step must lead to: OmniWin confirms it, records it, and checks it again on replay
+                        args["expect"] = {"condition": {"kind": "url_contains", "value": s[5]}, "timeout_ms": 10000}
                     r = self.call("browser_act" if browser else "desktop_act", args)
                     if status(r) == "stale" and attempt < 5:
                         time.sleep(0.5)

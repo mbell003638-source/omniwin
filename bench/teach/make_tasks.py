@@ -149,15 +149,15 @@ tasks.append(typed("wikipedia", ["look up {q} on wikipedia", "search wikipedia f
 # (view only: Display is where brightness is; OmniWin never changes a system setting by itself).
 tasks.append(typed("web-search", ["search the web for {q}", "look up {q} online", "web search {q}", "search online for {q}",
                                   "find {q} on the internet", "search duckduckgo for {q}", "do a web search for {q}", "internet search {q}"],
-                   Q, "https://duckduckgo.com", "combobox", "Search with DuckDuckGo", [["bact", "combobox", "Search with DuckDuckGo", "press", "Enter"]]))
+                   Q, "https://duckduckgo.com", "combobox", "Search with DuckDuckGo", [["bact", "combobox", "Search with DuckDuckGo", "press", "Enter", "q="]]))
 tasks.append(typed("google-flights", ["search flights to {q}", "find flights to {q}", "look for flights to {q}", "check flights to {q}",
                                       "google flights to {q}", "show me flights to {q}"],
                    CITIES, "https://www.google.com/travel/flights", "combobox", "Where to?",
-                   [["wait", 1500], ["bact", "combobox", "Where to?", "press", "Enter"], ["wait", 2500], ["bact", "button", "Search", "click"]]))
+                   [["wait", 2000], ["bact", "combobox", "Where to?", "press", "ArrowDown"], ["bact", "combobox", "Where to?", "press", "Enter"], ["wait", 4000], ["bact", "button", "Search", "click", None, "flights/search"]]))
 tasks.append(typed("google-hotels", ["find hotels in {q}", "search hotels in {q}", "look for hotels in {q}", "check hotels in {q}",
                                      "show me hotels in {q}", "google hotels in {q}"],
                    CITIES, "https://www.google.com/travel/hotels", "combobox", "Search for places",
-                   [["wait", 1500], ["bact", "combobox", "Search for places", "press", "Enter"], ["wait", 2500]],
+                   [["wait", 2000], ["bact", "combobox", "Search for places", "press", "ArrowDown"], ["bact", "combobox", "Search for places", "press", "Enter", "/travel/search"]],
                    pre=[["bact", "combobox", "Search for places", "clear"]]))
 tasks.append(literal("notification-center", "Windows", "my notifications",
                      [["keys", "", "win+n"]], ["@windows", "Notification Center"], n=14))

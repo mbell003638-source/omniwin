@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "name": "search-the-web-for-weather-toronto-3",
+  "description": "learned: search the web for weather toronto",
+  "saved_at": "2026-11-18T07:48:48.1485959+00:00",
+  "params": {
+    "p2": "step 3 browser_act value",
+    "q": "step 2 browser_act value"
+  },
+  "steps": [
+    {
+      "tool": "browser_nav",
+      "engine": "browser",
+      "action": "navigate",
+      "target": null,
+      "args": {
+        "expect": "{\"condition\":{\"kind\":\"url_contains\",\"value\":\"duckduckgo.com\"},\"timeout_ms\":8000,\"effective_timeout_ms\":8000}",
+        "url": "https://duckduckgo.com"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "type",
+      "target": {
+        "ref": "b81",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "DuckDuckGo - Protection. Privacy. Peace of mind.",
+        "url": "https://duckduckgo.com/",
+        "role": "combobox",
+        "name": "Search with DuckDuckGo",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "div",
+            "automation_id": "__next",
+            "name": "Search\nAsk AI\nDuck.ai\nSEARCH\nHomepage\nThemes\nSettings\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nCollaborations\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search\nSwitch to DuckDuckGo.\nIt’s privateand free!\n\nMake DuckDuckGo your default search engine.\n\nSet As Default Search\n\nBEST PRIVACY\n\nGet our free browser for even more privacy.\n\nDownload Browser\n\nTrusted by tens of millions worldwide!\n\nAI Settings\nDiscover more from DuckDuckGo.\n\nPrivate Search\n\nDuck.ai\n\nSubscription\n\nEmail\n\nSearch or enter address\nThe browser that actively protects your personal information.\nDownload DuckDuckGo for Windows\n\nAlso available on the Microsoft Store\n\nEvade scams & data-hungry companies\n\nPROTECTION\n\nBlock most ads & cookie pop-ups\n\nPRIVACY\n\nSearch & chat without being tracked\n\nPEACE OF MIND\n\nSee how DuckDuckGo compares.\nChrome\nEdge\nSafari\nFirefox\nBrave\n\t\t\n\n\nSearch privately by default\n\n\t\n\t\n\n\n\nChat privately with popular AI chatbots (optional)\n\n\t\n\t\n\n\n\nBlocks 3rd-party trackers from Facebook, Google, and others\n\n\t\n\t\n\n\n\nBlocks targeted ads\n\n\t\n\t\n\n\n\nBlocks cookie pop-ups\n\n\t\n\t\n\n\n\nWatch YouTube videos without ads\n\n\t\n\t\n\n\n\nSecurely manages passwords\n\n\t\n\t\n\n\n\nBlocks email trackers\n\n\t\n\t\n\n\n\nDeletes browsing data with one button\n\n\t\n\t\n\n\n\nRemoves personal details from sites that sell them\n\n\t\n\t\n\n\n\nHelps restore your identity\n\n\t\n\t\n\n\n\nProtects your connection with a VPN\n\n\t\n\t\n\nIncluded\n\nLimited\n\nPaid\n\nNone\n\nBrowser comparisons were made with default settings. Information is correct as of September 2026\n\nDownload DuckDuckGo for Windows\nCompare More Protections\nProtection. \nPrivacy. \nPeace of mind.\nGet the browser built for data protection, not data collection.\n\nThe DuckDuckGo browser is available on\n\nWindows\nMac\nAndroid\niOS\nTake back control of your personal information.\n\nHidden trackers lurk on 85% of popular websites. We actively block them by default, helping you evade hackers, scammers, and data-hungry companies.\n\nGoodbye Incognito mode, hello real privacy in every tab\n\nBlock 3rd-party trackers from Google, Facebook, and others\n\nDelete all tabs, history, and browsing data in one click\n\nBlock most ads & cookie pop-ups for fewer interruptions.\n\nOur browser blocks most ads before they even appear, including on videos, so you can enjoy your favorite content with less hassle. We spot cookie pop-ups right away and, where possible, opt you out automatically, so you won’t even see them.\n\nStop ads following you everywhere\n\nBlock annoying cookie pop-ups\n\nBlock ads on YouTube\n\nAI chat that's private, and always optional.\n\nDuck.ai lets you chat with popular AI models privately for free. Your conversations are never used to train AI, and because AI is a choice at DuckDuckGo, you can turn it off anytime.\n\nChat with popular AI models, anonymized by us\n\nYour chats stay private and are never used to train AI\n\nAI is always optional with DuckDuckGo. Turn it off anytime.\n\nData protection, not data collection.\n\nWe believe the best way to protect your data is to stop it from being collected at all. We never track your searches, and our browsing protections help stop other companies from collecting your data.\n\nSearch without being tracked\n\nA simple, secure password manager\n\nBlock hidden trackers in emails\n\nDon’t just take our word for it.\na solid cross-platform browser that really can keep up with the Chromes and Edges of the world.\n\nDavid Pierce\n\nyou're getting maximum protection with minimal effort.\n\nDavid Nield\n\neasy and quick to import passwords and bookmarks from other browsers like Chrome.\n\nMariella Moon\n\nfrees up bandwidth and lets websites load faster.\n\nZachary McAuliffe\n\nDuckDuckGo is a must-try\n\nDesire Athow\n\nthe most intuitive, well laid out, and quick browser I've used.\n\nApp Store Review\n\nabsolutely love this browser, and cannot imagine using any other again.\n\nApp Store Review\n\nI find it faster than Safari, Chrome, and Firefox, and I feel way more protected.\n\nApp Store Review\n\nGives me just the peace of mind that I need.\n\nGoogle Play Review\n\nit keeps my personal and browsing data away from the big tech companies.\n\nGoogle Play Review\n\nPretty much all you could ask for in a browser.\n\nGoogle Play Review\n\na solid cross-platform browser that really can keep up with the Chromes and Edges of the world.\n\nDavid Pierce\n\nyou're getting maximum protection with minimal effort.\n\nDavid Nield\n\neasy and quick to import passwords and bookmarks from other browsers like Chrome.\n\nMariella Moon\n\nfrees up bandwidth and lets websites load faster.\n\nZachary McAuliffe\n\nDuckDuckGo is a must-try\n\nDesire Athow\n\nthe most intuitive, well laid out, and quick browser I've used.\n\nApp Store Review\n\nabsolutely love this browser, and cannot imagine using any other again.\n\nApp Store Review\n\nI find it faster than Safari, Chrome, and Firefox, and I feel way more protected.\n\nApp Store Review\n\nGives me just the peace of mind that I need.\n\nGoogle Play Review\n\nit keeps my personal and browsing data away from the big tech companies.\n\nGoogle Play Review\n\nPretty much all you could ask for in a browser.\n\nGoogle Play Review\n\nTrusted by tens of millions worldwide!\n100%\nFree\n3 Billion\nMonthly Searches\n9 Million\nMonthly Downloads\nGet our free browser today!\nDownload DuckDuckGo Browser\n4.8\n\n2.9 million ratings\n\n4.7\n\n2.3 million reviews\n\nStill have questions?\nWhat is DuckDuckGo?\n\nAt DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people choose DuckDuckGo over Chrome and other browsers to search and browse online. Our built-in search engine is like Google but never tracks your searches, and our browser blocks ads, trackers, and cookies that collect your data. It also offers private, useful, and optional AI, including Duck.ai, which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place. Oh, and our browser is free. We make money from privacy-respecting search ads, not by exploiting your data. Take back control of your personal information with the browser designed for data protection, not data collection. Learn more\n\nHow does DuckDuckGo protect my privacy?\nDoes DuckDuckGo block all trackers on websites I visit?\nHow many people use DuckDuckGo?\nHow does DuckDuckGo make money?\nWhy use DuckDuckGo instead of Google?\nIs Incognito Mode private?\nHow do DuckDuckGo Search results compare to Google's?\nIs DuckDuckGo owned by Google or any other entity?\nLearn More\n\nAbout DuckDuckGo\n\nAbout Our Browser\n\nDuckDuckGo Subscription\n\nWhat’s New\n\nCompare Privacy\n\nBlog\n\nNewsletter\n\nPodcast\n\nOther Resources\n\nHelp\n\nCommunity\n\nCareers\n\nPrivacy Policy\n\nTerms of Service\n\nPress Kit\n\nAdvertise on Search\n\nCollaborations\n\nAbout DuckDuckGo\n\nAt DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people choose DuckDuckGo over Chrome and other browsers to search and browse online. Our built-in search engine is like Google but never tracks your searches, and our browser blocks ads, trackers, and cookies that collect your data. It also offers private, useful, and optional AI, including Duck.ai, which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place. Oh, and our browser is free. We make money from privacy-respecting search ads, not by exploiting your data. Available to download on Mac, Windows, iOS, and Android.\n\n© 2026 DuckDuckGo\n\nProtection. Privacy. Peace of mind.",
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "main",
+            "automation_id": "home-desktop",
+            "name": "Search\nAsk AI\nDuck.ai\nSEARCH\nHomepage\nThemes\nSettings\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nCollaborations\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search\nSwitch to DuckDuckGo.\nIt’s privateand free!\n\nMake DuckDuckGo your default search engine.\n\nSet As Default Search\n\nBEST PRIVACY\n\nGet our free browser for even more privacy.\n\nDownload Browser\n\nTrusted by tens of millions worldwide!\n\nAI Settings",
+            "class_name": "hero-layout-module-scss-module__058cYq__heroWrap desktop-homepage-module-scss-module__kd_pNW__hero",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nAsk AI\nDuck.ai\nSEARCH\nHomepage\nThemes\nSettings\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nCollaborations\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search",
+            "class_name": "header-shell-module-scss-module__JLplXW__headerWrapper",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nAsk AI\nDuck.ai",
+            "class_name": "search-header-module-scss-module__mATWYa__headerContainer",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nAsk AI\nDuck.ai",
+            "class_name": "search-header-module-scss-module__mATWYa__headerWrapResponsive search-header-module-scss-module__mATWYa__hasSearchbox",
+            "index": 0
+          },
+          {
+            "role": "header",
+            "automation_id": null,
+            "name": "Search\nAsk AI\nDuck.ai",
+            "class_name": "search-header-module-scss-module__mATWYa__header search-header-module-scss-module__mATWYa__responsiveGrid",
+            "index": 0
+          },
+          {
+            "role": "section",
+            "automation_id": null,
+            "name": "Search\nAsk AI",
+            "class_name": "search-header-module-scss-module__mATWYa__searchSection search-header-module-scss-module__mATWYa__headerSection search-header-module-scss-module__mATWYa__hasAiSearchbox",
+            "index": 1
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nAsk AI",
+            "class_name": "search-header-module-scss-module__mATWYa__searchbox",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nAsk AI",
+            "class_name": "duckai-drawer-promotion-module-scss-module__RqBISG__root",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search\nAsk AI",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__wrap inline-ai-search-box-module-scss-module__eJ3y5G__wrap",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__formWrap inline-ai-search-box-module-scss-module__eJ3y5G__formWrap",
+            "index": 1
+          },
+          {
+            "role": "search",
+            "automation_id": "searchbox_homepage",
+            "name": "Search the web with DuckDuckGo",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__form inline-ai-search-box-module-scss-module__eJ3y5G__form",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__queryWrap inline-ai-search-box-module-scss-module__eJ3y5G__queryWrap",
+            "index": 0
+          },
+          {
+            "role": "combobox",
+            "automation_id": null,
+            "name": "Search with DuckDuckGo",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__queryInput inline-ai-search-box-module-scss-module__eJ3y5G__queryInput",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": "q",
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "press",
+      "target": {
+        "ref": "b81",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "DuckDuckGo - Protection. Privacy. Peace of mind.",
+        "url": "https://duckduckgo.com/",
+        "role": "combobox",
+        "name": "Search with DuckDuckGo",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "div",
+            "automation_id": "__next",
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch\nDuck.ai\nSEARCH\nHomepage\nThemes\nSettings\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nCollaborations\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search\nSwitch to DuckDuckGo.\nIt’s privateand free!\n\nMake DuckDuckGo your default search engine.\n\nSet As Default Search\n\nBEST PRIVACY\n\nGet our free browser for even more privacy.\n\nDownload Browser\n\nTrusted by tens of millions worldwide!\n\nAI Settings\nDiscover more from DuckDuckGo.\n\nPrivate Search\n\nDuck.ai\n\nSubscription\n\nEmail\n\nSearch or enter address\nThe browser that actively protects your personal information.\nDownload DuckDuckGo for Windows\n\nAlso available on the Microsoft Store\n\nEvade scams & data-hungry companies\n\nPROTECTION\n\nBlock most ads & cookie pop-ups\n\nPRIVACY\n\nSearch & chat without being tracked\n\nPEACE OF MIND\n\nSee how DuckDuckGo compares.\nChrome\nEdge\nSafari\nFirefox\nBrave\n\t\t\n\n\nSearch privately by default\n\n\t\n\t\n\n\n\nChat privately with popular AI chatbots (optional)\n\n\t\n\t\n\n\n\nBlocks 3rd-party trackers from Facebook, Google, and others\n\n\t\n\t\n\n\n\nBlocks targeted ads\n\n\t\n\t\n\n\n\nBlocks cookie pop-ups\n\n\t\n\t\n\n\n\nWatch YouTube videos without ads\n\n\t\n\t\n\n\n\nSecurely manages passwords\n\n\t\n\t\n\n\n\nBlocks email trackers\n\n\t\n\t\n\n\n\nDeletes browsing data with one button\n\n\t\n\t\n\n\n\nRemoves personal details from sites that sell them\n\n\t\n\t\n\n\n\nHelps restore your identity\n\n\t\n\t\n\n\n\nProtects your connection with a VPN\n\n\t\n\t\n\nIncluded\n\nLimited\n\nPaid\n\nNone\n\nBrowser comparisons were made with default settings. Information is correct as of September 2026\n\nDownload DuckDuckGo for Windows\nCompare More Protections\nProtection. \nPrivacy. \nPeace of mind.\nGet the browser built for data protection, not data collection.\n\nThe DuckDuckGo browser is available on\n\nWindows\nMac\nAndroid\niOS\nTake back control of your personal information.\n\nHidden trackers lurk on 85% of popular websites. We actively block them by default, helping you evade hackers, scammers, and data-hungry companies.\n\nGoodbye Incognito mode, hello real privacy in every tab\n\nBlock 3rd-party trackers from Google, Facebook, and others\n\nDelete all tabs, history, and browsing data in one click\n\nBlock most ads & cookie pop-ups for fewer interruptions.\n\nOur browser blocks most ads before they even appear, including on videos, so you can enjoy your favorite content with less hassle. We spot cookie pop-ups right away and, where possible, opt you out automatically, so you won’t even see them.\n\nStop ads following you everywhere\n\nBlock annoying cookie pop-ups\n\nBlock ads on YouTube\n\nAI chat that's private, and always optional.\n\nDuck.ai lets you chat with popular AI models privately for free. Your conversations are never used to train AI, and because AI is a choice at DuckDuckGo, you can turn it off anytime.\n\nChat with popular AI models, anonymized by us\n\nYour chats stay private and are never used to train AI\n\nAI is always optional with DuckDuckGo. Turn it off anytime.\n\nData protection, not data collection.\n\nWe believe the best way to protect your data is to stop it from being collected at all. We never track your searches, and our browsing protections help stop other companies from collecting your data.\n\nSearch without being tracked\n\nA simple, secure password manager\n\nBlock hidden trackers in emails\n\nDon’t just take our word for it.\na solid cross-platform browser that really can keep up with the Chromes and Edges of the world.\n\nDavid Pierce\n\nyou're getting maximum protection with minimal effort.\n\nDavid Nield\n\neasy and quick to import passwords and bookmarks from other browsers like Chrome.\n\nMariella Moon\n\nfrees up bandwidth and lets websites load faster.\n\nZachary McAuliffe\n\nDuckDuckGo is a must-try\n\nDesire Athow\n\nthe most intuitive, well laid out, and quick browser I've used.\n\nApp Store Review\n\nabsolutely love this browser, and cannot imagine using any other again.\n\nApp Store Review\n\nI find it faster than Safari, Chrome, and Firefox, and I feel way more protected.\n\nApp Store Review\n\nGives me just the peace of mind that I need.\n\nGoogle Play Review\n\nit keeps my personal and browsing data away from the big tech companies.\n\nGoogle Play Review\n\nPretty much all you could ask for in a browser.\n\nGoogle Play Review\n\na solid cross-platform browser that really can keep up with the Chromes and Edges of the world.\n\nDavid Pierce\n\nyou're getting maximum protection with minimal effort.\n\nDavid Nield\n\neasy and quick to import passwords and bookmarks from other browsers like Chrome.\n\nMariella Moon\n\nfrees up bandwidth and lets websites load faster.\n\nZachary McAuliffe\n\nDuckDuckGo is a must-try\n\nDesire Athow\n\nthe most intuitive, well laid out, and quick browser I've used.\n\nApp Store Review\n\nabsolutely love this browser, and cannot imagine using any other again.\n\nApp Store Review\n\nI find it faster than Safari, Chrome, and Firefox, and I feel way more protected.\n\nApp Store Review\n\nGives me just the peace of mind that I need.\n\nGoogle Play Review\n\nit keeps my personal and browsing data away from the big tech companies.\n\nGoogle Play Review\n\nPretty much all you could ask for in a browser.\n\nGoogle Play Review\n\nTrusted by tens of millions worldwide!\n100%\nFree\n3 Billion\nMonthly Searches\n9 Million\nMonthly Downloads\nGet our free browser today!\nDownload DuckDuckGo Browser\n4.8\n\n2.9 million ratings\n\n4.7\n\n2.3 million reviews\n\nStill have questions?\nWhat is DuckDuckGo?\n\nAt DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people choose DuckDuckGo over Chrome and other browsers to search and browse online. Our built-in search engine is like Google but never tracks your searches, and our browser blocks ads, trackers, and cookies that collect your data. It also offers private, useful, and optional AI, including Duck.ai, which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place. Oh, and our browser is free. We make money from privacy-respecting search ads, not by exploiting your data. Take back control of your personal information with the browser designed for data protection, not data collection. Learn more\n\nHow does DuckDuckGo protect my privacy?\nDoes DuckDuckGo block all trackers on websites I visit?\nHow many people use DuckDuckGo?\nHow does DuckDuckGo make money?\nWhy use DuckDuckGo instead of Google?\nIs Incognito Mode private?\nHow do DuckDuckGo Search results compare to Google's?\nIs DuckDuckGo owned by Google or any other entity?\nLearn More\n\nAbout DuckDuckGo\n\nAbout Our Browser\n\nDuckDuckGo Subscription\n\nWhat’s New\n\nCompare Privacy\n\nBlog\n\nNewsletter\n\nPodcast\n\nOther Resources\n\nHelp\n\nCommunity\n\nCareers\n\nPrivacy Policy\n\nTerms of Service\n\nPress Kit\n\nAdvertise on Search\n\nCollaborations\n\nAbout DuckDuckGo\n\nAt DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people choose DuckDuckGo over Chrome and other browsers to search and browse online. Our built-in search engine is like Google but never tracks your searches, and our browser blocks ads, trackers, and cookies that collect your data. It also offers private, useful, and optional AI, including Duck.ai, which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place. Oh, and our browser is free. We make money from privacy-respecting search ads, not by exploiting your data. Available to download on Mac, Windows, iOS, and Android.\n\n© 2026 DuckDuckGo\n\nProtection. Privacy. Peace of mind.",
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "main",
+            "automation_id": "home-desktop",
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch\nDuck.ai\nSEARCH\nHomepage\nThemes\nSettings\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nCollaborations\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search\nSwitch to DuckDuckGo.\nIt’s privateand free!\n\nMake DuckDuckGo your default search engine.\n\nSet As Default Search\n\nBEST PRIVACY\n\nGet our free browser for even more privacy.\n\nDownload Browser\n\nTrusted by tens of millions worldwide!\n\nAI Settings",
+            "class_name": "hero-layout-module-scss-module__058cYq__heroWrap desktop-homepage-module-scss-module__kd_pNW__hero",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch\nDuck.ai\nSEARCH\nHomepage\nThemes\nSettings\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nCollaborations\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search",
+            "class_name": "header-shell-module-scss-module__JLplXW__headerWrapper",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch\nDuck.ai",
+            "class_name": "search-header-module-scss-module__mATWYa__headerContainer",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch\nDuck.ai",
+            "class_name": "search-header-module-scss-module__mATWYa__headerWrapResponsive search-header-module-scss-module__mATWYa__hasSearchbox",
+            "index": 0
+          },
+          {
+            "role": "header",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch\nDuck.ai",
+            "class_name": "search-header-module-scss-module__mATWYa__header search-header-module-scss-module__mATWYa__responsiveGrid",
+            "index": 0
+          },
+          {
+            "role": "section",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch",
+            "class_name": "search-header-module-scss-module__mATWYa__searchSection search-header-module-scss-module__mATWYa__headerSection search-header-module-scss-module__mATWYa__hasAiSearchbox",
+            "index": 1
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch",
+            "class_name": "search-header-module-scss-module__mATWYa__searchbox",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch",
+            "class_name": "duckai-drawer-promotion-module-scss-module__RqBISG__root",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__wrap inline-ai-search-box-module-scss-module__eJ3y5G__wrap",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "weather toronto\nweather toronto canada\nweather toronto ontario\nweather toronto 7 days\nweather toronto 14 days\nweather toronto tomorrow\nweather toronto nsw\nweather toronto humidity\nAsk Duck.ai\nAlt+Enter\nSearch",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__formWrap inline-ai-search-box-module-scss-module__eJ3y5G__formWrap",
+            "index": 1
+          },
+          {
+            "role": "search",
+            "automation_id": "searchbox_homepage",
+            "name": "Search the web with DuckDuckGo",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__form inline-ai-search-box-module-scss-module__eJ3y5G__form",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": null,
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__queryWrap inline-ai-search-box-module-scss-module__eJ3y5G__queryWrap undefined search-toggle-box-module-scss-module__ul1rLa__hasSuggestions",
+            "index": 0
+          },
+          {
+            "role": "combobox",
+            "automation_id": null,
+            "name": "Search with DuckDuckGo",
+            "class_name": "search-toggle-box-module-scss-module__ul1rLa__queryInput inline-ai-search-box-module-scss-module__eJ3y5G__queryInput",
+            "index": 0
+          }
+        ]
+      },
+      "args": {
+        "expect": "{\"condition\":{\"kind\":\"url_contains\",\"value\":\"q=\"},\"timeout_ms\":10000,\"effective_timeout_ms\":10000}"
+      },
+      "value_param": "p2",
+      "target_empty_before": null
+    }
+  ]
+}
