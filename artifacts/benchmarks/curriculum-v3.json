@@ -9511,36 +9511,28 @@
    "result": "learned"
   },
   {
-   "id": "google-maps",
-   "group": "Web",
-   "wordings": 6,
-   "phases": {},
-   "result": "teach_failed",
-   "detail": "end-result check failed"
-  },
-  {
    "id": "youtube-search",
    "group": "Web",
    "wordings": 6,
    "phases": {},
-   "first_run_ms": 2252.3,
-   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-youtube-for-lofi-music-5 steps=3 trust=candidate auto_run=no",
-   "recipe": "search-youtube-for-lofi-music-5",
+   "first_run_ms": 1967.7,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=search-youtube-for-lofi-music-6 steps=3 trust=candidate auto_run=no",
+   "recipe": "search-youtube-for-lofi-music-6",
    "replays": [
     {
-     "ok": false,
-     "ms": 21241.7,
-     "line": "workflow_run name=search-youtube-for-lofi-music-5 status=unverified input_sent=true steps=0/3 stopped_at=1 total=1158.4m"
+     "ok": true,
+     "ms": 1391.8,
+     "line": "workflow_run name=search-youtube-for-lofi-music-6 status=unverified input_sent=true steps=3/3 total=1382.0ms"
     },
     {
-     "ok": false,
-     "ms": 20950.5,
-     "line": "workflow_run name=search-youtube-for-lofi-music-5 status=unverified input_sent=true steps=0/3 stopped_at=1 total=874.7ms"
+     "ok": true,
+     "ms": 1363.7,
+     "line": "workflow_run name=search-youtube-for-lofi-music-6 status=unverified input_sent=true steps=3/3 total=1361.2ms"
     },
     {
-     "ok": false,
-     "ms": 21058.5,
-     "line": "workflow_run name=search-youtube-for-lofi-music-5 status=unverified input_sent=true steps=0/3 stopped_at=1 total=983.2ms"
+     "ok": true,
+     "ms": 1328.5,
+     "line": "workflow_run name=search-youtube-for-lofi-music-6 status=unverified input_sent=true steps=3/3 total=1326.7ms"
     }
    ],
    "auto_run": false,
@@ -9549,54 +9541,54 @@
     {
      "wording": 1,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 2,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 3,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 4,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 5,
      "learned": false,
-     "ran": false
+     "ran": true
     }
    ],
-   "result": "saved_but_replays_failed"
+   "result": "learned"
   },
   {
    "id": "wikipedia",
    "group": "Web",
    "wordings": 6,
    "phases": {},
-   "first_run_ms": 5904.4,
-   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=look-up-canada-on-wikipedia steps=3 trust=candidate auto_run=no",
-   "recipe": "look-up-canada-on-wikipedia",
+   "first_run_ms": 5800.9,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=look-up-canada-on-wikipedia-2 steps=3 trust=candidate auto_run=no",
+   "recipe": "look-up-canada-on-wikipedia-2",
    "replays": [
     {
-     "ok": false,
-     "ms": 21841.8,
-     "line": "workflow_run name=look-up-canada-on-wikipedia status=unverified input_sent=true steps=0/3 stopped_at=1 total=1765.3ms"
+     "ok": true,
+     "ms": 6059.9,
+     "line": "workflow_run name=look-up-canada-on-wikipedia-2 status=unverified input_sent=true steps=3/3 total=5556.6ms"
     },
     {
-     "ok": false,
-     "ms": 21314.5,
-     "line": "workflow_run name=look-up-canada-on-wikipedia status=unverified input_sent=true steps=0/3 stopped_at=1 total=1242.3ms"
+     "ok": true,
+     "ms": 5819.9,
+     "line": "workflow_run name=look-up-canada-on-wikipedia-2 status=unverified input_sent=true steps=3/3 total=5316.7ms"
     },
     {
-     "ok": false,
-     "ms": 21255.6,
-     "line": "workflow_run name=look-up-canada-on-wikipedia status=unverified input_sent=true steps=0/3 stopped_at=1 total=1186.2ms"
+     "ok": true,
+     "ms": 5694.1,
+     "line": "workflow_run name=look-up-canada-on-wikipedia-2 status=unverified input_sent=true steps=3/3 total=5115.2ms"
     }
    ],
    "auto_run": false,
@@ -9605,22 +9597,22 @@
     {
      "wording": 1,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 2,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 3,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 4,
      "learned": false,
-     "ran": false
+     "ran": true
     },
     {
      "wording": 5,
@@ -9628,7 +9620,63 @@
      "ran": false
     }
    ],
-   "result": "saved_but_replays_failed"
+   "result": "learned"
+  },
+  {
+   "id": "google-maps",
+   "group": "Web",
+   "wordings": 6,
+   "phases": {},
+   "first_run_ms": 1466.0,
+   "task_done": "task_done status=confirmed input_sent=false retry=done learned=true recipe=find-cn-tower-on-google-maps steps=3 trust=candidate auto_run=no",
+   "recipe": "find-cn-tower-on-google-maps",
+   "replays": [
+    {
+     "ok": true,
+     "ms": 779.1,
+     "line": "workflow_run name=find-cn-tower-on-google-maps status=unverified input_sent=true steps=3/3 total=769.7ms"
+    },
+    {
+     "ok": true,
+     "ms": 649.2,
+     "line": "workflow_run name=find-cn-tower-on-google-maps status=unverified input_sent=true steps=3/3 total=643.8ms"
+    },
+    {
+     "ok": true,
+     "ms": 668.9,
+     "line": "workflow_run name=find-cn-tower-on-google-maps status=unverified input_sent=true steps=3/3 total=665.1ms"
+    }
+   ],
+   "auto_run": false,
+   "instant": null,
+   "aliases": [
+    {
+     "wording": 1,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 2,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 3,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 4,
+     "learned": false,
+     "ran": true
+    },
+    {
+     "wording": 5,
+     "learned": false,
+     "ran": true
+    }
+   ],
+   "result": "learned"
   }
  ]
 }

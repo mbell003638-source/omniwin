@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "name": "find-cn-tower-on-google-maps",
+  "description": "learned: find cn tower on google maps",
+  "saved_at": "2026-11-18T07:17:05.5847389+00:00",
+  "params": {
+    "q": "step 2 browser_act value"
+  },
+  "steps": [
+    {
+      "tool": "browser_nav",
+      "engine": "browser",
+      "action": "navigate",
+      "target": null,
+      "args": {
+        "url": "https://www.google.com/maps"
+      },
+      "value_param": null,
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "type",
+      "target": {
+        "ref": "b433",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "Google Maps",
+        "url": "https://www.google.com/maps",
+        "role": "combobox",
+        "name": "Search Google Maps",
+        "automation_id": "ucc-1",
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E\n\uE5D2\n\uE866\nSaved\n\uE889\nRecents\n\uE32C\nGet app",
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Google Maps",
+            "class_name": "lbMcOd eZfyae xcUKcd",
+            "index": 1
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E\n\uE5D2\n\uE866\nSaved\n\uE889\nRecents\n\uE32C\nGet app",
+            "class_name": "UL7Qtf",
+            "index": 8
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E",
+            "class_name": "Owrmqf t090lc",
+            "index": 2
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E",
+            "class_name": "AJQtp Hk4XGb",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E",
+            "class_name": "hzegWb",
+            "index": 0
+          },
+          {
+            "role": "search",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E",
+            "class_name": "NaMBUd e79C0e",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Search Google Maps\n\uE8B6\n\uE52E",
+            "class_name": "xoLGzf nhb85d Hk4XGb tzDryd FkJ4Sc OAaR7b ",
+            "index": 0
+          },
+          {
+            "role": "form",
+            "automation_id": null,
+            "name": "Search Google Maps",
+            "class_name": "NhWQq",
+            "index": 0
+          },
+          {
+            "role": "combobox",
+            "automation_id": "ucc-1",
+            "name": "Search Google Maps",
+            "class_name": "UGojuc fontBodyMedium EmSKud lpggsf ",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": "q",
+      "target_empty_before": null
+    },
+    {
+      "tool": "browser_act",
+      "engine": "browser",
+      "action": "click",
+      "target": {
+        "ref": "b449",
+        "engine": "browser",
+        "process": "msedge.exe",
+        "window_title": "Google Maps",
+        "url": "https://www.google.com/maps",
+        "role": "button",
+        "name": "Search",
+        "automation_id": null,
+        "is_password": false,
+        "is_enabled": true,
+        "path": [
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E\n\uE5D2\n\uE866\nSaved\n\uE889\nRecents\n\uE32C\nGet app",
+            "class_name": null,
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "Google Maps",
+            "class_name": "lbMcOd eZfyae xcUKcd",
+            "index": 1
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E\n\uE5D2\n\uE866\nSaved\n\uE889\nRecents\n\uE32C\nGet app",
+            "class_name": "UL7Qtf",
+            "index": 8
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E",
+            "class_name": "Owrmqf t090lc",
+            "index": 2
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E",
+            "class_name": "AJQtp Hk4XGb",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E",
+            "class_name": "hzegWb",
+            "index": 0
+          },
+          {
+            "role": "search",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E",
+            "class_name": "NaMBUd e79C0e",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6\n\uE52E",
+            "class_name": "xoLGzf nhb85d Hk4XGb tzDryd FkJ4Sc OAaR7b r6EGDb",
+            "index": 0
+          },
+          {
+            "role": "div",
+            "automation_id": null,
+            "name": "\uE8B6",
+            "class_name": "pzfvzf",
+            "index": 0
+          },
+          {
+            "role": "button",
+            "automation_id": null,
+            "name": "Search",
+            "class_name": "mL3xi",
+            "index": 0
+          }
+        ]
+      },
+      "args": {},
+      "value_param": null,
+      "target_empty_before": null
+    }
+  ]
+}

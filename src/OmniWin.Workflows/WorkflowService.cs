@@ -324,7 +324,17 @@ public sealed class WorkflowService
             case "browser_act":
                 return _browser is null ? NoEngine("browser") : await _browser.ActAsync(new BrowserActRequest(call.Ref!, call.Gen!.Value, call.Action!, call.Value, call.Expect), ct).ConfigureAwait(false);
             case "browser_nav":
-                return _browser is null ? NoEngine("browser") : await _browser.NavigateAsync(new BrowserNavRequest(call.Action!, call.Url, call.Tab, call.Expect), ct).ConfigureAwait(false);
+            {
+                // A saved step has no expectation, and a navigation shows no visible change, so it could never pass on replay. Prove it the
+                // simplest way: the browser must arrive on the saved address's host (redirects within that site still pass).
+                var expect = call.Expect;
+                if (expect is null && call.Action == "navigate" && Uri.TryCreate(call.Url, UriKind.Absolute, out var target) && target.Host.Length > 0)
+                {
+                    expect = new ExpectSpec(new UrlContains(target.Host), 10000);
+                }
+
+                return _browser is null ? NoEngine("browser") : await _browser.NavigateAsync(new BrowserNavRequest(call.Action!, call.Url, call.Tab, expect), ct).ConfigureAwait(false);
+            }
             case "app_launch":
                 return _system is null ? NoEngine("system tools") : await _system.LaunchAppAsync(call.App!, call.Args, call.Expect, ct).ConfigureAwait(false);
             case "window_manage":

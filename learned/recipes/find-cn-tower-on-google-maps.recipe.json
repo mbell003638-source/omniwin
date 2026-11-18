@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "workflow": "find-cn-tower-on-google-maps",
+  "goal": "find cn tower on google maps",
+  "template": "find {q} on google maps",
+  "aliases": [],
+  "params": [
+    "q"
+  ],
+  "steps": 3,
+  "learned_wall_ms": 1233.8,
+  "tools": [
+    "browser_act",
+    "browser_nav"
+  ],
+  "processes": [
+    "msedge.exe"
+  ],
+  "auto_run_eligible": false,
+  "noisy": false,
+  "supersedes": null,
+  "learned_at": "2026-11-18T07:17:05.607734+00:00"
+}

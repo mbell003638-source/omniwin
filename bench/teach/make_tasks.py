@@ -134,7 +134,7 @@ def typed(id_, wordings, samples, url, box_role, box_name, after, pre=()):
 tasks.append(typed("google-maps", ["find {q} on google maps", "show {q} on the map", "search google maps for {q}",
                                    "where is {q} on the map", "look up {q} on maps", "google maps search {q}"],
                    [{"q": "cn tower"}, {"q": "eiffel tower"}, {"q": "niagara falls"}, {"q": "central park"}, {"q": "union station toronto"},
-                    {"q": "stanley park"}], "https://www.google.com/maps", "combobox", "Search Google Maps", ENTER))
+                    {"q": "stanley park"}], "https://www.google.com/maps", "combobox", "Search Google Maps", [["bact", "button", "Search", "click"]]))
 tasks.append(typed("youtube-search", ["search youtube for {q}", "find {q} on youtube", "look up {q} on youtube", "youtube search {q}",
                                       "show me {q} videos on youtube", "search youtube videos for {q}"],
                    [{"q": "lofi music"}, {"q": "cooking pasta"}, {"q": "guitar lesson"}, {"q": "cat videos"}, {"q": "space documentary"},
