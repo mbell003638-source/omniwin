@@ -951,6 +951,9 @@ public sealed class BrowserEngine : IBrowserEngine, IBrowserViewer, IComponentSt
                 new Timing(swTotal.Elapsed.TotalMilliseconds, phases));
         }
 
+        // safety.allow_delete: a delete the gate let through is always labelled risky.
+        if (gateResult.Risk == RiskClass.Risky) risk.Value = RiskClass.Risky;
+
         if (gateResult.UserConfirmed)
         {
             // Re-read target live after confirmation delay (Q4)

@@ -58,8 +58,9 @@ internal sealed class SelectionService(
         Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(
             string.Create(CultureInfo.InvariantCulture, $"{read.Hwnd}|{read.Process}|{read.ElementRole}|{read.ElementName}|{read.Text}"))))[..12].ToLowerInvariant();
 
-    private static string Line(ActStatus status, bool sent, string? reason, string? detail, double ms = 0, string? channel = null) =>
-        ResultFormatter.Format(new ActResult(status, sent, reason, detail, null, channel, Timing.Total(ms)));
+    private static string Line(ActStatus status, bool sent, string? reason, string? detail, double ms = 0, string? channel = null,
+        RiskClass? risk = null) =>
+        ResultFormatter.Format(new ActResult(status, sent, reason, detail, null, channel, Timing.Total(ms), Risk: risk));
 
     /// <summary>Why this selection cannot be used, as a result line, or null when it is a real, readable selection.</summary>
     private static string? Unusable(SelectionRead read)
@@ -211,10 +212,12 @@ internal sealed class SelectionService(
             return Line(pasted.Status, false, pasted.Reason, (pasted.Detail is null ? "The paste was not sent. " : pasted.Detail + " ") + clipboardNote);
         }
 
+        // safety.allow_delete: text the gate let through as a delete is labelled risk=risky (and so in the audit log).
+        var risk = authorized.Risk == RiskClass.Risky || pasted.Risk == RiskClass.Risky ? RiskClass.Risky : (RiskClass?)null;
         return verified
-            ? Line(ActStatus.Confirmed, true, null, confirmed + " " + clipboardNote, watch.Elapsed.TotalMilliseconds, Channels.Keys)
+            ? Line(ActStatus.Confirmed, true, null, confirmed + " " + clipboardNote, watch.Elapsed.TotalMilliseconds, Channels.Keys, risk)
             : Line(ActStatus.Unverified, true, null, sentWords + ", but the new text could not be read back. Look before you do more. " + clipboardNote,
-                watch.Elapsed.TotalMilliseconds, Channels.Keys);
+                watch.Elapsed.TotalMilliseconds, Channels.Keys, risk);
     }
 
 

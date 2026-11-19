@@ -123,7 +123,8 @@ internal sealed partial class UiaDesktop : IDesktopBackend
             throw Block(ReasonCodes.UnsupportedAction, "This native editor cannot reliably receive this Unicode packet text.");
         if (command.Action == "type") CheckTypedCommandSubmission(target, command.Value);
         var descriptor = Descriptor(command, target);
-        if (descriptor.ContainsDeleteCommand)
+        // safety.allow_delete lifts this (the gate already allowed the act and labelled it risky).
+        if (descriptor.ContainsDeleteCommand && !_config.Safety.AllowDelete)
         {
             throw new DesktopFault(ActStatus.Denied, ReasonCodes.PolicyForbidden, "The current command contains a deletion operation.");
         }

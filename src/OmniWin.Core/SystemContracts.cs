@@ -44,3 +44,17 @@ public interface IOcrRefResolver
     /// <param name="capturedAt">Lets WS1 reject old captures (older than 10 s → stale).</param>
     bool TryResolve(string ocrRef, [MaybeNullWhen(false)] out OcrWord word, out long hwnd, out DateTimeOffset capturedAt);
 }
+
+/// <summary>
+/// WS3 implements in OmniWin.Ocr (Windows.Media.Ocr, the engine behind <c>screen_ocr</c>); WS1 consumes it before Enter in a
+/// terminal whose command line UI Automation cannot read (a full-screen app such as opencode). The visible text is then
+/// checked for a delete command instead. Text only: no image leaves the implementation, and no oN refs are registered.
+/// </summary>
+public interface IWindowTextReader
+{
+    /// <summary>
+    /// The text OCR recognises in the window, or null when it cannot be captured or recognised, or nothing is recognised.
+    /// Synchronous and bounded in time: it runs on the UI Automation worker and must not call back into the desktop engine.
+    /// </summary>
+    string? ReadWindowText(long hwnd);
+}

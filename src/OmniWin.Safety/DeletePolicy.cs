@@ -70,12 +70,29 @@ public static partial class DeletePolicy
         ArgumentNullException.ThrowIfNull(blockedProcesses);
         ArgumentNullException.ThrowIfNull(extraWords);
 
-        var process = a.Target?.Process ?? a.Process;
-        if (process is not null && blockedProcesses.Contains(process))
-        {
-            return $"{process} can't be automated (secure desktop / sign-in, or listed in process_blocklist_extra).";
-        }
+        return WhyProcessBlocked(a, blockedProcesses) ?? WhyDeleting(a, extraWords);
+    }
 
+    /// <summary>Why the target process may never be automated, or null. Not lifted by <c>safety.allow_delete</c>.</summary>
+    public static string? WhyProcessBlocked(ActionDescriptor a, IReadOnlySet<string> blockedProcesses)
+    {
+        ArgumentNullException.ThrowIfNull(a);
+        ArgumentNullException.ThrowIfNull(blockedProcesses);
+        var process = a.Target?.Process ?? a.Process;
+        return process is not null && blockedProcesses.Contains(process)
+            ? $"{process} can't be automated (secure desktop / sign-in, or listed in process_blocklist_extra)."
+            : null;
+    }
+
+    /// <summary>
+    /// Why the action looks like deleting (a delete control, a delete key in a file view, a drop on the Recycle Bin, a delete
+    /// command for a command window), or null. This is the part <c>safety.allow_delete</c> lifts.
+    /// </summary>
+    public static string? WhyDeleting(ActionDescriptor a, IReadOnlyList<string> extraWords)
+    {
+        ArgumentNullException.ThrowIfNull(a);
+        ArgumentNullException.ThrowIfNull(extraWords);
+        var process = a.Target?.Process ?? a.Process;
         if (ActivatesTarget(a) && a.Target is { } t)
         {
             if (IsDeleteName(t.Name, extraWords))

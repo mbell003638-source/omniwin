@@ -41,6 +41,12 @@ public sealed record OmniWinConfig
     /// <summary>Contract 2.5. shell, registry, files and process tools. OFF by default (owner decision 2026-11-13).</summary>
     public PowerToolsConfig PowerTools { get; init; } = new();
 
+    /// <summary>
+    /// Owner decision 2026-11-19: <c>safety.allow_delete</c> lifts the no-delete rule for desktop, browser and typing actions.
+    /// Off by default.
+    /// </summary>
+    public SafetyConfig Safety { get; init; } = new();
+
     /// <summary>Contract 2.5. Other computer-use servers OmniWin can start and forward to (Windows-MCP, agent-desktop).</summary>
     public EnginesConfig Engines { get; init; } = new();
 
@@ -276,6 +282,18 @@ public sealed record LayaConfig
     public double Threshold { get; init; } = 0.9;
 
     public int MaxLatencyMs { get; init; } = 250;
+}
+
+/// <summary>
+/// <c>safety</c> in config.json. With <see cref="AllowDelete"/> on, the gate allows what it would deny for deleting (Delete
+/// buttons, delete keys in file views, drops on the Recycle Bin, delete commands typed or pasted into a terminal, the terminal
+/// Enter check) and labels it <c>risk=risky</c> in the result and the audit log; <c>omniwin_status</c> then shows
+/// <c>safety_gate=off</c>. Blocked processes (secure desktop, sign-in, OmniWin itself, process_blocklist_extra), password
+/// fields and the stop key are not affected. The power tools keep their own <c>power_tools.allow_delete</c>.
+/// </summary>
+public sealed record SafetyConfig
+{
+    public bool AllowDelete { get; init; }
 }
 
 public sealed record RateLimitConfig

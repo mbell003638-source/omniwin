@@ -23,6 +23,7 @@ internal sealed partial class UiaDesktop
     private readonly UiaEvents _events;
     private readonly OmniWinConfig _config;
     private readonly IOcrRefResolver? _ocr;
+    private readonly IWindowTextReader? _screenText;
     private readonly HashSet<string> _blockedProcesses;
     private readonly DesktopIndex _index = new();
     private readonly Dictionary<string, WindowRead> _reads = new(StringComparer.Ordinal);
@@ -35,12 +36,14 @@ internal sealed partial class UiaDesktop
     private long _windowEventVersion = -1;
     private bool _windowsInitialized;
 
-    internal UiaDesktop(IUIAutomation uia, UiaEvents events, OmniWinConfig config, IOcrRefResolver? ocr)
+    internal UiaDesktop(IUIAutomation uia, UiaEvents events, OmniWinConfig config, IOcrRefResolver? ocr,
+        IWindowTextReader? screenText = null)
     {
         _uia = uia;
         _events = events;
         _config = config;
         _ocr = ocr;
+        _screenText = screenText;
         _blockedProcesses = new HashSet<string>(DeletePolicy.DefaultBlockedProcesses, StringComparer.OrdinalIgnoreCase);
         _blockedProcesses.UnionWith(config.ProcessBlocklistExtra);
         _blockedProcesses.UnionWith(DeletePolicy.OwnProcesses);

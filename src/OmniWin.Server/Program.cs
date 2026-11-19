@@ -82,6 +82,8 @@ builder.Services.AddSingleton<SafetyGate>();
 builder.Services.AddSingleton<ISafetyGate>(services => services.GetRequiredService<SafetyGate>());
 builder.Services.AddSingleton<AuditLog>();
 builder.Services.AddSingleton<IAuditLog>(services => services.GetRequiredService<AuditLog>());
+// OCR of a terminal window, used by the desktop engine only before Enter when UI Automation cannot read the command line.
+builder.Services.AddSingleton<IWindowTextReader, WindowTextReader>();
 builder.Services.AddSingleton(services =>
 {
     var engine = ActivatorUtilities.CreateInstance<DesktopEngine>(services);

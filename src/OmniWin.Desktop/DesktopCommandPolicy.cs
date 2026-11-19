@@ -171,28 +171,97 @@ internal sealed partial class UiaDesktop
         RequireSafeSubmission(target, value);
     }
 
-    private static void RequireSafeSubmission(InputTarget target, string insertion = "")
+    private void RequireSafeSubmission(InputTarget target, string insertion = "")
     {
+        // The submission guard exists only to keep delete commands out; safety.allow_delete turns it off (no OCR either).
+        if (!EnforcesSubmissionGuard(_config)) return;
         var line = CurrentCommandLine(target.Live!);
-        var failure = SubmissionFailure(line, insertion);
+        // UI Automation cannot read the command line of a full-screen terminal app (opencode and similar draw their own
+        // input box). Then the window's visible text, read by OCR, is checked for a delete command instead.
+        var screen = line is null ? ReadSubmissionScreenText(target) : null;
+        var failure = SubmissionFailure(line, insertion, screen);
         if (failure == ReasonCodes.UnsupportedAction)
         {
-            throw Block(ReasonCodes.UnsupportedAction, "The command line cannot be read safely before submission.");
+            throw Block(ReasonCodes.UnsupportedAction,
+                "The command line cannot be read safely before submission (UI Automation and OCR found no command text).");
         }
 
         if (failure == ReasonCodes.PolicyForbidden)
         {
-            throw new DesktopFault(ActStatus.Denied, ReasonCodes.PolicyForbidden,
-                "The current command line contains a deletion command.");
+            throw new DesktopFault(ActStatus.Denied, ReasonCodes.PolicyForbidden, line is null
+                ? "The terminal's visible text (read by OCR) contains a deletion command."
+                : "The current command line contains a deletion command.");
         }
     }
 
-    internal static string? SubmissionFailure(string? line, string insertion) => line is null
-        ? ReasonCodes.UnsupportedAction
-        : UnsafeCommandText(line) || UnsafeCommandText(line + insertion) ? ReasonCodes.PolicyForbidden : null;
+    internal static bool EnforcesSubmissionGuard(OmniWinConfig config) => !config.Safety.AllowDelete;
+
+    /// <summary>OCR of the target terminal window, or null (no reader, a password field, or nothing recognised).</summary>
+    private string? ReadSubmissionScreenText(InputTarget target)
+    {
+        if (_screenText is null || target.Live is not { } live ||
+            live.Sample.Password || live.Element.CurrentIsPassword != 0) return null;
+        using (DesktopDiagnostics.Measure("SubmissionOcr"))
+        {
+            return _screenText.ReadWindowText(target.Window.Sample.Hwnd);
+        }
+    }
+
+    /// <summary>
+    /// Why Enter (or typed text with a newline) may not be submitted to a command window: <c>policy_forbidden</c> when the
+    /// command text holds a delete command, <c>unsupported_action</c> when nothing could be read, null when it is safe.
+    /// <paramref name="line"/> is the command line read by UI Automation. Only when it is null, <paramref name="screenText"/>
+    /// (the window's text read by OCR) is checked instead, more broadly: every line and framed pane on its own as well as
+    /// the whole text, each with and without the insertion. No OCR text keeps the block.
+    /// </summary>
+    internal static string? SubmissionFailure(string? line, string insertion, string? screenText = null)
+    {
+        if (line is not null)
+        {
+            return UnsafeCommandText(line) || UnsafeCommandText(line + insertion) ? ReasonCodes.PolicyForbidden : null;
+        }
+
+        if (string.IsNullOrWhiteSpace(screenText)) return ReasonCodes.UnsupportedAction;
+        return UnsafeScreenText(screenText, insertion) ? ReasonCodes.PolicyForbidden : null;
+    }
 
     private static bool UnsafeCommandText(string value) => DeletePolicy.IsDeleteCommandLine(value) ||
         DeletePolicy.IsDeleteCommandLine(value.Replace("\r", "", StringComparison.Ordinal).Replace("\n", "", StringComparison.Ordinal));
+
+    /// <summary>
+    /// The OCR text of a whole terminal window: scrollback, panes and the app's own input box. Which line will be submitted
+    /// is unknown, so any line that reads as a delete command refuses the submission (conservative). Box-drawing and block
+    /// characters (TUI frames and cursors) split the text so a command inside a frame is checked on its own, and common
+    /// prompt marks in front of a line are ignored.
+    /// </summary>
+    internal static bool UnsafeScreenText(string screenText, string insertion)
+    {
+        var text = SplitScreenFrames(screenText);
+        if (UnsafeCommandText(text) || UnsafeCommandText(text + insertion)) return true;
+        if (insertion.Length > 0 && UnsafeCommandText(insertion)) return true;
+
+        var last = string.Empty;
+        foreach (var raw in text.Split('\n'))
+        {
+            var segment = raw.TrimStart(' ', '\t', '>', '\u276F', '\u203A', '\u00BB', '\u279C', '\u2192', '\u2022', '\u00B7', '*').TrimEnd();
+            if (segment.Length == 0) continue;
+            if (UnsafeCommandText(segment)) return true;
+            last = segment;
+        }
+
+        return last.Length > 0 && insertion.Length > 0 && UnsafeCommandText(last + insertion);
+    }
+
+    private static string SplitScreenFrames(string text)
+    {
+        var chars = text.Replace("\r\n", "\n", StringComparison.Ordinal).ToCharArray();
+        for (var i = 0; i < chars.Length; i++)
+        {
+            if (chars[i] is >= '\u2500' and <= '\u259F' or '\r') chars[i] = '\n';
+        }
+
+        return new string(chars);
+    }
 }
 
 internal static partial class TerminalCommandText

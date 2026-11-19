@@ -15,6 +15,7 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
     private readonly IKillSwitch _killSwitch;
     private readonly IUserActivity? _activity;
     private readonly IOcrRefResolver? _ocr;
+    private readonly IWindowTextReader? _screenText;
     private readonly IMetrics _metrics;
     private readonly ILogger<DesktopEngine> _log;
     // Which acts may overlap: real mouse/keyboard input is one lane; pattern acts on different windows run together.
@@ -35,20 +36,21 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
     private int _disposed;
 
     public DesktopEngine(OmniWinConfig config, ISafetyGate gate, IKillSwitch killSwitch, IMetrics metrics,
-        ILogger<DesktopEngine> log, IUserActivity? activity = null, IOcrRefResolver? ocr = null)
-        : this(config, gate, killSwitch, metrics, log, activity, ocr, backend: null)
+        ILogger<DesktopEngine> log, IUserActivity? activity = null, IOcrRefResolver? ocr = null, IWindowTextReader? screenText = null)
+        : this(config, gate, killSwitch, metrics, log, activity, ocr, backend: null, screenText)
     {
     }
 
     /// <summary>For tests: the engine runs against a fake backend, so no window is touched and no input is sent.</summary>
     internal DesktopEngine(OmniWinConfig config, ISafetyGate gate, IKillSwitch killSwitch, IMetrics metrics,
         ILogger<DesktopEngine> log, IDesktopBackend backend, IUserActivity? activity = null)
-        : this(config, gate, killSwitch, metrics, log, activity, null, backend)
+        : this(config, gate, killSwitch, metrics, log, activity, null, backend, null)
     {
     }
 
     private DesktopEngine(OmniWinConfig config, ISafetyGate gate, IKillSwitch killSwitch, IMetrics metrics,
-        ILogger<DesktopEngine> log, IUserActivity? activity, IOcrRefResolver? ocr, IDesktopBackend? backend)
+        ILogger<DesktopEngine> log, IUserActivity? activity, IOcrRefResolver? ocr, IDesktopBackend? backend,
+        IWindowTextReader? screenText)
     {
         _config = config;
         _gate = gate;
@@ -57,11 +59,12 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
         _log = log;
         _activity = activity;
         _ocr = ocr;
+        _screenText = screenText;
         _queryBudget = TimeSpan.FromMilliseconds((long)config.Timeouts.UiaConnectionMs + 2L * config.Timeouts.UiaTransactionMs);
         var real = backend is null;
         _worker = new UiaWorker("uia-worker", config.Timeouts, _ => _desktop?.Dispose(), createAutomation: real);
         _events = real ? new UiaEvents(config.Timeouts) : new UiaEvents(config.Timeouts, registerEvents: false, createAutomation: false);
-        _createBackend = backend is null ? uia => new UiaDesktop(uia, _events, _config, _ocr) : _ => backend;
+        _createBackend = backend is null ? uia => new UiaDesktop(uia, _events, _config, _ocr, _screenText) : _ => backend;
     }
 
     public string Component => "desktop";
@@ -211,6 +214,7 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
         PreparedInput? prepared = null;
         ActLanes.Lease? lease = null;
         var userConfirmed = false;
+        RiskClass? gateRisk = null;   // Risky when the gate allowed a delete under safety.allow_delete: label only
         var diagnosticSink = DiagnosticSink;
         var diagnostics = diagnosticSink is null ? null : new DesktopDiagnostics.Capture();
         bool UsesSharedInputNow() => command.UsesSharedInput ||
@@ -265,7 +269,8 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
                     _log.LogWarning("Desktop diagnostic callback failed with {Type}.", ex.GetType().Name);
                 }
             }
-            return CreateResult(status, progress, new Timing(total, phases), reason, detail, after, expect);
+            var result = CreateResult(status, progress, new Timing(total, phases), reason, detail, after, expect);
+            return gateRisk is { } risk ? result with { Risk = risk } : result;
         }
 
         using var stop = CancellationTokenSource.CreateLinkedTokenSource(ct, _killSwitch.Token);
@@ -326,6 +331,7 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
                 return Result(ActStatus.Denied, gate.Reason ?? ReasonCodes.PolicyForbidden, gate.Detail);
             }
             userConfirmed = gate.UserConfirmed;
+            if (gate.Risk == RiskClass.Risky) gateRisk = RiskClass.Risky;
 
             // A named background window first needs authorization to activate it. Then check and authorize
             // the actual focused element before sending any keys.
@@ -346,6 +352,7 @@ public sealed class DesktopEngine : IDesktopEngine, IForegroundService, IForegro
                     return Result(ActStatus.Denied, gate.Reason ?? ReasonCodes.PolicyForbidden, gate.Detail);
                 }
                 userConfirmed |= gate.UserConfirmed;
+                if (gate.Risk == RiskClass.Risky) gateRisk = RiskClass.Risky;
             }
 
             CheckStop(UsesSharedInputNow());
