@@ -308,6 +308,16 @@ pub struct OmniWinConfigView {
     pub decision_mode: String,
     pub decision_threshold: f64,
     pub decision_allow_remote: bool,
+    /// Base URL of an OpenAI-style service (`decision.endpoint`); empty means not set.
+    pub decision_endpoint: String,
+    /// The model name the service expects (`decision.model`); empty means not set.
+    pub decision_model: String,
+    /// The pasted API key (`decision.api_key`, plain text in config.json); empty means not set.
+    pub decision_api_key: String,
+    /// `decision.api_key_env`, shown only: when that variable is set it wins over the pasted key.
+    pub decision_api_key_env: String,
+    pub decision_max_latency_ms: u32,
+    pub decision_timeout_ms: u32,
     pub power_tools_enabled: bool,
     pub power_tools_allow_delete: bool,
     pub safety_allow_delete: bool,
@@ -340,6 +350,10 @@ fn config_bool(root: &JsonMap, section: &str, key: &str, fallback: bool) -> bool
     config_value(root, section, key).and_then(Value::as_bool).unwrap_or(fallback)
 }
 
+fn config_text(root: &JsonMap, section: &str, key: &str) -> String {
+    config_value(root, section, key).and_then(Value::as_str).unwrap_or_default().to_string()
+}
+
 /// The settings as the app shows them; anything missing gets the server's default.
 pub fn view_of(root: &JsonMap, path: &Path) -> OmniWinConfigView {
     OmniWinConfigView {
@@ -363,6 +377,18 @@ pub fn view_of(root: &JsonMap, path: &Path) -> OmniWinConfigView {
             .and_then(Value::as_f64)
             .unwrap_or(0.95),
         decision_allow_remote: config_bool(root, "decision", "allow_remote", false),
+        decision_endpoint: config_text(root, "decision", "endpoint"),
+        decision_model: config_text(root, "decision", "model"),
+        decision_api_key: config_text(root, "decision", "api_key"),
+        decision_api_key_env: config_text(root, "decision", "api_key_env"),
+        decision_max_latency_ms: config_value(root, "decision", "max_latency_ms")
+            .and_then(Value::as_u64)
+            .map(|n| n.min(600_000) as u32)
+            .unwrap_or(400),
+        decision_timeout_ms: config_value(root, "decision", "timeout_ms")
+            .and_then(Value::as_u64)
+            .map(|n| n.min(600_000) as u32)
+            .unwrap_or(1500),
         power_tools_enabled: config_bool(root, "power_tools", "enabled", false),
         power_tools_allow_delete: config_bool(root, "power_tools", "allow_delete", false),
         safety_allow_delete: config_bool(root, "safety", "allow_delete", false),
@@ -382,6 +408,22 @@ fn config_set(root: &mut JsonMap, section: &str, key: &str, value: Value) {
     }
 }
 
+fn config_remove(root: &mut JsonMap, section: &str, key: &str) {
+    if let Some(Value::Object(obj)) = root.get_mut(section) {
+        obj.remove(key);
+    }
+}
+
+/// Writes `value` trimmed, or removes the key when it is empty (so an untouched field adds nothing to config.json).
+fn config_set_text(root: &mut JsonMap, section: &str, key: &str, value: &str) {
+    let value = value.trim();
+    if value.is_empty() {
+        config_remove(root, section, key);
+    } else {
+        config_set(root, section, key, json!(value));
+    }
+}
+
 /// Writes only the editable settings into `root`. `power_tools.*` and `safety.*` are never touched.
 pub fn apply_view(root: &mut JsonMap, view: &OmniWinConfigView) -> Result<(), String> {
     let mode = view.decision_mode.trim();
@@ -394,6 +436,16 @@ pub fn apply_view(root: &mut JsonMap, view: &OmniWinConfigView) -> Result<(), St
     if !(0.5..=1.0).contains(&view.decision_threshold) {
         return Err("\"How sure it must be\" must be 0.50 to 1.00.".to_string());
     }
+    let endpoint = view.decision_endpoint.trim();
+    if !endpoint.is_empty() && !(endpoint.starts_with("http://") || endpoint.starts_with("https://")) {
+        return Err("The base URL must start with http:// or https:// (for example https://api.example.com/v1).".to_string());
+    }
+    if view.decision_api_key.contains(['\r', '\n']) {
+        return Err("The API key must be on one line.".to_string());
+    }
+    if view.decision_max_latency_ms < 1 || view.decision_timeout_ms < 100 {
+        return Err("\"Fast enough\" must be at least 1 ms and \"Give up after\" at least 100 ms.".to_string());
+    }
     let provider = view.decision_provider.trim();
     let provider = if provider.is_empty() { "none" } else { provider };
     config_set(root, "learning", "enabled", json!(view.learning_enabled));
@@ -405,6 +457,15 @@ pub fn apply_view(root: &mut JsonMap, view: &OmniWinConfigView) -> Result<(), St
     config_set(root, "decision", "mode", json!(mode));
     config_set(root, "decision", "threshold", json!(view.decision_threshold));
     config_set(root, "decision", "allow_remote", json!(view.decision_allow_remote));
+    config_set_text(root, "decision", "endpoint", &view.decision_endpoint);
+    config_set_text(root, "decision", "model", &view.decision_model);
+    config_set_text(root, "decision", "api_key", &view.decision_api_key);
+    if view.decision_max_latency_ms != 400 || config_value(root, "decision", "max_latency_ms").is_some() {
+        config_set(root, "decision", "max_latency_ms", json!(view.decision_max_latency_ms));
+    }
+    if view.decision_timeout_ms != 1500 || config_value(root, "decision", "timeout_ms").is_some() {
+        config_set(root, "decision", "timeout_ms", json!(view.decision_timeout_ms));
+    }
     Ok(())
 }
 
@@ -590,6 +651,51 @@ mod tests {
         view.promote_after = 0;
         assert!(apply_view(&mut root, &view).is_err());
         assert!(root.is_empty());
+    }
+
+    #[test]
+    fn the_model_service_fields_are_read_written_trimmed_and_removed_when_empty() {
+        let mut root: JsonMap = serde_json::from_str(
+            r#"{"decision":{"provider":"openai","endpoint":"https://old.example/v1","model":"old","api_key":"k-old","api_key_env":"JEV_KEY"}}"#,
+        )
+        .unwrap();
+        let mut view = view_of(&root, Path::new("c.json"));
+        assert_eq!(
+            (view.decision_endpoint.as_str(), view.decision_model.as_str(), view.decision_api_key.as_str(), view.decision_api_key_env.as_str()),
+            ("https://old.example/v1", "old", "k-old", "JEV_KEY")
+        );
+        assert_eq!((view.decision_max_latency_ms, view.decision_timeout_ms), (400, 1500));
+        view.decision_endpoint = " https://api.example.com/v1 ".to_string();
+        view.decision_model = " jev-1 ".to_string();
+        view.decision_api_key = String::new();
+        view.decision_max_latency_ms = 3000;
+        view.decision_timeout_ms = 5000;
+        apply_view(&mut root, &view).unwrap();
+        let d = &root["decision"];
+        assert_eq!((d["endpoint"].clone(), d["model"].clone()), (json!("https://api.example.com/v1"), json!("jev-1")));
+        assert!(d.get("api_key").is_none());
+        assert_eq!(d["api_key_env"], json!("JEV_KEY"));
+        assert_eq!((d["max_latency_ms"].clone(), d["timeout_ms"].clone()), (json!(3000), json!(5000)));
+    }
+
+    #[test]
+    fn untouched_model_fields_add_nothing_and_bad_ones_are_refused() {
+        let mut root = JsonMap::new();
+        let view = view_of(&root, Path::new("c.json"));
+        apply_view(&mut root, &view).unwrap();
+        let d = root["decision"].as_object().unwrap();
+        for key in ["endpoint", "model", "api_key", "api_key_env", "max_latency_ms", "timeout_ms"] {
+            assert!(!d.contains_key(key), "{key} was written");
+        }
+        let mut bad = view.clone();
+        bad.decision_endpoint = "api.example.com".to_string();
+        assert!(apply_view(&mut JsonMap::new(), &bad).is_err());
+        let mut bad = view.clone();
+        bad.decision_api_key = "a\nb".to_string();
+        assert!(apply_view(&mut JsonMap::new(), &bad).is_err());
+        let mut bad = view;
+        bad.decision_timeout_ms = 50;
+        assert!(apply_view(&mut JsonMap::new(), &bad).is_err());
     }
 
     /// Talks to the real server named by OMNIWIN_SERVER (skipped when it is not set). Read-only calls only.

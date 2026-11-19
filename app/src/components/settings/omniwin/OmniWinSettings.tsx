@@ -11,6 +11,8 @@ import {
     Check,
     Copy,
     CornerDownLeft,
+    Eye,
+    EyeOff,
     Info,
     Loader2,
     Server,
@@ -44,6 +46,11 @@ const EDITABLE = [
     "decision_mode",
     "decision_threshold",
     "decision_allow_remote",
+    "decision_endpoint",
+    "decision_model",
+    "decision_api_key",
+    "decision_max_latency_ms",
+    "decision_timeout_ms",
 ] as const;
 
 const editable = (c: OmniWinConfigView | null) =>
@@ -97,6 +104,7 @@ export const OmniWinSettings: React.FC = () => {
     const [draft, setDraft] = useState<OmniWinConfigView | null>(null);
     const [configError, setConfigError] = useState<string | null>(null);
     const [saving, setSaving] = useState(false);
+    const [showKey, setShowKey] = useState(false);
     const [saveNote, setSaveNote] = useState<{
         ok: boolean;
         text: string;
@@ -491,6 +499,93 @@ export const OmniWinSettings: React.FC = () => {
                         <SettingContainer
                             grouped
                             descriptionMode="inline"
+                            title={t("omniwin.config.endpoint")}
+                            description={t("omniwin.config.endpointDesc")}
+                        >
+                            <Input
+                                type="url"
+                                className="w-72"
+                                spellCheck={false}
+                                autoComplete="off"
+                                placeholder="https://api.example.com/v1"
+                                value={draft.decision_endpoint}
+                                aria-label={t("omniwin.config.endpoint")}
+                                onChange={(e) =>
+                                    change("decision_endpoint", e.target.value)
+                                }
+                            />
+                        </SettingContainer>
+                        <SettingContainer
+                            grouped
+                            descriptionMode="inline"
+                            title={t("omniwin.config.modelName")}
+                            description={t("omniwin.config.modelNameDesc")}
+                        >
+                            <Input
+                                className="w-72"
+                                spellCheck={false}
+                                autoComplete="off"
+                                placeholder="jev-1"
+                                value={draft.decision_model}
+                                aria-label={t("omniwin.config.modelName")}
+                                onChange={(e) =>
+                                    change("decision_model", e.target.value)
+                                }
+                            />
+                        </SettingContainer>
+                        <SettingContainer
+                            grouped
+                            descriptionMode="inline"
+                            title={t("omniwin.config.apiKey")}
+                            description={
+                                draft.decision_api_key_env
+                                    ? `${t("omniwin.config.apiKeyDesc")} ${t("omniwin.config.apiKeyEnvNote", { name: draft.decision_api_key_env })}`
+                                    : t("omniwin.config.apiKeyDesc")
+                            }
+                        >
+                            <div className="flex w-72 items-center gap-1">
+                                <Input
+                                    type={showKey ? "text" : "password"}
+                                    className="min-w-0 flex-1 font-mono"
+                                    spellCheck={false}
+                                    autoComplete="off"
+                                    placeholder="sk-..."
+                                    value={draft.decision_api_key}
+                                    aria-label={t("omniwin.config.apiKey")}
+                                    onChange={(e) =>
+                                        change(
+                                            "decision_api_key",
+                                            e.target.value,
+                                        )
+                                    }
+                                />
+                                <button
+                                    type="button"
+                                    className="grid size-8 shrink-0 place-items-center rounded-md text-ink-2 transition-colors hover:bg-wash hover:text-text focus-visible:outline-2 focus-visible:outline-logo-primary"
+                                    title={
+                                        showKey
+                                            ? t("omniwin.config.hideKey")
+                                            : t("omniwin.config.showKey")
+                                    }
+                                    aria-label={
+                                        showKey
+                                            ? t("omniwin.config.hideKey")
+                                            : t("omniwin.config.showKey")
+                                    }
+                                    aria-pressed={showKey}
+                                    onClick={() => setShowKey((s) => !s)}
+                                >
+                                    {showKey ? (
+                                        <EyeOff size={16} />
+                                    ) : (
+                                        <Eye size={16} />
+                                    )}
+                                </button>
+                            </div>
+                        </SettingContainer>
+                        <SettingContainer
+                            grouped
+                            descriptionMode="inline"
                             title={t("omniwin.config.mode")}
                             description={t("omniwin.config.modeDesc")}
                         >
@@ -540,6 +635,58 @@ export const OmniWinSettings: React.FC = () => {
                                                     Math.round(n * 100) / 100,
                                                 ),
                                             ),
+                                        );
+                                }}
+                            />
+                        </SettingContainer>
+                        <SettingContainer
+                            grouped
+                            descriptionMode="inline"
+                            title={t("omniwin.config.maxLatency")}
+                            description={t("omniwin.config.maxLatencyDesc")}
+                        >
+                            <Input
+                                type="number"
+                                min={1}
+                                max={600000}
+                                step={100}
+                                className="w-28 text-center"
+                                value={draft.decision_max_latency_ms}
+                                aria-label={t("omniwin.config.maxLatency")}
+                                onChange={(e) => {
+                                    const n = Math.round(
+                                        Number(e.target.value),
+                                    );
+                                    if (Number.isFinite(n))
+                                        change(
+                                            "decision_max_latency_ms",
+                                            Math.min(600000, Math.max(1, n)),
+                                        );
+                                }}
+                            />
+                        </SettingContainer>
+                        <SettingContainer
+                            grouped
+                            descriptionMode="inline"
+                            title={t("omniwin.config.timeout")}
+                            description={t("omniwin.config.timeoutDesc")}
+                        >
+                            <Input
+                                type="number"
+                                min={100}
+                                max={600000}
+                                step={100}
+                                className="w-28 text-center"
+                                value={draft.decision_timeout_ms}
+                                aria-label={t("omniwin.config.timeout")}
+                                onChange={(e) => {
+                                    const n = Math.round(
+                                        Number(e.target.value),
+                                    );
+                                    if (Number.isFinite(n))
+                                        change(
+                                            "decision_timeout_ms",
+                                            Math.min(600000, Math.max(100, n)),
                                         );
                                 }}
                             />

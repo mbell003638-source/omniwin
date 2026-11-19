@@ -1435,7 +1435,23 @@ raised: Notice | null }
  * The OmniWin settings the app edits (learning, quick commands, engines, decision model), plus the safety switches it only
  * shows. `power_tools.*` and `safety.*` are read for display and are never written from the app.
  */
-export type OmniWinConfigView = { learning_enabled: boolean; learning_auto_run: boolean; promote_after: number; router_enabled: boolean; engines_enabled: boolean; decision_provider: string; decision_mode: string; decision_threshold: number; decision_allow_remote: boolean; power_tools_enabled: boolean; power_tools_allow_delete: boolean; safety_allow_delete: boolean; config_path: string }
+export type OmniWinConfigView = { learning_enabled: boolean; learning_auto_run: boolean; promote_after: number; router_enabled: boolean; engines_enabled: boolean; decision_provider: string; decision_mode: string; decision_threshold: number; decision_allow_remote: boolean; 
+/**
+ * Base URL of an OpenAI-style service (`decision.endpoint`); empty means not set.
+ */
+decision_endpoint: string; 
+/**
+ * The model name the service expects (`decision.model`); empty means not set.
+ */
+decision_model: string; 
+/**
+ * The pasted API key (`decision.api_key`, plain text in config.json); empty means not set.
+ */
+decision_api_key: string; 
+/**
+ * `decision.api_key_env`, shown only: when that variable is set it wins over the pasted key.
+ */
+decision_api_key_env: string; decision_max_latency_ms: number; decision_timeout_ms: number; power_tools_enabled: boolean; power_tools_allow_delete: boolean; safety_allow_delete: boolean; config_path: string }
 export type OverlayPosition = "top" | "bottom"
 /**
  * Which recording overlay to display. `Minimal` and `Live` share one base

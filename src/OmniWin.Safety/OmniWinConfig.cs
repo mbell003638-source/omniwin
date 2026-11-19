@@ -148,6 +148,30 @@ public sealed record OmniWinConfig
             errors.Add("decision.mode needs decision.provider (it is \"none\")");
         }
 
+        if (DecisionConfig.IsOpenAi(Decision.Provider))
+        {
+            if (!Uri.TryCreate(Decision.Endpoint?.Trim(), UriKind.Absolute, out var endpoint) ||
+                endpoint.Scheme is not ("http" or "https") || string.IsNullOrEmpty(endpoint.Host))
+            {
+                errors.Add("decision.endpoint must be an http or https base URL (for example \"https://api.example.com/v1\") when decision.provider is \"openai\"");
+            }
+
+            if (string.IsNullOrWhiteSpace(Decision.Model))
+            {
+                errors.Add("decision.model must name the model when decision.provider is \"openai\"");
+            }
+        }
+
+        if (Decision.ApiKeyEnv is { Length: > 0 } keyEnv && (keyEnv.Trim().Length == 0 || keyEnv.AsSpan().IndexOfAny("= \t\r\n") >= 0))
+        {
+            errors.Add("decision.api_key_env must be the name of an environment variable (no spaces or '=')");
+        }
+
+        if (Decision.ApiKey is { Length: > 0 } key && key.AsSpan().IndexOfAny("\r\n") >= 0)
+        {
+            errors.Add("decision.api_key must be on one line");
+        }
+
         return errors;
     }
 }
@@ -179,7 +203,17 @@ public sealed record DecisionConfig
     public const string ModeShadow = "shadow";
     public const string ModeAct = "act";
 
-    /// <summary>"none", or the name of an adapter the server knows.</summary>
+    /// <summary>The built-in adapter for any OpenAI-compatible chat completions service (cloud or local).</summary>
+    public const string ProviderOpenAi = "openai";
+    public const string ProviderOpenAiCompatible = "openai_compatible";
+
+    /// <summary>True when <paramref name="provider"/> names the built-in OpenAI-compatible adapter.</summary>
+    public static bool IsOpenAi(string? provider) =>
+        provider is not null &&
+        (string.Equals(provider.Trim(), ProviderOpenAi, StringComparison.OrdinalIgnoreCase) ||
+         string.Equals(provider.Trim(), ProviderOpenAiCompatible, StringComparison.OrdinalIgnoreCase));
+
+    /// <summary>"none", "openai" / "openai_compatible" (built in), or the name of another adapter the server knows.</summary>
     public string Provider { get; init; } = ProviderNone;
 
     /// <summary>off: never asked. shadow: asked and scored, never acted on. act: may run a pick that passes every rule.</summary>
@@ -196,10 +230,20 @@ public sealed record DecisionConfig
 
     public int MaxWords { get; init; } = 20;
 
+    /// <summary>Base URL of the model service, e.g. "https://api.example.com/v1" ("/chat/completions" is added).</summary>
     public string? Endpoint { get; init; }
 
-    /// <summary>Name of the environment variable that holds the key. The key itself is never in a file.</summary>
+    /// <summary>The model name the service expects, e.g. "gpt-4o-mini".</summary>
+    public string? Model { get; init; }
+
+    /// <summary>Name of the environment variable that holds the key. When it is set and not empty it wins over <see cref="ApiKey"/>.</summary>
     public string? ApiKeyEnv { get; init; }
+
+    /// <summary>
+    /// The key itself, pasted in by the owner (owner decision 2026-11-19: a plaintext key in his own config.json is accepted).
+    /// Used only when <see cref="ApiKeyEnv"/> gives nothing. Never logged or shown.
+    /// </summary>
+    public string? ApiKey { get; init; }
 
     /// <summary>A model that is not on this PC receives the request wording and the option names. Blocked unless the owner sets this.</summary>
     public bool AllowRemote { get; init; }

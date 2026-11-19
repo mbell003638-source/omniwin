@@ -153,8 +153,14 @@ builder.Services.AddSingleton(services => new OmniWin.Server.Learning.LearningSe
     services.GetRequiredService<OmniWin.Workflows.WorkflowService>(), services.GetRequiredService<IRunLog>(),
     services.GetRequiredService<OmniWin.Server.Learning.RecipeStore>(), config));
 builder.Services.AddSingleton<IComponentStatus>(services => services.GetRequiredService<OmniWin.Server.Learning.LearningService>());
-// The optional decision model. No adapter is built in yet (the owner has not chosen a model), so the slot is empty: with
-// decision.provider "none" nothing is constructed or called, and any other provider name reports "no adapter in this build".
+// The optional decision model. With decision.provider "none" nothing is constructed or called. "openai" / "openai_compatible"
+// builds the OpenAI-compatible adapter (decision.endpoint, decision.model, the key from decision.api_key_env or decision.api_key);
+// any other provider name reports "no adapter in this build".
+if (DecisionConfig.IsOpenAi(config.Decision.Provider))
+{
+    builder.Services.AddSingleton<OmniWin.Server.Learning.IDecisionModel>(_ => new OmniWin.Server.Learning.OpenAiDecisionModel(config.Decision));
+}
+
 builder.Services.AddSingleton(services =>
 {
     var paths = services.GetRequiredService<OmniWinPaths>();
