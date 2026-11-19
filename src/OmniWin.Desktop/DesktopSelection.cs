@@ -14,6 +14,9 @@ internal sealed partial class UiaDesktop
     public SelectionRead ReadSelection(int beforeCaretChars, CancellationToken ct)
     {
         ct.ThrowIfCancellationRequested();
+        // Inaccessible() reads _onInputDesktop, which only RefreshWindows sets. This read does not list windows, so check the
+        // input desktop here; otherwise a fresh server (nothing listed yet) refused every read as "secure desktop".
+        _onInputDesktop = NativeDesktop.OnInputDesktop();
         try
         {
             var focused = _uia.GetFocusedElement();
