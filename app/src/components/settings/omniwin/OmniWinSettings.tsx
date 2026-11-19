@@ -32,10 +32,11 @@ import { ToggleSwitch } from "../../ui/ToggleSwitch";
 import { Button } from "../../ui/Button";
 import { Input } from "../../ui/Input";
 import { Dropdown } from "../../ui/Dropdown";
+import { Dialog } from "../../ui/Dialog";
 import { ShortcutInput } from "../ShortcutInput";
 import { explain, type Explained, type Outcome } from "@/lib/omniwinResult";
 
-/** The settings the page may write; power_tools.* and safety.* are shown only. */
+/** The settings the Save button writes. The safety switches are saved on their own, straight away (see applySafety). */
 const EDITABLE = [
     "learning_enabled",
     "learning_auto_run",
@@ -52,6 +53,26 @@ const EDITABLE = [
     "decision_max_latency_ms",
     "decision_timeout_ms",
 ] as const;
+
+type SafetyKey =
+    | "safety_allow_delete"
+    | "power_tools_enabled"
+    | "power_tools_allow_delete";
+
+const SAFETY_TEXT: Record<SafetyKey, { label: string; allows: string }> = {
+    safety_allow_delete: {
+        label: "omniwin.safety.desktopDelete",
+        allows: "omniwin.safety.confirmDesktopDelete",
+    },
+    power_tools_enabled: {
+        label: "omniwin.safety.powerTools",
+        allows: "omniwin.safety.confirmPowerTools",
+    },
+    power_tools_allow_delete: {
+        label: "omniwin.safety.powerDelete",
+        allows: "omniwin.safety.confirmPowerDelete",
+    },
+};
 
 const editable = (c: OmniWinConfigView | null) =>
     c ? JSON.stringify(EDITABLE.map((k) => c[k])) : "";
@@ -156,7 +177,6 @@ export const OmniWinSettings: React.FC = () => {
                 setResult(null);
                 setTimeout(() => input.current?.focus(), 50);
             }),
-            listen<string>("omniwin-polish-result", (e) => setNote(e.payload)),
         ];
         return () => {
             unlisten.forEach((p) => p.then((f) => f()));
@@ -235,6 +255,49 @@ export const OmniWinSettings: React.FC = () => {
             setSaveNote({ ok: false, text: r.error });
         }
         setSaving(false);
+    };
+
+    const [confirming, setConfirming] = useState<SafetyKey | null>(null);
+    const [safetyBusy, setSafetyBusy] = useState(false);
+    const [safetyNote, setSafetyNote] = useState<{
+        ok: boolean;
+        text: string;
+    } | null>(null);
+
+    /** Saves one safety switch at once, from the saved settings (unsaved edits elsewhere on the page are not written). */
+    const applySafety = async (key: SafetyKey, on: boolean) => {
+        if (!saved || safetyBusy) return;
+        const next: OmniWinConfigView = { ...saved, [key]: on };
+        // Deleting with power tools needs power tools, so turning them off turns that off too.
+        if (key === "power_tools_enabled" && !on)
+            next.power_tools_allow_delete = false;
+        setSafetyBusy(true);
+        setSafetyNote(null);
+        const r = await commands.omniwinConfigSave(next);
+        if (r.status === "ok") {
+            setSaved(r.data);
+            setDraft((d) =>
+                d
+                    ? {
+                          ...d,
+                          safety_allow_delete: r.data.safety_allow_delete,
+                          power_tools_enabled: r.data.power_tools_enabled,
+                          power_tools_allow_delete:
+                              r.data.power_tools_allow_delete,
+                      }
+                    : d,
+            );
+            setSafetyNote({ ok: true, text: t("omniwin.safety.saved") });
+        } else {
+            setSafetyNote({ ok: false, text: r.error });
+        }
+        setSafetyBusy(false);
+    };
+
+    /** Turning a switch on asks first; turning it off does not. */
+    const toggleSafety = (key: SafetyKey, on: boolean) => {
+        if (on) setConfirming(key);
+        else void applySafety(key, false);
     };
 
     const deleting = useMemo(() => {
@@ -400,7 +463,9 @@ export const OmniWinSettings: React.FC = () => {
                     shortcutId="omniwin_voice_command"
                     grouped={true}
                 />
-                <ShortcutInput shortcutId="omniwin_polish" grouped={true} />
+                <p className="px-5 py-3 text-xs text-ink-3">
+                    {t("omniwin.polishMoved")}
+                </p>
             </SettingsGroup>
 
             {configError && (
@@ -760,52 +825,42 @@ export const OmniWinSettings: React.FC = () => {
                             {deleting.text}
                         </p>
                     </div>
-                    <SettingContainer
+                    <ToggleSwitch
                         grouped
                         descriptionMode="inline"
-                        title={t("omniwin.safety.desktopDelete")}
+                        label={t("omniwin.safety.desktopDelete")}
                         description={t("omniwin.safety.desktopDeleteDesc")}
-                    >
-                        <Pill
-                            tone={saved.safety_allow_delete ? "risky" : "good"}
-                        >
-                            {saved.safety_allow_delete
-                                ? t("omniwin.safety.allowed")
-                                : t("omniwin.safety.refused")}
-                        </Pill>
-                    </SettingContainer>
-                    <SettingContainer
+                        checked={saved.safety_allow_delete}
+                        isUpdating={safetyBusy}
+                        disabled={safetyBusy}
+                        onChange={(v) => toggleSafety("safety_allow_delete", v)}
+                    />
+                    <ToggleSwitch
                         grouped
                         descriptionMode="inline"
-                        title={t("omniwin.safety.powerTools")}
+                        label={t("omniwin.safety.powerTools")}
                         description={t("omniwin.safety.powerToolsDesc")}
-                    >
-                        <Pill
-                            tone={saved.power_tools_enabled ? "risky" : "good"}
-                        >
-                            {saved.power_tools_enabled
-                                ? t("omniwin.safety.on")
-                                : t("omniwin.safety.off")}
-                        </Pill>
-                    </SettingContainer>
-                    <SettingContainer
+                        checked={saved.power_tools_enabled}
+                        isUpdating={safetyBusy}
+                        disabled={safetyBusy}
+                        onChange={(v) => toggleSafety("power_tools_enabled", v)}
+                    />
+                    <ToggleSwitch
                         grouped
                         descriptionMode="inline"
-                        title={t("omniwin.safety.powerDelete")}
+                        label={t("omniwin.safety.powerDelete")}
                         description={t("omniwin.safety.powerDeleteDesc")}
-                    >
-                        <Pill
-                            tone={
-                                saved.power_tools_allow_delete
-                                    ? "risky"
-                                    : "good"
-                            }
-                        >
-                            {saved.power_tools_allow_delete
-                                ? t("omniwin.safety.allowed")
-                                : t("omniwin.safety.refused")}
-                        </Pill>
-                    </SettingContainer>
+                        checked={saved.power_tools_allow_delete}
+                        isUpdating={safetyBusy}
+                        disabled={
+                            safetyBusy ||
+                            (!saved.power_tools_enabled &&
+                                !saved.power_tools_allow_delete)
+                        }
+                        onChange={(v) =>
+                            toggleSafety("power_tools_allow_delete", v)
+                        }
+                    />
                     <SettingContainer
                         grouped
                         descriptionMode="inline"
@@ -816,6 +871,13 @@ export const OmniWinSettings: React.FC = () => {
                             {t("omniwin.safety.stopKeyValue")}
                         </Pill>
                     </SettingContainer>
+                    {safetyNote && (
+                        <p
+                            className={`px-5 pt-3 text-sm ${safetyNote.ok ? "text-moss" : "text-error"}`}
+                        >
+                            {safetyNote.text}
+                        </p>
+                    )}
                     <p className="px-5 py-3 text-xs text-ink-3 break-all">
                         {t("omniwin.safety.handEdit", {
                             path: saved.config_path,
@@ -823,6 +885,52 @@ export const OmniWinSettings: React.FC = () => {
                     </p>
                 </SettingsGroup>
             )}
+
+            <Dialog
+                open={confirming !== null}
+                title={
+                    confirming
+                        ? t("omniwin.safety.confirmTitle", {
+                              name: t(SAFETY_TEXT[confirming].label),
+                          })
+                        : ""
+                }
+                closeLabel={t("omniwin.safety.cancel")}
+                onOpenChange={(open) => {
+                    if (!open) setConfirming(null);
+                }}
+                footer={
+                    <div className="flex justify-end gap-2">
+                        <Button
+                            variant="secondary"
+                            onClick={() => setConfirming(null)}
+                        >
+                            {t("omniwin.safety.cancel")}
+                        </Button>
+                        <Button
+                            variant="danger"
+                            onClick={() => {
+                                const key = confirming;
+                                setConfirming(null);
+                                if (key) void applySafety(key, true);
+                            }}
+                        >
+                            {t("omniwin.safety.turnOn")}
+                        </Button>
+                    </div>
+                }
+            >
+                {confirming && (
+                    <div className="flex items-start gap-3 text-sm">
+                        <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-warning-wash text-warning">
+                            <ShieldAlert size={18} />
+                        </span>
+                        <p className="pt-1">
+                            {t(SAFETY_TEXT[confirming].allows)}
+                        </p>
+                    </div>
+                )}
+            </Dialog>
 
             <SettingsGroup title={t("omniwin.learnedTitle")}>
                 <div className="px-5 py-3">

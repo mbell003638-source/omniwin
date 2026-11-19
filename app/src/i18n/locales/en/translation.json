@@ -644,6 +644,12 @@
       "hotkey": {
         "title": "Hotkey"
       },
+      "polish": {
+        "title": "Polish selected text",
+        "description": "Select text in any app and press this hotkey: OmniWin rewrites it with the provider, model and selected prompt on this page. Press Ctrl+Z in that app to undo.",
+        "uses": "Uses: {{provider}} · model {{model}} · prompt \"{{prompt}}\"",
+        "notSet": "not set"
+      },
       "api": {
         "title": "API",
         "provider": {
@@ -1030,7 +1036,8 @@
       "failed": "It did not work."
     },
     "hotkeysTitle": "OmniWin hotkeys",
-    "hotkeysHelp": "These have no key until you set one. Never use Ctrl+Alt+Shift+K: that is OmniWin's stop key. Polish uses the provider and prompt on the Post Process page.",
+    "hotkeysHelp": "These have no key until you set one. Never use Ctrl+Alt+Shift+K: that is OmniWin's stop key.",
+    "polishMoved": "The Polish Selection hotkey is now on the Post Process page, next to the provider and prompt it uses. If you do not see that page, turn on Post Processing in Advanced.",
     "learnedTitle": "Learned tasks",
     "noneLearned": "Nothing learned yet. When your AI finishes a task and calls task_done, it appears here.",
     "serverTitle": "OmniWin server",
@@ -1083,18 +1090,18 @@
     },
     "safety": {
       "title": "Safety",
-      "help": "Shown only. These change only when you edit config.json by hand.",
+      "help": "Turning a switch on asks you first. Changes are saved to config.json straight away and the app's server restarts so they apply.",
       "deleteRefused": "Deleting is refused everywhere.",
       "deleteAllowedDesktop": "Deleting is allowed on the desktop, in the browser and when typing (safety.allow_delete is on). Such actions are marked risky.",
       "deleteAllowedPower": "Deleting is allowed through power tools (power_tools.allow_delete is on).",
       "deleteAllowedPowerOff": "power_tools.allow_delete is on, but power tools are off, so nothing can delete yet.",
       "deleteAllowedBoth": "Deleting is allowed: safety.allow_delete and power_tools.allow_delete are both on. Such actions are marked risky.",
       "desktopDelete": "Deleting on the desktop, in the browser and when typing",
-      "desktopDeleteDesc": "safety.allow_delete",
+      "desktopDeleteDesc": "Delete buttons, delete keys in file views and delete commands in a terminal (safety.allow_delete).",
       "powerTools": "Power tools",
       "powerToolsDesc": "Shell, files, registry and processes (power_tools.enabled).",
       "powerDelete": "Deleting with power tools",
-      "powerDeleteDesc": "power_tools.allow_delete",
+      "powerDeleteDesc": "Lets power tools delete or overwrite. Needs power tools on (power_tools.allow_delete).",
       "stopKey": "Stop key",
       "stopKeyDesc": "Stops whatever OmniWin is doing. It cannot be turned off.",
       "stopKeyValue": "Ctrl+Alt+Shift+K",
@@ -1102,7 +1109,14 @@
       "allowed": "Allowed",
       "on": "On",
       "off": "Off",
-      "handEdit": "Settings file: {{path}}"
+      "handEdit": "Settings file: {{path}}",
+      "saved": "Saved. OmniWin uses it from the next request.",
+      "confirmTitle": "Turn on \"{{name}}\"?",
+      "confirmDesktopDelete": "OmniWin's desktop, browser and typing tools may then press Delete buttons and menu items, use delete keys in file views, drop things on the Recycle Bin, and type or paste delete commands into a terminal. Such actions are marked risky in the audit log. Password fields, sign-in screens, blocked apps and the stop key stay protected.",
+      "confirmPowerTools": "Your AI apps get the shell, files, registry and process tools: they can run commands, read and write files, change the registry, and start or stop programs on this PC. Deleting stays refused unless you also turn on \"Deleting with power tools\".",
+      "confirmPowerDelete": "The power tools may then delete or overwrite files and registry keys and end processes. Files deleted this way may not go to the Recycle Bin.",
+      "turnOn": "Turn on",
+      "cancel": "Cancel"
     }
   }
 }

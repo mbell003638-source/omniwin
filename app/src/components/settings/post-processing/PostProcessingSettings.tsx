@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
-import { RefreshCcw } from "lucide-react";
+import { Info, RefreshCcw } from "lucide-react";
+import { listen } from "@tauri-apps/api/event";
 import { commands, type PostProcessApiFormat } from "@/bindings";
 
 import { Alert } from "../../ui/Alert";
@@ -462,6 +463,61 @@ export const PostProcessingSettingsPrompts = React.memo(
 );
 PostProcessingSettingsPrompts.displayName = "PostProcessingSettingsPrompts";
 
+/** OmniWin's "Polish Selection" hotkey: rewrites the selected text with this page's provider, model and selected prompt. */
+const PolishSelectionGroup: React.FC = () => {
+  const { t } = useTranslation();
+  const { getSetting } = useSettings();
+  const [result, setResult] = useState<string | null>(null);
+
+  useEffect(() => {
+    const unlisten = listen<string>("omniwin-polish-result", (e) =>
+      setResult(e.payload),
+    );
+    return () => {
+      void unlisten.then((f) => f());
+    };
+  }, []);
+
+  const providerId = getSetting("post_process_provider_id") || "";
+  const provider = (getSetting("post_process_providers") || []).find(
+    (p) => p.id === providerId,
+  );
+  const model = (getSetting("post_process_models") || {})[providerId] || "";
+  const promptId = getSetting("post_process_selected_prompt_id") || "";
+  const prompt = (getSetting("post_process_prompts") || []).find(
+    (p) => p.id === promptId,
+  );
+  const none = t("settings.postProcessing.polish.notSet");
+
+  return (
+    <SettingsGroup
+      title={t("settings.postProcessing.polish.title")}
+      description={t("settings.postProcessing.polish.description")}
+    >
+      <ShortcutInput
+        shortcutId="omniwin_polish"
+        descriptionMode="tooltip"
+        grouped={true}
+      />
+      <div className="px-5 py-3 space-y-2">
+        <p className="text-xs text-ink-3">
+          {t("settings.postProcessing.polish.uses", {
+            provider: provider?.label || none,
+            model: model.trim() || none,
+            prompt: prompt?.name || none,
+          })}
+        </p>
+        {result && (
+          <p className="flex items-start gap-2 text-sm">
+            <Info size={16} className="mt-0.5 shrink-0" />
+            {result}
+          </p>
+        )}
+      </div>
+    </SettingsGroup>
+  );
+};
+
 export const PostProcessingSettings: React.FC = () => {
   const { t } = useTranslation();
 
@@ -482,6 +538,8 @@ export const PostProcessingSettings: React.FC = () => {
       <SettingsGroup title={t("settings.postProcessing.prompts.title")}>
         <PostProcessingSettingsPrompts />
       </SettingsGroup>
+
+      <PolishSelectionGroup />
     </div>
   );
 };

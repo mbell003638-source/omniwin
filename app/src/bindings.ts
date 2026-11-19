@@ -1432,8 +1432,8 @@ notices: Notice[];
  */
 raised: Notice | null }
 /**
- * The OmniWin settings the app edits (learning, quick commands, engines, decision model), plus the safety switches it only
- * shows. `power_tools.*` and `safety.*` are read for display and are never written from the app.
+ * The OmniWin settings the app edits: learning, quick commands, engines, the decision model, and the three safety switches
+ * (`power_tools.enabled`, `power_tools.allow_delete`, `safety.allow_delete`), which the page asks about before turning on.
  */
 export type OmniWinConfigView = { learning_enabled: boolean; learning_auto_run: boolean; promote_after: number; router_enabled: boolean; engines_enabled: boolean; decision_provider: string; decision_mode: string; decision_threshold: number; decision_allow_remote: boolean; 
 /**

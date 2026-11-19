@@ -295,8 +295,8 @@ pub fn config_path() -> Result<PathBuf, String> {
     Ok(PathBuf::from(base).join("OmniWin").join("config.json"))
 }
 
-/// The OmniWin settings the app edits (learning, quick commands, engines, decision model), plus the safety switches it only
-/// shows. `power_tools.*` and `safety.*` are read for display and are never written from the app.
+/// The OmniWin settings the app edits: learning, quick commands, engines, the decision model, and the three safety switches
+/// (`power_tools.enabled`, `power_tools.allow_delete`, `safety.allow_delete`), which the page asks about before turning on.
 #[derive(Debug, Clone, PartialEq, serde::Serialize, serde::Deserialize, specta::Type)]
 pub struct OmniWinConfigView {
     pub learning_enabled: bool,
@@ -424,7 +424,8 @@ fn config_set_text(root: &mut JsonMap, section: &str, key: &str, value: &str) {
     }
 }
 
-/// Writes only the editable settings into `root`. `power_tools.*` and `safety.*` are never touched.
+/// Writes only the editable settings into `root`; every other key in config.json is kept. A safety switch is written only
+/// when it is on or already in the file, so a config.json without a `safety` section stays readable by older servers.
 pub fn apply_view(root: &mut JsonMap, view: &OmniWinConfigView) -> Result<(), String> {
     let mode = view.decision_mode.trim();
     if !matches!(mode, "off" | "shadow" | "act") {
@@ -446,6 +447,9 @@ pub fn apply_view(root: &mut JsonMap, view: &OmniWinConfigView) -> Result<(), St
     if view.decision_max_latency_ms < 1 || view.decision_timeout_ms < 100 {
         return Err("\"Fast enough\" must be at least 1 ms and \"Give up after\" at least 100 ms.".to_string());
     }
+    if view.power_tools_allow_delete && !view.power_tools_enabled {
+        return Err("\"Deleting with power tools\" needs power tools to be on.".to_string());
+    }
     let provider = view.decision_provider.trim();
     let provider = if provider.is_empty() { "none" } else { provider };
     config_set(root, "learning", "enabled", json!(view.learning_enabled));
@@ -457,6 +461,15 @@ pub fn apply_view(root: &mut JsonMap, view: &OmniWinConfigView) -> Result<(), St
     config_set(root, "decision", "mode", json!(mode));
     config_set(root, "decision", "threshold", json!(view.decision_threshold));
     config_set(root, "decision", "allow_remote", json!(view.decision_allow_remote));
+    for (section, key, on) in [
+        ("power_tools", "enabled", view.power_tools_enabled),
+        ("power_tools", "allow_delete", view.power_tools_allow_delete),
+        ("safety", "allow_delete", view.safety_allow_delete),
+    ] {
+        if on || config_value(root, section, key).is_some() {
+            config_set(root, section, key, json!(on));
+        }
+    }
     config_set_text(root, "decision", "endpoint", &view.decision_endpoint);
     config_set_text(root, "decision", "model", &view.decision_model);
     config_set_text(root, "decision", "api_key", &view.decision_api_key);
@@ -624,9 +637,11 @@ mod tests {
     }
 
     #[test]
-    fn saving_writes_only_the_editable_settings_and_never_the_safety_switches() {
-        let mut root: JsonMap =
-            serde_json::from_str(r#"{"confirm_mode":"off","power_tools":{"enabled":false}}"#).unwrap();
+    fn saving_writes_the_editable_settings_and_keeps_every_other_key() {
+        let mut root: JsonMap = serde_json::from_str(
+            r#"{"confirm_mode":"off","power_tools":{"enabled":false,"shell_timeout_ms":9000},"safety":{"extra":1}}"#,
+        )
+        .unwrap();
         let mut view = view_of(&root, Path::new("c.json"));
         view.power_tools_enabled = true;
         view.power_tools_allow_delete = true;
@@ -634,8 +649,8 @@ mod tests {
         view.promote_after = 5;
         view.decision_provider = "  ".to_string();
         apply_view(&mut root, &view).unwrap();
-        assert_eq!(root["power_tools"], json!({ "enabled": false }));
-        assert!(root.get("safety").is_none());
+        assert_eq!(root["power_tools"], json!({ "enabled": true, "allow_delete": true, "shell_timeout_ms": 9000 }));
+        assert_eq!(root["safety"], json!({ "extra": 1, "allow_delete": true }));
         assert_eq!(root["confirm_mode"], json!("off"));
         assert_eq!(root["learning"]["promote_after"], json!(5));
         assert_eq!(root["decision"]["provider"], json!("none"));
@@ -696,6 +711,35 @@ mod tests {
         let mut bad = view;
         bad.decision_timeout_ms = 50;
         assert!(apply_view(&mut JsonMap::new(), &bad).is_err());
+    }
+
+    #[test]
+    fn safety_switches_turn_off_cleanly_and_are_not_added_when_off() {
+        let mut root: JsonMap = serde_json::from_str(
+            r#"{"power_tools":{"enabled":true,"allow_delete":true},"safety":{"allow_delete":true}}"#,
+        )
+        .unwrap();
+        let mut view = view_of(&root, Path::new("c.json"));
+        view.power_tools_enabled = false;
+        view.power_tools_allow_delete = false;
+        view.safety_allow_delete = false;
+        apply_view(&mut root, &view).unwrap();
+        assert_eq!(root["power_tools"], json!({ "enabled": false, "allow_delete": false }));
+        assert_eq!(root["safety"], json!({ "allow_delete": false }));
+
+        let mut fresh = JsonMap::new();
+        let view = view_of(&fresh, Path::new("c.json"));
+        apply_view(&mut fresh, &view).unwrap();
+        assert!(fresh.get("power_tools").is_none() && fresh.get("safety").is_none());
+    }
+
+    #[test]
+    fn deleting_with_power_tools_needs_power_tools_on() {
+        let mut root = JsonMap::new();
+        let mut view = view_of(&root, Path::new("c.json"));
+        view.power_tools_allow_delete = true;
+        assert!(apply_view(&mut root, &view).is_err());
+        assert!(root.is_empty());
     }
 
     /// Talks to the real server named by OMNIWIN_SERVER (skipped when it is not set). Read-only calls only.
