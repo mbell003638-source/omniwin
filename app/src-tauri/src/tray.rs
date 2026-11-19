@@ -690,6 +690,21 @@ fn build_menu(app: &AppHandle, inputs: &MenuInputs) -> tauri::Result<(Menu<tauri
         None::<&str>,
     )?;
     let quit_i = MenuItem::with_id(app, "quit", &strings.quit, true, quit_accelerator)?;
+    // OmniWin: the old tray app's two entries, so this one app does everything it did.
+    let omniwin_command_i = MenuItem::with_id(
+        app,
+        "omniwin_command_box",
+        "OmniWin command box",
+        true,
+        None::<&str>,
+    )?;
+    let omniwin_polish_i = MenuItem::with_id(
+        app,
+        "omniwin_polish",
+        "Polish selected text",
+        true,
+        None::<&str>,
+    )?;
     let separator = || PredefinedMenuItem::separator(app);
 
     let menu = if inputs.busy {
@@ -702,6 +717,9 @@ fn build_menu(app: &AppHandle, inputs: &MenuInputs) -> tauri::Result<(Menu<tauri
                 &cancel_i,
                 &separator()?,
                 &copy_last_transcript_i,
+                &separator()?,
+                &omniwin_command_i,
+                &omniwin_polish_i,
                 &separator()?,
                 &settings_i,
                 &check_updates_i,
@@ -744,6 +762,9 @@ fn build_menu(app: &AppHandle, inputs: &MenuInputs) -> tauri::Result<(Menu<tauri
                 &separator()?,
                 &model_submenu,
                 &unload_model_i,
+                &separator()?,
+                &omniwin_command_i,
+                &omniwin_polish_i,
                 &separator()?,
                 &settings_i,
                 &check_updates_i,

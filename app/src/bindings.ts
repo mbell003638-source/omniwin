@@ -21,6 +21,40 @@ async omniwinServerPath() : Promise<Result<string, string>> {
     else return { status: "error", error: e  as any };
 }
 },
+/**
+ * Frontend: OmniWin's settings from config.json (with the safety switches, for display).
+ */
+async omniwinConfigLoad() : Promise<Result<OmniWinConfigView, string>> {
+    try {
+    return { status: "ok", data: await TAURI_INVOKE("omniwin_config_load") };
+} catch (e) {
+    if(e instanceof Error) throw e;
+    else return { status: "error", error: e  as any };
+}
+},
+/**
+ * Frontend: save the editable settings, checked by the server first. The app's server is restarted so they apply.
+ */
+async omniwinConfigSave(view: OmniWinConfigView) : Promise<Result<OmniWinConfigView, string>> {
+    try {
+    return { status: "ok", data: await TAURI_INVOKE("omniwin_config_save", { view }) };
+} catch (e) {
+    if(e instanceof Error) throw e;
+    else return { status: "error", error: e  as any };
+}
+},
+/**
+ * Frontend: run a typed request, as the old tray command box did. The window steps aside first (hidden for 250 ms) so
+ * the request acts on the window the owner was using, then comes back with the answer.
+ */
+async omniwinRunRequest(text: string) : Promise<Result<string, string>> {
+    try {
+    return { status: "ok", data: await TAURI_INVOKE("omniwin_run_request", { text }) };
+} catch (e) {
+    if(e instanceof Error) throw e;
+    else return { status: "error", error: e  as any };
+}
+},
 async changeBinding(id: string, binding: string) : Promise<Result<BindingResponse, string>> {
     try {
     return { status: "ok", data: await TAURI_INVOKE("change_binding", { id, binding }) };
@@ -1397,6 +1431,11 @@ notices: Notice[];
  * `None` when a notice was cleared.
  */
 raised: Notice | null }
+/**
+ * The OmniWin settings the app edits (learning, quick commands, engines, decision model), plus the safety switches it only
+ * shows. `power_tools.*` and `safety.*` are read for display and are never written from the app.
+ */
+export type OmniWinConfigView = { learning_enabled: boolean; learning_auto_run: boolean; promote_after: number; router_enabled: boolean; engines_enabled: boolean; decision_provider: string; decision_mode: string; decision_threshold: number; decision_allow_remote: boolean; power_tools_enabled: boolean; power_tools_allow_delete: boolean; safety_allow_delete: boolean; config_path: string }
 export type OverlayPosition = "top" | "bottom"
 /**
  * Which recording overlay to display. `Minimal` and `Live` share one base

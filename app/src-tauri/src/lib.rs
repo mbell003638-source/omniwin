@@ -316,6 +316,13 @@ fn initialize_core_logic(app_handle: &AppHandle) {
             "copy_last_transcript" => {
                 tray::copy_last_transcript(app);
             }
+            "omniwin_command_box" => {
+                omniwin::open_command_box(app, None);
+            }
+            "omniwin_polish" => {
+                let app = app.clone();
+                tauri::async_runtime::spawn(async move { omniwin::polish_selection(app).await });
+            }
             "unload_model" => {
                 let transcription_manager = app.state::<Arc<TranscriptionManager>>();
                 if !transcription_manager.is_model_loaded() {
@@ -692,6 +699,9 @@ pub fn run(cli_args: CliArgs) {
         .commands(collect_commands![
             omniwin::omniwin_call,
             omniwin::omniwin_server_path,
+            omniwin::omniwin_config_load,
+            omniwin::omniwin_config_save,
+            omniwin::omniwin_run_request,
             shortcut::change_binding,
             shortcut::reset_binding,
             shortcut::change_shortcut_activation_setting,
