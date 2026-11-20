@@ -120,14 +120,34 @@ export const ShortcutInput: React.FC<ShortcutInputProps> = ({
             className="px-2 py-1 text-sm font-semibold bg-wash border border-line-strong hover:bg-logo-primary/10 rounded-md cursor-pointer hover:border-logo-primary"
             onClick={start}
           >
-            {formatKeyCombination(binding.current_binding, osType)}
+            {binding.current_binding.trim()
+              ? formatKeyCombination(binding.current_binding, osType)
+              : t("settings.general.shortcut.notSet", "Not set")}
           </div>
         )}
-        <ResetButton
-          ariaLabel={t("common.resetSetting", { setting: translatedName })}
-          onClick={() => resetBinding(shortcutId)}
-          disabled={isUpdating(`binding_${shortcutId}`)}
-        />
+        {/* OmniWin: a binding with no default key is reset by clearing it, so the button says so. */}
+        {binding.default_binding.trim() ? (
+          <ResetButton
+            ariaLabel={t("common.resetSetting", { setting: translatedName })}
+            onClick={() => resetBinding(shortcutId)}
+            disabled={isUpdating(`binding_${shortcutId}`)}
+          />
+        ) : (
+          <ResetButton
+            ariaLabel={t("settings.general.shortcut.clearSetting", {
+              setting: translatedName,
+              defaultValue: "Clear {{setting}}",
+            })}
+            className="px-2 text-xs font-semibold"
+            onClick={() => resetBinding(shortcutId)}
+            disabled={
+              isUpdating(`binding_${shortcutId}`) ||
+              !binding.current_binding.trim()
+            }
+          >
+            {t("common.clear")}
+          </ResetButton>
+        )}
       </div>
     </SettingContainer>
   );

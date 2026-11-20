@@ -509,6 +509,9 @@ pub struct AppSettings {
     pub experimental_enabled: bool,
     #[serde(default)]
     pub lazy_stream_close: bool,
+    /// OmniWin: the voice command runs what was heard straight away. Off: it waits in the command box for Enter.
+    #[serde(default = "default_omniwin_voice_run_immediately")]
+    pub omniwin_voice_run_immediately: bool,
     /// Experimental, macOS only: move a Bluetooth headset (AirPods) to this
     /// Mac while recording, so its microphone does not return silence while
     /// another Apple device is playing through it.
@@ -1001,7 +1004,7 @@ pub fn get_default_settings() -> AppSettings {
     // OmniWin: no key until the owner sets one (an empty binding is never registered).
     for (id, name, description) in [
         ("omniwin_command_box", "OmniWin Command Box", "Opens the OmniWin command box."),
-        ("omniwin_voice_command", "OmniWin Voice Command", "Speak a request; it goes into the command box for you to check and run."),
+        ("omniwin_voice_command", "OmniWin Voice Command", "Speak a request; OmniWin runs it and shows the result in the command box."),
         ("omniwin_polish", "OmniWin Polish Selection", "Rewrites the selected text with the selected post-processing prompt."),
     ] {
         bindings.insert(
@@ -1074,6 +1077,7 @@ pub fn get_default_settings() -> AppSettings {
         theme: default_theme(),
         experimental_enabled: false,
         lazy_stream_close: false,
+        omniwin_voice_run_immediately: default_omniwin_voice_run_immediately(),
         airpods_mode: false,
         keyboard_implementation: KeyboardImplementation::default(),
         show_tray_icon: default_show_tray_icon(),
@@ -1514,6 +1518,10 @@ pub fn get_bindings(app: &AppHandle) -> HashMap<String, ShortcutBinding> {
     let settings = get_settings(app);
 
     settings.bindings
+}
+
+fn default_omniwin_voice_run_immediately() -> bool {
+    true
 }
 
 pub fn get_stored_binding(settings: &AppSettings, id: &str) -> Result<ShortcutBinding, String> {

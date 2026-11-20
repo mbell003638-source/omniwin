@@ -34,6 +34,7 @@ import { Input } from "../../ui/Input";
 import { Dropdown } from "../../ui/Dropdown";
 import { Dialog } from "../../ui/Dialog";
 import { ShortcutInput } from "../ShortcutInput";
+import { useSettings } from "../../../hooks/useSettings";
 import { explain, type Explained, type Outcome } from "@/lib/omniwinResult";
 
 /** The settings the Save button writes. The safety switches are saved on their own, straight away (see applySafety). */
@@ -115,6 +116,7 @@ const Pill: React.FC<{
 
 export const OmniWinSettings: React.FC = () => {
     const { t } = useTranslation();
+    const { getSetting, updateSetting, isUpdating } = useSettings();
     const [request, setRequest] = useState("");
     const [busy, setBusy] = useState(false);
     const [result, setResult] = useState<Explained | null>(null);
@@ -193,12 +195,8 @@ export const OmniWinSettings: React.FC = () => {
             // The window steps aside while the request runs, so it acts on the window you were using.
             const r = await commands.omniwinRunRequest(text);
             if (r.status === "error") throw new Error(r.error);
-            const explained = explain(r.data);
-            if (explained.outcome === "needsAi") {
-                // This window is not an AI and will not finish the task: close the task so nothing half-done is learned.
-                await call("task_done", { success: false });
-            }
-            setResult(explained);
+            // A request that needs an AI is closed by the app itself (omniwin_run_request), so nothing half-done is learned.
+            setResult(explain(r.data));
         } catch (e) {
             setResult({
                 outcome: "failed",
@@ -461,6 +459,22 @@ export const OmniWinSettings: React.FC = () => {
                 />
                 <ShortcutInput
                     shortcutId="omniwin_voice_command"
+                    grouped={true}
+                />
+                <ToggleSwitch
+                    checked={
+                        getSetting("omniwin_voice_run_immediately") ?? true
+                    }
+                    onChange={(enabled) =>
+                        void updateSetting(
+                            "omniwin_voice_run_immediately",
+                            enabled,
+                        )
+                    }
+                    isUpdating={isUpdating("omniwin_voice_run_immediately")}
+                    label={t("omniwin.voiceRunImmediately")}
+                    description={t("omniwin.voiceRunImmediatelyDesc")}
+                    descriptionMode="tooltip"
                     grouped={true}
                 />
                 <p className="px-5 py-3 text-xs text-ink-3">

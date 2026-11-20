@@ -182,6 +182,17 @@ pub fn change_binding(
 
     let mut settings = settings::get_settings(&app);
 
+    // OmniWin: refuse a key that another binding with a key already uses (or that one would set off),
+    // so two actions never fire from one press.
+    if let Some(error_msg) = overlap_error(&settings, &id, &binding) {
+        warn!("change_binding refused: {}", error_msg);
+        return Ok(BindingResponse {
+            success: false,
+            binding: None,
+            error: Some(error_msg),
+        });
+    }
+
     // Get the binding to modify, or create it from defaults if it doesn't exist
     let binding_to_modify = match settings.bindings.get(&id) {
         Some(binding) => binding.clone(),
@@ -284,8 +295,132 @@ fn restore_registration(app: &AppHandle, binding: &ShortcutBinding) {
 #[tauri::command]
 #[specta::specta]
 pub fn reset_binding(app: AppHandle, id: String) -> Result<BindingResponse, String> {
-    let binding = settings::get_stored_binding(&settings::get_settings(&app), &id)?;
+    let mut settings = settings::get_settings(&app);
+    let binding = settings::get_stored_binding(&settings, &id)?;
+    // OmniWin: a binding whose default is "no key" (the OmniWin hotkeys) is reset by clearing it.
+    // change_binding refuses an empty key, so it is done here: unregister, store "", save.
+    if binding.default_binding.trim().is_empty() {
+        if !binding.current_binding.trim().is_empty() {
+            if let Err(e) = unregister_shortcut(&app, binding.clone()) {
+                warn!("reset_binding: could not unregister '{}': {}", id, e);
+            }
+        }
+        let mut cleared = binding;
+        cleared.current_binding = String::new();
+        settings.bindings.insert(id, cleared.clone());
+        settings::write_settings(&app, settings);
+        crate::secure_input::reconcile_fallback(&app);
+        return Ok(BindingResponse {
+            success: true,
+            binding: Some(cleared),
+            error: None,
+        });
+    }
     change_binding(app, id, binding.default_binding)
+}
+
+/// One key of a shortcut, as far as overlap goes: a modifier family with the sides that set it off, or a plain key.
+#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
+enum KeyPart {
+    /// Family ("ctrl", "shift", "alt", "super"), left side allowed, right side allowed.
+    Modifier(&'static str, bool, bool),
+    Key(String),
+}
+
+fn key_part(token: &str) -> KeyPart {
+    let t = token.trim().to_ascii_lowercase();
+    let (base, left, right) = if let Some(b) = t.strip_suffix("_left").or_else(|| t.strip_suffix("left")) {
+        (b.trim_end_matches(['_', ' ']).to_string(), true, false)
+    } else if let Some(b) = t.strip_suffix("_right").or_else(|| t.strip_suffix("right")) {
+        (b.trim_end_matches(['_', ' ']).to_string(), false, true)
+    } else {
+        (t.clone(), true, true)
+    };
+    let family = match base.as_str() {
+        "ctrl" | "control" => Some("ctrl"),
+        "shift" => Some("shift"),
+        "alt" | "option" | "opt" | "altgr" => Some("alt"),
+        "super" | "win" | "meta" | "cmd" | "command" | "commandorcontrol" => Some("super"),
+        _ => None,
+    };
+    match family {
+        // AltGr is the right Alt key.
+        Some("alt") if base == "altgr" => KeyPart::Modifier("alt", false, true),
+        Some(f) => KeyPart::Modifier(f, left, right),
+        None => KeyPart::Key(t),
+    }
+}
+
+/// The modifiers (family -> sides) and plain keys of a shortcut string like "ctrl_left+shift+space".
+fn shortcut_parts(
+    shortcut: &str,
+) -> (std::collections::BTreeMap<&'static str, (bool, bool)>, std::collections::BTreeSet<String>) {
+    let mut mods = std::collections::BTreeMap::new();
+    let mut keys = std::collections::BTreeSet::new();
+    for token in shortcut.split('+').filter(|t| !t.trim().is_empty()) {
+        match key_part(token) {
+            KeyPart::Modifier(f, l, r) => {
+                let e = mods.entry(f).or_insert((false, false));
+                e.0 |= l;
+                e.1 |= r;
+            }
+            KeyPart::Key(k) => {
+                keys.insert(k);
+            }
+        }
+    }
+    (mods, keys)
+}
+
+/// Whether one press could set off both shortcuts. Same plain keys and modifier families, with a side in common for each
+/// family (generic "shift" covers left and right). A modifier-only shortcut also clashes with any shortcut that holds all
+/// of its modifiers and more, because it fires first while the longer one is being pressed.
+pub(crate) fn shortcuts_overlap(a: &str, b: &str) -> bool {
+    let (ma, ka) = shortcut_parts(a);
+    let (mb, kb) = shortcut_parts(b);
+    if (ma.is_empty() && ka.is_empty()) || (mb.is_empty() && kb.is_empty()) {
+        return false;
+    }
+    let sides_meet = |x: &(bool, bool), y: &(bool, bool)| (x.0 && y.0) || (x.1 && y.1);
+    let covers = |small: &std::collections::BTreeMap<&'static str, (bool, bool)>,
+                  big: &std::collections::BTreeMap<&'static str, (bool, bool)>| {
+        small
+            .iter()
+            .all(|(f, s)| big.get(f).map(|t| sides_meet(s, t)).unwrap_or(false))
+    };
+    if ka == kb && ma.len() == mb.len() && covers(&ma, &mb) {
+        return true;
+    }
+    (ka.is_empty() && !ma.is_empty() && ma.len() <= mb.len() && covers(&ma, &mb))
+        || (kb.is_empty() && !mb.is_empty() && mb.len() <= ma.len() && covers(&mb, &ma))
+}
+
+/// Why `shortcut` may not be given to binding `id`, if another binding with a key clashes with it.
+fn overlap_error(settings: &settings::AppSettings, id: &str, shortcut: &str) -> Option<String> {
+    if id == "cancel" {
+        return None;
+    }
+    let mut others: Vec<&ShortcutBinding> = settings
+        .bindings
+        .iter()
+        .filter(|(other, b)| {
+            other.as_str() != id
+                && other.as_str() != "cancel"
+                && !b.current_binding.trim().is_empty()
+                && !(other.as_str() == "transcribe_with_post_process" && !settings.post_process_enabled)
+        })
+        .map(|(_, b)| b)
+        .collect();
+    others.sort_by(|a, b| a.id.cmp(&b.id));
+    others
+        .into_iter()
+        .find(|b| shortcuts_overlap(shortcut, &b.current_binding))
+        .map(|b| {
+            format!(
+                "{} is already used by \"{}\" ({}). Pick another key, or clear that one first.",
+                shortcut, b.name, b.current_binding
+            )
+        })
 }
 
 /// Unregister every binding while the user is recording a new shortcut in
@@ -1404,6 +1539,18 @@ pub fn change_append_trailing_space_setting(app: AppHandle, enabled: bool) -> Re
 
 #[tauri::command]
 #[specta::specta]
+pub fn change_omniwin_voice_run_immediately_setting(
+    app: AppHandle,
+    enabled: bool,
+) -> Result<(), String> {
+    let mut settings = settings::get_settings(&app);
+    settings.omniwin_voice_run_immediately = enabled;
+    settings::write_settings(&app, settings);
+    Ok(())
+}
+
+#[tauri::command]
+#[specta::specta]
 pub fn change_lazy_stream_close_setting(app: AppHandle, enabled: bool) -> Result<(), String> {
     let mut settings = settings::get_settings(&app);
     settings.lazy_stream_close = enabled;
@@ -1573,5 +1720,36 @@ mod tests {
             assert!(key.parse::<Shortcut>().is_ok(), "Tauri rejected {key}");
             assert!(key.parse::<Hotkey>().is_ok(), "HandyKeys rejected {key}");
         }
+    }
+}
+
+#[cfg(test)]
+mod overlap_tests {
+    use super::shortcuts_overlap;
+
+    #[test]
+    fn generic_modifiers_cover_both_sides() {
+        assert!(shortcuts_overlap("ctrl_left+shift", "ctrl_left+shift_right"));
+        assert!(shortcuts_overlap("ctrl+shift+space", "ctrl_left+shift_left+space"));
+        assert!(!shortcuts_overlap("ctrl_left+shift_left", "ctrl_left+shift_right"));
+    }
+
+    #[test]
+    fn a_shorter_modifier_only_key_fires_inside_a_longer_one() {
+        assert!(shortcuts_overlap("alt_right", "alt_right+shift_right"));
+        assert!(shortcuts_overlap("alt_right+shift_right", "alt_right"));
+        assert!(!shortcuts_overlap("alt_left", "alt_right+shift_right"));
+        assert!(shortcuts_overlap("alt_right", "alt_right+k"));
+        assert!(!shortcuts_overlap("alt_right+k", "alt_right+j"));
+    }
+
+    #[test]
+    fn keyed_shortcuts_need_the_same_keys_and_modifiers() {
+        assert!(shortcuts_overlap("ctrl+alt+space", "alt+ctrl+space"));
+        assert!(!shortcuts_overlap("ctrl+space", "ctrl+alt+space"));
+        assert!(!shortcuts_overlap("ctrl+space", "ctrl+k"));
+        assert!(!shortcuts_overlap("escape", "ctrl+escape"));
+        assert!(shortcuts_overlap("escape", "Escape"));
+        assert!(!shortcuts_overlap("", "ctrl"));
     }
 }

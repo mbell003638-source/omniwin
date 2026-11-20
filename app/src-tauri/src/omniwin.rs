@@ -559,48 +559,220 @@ pub async fn omniwin_config_save(app: AppHandle, view: OmniWinConfigView) -> Res
     .map_err(|e| format!("Saving failed: {e}"))?
 }
 
-/// Frontend: run a typed request, as the old tray command box did. The window steps aside first (hidden for 250 ms) so
-/// the request acts on the window the owner was using, then comes back with the answer.
-#[tauri::command]
-#[specta::specta]
-pub async fn omniwin_run_request(app: AppHandle, text: String) -> Result<String, String> {
+/// Runs one request through `omniwin_do`. The app's windows that are showing step aside first (hidden for 250 ms) so the
+/// request acts on the window the owner was using, then come back. An answer that needs an AI closes the task, because
+/// this app is not an AI and will not finish it, so nothing half-done is learned.
+async fn run_request_core(app: &AppHandle, text: String) -> Result<String, String> {
     let text = text.trim().to_string();
     if text.is_empty() {
         return Err("Type a request first.".to_string());
     }
-    let window = app.get_webview_window("main");
-    let shown = window.as_ref().map(|w| w.is_visible().unwrap_or(false)).unwrap_or(false);
-    if shown {
-        if let Some(w) = &window {
-            let _ = w.hide();
-        }
+    let shown: Vec<tauri::WebviewWindow> = ["main", COMMAND_BOX_LABEL]
+        .iter()
+        .filter_map(|label| app.get_webview_window(label))
+        .filter(|w| w.is_visible().unwrap_or(false))
+        .collect();
+    for w in &shown {
+        let _ = w.hide();
     }
+    let wait = !shown.is_empty();
     let worker = app.clone();
     let result = tauri::async_runtime::spawn_blocking(move || {
-        if shown {
+        if wait {
             std::thread::sleep(Duration::from_millis(250));
         }
-        worker.state::<OmniWin>().call("omniwin_do", json!({ "text": text }))
+        let link = worker.state::<OmniWin>();
+        let answer = link.call("omniwin_do", json!({ "text": text }))?;
+        if answer.trim_start().starts_with("needs_brain") {
+            if let Err(e) = link.call("task_done", json!({ "success": false })) {
+                log::warn!("OmniWin: could not close the task that needs an AI: {e}");
+            }
+        }
+        Ok::<String, String>(answer)
     })
     .await
     .map_err(|e| format!("OmniWin call failed: {e}"));
-    if shown {
-        if let Some(w) = &window {
-            let _ = w.show();
-            let _ = w.set_focus();
-        }
+    for w in &shown {
+        let _ = w.show();
+    }
+    // Focus the command box if it was showing, else the main window.
+    if let Some(w) = shown.iter().find(|w| w.label() == COMMAND_BOX_LABEL).or(shown.first()) {
+        let _ = w.set_focus();
     }
     result?
 }
 
-/// Shows the main window on the OmniWin page; with text, puts it in the command box for the owner to check and run.
-pub fn open_command_box(app: &AppHandle, text: Option<String>) {
-    if let Some(window) = app.get_webview_window("main") {
-        let _ = window.unminimize();
-        let _ = window.show();
-        let _ = window.set_focus();
+/// Frontend: run a typed request (the command box and the OmniWin page). See `run_request_core`.
+#[tauri::command]
+#[specta::specta]
+pub async fn omniwin_run_request(app: AppHandle, text: String) -> Result<String, String> {
+    run_request_core(&app, text).await
+}
+
+/// The small command box window's label.
+pub const COMMAND_BOX_LABEL: &str = "commandbox";
+const COMMAND_BOX_WIDTH: f64 = 600.0;
+const COMMAND_BOX_HEIGHT: f64 = 124.0;
+
+/// What the command box shows. Kept here as well as sent, so a box that loads late still gets it.
+#[derive(Clone, Debug, Default, serde::Serialize, specta::Type)]
+pub struct CommandBoxState {
+    /// The request text.
+    pub text: String,
+    /// "edit" (waiting for Enter), "running" or "done".
+    pub phase: String,
+    /// The server's answer, once done.
+    pub result: Option<String>,
+    /// Why it did not run, once done.
+    pub error: Option<String>,
+    /// True when the request was spoken (the voice command).
+    pub spoken: bool,
+    /// Goes up on every change, so the box can tell a new request from one it already shows.
+    pub seq: u32,
+}
+
+static COMMAND_BOX: Mutex<CommandBoxState> = Mutex::new(CommandBoxState {
+    text: String::new(),
+    phase: String::new(),
+    result: None,
+    error: None,
+    spoken: false,
+    seq: 0,
+});
+
+fn update_box(app: &AppHandle, change: impl FnOnce(&mut CommandBoxState)) {
+    let state = {
+        let mut state = COMMAND_BOX.lock().unwrap_or_else(|e| e.into_inner());
+        change(&mut state);
+        state.seq = state.seq.wrapping_add(1);
+        state.clone()
+    };
+    let _ = app.emit_to(COMMAND_BOX_LABEL, "omniwin-command-box", state);
+}
+
+/// Creates the command box window (hidden) if it is not there yet. Called at start-up so it is loaded before it is needed.
+pub fn create_command_box(app: &AppHandle) -> Option<tauri::WebviewWindow> {
+    if let Some(window) = app.get_webview_window(COMMAND_BOX_LABEL) {
+        return Some(window);
     }
-    let _ = app.emit("omniwin-open-command-box", text.unwrap_or_default());
+    let mut builder = tauri::WebviewWindowBuilder::new(
+        app,
+        COMMAND_BOX_LABEL,
+        tauri::WebviewUrl::App("src/commandbox/index.html".into()),
+    )
+    .title("OmniWin Command Box")
+    .inner_size(COMMAND_BOX_WIDTH, COMMAND_BOX_HEIGHT)
+    .resizable(false)
+    .maximizable(false)
+    .minimizable(false)
+    .decorations(false)
+    .always_on_top(true)
+    .skip_taskbar(true)
+    .shadow(true)
+    .focused(false)
+    .visible(false);
+    if let Some(data_dir) = crate::portable::data_dir() {
+        builder = builder.data_directory(data_dir.join("webview"));
+    }
+    match builder.build() {
+        Ok(window) => Some(window),
+        Err(e) => {
+            log::warn!("OmniWin: the command box window could not be created: {e}");
+            None
+        }
+    }
+}
+
+/// Shows the command box centred near the top of the screen the mouse is on, and focuses it.
+fn show_command_box(app: &AppHandle) -> bool {
+    let Some(window) = create_command_box(app) else {
+        return false;
+    };
+    let _ = window.set_size(tauri::LogicalSize::new(COMMAND_BOX_WIDTH, COMMAND_BOX_HEIGHT));
+    let monitor = crate::overlay::get_monitor_with_cursor(app)
+        .or_else(|| window.primary_monitor().ok().flatten());
+    if let Some(monitor) = monitor {
+        let scale = monitor.scale_factor();
+        let (mx, my) = (monitor.position().x as f64, monitor.position().y as f64);
+        let (mw, mh) = (monitor.size().width as f64, monitor.size().height as f64);
+        let width = COMMAND_BOX_WIDTH * scale;
+        let x = mx + ((mw - width) / 2.0).max(0.0);
+        let y = my + mh * 0.16;
+        let _ = window.set_position(tauri::PhysicalPosition::new(x.round() as i32, y.round() as i32));
+    }
+    let _ = window.show();
+    let _ = window.set_focus();
+    true
+}
+
+/// Opens the command box; with text, puts it there for the owner to check and run with Enter.
+/// Falls back to the OmniWin page of the main window if the box cannot be made.
+pub fn open_command_box(app: &AppHandle, text: Option<String>) {
+    let spoken = text.is_some();
+    update_box(app, |s| {
+        s.text = text.clone().unwrap_or_default();
+        s.phase = "edit".to_string();
+        s.result = None;
+        s.error = None;
+        s.spoken = spoken;
+    });
+    if !show_command_box(app) {
+        if let Some(window) = app.get_webview_window("main") {
+            let _ = window.unminimize();
+            let _ = window.show();
+            let _ = window.set_focus();
+        }
+        let _ = app.emit("omniwin-open-command-box", text.unwrap_or_default());
+    }
+}
+
+/// The voice command: runs what was heard straight away, on the window the owner is using, then shows the answer in the
+/// command box. Nothing is shown while it runs, so focus stays where the request should act.
+pub fn run_spoken_request(app: &AppHandle, text: String) {
+    let app = app.clone();
+    tauri::async_runtime::spawn(async move {
+        update_box(&app, |s| {
+            s.text = text.clone();
+            s.phase = "running".to_string();
+            s.result = None;
+            s.error = None;
+            s.spoken = true;
+        });
+        log::info!("OmniWin voice command: running what was heard");
+        let outcome = run_request_core(&app, text).await;
+        match &outcome {
+            Ok(answer) => log::info!(
+                "OmniWin voice command: {}",
+                answer.lines().next().unwrap_or_default()
+            ),
+            Err(e) => log::warn!("OmniWin voice command failed: {e}"),
+        }
+        update_box(&app, |s| {
+            s.phase = "done".to_string();
+            match outcome {
+                Ok(answer) => s.result = Some(answer),
+                Err(e) => s.error = Some(e),
+            }
+        });
+        show_command_box(&app);
+    });
+}
+
+/// Command box: what it should show now (it asks on load and whenever it is told something changed).
+#[tauri::command]
+#[specta::specta]
+pub fn omniwin_command_box_state() -> CommandBoxState {
+    COMMAND_BOX.lock().unwrap_or_else(|e| e.into_inner()).clone()
+}
+
+/// Command box: hide it (Escape, or it lost focus).
+#[tauri::command]
+#[specta::specta]
+pub fn omniwin_command_box_hide(app: AppHandle) -> Result<(), String> {
+    if let Some(window) = app.get_webview_window(COMMAND_BOX_LABEL) {
+        window.hide().map_err(|e| e.to_string())?;
+    }
+    Ok(())
 }
 
 #[cfg(test)]

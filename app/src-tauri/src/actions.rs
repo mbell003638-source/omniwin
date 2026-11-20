@@ -889,11 +889,14 @@ impl ShortcutAction for TranscribeAction {
                             };
 
                             if omniwin_command {
-                                // Nothing is pasted: the spoken request waits in the command box until the owner presses Enter.
+                                // Nothing is pasted. The spoken request runs straight away and its answer shows in the
+                                // command box; with "run voice commands immediately" off it waits there for Enter.
                                 utils::hide_recording_overlay(&ah);
                                 set_tray_state(&ah, TrayIconState::Idle);
                                 if final_text.is_empty() {
                                     finish_without_text(&ah, input_silent, sample_count, stop_time);
+                                } else if get_settings(&ah).omniwin_voice_run_immediately {
+                                    crate::omniwin::run_spoken_request(&ah, final_text);
                                 } else {
                                     crate::omniwin::open_command_box(&ah, Some(final_text));
                                 }

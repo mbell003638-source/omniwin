@@ -410,6 +410,9 @@ fn initialize_core_logic(app_handle: &AppHandle) {
 
     // Create the recording overlay window (hidden by default)
     utils::create_recording_overlay(app_handle);
+
+    // OmniWin: create the command box window (hidden) so it is loaded before its hotkey is pressed.
+    omniwin::create_command_box(app_handle);
 }
 
 #[tauri::command]
@@ -702,6 +705,8 @@ pub fn run(cli_args: CliArgs) {
             omniwin::omniwin_config_load,
             omniwin::omniwin_config_save,
             omniwin::omniwin_run_request,
+            omniwin::omniwin_command_box_state,
+            omniwin::omniwin_command_box_hide,
             shortcut::change_binding,
             shortcut::reset_binding,
             shortcut::change_shortcut_activation_setting,
@@ -749,6 +754,7 @@ pub fn run(cli_args: CliArgs) {
             shortcut::resume_all_bindings,
             shortcut::change_mute_while_recording_setting,
             shortcut::change_append_trailing_space_setting,
+            shortcut::change_omniwin_voice_run_immediately_setting,
             shortcut::change_lazy_stream_close_setting,
             shortcut::change_vad_enabled_setting,
             shortcut::change_long_form_chunking_setting,

@@ -55,6 +55,23 @@ async omniwinRunRequest(text: string) : Promise<Result<string, string>> {
     else return { status: "error", error: e  as any };
 }
 },
+/**
+ * Command box: what it should show now (it asks on load and whenever it is told something changed).
+ */
+async omniwinCommandBoxState() : Promise<CommandBoxState> {
+    return await TAURI_INVOKE("omniwin_command_box_state");
+},
+/**
+ * Command box: hide it (Escape, or it lost focus).
+ */
+async omniwinCommandBoxHide() : Promise<Result<null, string>> {
+    try {
+    return { status: "ok", data: await TAURI_INVOKE("omniwin_command_box_hide") };
+} catch (e) {
+    if(e instanceof Error) throw e;
+    else return { status: "error", error: e  as any };
+}
+},
 async changeBinding(id: string, binding: string) : Promise<Result<BindingResponse, string>> {
     try {
     return { status: "ok", data: await TAURI_INVOKE("change_binding", { id, binding }) };
@@ -420,6 +437,14 @@ async resumeAllBindings() : Promise<Result<null, string>> {
 async changeMuteWhileRecordingSetting(enabled: boolean) : Promise<Result<null, string>> {
     try {
     return { status: "ok", data: await TAURI_INVOKE("change_mute_while_recording_setting", { enabled }) };
+} catch (e) {
+    if(e instanceof Error) throw e;
+    else return { status: "error", error: e  as any };
+}
+},
+async changeOmniwinVoiceRunImmediatelySetting(enabled: boolean) : Promise<Result<null, string>> {
+    try {
+    return { status: "ok", data: await TAURI_INVOKE("change_omniwin_voice_run_immediately_setting", { enabled }) };
 } catch (e) {
     if(e instanceof Error) throw e;
     else return { status: "error", error: e  as any };
@@ -1193,6 +1218,10 @@ selected_channel?: number | null; clamshell_microphone?: string | null; selected
  */
 spoken_languages?: string[]; overlay_position?: OverlayPosition; debug_mode?: boolean; log_level?: LogLevel; custom_words?: string[]; model_unload_timeout?: ModelUnloadTimeout; word_correction_threshold?: number; history_limit?: number; recording_retention_period?: RecordingRetentionPeriod; paste_method?: PasteMethod; clipboard_handling?: ClipboardHandling; auto_submit?: boolean; auto_submit_key?: AutoSubmitKey; post_process_enabled?: boolean; post_process_provider_id?: string; post_process_providers?: PostProcessProvider[]; post_process_api_keys?: SecretMap; post_process_models?: Partial<{ [key in string]: string }>; post_process_prompts?: LLMPrompt[]; post_process_selected_prompt_id?: string | null; mute_while_recording?: boolean; append_trailing_space?: boolean; app_language?: string; theme?: Theme; experimental_enabled?: boolean; lazy_stream_close?: boolean; 
 /**
+ * OmniWin: the voice command runs what was heard straight away. Off: it waits in the command box for Enter.
+ */
+omniwin_voice_run_immediately?: boolean; 
+/**
  * Experimental, macOS only: move a Bluetooth headset (AirPods) to this
  * Mac while recording, so its microphone does not return silence while
  * another Apple device is playing through it.
@@ -1270,6 +1299,34 @@ export type ChineseScript =
  * Traditional, in Hong Kong's standard forms.
  */
 "traditional_hk"
+/**
+ * What the command box shows. Kept here as well as sent, so a box that loads late still gets it.
+ */
+export type CommandBoxState = { 
+/**
+ * The request text.
+ */
+text: string; 
+/**
+ * "edit" (waiting for Enter), "running" or "done".
+ */
+phase: string; 
+/**
+ * The server's answer, once done.
+ */
+result: string | null; 
+/**
+ * Why it did not run, once done.
+ */
+error: string | null; 
+/**
+ * True when the request was spoken (the voice command).
+ */
+spoken: boolean; 
+/**
+ * Goes up on every change, so the box can tell a new request from one it already shows.
+ */
+seq: number }
 export type ClipboardHandling = "dont_modify" | "copy_to_clipboard"
 export type CustomSounds = { start: boolean; stop: boolean }
 export type GpuDeviceOption = { id: string; name: string; total_vram_mb: number }

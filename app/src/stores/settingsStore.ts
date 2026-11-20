@@ -13,6 +13,7 @@ import type {
 } from "@/bindings";
 import { commands } from "@/bindings";
 import { notify } from "@/stores/noticeStore";
+import i18n from "@/i18n";
 
 interface SettingsStore {
   settings: Settings | null;
@@ -177,6 +178,8 @@ const settingUpdaters: {
     commands.changeExperimentalEnabledSetting(value as boolean),
   lazy_stream_close: (value) =>
     commands.changeLazyStreamCloseSetting(value as boolean),
+  omniwin_voice_run_immediately: (value) =>
+    commands.changeOmniwinVoiceRunImmediatelySetting(value as boolean),
   airpods_mode: async (value) => {
     const result = await commands.changeAirpodsModeSetting(value as boolean);
     if (result.status === "error") {
@@ -447,11 +450,20 @@ export const useSettingsStore = create<SettingsStore>()(
       setUpdating(updateKey, true);
 
       try {
-        await commands.resetBinding(id);
-        await refreshSettings();
+        const result = await commands.resetBinding(id);
+        if (result.status === "error") throw new Error(result.error);
+        if (!result.data.success) {
+          throw new Error(result.data.error || "Failed to reset binding");
+        }
       } catch (error) {
         console.error(`Failed to reset binding ${id}:`, error);
+        notify({
+          title: i18n.t("settings.general.shortcut.errors.reset", {
+            error: error instanceof Error ? error.message : String(error),
+          }),
+        });
       } finally {
+        await refreshSettings();
         setUpdating(updateKey, false);
       }
     },

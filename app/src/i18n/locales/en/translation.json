@@ -356,7 +356,7 @@
           },
           "omniwin_voice_command": {
             "name": "Voice Command",
-            "description": "Speak a request; it goes into the command box for you to check and run."
+            "description": "Speak a request; OmniWin runs it and shows the result in the command box (or waits there for Enter, if Run voice commands immediately is off)."
           },
           "omniwin_polish": {
             "name": "Polish Selection",
@@ -364,8 +364,11 @@
           }
         },
         "errors": {
-          "set": "Failed to set shortcut: {{error}}"
-        }
+          "set": "Failed to set shortcut: {{error}}",
+          "reset": "Failed to reset shortcut: {{error}}"
+        },
+        "notSet": "Not set",
+        "clearSetting": "Clear {{setting}}"
       },
       "language": {
         "title": "Language",
@@ -1036,7 +1039,14 @@
       "failed": "It did not work."
     },
     "hotkeysTitle": "OmniWin hotkeys",
-    "hotkeysHelp": "These have no key until you set one. Never use Ctrl+Alt+Shift+K: that is OmniWin's stop key.",
+    "hotkeysHelp": "These have no key until you set one. Clear removes a key. Never use Ctrl+Alt+Shift+K: that is OmniWin's stop key.",
+    "voiceRunImmediately": "Run voice commands immediately",
+    "voiceRunImmediatelyDesc": "On: what you say runs straight away and the result shows in the command box. Off: it waits in the command box for you to check it and press Enter.",
+    "box": {
+      "placeholder": "Type a request, then Enter (Esc closes)",
+      "running": "Running...",
+      "heard": "Heard this. Check it, then press Enter."
+    },
     "polishMoved": "The Polish Selection hotkey is now on the Post Process page, next to the provider and prompt it uses. If you do not see that page, turn on Post Processing in Advanced.",
     "learnedTitle": "Learned tasks",
     "noneLearned": "Nothing learned yet. When your AI finishes a task and calls task_done, it appears here.",
